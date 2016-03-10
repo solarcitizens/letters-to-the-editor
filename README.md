@@ -3,10 +3,14 @@
 Simple budgeting stuff
 
 Built with all the cool JS stuff:
+  * React
+  * ES6
+  * Webpack
+  * Babel
 
- * React
- * Redux
- * ES6
- * Webpack
- * Babel
- * HMR
+Still to be added:
+  * HMR
+  * Redux
+  * Source maps
+  * Flow
+  * Jasmine + mocha + phantomJS
