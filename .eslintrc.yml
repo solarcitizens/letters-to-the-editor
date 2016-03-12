@@ -11,6 +11,9 @@ parserOptions:
 plugins:
   - react
 rules:
+  # Possible errors
+  no-console: warn
+
   # Best Practices
   array-callback-return: error
   block-scoped-var: error
@@ -53,7 +56,7 @@ rules:
   no-useless-call: error
   no-useless-concat: error
   no-void: error
-  no-warning-comments: error
+  no-warning-comments: warn
   no-with: error
   wrap-iife: error
   yoda: error
@@ -163,11 +166,9 @@ rules:
   template-curly-spacing: error
   yield-star-spacing: error
 
-
-
-
-
   # React
+  react/no-did-mount-set-state: error
+  react/no-did-update-set-state: error
   react/no-deprecated: error
   react/no-unknown-property: error
   react/prefer-stateless-function: error
