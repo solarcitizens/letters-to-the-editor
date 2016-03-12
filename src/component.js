@@ -1,2 +1,10 @@
 import React from 'react';
-module.exports = <div>It works!</div>;
+
+const component = () => (
+  <div>
+    <h1>Budgie</h1>
+    <p>It works!</p>
+  </div>
+);
+
+export default component;

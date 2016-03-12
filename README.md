@@ -7,6 +7,7 @@ Built with all the cool JS stuff:
   * ES6
   * Webpack
   * Babel
+  * eslint
 
 Still to be added:
   * HMR
@@ -14,3 +15,5 @@ Still to be added:
   * Source maps
   * Flow
   * Jasmine + mocha + phantomJS
+  * redux-thunk? redux-saga?
+  * Immutable.js? seamless-immutable?
