@@ -3,8 +3,9 @@ import { createStore, compose } from 'redux';
 import rootReducer from '../reducers/root';
 
 const configureStore = initialState => {
-  const createStoreWithDevTools = compose(window.devToolsExtension ? window.devToolsExtension() : f => f)(createStore);
-  const store = createStoreWithDevTools(rootReducer, initialState);
+  const store = createStore(rootReducer, initialState, compose(
+    window.devToolsExtension ? window.devToolsExtension() : f => f
+  ));
 
   if (module.hot) {
     module.hot.accept('../reducers/root.js', () => {
