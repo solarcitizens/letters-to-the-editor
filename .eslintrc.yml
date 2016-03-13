@@ -100,7 +100,10 @@ rules:
     - error
     - 120
     - 2
-  new-cap: error
+  new-cap:
+    - error
+    - capIsNewExceptions:
+      - Immutable
   new-parens: error
   newline-after-var: error
   newline-before-return: error

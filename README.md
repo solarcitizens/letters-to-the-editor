@@ -11,12 +11,12 @@ Simple budgeting stuff
   * Hot Module Reloading (see below)
   * Source maps
   * eslint
+  * Flow
+  * seamless-immutable?
 
 ## Still to be added:
-  * Flow
-  * Jasmine + mocha + phantomJS
+  * Jasmine + karma + phantomJS
   * redux-thunk? redux-saga?
-  * Immutable.js? seamless-immutable?
 
 ## Also todo:
   * Remove dependency on estraverse. See:
