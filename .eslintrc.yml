@@ -2,6 +2,7 @@ env:
   browser: true
   es6: true
 extends: 'eslint:recommended'
+parser: babel-eslint
 parserOptions:
   ecmaFeatures:
     experimentalObjectRestSpread: true
@@ -10,6 +11,7 @@ parserOptions:
   sourceType: module
 plugins:
   - react
+  - flowtype
 rules:
   # Possible errors
   no-console: warn
@@ -71,8 +73,8 @@ rules:
   no-shadow-restricted-names: error
   no-undef-init: error
   no-undefined: error
+  no-unused-vars: warn
   no-use-before-define: error
-
 
   # Stylistic Issues
   array-bracket-spacing: error
@@ -213,3 +215,9 @@ rules:
     - never
   react/jsx-uses-react: error
   react/jsx-uses-vars: error
+
+  #Flow:
+  #require-parameter-type: warn
+  #require-return-type: warn
+  flowtype/space-after-type-colon: error
+  flowtype/space-before-type-colon: error
