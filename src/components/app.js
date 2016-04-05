@@ -2,7 +2,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const App = () => (
+export const App = () => (
   <div>
     <h1>Example app</h1>
     <p>It works!</p>
@@ -11,7 +11,7 @@ const App = () => (
 
 App.propTypes = {
   dispatch: React.PropTypes.func,
-  state: React.PropTypes.object
+  exampleState: React.PropTypes.object
 };
 
 export default connect(state => state)(App);
