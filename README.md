@@ -24,9 +24,6 @@ boilerplate project if you understand what all of the features listed below are,
   * react-router or react-router-redux?
 
 ## Also todo:
-  * Remove dependency on estraverse. See:
-    * https://github.com/babel/babel-eslint/issues/267
-    * https://github.com/eslint/eslint/issues/5476
   * Add @flow to configureStore. Potentially waiting on: https://github.com/babel/eslint-plugin-babel/issues/55
 
 ### On HMR
