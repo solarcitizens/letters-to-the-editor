@@ -1,5 +1,6 @@
 # Letters To The Editor Boilerplate
 
+
 ## Cool JS stuff:
   * React
   * seamless-immutable
