@@ -1,5 +1,3 @@
-var FlowStatusWebpackPlugin = require('flow-status-webpack-plugin');
-
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: './src/index.js',
@@ -26,9 +24,6 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new FlowStatusWebpackPlugin()
-  ],
   devServer: { 'hide-modules': true },
   eslint: {
     configFile: '.eslintrc.yml'

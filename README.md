@@ -9,13 +9,12 @@ boilerplate project if you understand what all of the features listed below are,
 2. rip out what you don't need.
 
 ## Cool JS stuff:
-  * React + Redux
+  * React
   * seamless-immutable
   * Webpack + Babel + ES6 + JSX
   * Hot Module Reloading
   * Source maps
   * eslint
-  * Flow
   * Jasmine + karma + phantomJS
 
 ## Still to be added:
