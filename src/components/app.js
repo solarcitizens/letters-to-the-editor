@@ -1,17 +1,28 @@
 // @flow
 import React from 'react';
-import { connect } from 'react-redux';
+import ReactDOM from 'react-dom';
 
-export const App = () => (
-  <div>
-    <h1>Example app</h1>
-    <p>It works!</p>
-  </div>
+let App = React.createClass({
+  render() {
+    return (
+      <div className="lettersToTheEditor">
+        <h1>IT WORKS!!</h1>
+        <PersonalDetails/>
+      </div>
+    );
+  }
+});
+
+let PersonalDetails = React.createClass({
+  render() {
+    return (
+      <div className="personal">
+      </div>
+    );
+  }
+});
+
+ReactDOM.render(
+  <App/>,
+  document.getElementById('react-root')
 );
-
-App.propTypes = {
-  dispatch: React.PropTypes.func,
-  exampleState: React.PropTypes.object
-};
-
-export default connect(state => state)(App);
