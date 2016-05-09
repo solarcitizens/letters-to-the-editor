@@ -15,8 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/solarcitizens/letters-to-the-editor.git"
   },
-  "author": "Cam Jackson",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/solarcitizens/letters-to-the-editor/issues"
   },
