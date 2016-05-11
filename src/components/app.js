@@ -30,8 +30,7 @@ export default class App extends React.Component {
           <div className="form-body">
             <PersonalDetailFields
               onChange={this.onChange.bind(this)}
-              formValues={this.props.formValues}
-            />
+              formValues={this.props.formValues} />
             <button onClick={this.submitDetails.bind(this)}>Register</button>
           </div>
         </div>

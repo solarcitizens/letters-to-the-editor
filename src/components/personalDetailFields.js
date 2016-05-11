@@ -1,17 +1,6 @@
 import React from 'react';
 import _ from 'underscore';
 
-const PersonalDetailFields = props => {
-  function isValidationError(fieldName) {
-    return _.indexOf(props.invalidFields, fieldName) > -1;
-  }
-
-
-  PersonalDetailFields.propTypes = {
-    onChange: React.PropTypes.func,
-    formValues: React.PropTypes.object,
-  }
-
   // handleChange(key) {
   //   return function update(e) {
   //     const state = {};
@@ -21,12 +10,13 @@ const PersonalDetailFields = props => {
   //   }.bind(this);
   // }
 
-  handleSubmit(e) {
-    e.preventDefault();
-    // handle data
-    // send to server
-    console.log(this.state);
-  }
+  // handleSubmit(e) {
+  //   e.preventDefault();
+  //   // handle data
+  //   // send to server
+  //   console.log(this.state);
+  // }
+const PersonalDetailFields = props => {
 
   return (
     <PersonalDetailFields>
@@ -107,4 +97,9 @@ const PersonalDetailFields = props => {
       </form>
     </PersonalDetailFields>
   );
+
+  PersonalDetailFields.propTypes = {
+    onChange: React.PropTypes.func,
+    formValues: React.PropTypes.object,
+  }
 };
