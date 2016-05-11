@@ -2,7 +2,7 @@
   "name": "letters-to-the-editor",
   "version": "0.0.1",
   "description": "Letters To The Editor",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "ci": "npm run lint && npm test",
     "build": "webpack",

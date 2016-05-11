@@ -1,6 +1,5 @@
 // @flow
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 let App = React.createClass({
   render() {
@@ -123,8 +122,3 @@ let PersonalDetails = React.createClass({
     );
   }
 });
-
-ReactDOM.render(
-  <App/>,
-  document.getElementById('react-root')
-);
