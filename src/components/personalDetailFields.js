@@ -5,7 +5,7 @@ const PersonalDetailFields = props => {
   function isValidationError(fieldName) {
     return _.indexOf(props.invalidFields, fieldName) > -1;
   }
-}
+
 
   PersonalDetailFields.propTypes = {
     onChange: React.PropTypes.func,
