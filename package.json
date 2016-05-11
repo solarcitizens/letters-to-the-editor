@@ -4,7 +4,7 @@
   "description": "Letters To The Editor",
   "main": "index.js",
   "scripts": {
-    "ci": "npm run lint && npm test",
+    "ci": "npm run lint && npm run test-single",
     "build": "webpack",
     "lint": "eslint src || exit 0",
     "start": "webpack-dev-server --hot --inline",
