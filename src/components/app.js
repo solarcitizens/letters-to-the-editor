@@ -5,7 +5,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      fieldValues: props.formValues,
+      fieldValues: { },
       handleChange: this.handleChange.bind(this),
       handleSubmit: this.handleSubmit.bind(this),
     };
