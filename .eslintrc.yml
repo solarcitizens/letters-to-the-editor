@@ -214,7 +214,6 @@ rules:
   react/jsx-sort-props:
     - error
     - callbacksLast: true
-      shorthandFirst: true
   react/jsx-space-before-closing:
     - error
     - never
