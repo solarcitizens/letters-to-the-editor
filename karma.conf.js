@@ -13,7 +13,13 @@ module.exports = function(config) {
     webpack: {
       cache: true,
       devtool: 'inline-source-map',
-      module: webpackConfig.module
+      module: webpackConfig.module,
+      externals: {
+        'cheerio': 'window',
+        'react/addons': true,
+        'react/lib/ExecutionEnvironment': true,
+        'react/lib/ReactContext': true
+      }
     },
     webpackMiddleware: {
       noInfo: true

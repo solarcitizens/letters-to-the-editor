@@ -1,9 +1,12 @@
 import React from 'react';
-import shallowRender from '../../shallowRender';
-import { App } from '../app';
+import { shallow } from 'enzyme';
+import App from '../app';
+import PersonalDetailFields from '../personalDetailFields';
 
 describe('App', () => {
-  it('does stuff', () => {
-    expect(1).toEqual(1);
+  it('includes PersonalDetailFields', () => {
+    const app = shallow(<App/>);
+
+    expect(app.find(PersonalDetailFields).length).toEqual(1);
   });
 });
