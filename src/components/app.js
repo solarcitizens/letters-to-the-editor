@@ -24,14 +24,6 @@ class App extends React.Component {
       detailsComponent.setState({ fieldValues: newFieldValues });
     };
   }
-  // handleChange(key) {
-  //   return function update(e) {
-  //     const state = {};
-  //
-  //     state[key] = e.target.value;
-  //     this.setState(state);
-  //   }.bind(this);
-  // }
 
   render() {
     return (
