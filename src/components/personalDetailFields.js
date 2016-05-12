@@ -1,14 +1,5 @@
 import React from 'react';
 
-  // handleChange(key) {
-  //   return function update(e) {
-  //     const state = {};
-  //
-  //     state[key] = e.target.value;
-  //     this.setState(state);
-  //   }.bind(this);
-  // }
-
 const PersonalDetailFields = props =>
  (
   <form className="form-horizontal" onSubmit={props.onSubmit}>
@@ -87,11 +78,6 @@ const PersonalDetailFields = props =>
     <input className="btn btn-primary" type="submit" value="Submit"/>
   </form>
 );
-
-
-// PersonalDetailFields.defaultProps = {
-//   formValues: {},
-// }
 
 PersonalDetailFields.propTypes = {
   formValues: React.PropTypes.object.isRequired,
