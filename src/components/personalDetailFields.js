@@ -11,7 +11,7 @@ const PersonalDetailFields = props =>
           defaultValue={props.formValues.firstName}
           id="firstName"
           required type="text"
-          onChange={props.onChange('firstName')}
+          onBlur={props.onChange('firstName')}
         />
       </div>
     </div>
@@ -22,8 +22,8 @@ const PersonalDetailFields = props =>
           className="form-control"
           id="lastName"
           required type="text"
-          value={props.formValues.lastName}
-          onChange={props.onChange('lastName')}
+          defaultValue={props.formValues.lastName}
+          onBlur={props.onChange('lastName')}
         />
       </div>
     </div>
@@ -34,8 +34,8 @@ const PersonalDetailFields = props =>
           className="form-control"
           id="email"
           required type="email"
-          value={props.formValues.email}
-          onChange={props.onChange('email')}
+          defaultValue={props.formValues.email}
+          onBlur={props.onChange('email')}
         />
       </div>
     </div>
@@ -46,8 +46,8 @@ const PersonalDetailFields = props =>
           className="form-control"
           id="phone"
           required type="phone"
-          value={props.formValues.phone}
-          onChange={props.onChange('phone')}
+          defaultValue={props.formValues.phone}
+          onBlur={props.onChange('phone')}
         />
       </div>
     </div>
@@ -58,8 +58,8 @@ const PersonalDetailFields = props =>
           className="form-control"
           id="address"
           required type="address"
-          value={props.formValues.address}
-          onChange={props.onChange('address')}
+          defaultValue={props.formValues.address}
+          onBlur={props.onChange('address')}
         />
       </div>
     </div>
@@ -70,8 +70,8 @@ const PersonalDetailFields = props =>
           className="form-control"
           id="postcode"
           required type="postcode"
-          value={props.formValues.postcode}
-          onChange={props.onChange('postcode')}
+          defaultValue={props.formValues.postcode}
+          onBlur={props.onChange('postcode')}
         />
       </div>
     </div>

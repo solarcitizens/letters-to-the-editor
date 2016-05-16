@@ -4,24 +4,21 @@ import PersonalDetailFields from './personalDetailFields.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
     this.state = {
       fieldValues: { },
-      handleChange: this.handleChange.bind(this),
-      handleSubmit: this.handleSubmit.bind(this),
     };
   }
 
   handleSubmit() {
-    // send stuff to server
+    console.log("Submitted!");
   }
 
   handleChange(fieldName) {
-    const detailsComponent = this;
-
     return event => {
-      const newFieldValues = Object.assign({}, detailsComponent.state.fieldValues, { [fieldName]: event.target.value });
-
-      detailsComponent.setState({ fieldValues: newFieldValues });
+      const newFieldValues = Object.assign({}, this.state.fieldValues, { [fieldName]: event.target.value });
+      this.setState({ fieldValues: newFieldValues });
     };
   }
 
