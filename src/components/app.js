@@ -1,5 +1,5 @@
 import React from 'react';
-import PersonalDetailFields from './personalDetailFields.js';
+import PersonalDetailsForm from './PersonalDetailsForm';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +28,7 @@ class App extends React.Component {
         <div className="row">
           <h1 className="display-1">Letters to the Editor</h1>
           <div className="form-body">
-            <PersonalDetailFields
+            <PersonalDetailsForm
               formValues={this.state.fieldValues}
               onChange={this.handleChange}
               onSubmit={this.handleSubmit}
