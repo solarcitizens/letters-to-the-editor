@@ -44,8 +44,4 @@ class App extends React.Component {
 
 }
 
-App.propTypes = {
-  formValues: React.PropTypes.object,
-};
-
 export default App;
