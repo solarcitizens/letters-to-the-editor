@@ -12,12 +12,13 @@ class App extends React.Component {
   }
 
   handleSubmit() {
-    console.log("Submitted!");
+    console.log('Submitted!');
   }
 
   handleChange(fieldName) {
     return event => {
       const newFieldValues = Object.assign({}, this.state.fieldValues, { [fieldName]: event.target.value });
+
       this.setState({ fieldValues: newFieldValues });
     };
   }
