@@ -1,0 +1,4 @@
+- hosts: all
+  sudo: yes
+  roles:
+    - { role: postgres, db_names: ["ltte", "ltte_test"] }
