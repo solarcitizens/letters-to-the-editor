@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Letters to the Editor",
   "scripts": {
-    "ci": "npm --prefix frontend run ci",
+    "ci": "cd frontend && npm run ci",
     "install": "npm run install:backend && npm run install:frontend",
     "install:backend": "npm --prefix backend install",
     "install:frontend": "npm --prefix frontend install",
