@@ -2,8 +2,8 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: './src/index.js',
   output: {
-    path: __dirname + '/dist',
-    filename: 'index.js'
+    path: `${__dirname}/../backend/public/javascript`,
+    filename: '[name].bundle.js',
   },
   module: {
     preLoaders: [

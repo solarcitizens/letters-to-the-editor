@@ -1,0 +1,11 @@
+{
+  "name": "letters-to-the-editor-backend",
+  "version": "0.0.1",
+  "description": "Letters to the Editor",
+  "scripts": {
+    "start": "node ../bin/www"
+  },
+  "dependencies" : {
+    "express": "^4.13.4"
+  }
+}
