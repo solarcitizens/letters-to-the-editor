@@ -12,7 +12,17 @@ class App extends React.Component {
   }
 
   handleSubmit() {
-    console.log('Submitted!');
+    ajax({
+      type: 'POST',
+      url: '/',
+      data: this.state.fieldValues,
+      success: () => {
+        console.log('Submitted!');
+      },
+      error: () => {
+        console.console.log('Failed :(');
+      },
+    });
   }
 
   handleChange(fieldName) {
