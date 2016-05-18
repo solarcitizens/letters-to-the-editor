@@ -41,11 +41,11 @@
     "karma-webpack": "^1.7.0",
     "phantomjs-prebuilt": "^2.1.5",
     "react-addons-test-utils": "^15.0.2",
-    "react-dom": "^15.0.2",
     "underscore": "^1.8.3",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "jquery": "^2.2.3",
     "babel-polyfill": "^6.7.2",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",

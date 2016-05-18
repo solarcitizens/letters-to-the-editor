@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 import PersonalDetailsForm from './PersonalDetailsForm';
 
 class App extends React.Component {
@@ -12,7 +13,7 @@ class App extends React.Component {
   }
 
   handleSubmit() {
-    ajax({
+    $.ajax({
       type: 'POST',
       url: '/',
       data: this.state.fieldValues,
@@ -20,7 +21,7 @@ class App extends React.Component {
         console.log('Submitted!');
       },
       error: () => {
-        console.console.log('Failed :(');
+        console.log('Failed :(');
       },
     });
   }
