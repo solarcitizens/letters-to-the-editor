@@ -15,13 +15,14 @@ class App extends React.Component {
   handleSubmit() {
     $.ajax({
       type: 'POST',
-      url: '/',
+      url: '/letters',
       data: this.state.fieldValues,
       success: () => {
         console.log('Submitted!');
       },
-      error: () => {
+      error: res => {
         console.log('Failed :(');
+        console.log(res);
       },
     });
   }

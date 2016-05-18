@@ -2,9 +2,15 @@
 
 const express = require('express'),
       path = require('path'),
+      bodyParser = require('body-parser'),
+      expressSanitized = require('express-sanitized'),
       routes = require('./routes/index');
 
 const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(expressSanitized());
 
 app.use('/', routes);
 app.set('views', path.join(__dirname, '../../frontend/'));

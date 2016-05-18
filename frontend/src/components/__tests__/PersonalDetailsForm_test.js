@@ -9,7 +9,7 @@ describe('PersonalDetailsForm', () => {
     email: 'email',
     phone: 'phone',
     address: 'address',
-    postcode: 'postcode',
+    postCode: 'postCode',
   };
 
   let rendered;
@@ -34,6 +34,6 @@ describe('PersonalDetailsForm', () => {
     expect(rendered.find('#address').length).toEqual(1);
   });
   it('renders a postcode field', () => {
-    expect(rendered.find('#postcode').length).toEqual(1);
+    expect(rendered.find('#postCode').length).toEqual(1);
   });
 });

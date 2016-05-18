@@ -9,7 +9,7 @@ const PersonalDetailsForm = props =>
     <Field content={props.formValues.email} id="email" type="email" onChange={props.onChange('email')}>Email</Field>
     <Field content={props.formValues.phone} id="phone" type="tel" onChange={props.onChange('phone')}>Phone</Field>
     <Field content={props.formValues.address} id="address" onChange={props.onChange('address')}>Address</Field>
-    <Field content={props.formValues.postcode} id="postcode" onChange={props.onChange('postcode')}>Post code</Field>
+    <Field content={props.formValues.postCode} id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
     <input className="btn btn-primary" content="Submit" type="submit" onSubmit={() => props.onSubmit}/>
   </form>
 );
