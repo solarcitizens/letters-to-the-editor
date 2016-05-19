@@ -3,7 +3,7 @@ set -e
 
 sudo yum install ansible
 
-ansible-playbook -i "localhost," -c local provisioning/ci.yml
+ansible-playbook -vvvv -i "localhost," -c local provisioning/ci.yml
 
 echo '###################################'
 echo '### Doing top-level npm install ###'
