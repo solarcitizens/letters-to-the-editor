@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "ltte",
+    "password": "ltte",
+    "database": "ltte",
+    "host": "127.0.0.1",
+    "dialect": "postgresql",
+    "logging": false
+  }
+}
