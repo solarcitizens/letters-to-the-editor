@@ -12,12 +12,21 @@ class App extends React.Component {
     };
   }
 
-  handleSubmit() {
+  handleSubmit(e) {
     $.ajax({
       type: 'POST',
       url: '/letters',
       data: this.state.fieldValues,
+      success: () => {
+        console.log('Submitted!');
+      },
+      error: res => {
+        console.log('Ajax failed :(');
+        console.log(res);
+      },
     });
+    this.setState({ fieldValues: {} });
+    e.preventDefault();
   }
 
   handleChange(fieldName) {
