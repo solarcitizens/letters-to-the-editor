@@ -18,9 +18,13 @@ function parseLetter(req) {
 function send(req, res) {
   let newLetter = parseLetter(req);
 
-  lettersService.createLetter(newLetter);
-
-  return res.status(200).send("success");
+  return lettersService.createLetter(newLetter)
+    .then(() => {
+      return res.status(200).send("success");
+    })
+    .catch(() => {
+      return res.status(400).send("letter creation failed");
+    });
 }
 
 module.exports = {

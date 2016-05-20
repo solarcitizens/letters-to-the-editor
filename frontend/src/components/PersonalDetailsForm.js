@@ -10,7 +10,7 @@ const PersonalDetailsForm = props =>
     <Field content={props.formValues.phone} id="phone" type="tel" onChange={props.onChange('phone')}>Phone</Field>
     <Field content={props.formValues.address} id="address" onChange={props.onChange('address')}>Address</Field>
     <Field content={props.formValues.postCode} id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
-    <input className="btn btn-primary" content="Submit" type="submit" onSubmit={() => props.onSubmit}/>
+    <button className="btn btn-primary" onClick={() => props.onSubmit}>Go</button>
   </form>
 );
 

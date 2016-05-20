@@ -17,13 +17,6 @@ class App extends React.Component {
       type: 'POST',
       url: '/letters',
       data: this.state.fieldValues,
-      success: () => {
-        console.log('Submitted!');
-      },
-      error: res => {
-        console.log('Failed :(');
-        console.log(res);
-      },
     });
   }
 
