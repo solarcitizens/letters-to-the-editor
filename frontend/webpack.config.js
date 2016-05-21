@@ -3,6 +3,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: __dirname + '/../backend/public/javascript',
+    publicPath: 'javascript',
     filename: 'ltte.bundle.js',
   },
   module: {
