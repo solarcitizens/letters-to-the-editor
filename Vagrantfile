@@ -11,5 +11,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "provisioning/dev.yml"
+    # ansible.tags = "debug"
   end
 end

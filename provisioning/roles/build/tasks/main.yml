@@ -1,0 +1,6 @@
+- name: install build tools for node dependencies
+  apt: name=build-essential
+  become: yes
+
+- name: install libfontconfig for phantomjs
+  apt: name=libfontconfig

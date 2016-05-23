@@ -5,15 +5,21 @@
   when: ansible_pkg_mgr == 'yum'
 
 - name: setup postgres db
-  sudo_user: postgres
+  become_user: postgres
   postgresql_db: name={{ item }}
   with_items: "{{ db_names }}"
 
 - name: setup postgres users
-  sudo_user: postgres
+  become_user: postgres
   postgresql_user: "name={{ db_user }} role_attr_flags=NOSUPERUSER,CREATEDB,LOGIN password={{ db_password }}"
 
 - name: setup user permissions
-  sudo_user: postgres
+  become_user: postgres
   postgresql_user: "db={{ item }} name={{ db_user }} priv=ALL"
   with_items: "{{ db_names }}"
+
+- name: allow password authentication
+  template: src=templates/pg_hba.conf dest=/etc/postgresql/9.3/main/pg_hba.conf
+  become_user: postgres
+  notify:
+    - restart postgres
