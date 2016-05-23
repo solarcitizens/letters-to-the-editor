@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const Field = ({ children, id, required, content, onChange, type = 'text' }) => (
+const Field = ({ children, id, content, onChange, type = 'text' }) => (
   <div className="form-group row">
     <label className="col-sm-2 form-control-label" htmlFor={id}>
           {children}
@@ -9,7 +9,7 @@ const Field = ({ children, id, required, content, onChange, type = 'text' }) => 
       <input
         className="form-control"
         id={id}
-        required={required}
+        required
         type={type}
         value={content}
         onChange={onChange}
@@ -23,7 +23,6 @@ Field.propTypes = {
   id: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   content: PropTypes.string,
-  required: PropTypes.bool,
   type: PropTypes.string,
 };
 
