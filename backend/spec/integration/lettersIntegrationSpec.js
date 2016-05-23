@@ -7,25 +7,17 @@ describe('Register', () => {
   let agent;
   let request = require('supertest-as-promised');
 
-  let hasNewLetter = (res) => {
-    if ('Donald' !== res.body.firstName) {
-        console.log(res.body);
-        throw new Error('missing created letter');
-    }
-  };
-
   beforeEach(() => {
     agent = request.agent(app);
   });
 
-  it('should return 200 and a created member when the input is valid', () => {
+  it('should return 201 when the input is valid', () => {
     return agent
     .post('/letters')
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json')
     .send(integrationTestHelpers.makeLetter())
-    .expect(200)
-    .expect(hasNewLetter);
+    .expect(201);
   });
 
   it('should safely create a letter with dodgy information', () => {
@@ -37,8 +29,7 @@ describe('Register', () => {
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json')
     .send(dodgyLetter)
-    .expect(200)
-    .expect(hasNewLetter);
+    .expect(201);
   });
 
   it('should return 400 if the input is incomplete', () => {

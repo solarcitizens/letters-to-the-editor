@@ -20,7 +20,7 @@ function send(req, res) {
 
   return lettersService.createLetter(newLetter)
     .then(() => {
-      return res.status(200).json(newLetter);
+      return res.sendStatus(201);
     })
     .catch(() => {
       return res.status(400).send("letter creation failed");
