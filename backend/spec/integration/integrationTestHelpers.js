@@ -11,6 +11,18 @@ let makeLetter = () => {
   }
 }
 
+let makeInvalidLetter = () => {
+  return {
+    'firstName': null,
+    'lastName': 'Trump',
+    'email': 'makeamericagreat@donaldjtrump.com',
+    'phone': '123456789',
+    'address': '725 5th Ave Trump Tower',
+    'postCode': '10022'
+  }
+}
+
 module.exports = {
-  makeLetter: makeLetter
+  makeLetter: makeLetter,
+  makeInvalidLetter: makeInvalidLetter
 }

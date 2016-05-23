@@ -26,55 +26,28 @@ describe('Register', () => {
     .send(integrationTestHelpers.makeLetter())
     .expect(200)
     .expect(hasNewLetter);
-
   });
 
-  xit('should safely create a member with dodgy information', (done) => {
-    getBranchId(agent)
-    .then((branchId) => {
-      let dodgyMember = integrationTestHelpers.makeMember(branchId);
-      dodgyMember.additionalInfo = '\'); DROP TABLE MEMBERS';
+  it('should safely create a letter with dodgy information', () => {
+    let dodgyLetter = integrationTestHelpers.makeLetter();
+    dodgyLetter.address = '\'); DROP TABLE LETTERS';
 
-      return agent
-      .post('/register')
-      .set('Content-Type', 'application/json')
-      .set('Accept', 'application/json')
-      .send(dodgyMember)
-      .expect(200)
-      .expect(hasNewMember);
-    }).then(done, done.fail);
-  });
-
-  xit('should return 200 when creating a member with no address', (done) => {
-    getBranchId(agent)
-    .then((branchId) => {
-      return agent
-      .post('/register')
-      .set('Content-Type', 'application/json')
-      .set('Accept', 'application/json')
-      .send(makeMemberWithNoAddress(branchId))
-      .expect(200)
-      .expect(hasNewMember);
-    }).then(done, done.fail);
-  });
-
-  xit('should return 400 if the input is null', (done) => {
     return agent
-    .post('/register')
+    .post('/letters')
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json')
-    .send(null)
-    .expect(400)
-    .then(done, done.fail);
+    .send(dodgyLetter)
+    .expect(200)
+    .expect(hasNewLetter);
   });
 
-  xit('should return 400 if the input is incomplete', (done) => {
+  it('should return 400 if the input is incomplete', () => {
+    console.error = () => {};
     return agent
-    .post('/register')
+    .post('/letters')
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json')
-    .send(makeInvalidMember())
-    .expect(400)
-    .then(done, done.fail);
+    .send(integrationTestHelpers.makeInvalidLetter())
+    .expect(400);
   });
 });
