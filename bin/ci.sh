@@ -16,4 +16,4 @@ echo '############################'
 echo '### Running lint & tests ###'
 echo '############################'
 
-npm run ci
+npm test
