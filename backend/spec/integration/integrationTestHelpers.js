@@ -6,7 +6,9 @@ let makeLetter = () => {
     'lastName': 'Trump',
     'email': 'makeamericagreat@donaldjtrump.com',
     'phone': '123456789',
-    'address': '725 5th Ave Trump Tower',
+    'street': '725 5th Ave Trump Tower',
+    'city': 'New York',
+    'state': 'NY',
     'postCode': '10022'
   }
 }
@@ -17,7 +19,9 @@ let makeInvalidLetter = () => {
     'lastName': 'Trump',
     'email': 'makeamericagreat@donaldjtrump.com',
     'phone': '123456789',
-    'address': '725 5th Ave Trump Tower',
+    'street': '725 5th Ave Trump Tower',
+    'city': 'New York',
+    'state': 'NY',
     'postCode': '10022'
   }
 }

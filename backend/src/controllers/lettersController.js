@@ -8,9 +8,9 @@ function parseLetter(req) {
       lastName: req.body.lastName,
       email: req.body.email,
       phone: req.body.phone,
-      street: req.body.address,
-      city: "",
-      state: "",
+      street: req.body.street,
+      city: req.body.city,
+      state: req.body.state,
       postCode: req.body.postCode
   };
 }

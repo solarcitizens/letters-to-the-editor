@@ -30,8 +30,14 @@ describe('PersonalDetailsForm', () => {
   it('renders a phone field', () => {
     expect(rendered.find('#phone').length).toEqual(1);
   });
-  it('renders a address field', () => {
-    expect(rendered.find('#address').length).toEqual(1);
+  it('renders a street field', () => {
+    expect(rendered.find('#street').length).toEqual(1);
+  });
+  it('renders a city field', () => {
+    expect(rendered.find('#city').length).toEqual(1);
+  });
+  it('renders a state field', () => {
+    expect(rendered.find('#state').length).toEqual(1);
   });
   it('renders a postcode field', () => {
     expect(rendered.find('#postCode').length).toEqual(1);
