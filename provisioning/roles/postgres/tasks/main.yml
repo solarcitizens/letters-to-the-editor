@@ -17,10 +17,3 @@
   become_user: postgres
   postgresql_user: "db={{ item }} name={{ db_user }} priv=ALL"
   with_items: "{{ db_names }}"
-
-- name: allow password authentication
-  when: ansible_distribution == 'Ubuntu'
-  template: src=pg_hba.conf dest=/etc/postgresql/9.3/main/pg_hba.conf
-  become_user: postgres
-  notify:
-    - restart postgres
