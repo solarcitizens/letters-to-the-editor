@@ -10,7 +10,7 @@ echo '### Doing top-level npm install ###'
 echo '###################################'
 
 #TODO: We want to delete this step soon...
-npm install
+npm install --silent
 
 echo '############################'
 echo '### Running lint & tests ###'
