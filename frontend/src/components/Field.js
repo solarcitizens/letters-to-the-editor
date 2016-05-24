@@ -11,8 +11,7 @@ const Field = ({ children, id, content, onChange, type = 'text' }) => (
         id={id}
         required
         type={type}
-        value={content}
-        onChange={onChange}
+        onBlur={onChange}
       />
     </div>
   </div>
