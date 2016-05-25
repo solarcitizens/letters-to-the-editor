@@ -11,7 +11,7 @@ const PersonalDetailsForm = props =>
     <Field content={props.formValues.street} id="street" onChange={props.onChange('street')}>Street</Field>
     <Field content={props.formValues.city} id="city" onChange={props.onChange('city')}>City</Field>
     <Field content={props.formValues.state} id="state" onChange={props.onChange('state')}>State</Field>
-    <Field content={props.formValues.postCode} id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
+    <Field content={props.formValues.postCode} id="postCode" onChange={props.onPostCodeChange}>Post code</Field>
     <button className="btn btn-primary" onClick={() => props.onSubmit}>Go</button>
   </form>
 );
@@ -19,6 +19,7 @@ const PersonalDetailsForm = props =>
 PersonalDetailsForm.propTypes = {
   formValues: React.PropTypes.object.isRequired,
   onChange: React.PropTypes.func.isRequired,
+  onPostCodeChange: React.PropTypes.func.isRequired,
   onSubmit: React.PropTypes.func.isRequired,
 };
 

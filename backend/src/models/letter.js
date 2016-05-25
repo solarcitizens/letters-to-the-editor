@@ -12,7 +12,8 @@ module.exports = (sequelize, DataTypes) => {
         street: DataTypes.STRING,
         city: DataTypes.STRING,
         state: DataTypes.STRING,
-        postCode: DataTypes.STRING
+        postCode: DataTypes.STRING,
+        publications: DataTypes.ARRAY(DataTypes.STRING)
     }, {
         paranoid: true
     });

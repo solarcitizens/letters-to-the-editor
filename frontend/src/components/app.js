@@ -1,50 +1,68 @@
 import React from 'react';
-import $ from 'jquery';
 import publicationService from '../services/publicationService';
+import letterService from '../services/letterService';
 import PersonalDetailsForm from './PersonalDetailsForm';
 import PublicationList from './PublicationList';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.handleChange = this.handleChange.bind(this);
+    this.handlePersonalDetailChange = this.handlePersonalDetailChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handlePostCode = this.handlePostCode.bind(this);
+    this.fetchPublications = this.fetchPublications.bind(this);
+    this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
     this.state = {
       fieldValues: { },
+      selectedPublications: [],
     };
   }
 
   handleSubmit(e) {
-    $.ajax({
-      type: 'POST',
-      url: '/letters',
-      data: this.state.fieldValues,
-      success: () => {
-        console.log('Submitted!');
-      },
-      error: res => {
-        console.log('Ajax failed :(');
-        console.log(res);
-      },
-    });
+    const letter = { personalDetails: this.state.fieldValues, publications: this.state.selectedPublications };
+
+    letterService.sendLetter(letter)
+      .then(() => {
+        this.setState({ fieldValues: {} });
+      });
     e.preventDefault();
-    this.setState({ fieldValues: {} });
   }
 
-  handleChange(fieldName) {
+  handlePersonalDetailChange(fieldName) {
     return event => {
       const value = event.target.value;
       const newFieldValues = Object.assign({}, this.state.fieldValues, { [fieldName]: value });
 
       this.setState({ fieldValues: newFieldValues });
-      if (fieldName === 'postCode') {
-        console.log(value);
-        publicationService.fetchPublicationsFor(value)
-          .then(publications => {
-            this.setState({ publicationList: publications });
-          });
-      }
     };
+  }
+
+  fetchPublications(event) {
+    const value = event.target.value;
+
+    publicationService.fetchPublicationsFor(value)
+      .then(publications => {
+        this.setState({ publicationList: publications });
+      });
+  }
+
+  handlePostCode(event) {
+    this.handlePersonalDetailChange('postCode')(event);
+    if (event.target.value.length >= 4) {
+      this.fetchPublications(event);
+    }
+  }
+
+  handlePublicationSelection(event) {
+    const publicationTitle = event.target.labels[0].innerText;
+
+    if (event.target.checked) {
+      this.state.selectedPublications.push(publicationTitle);
+    } else {
+      const isNotUncheckedPublication = title => (title !== publicationTitle);
+
+      this.setState(state => ({ selectedPublications: state.selectedPublications.filter(isNotUncheckedPublication) }));
+    }
   }
 
   render() {
@@ -58,7 +76,8 @@ class App extends React.Component {
           <div className="form-body">
             <PersonalDetailsForm
               formValues={this.state.fieldValues}
-              onChange={this.handleChange}
+              onChange={this.handlePersonalDetailChange}
+              onPostCodeChange={this.handlePostCode}
               onSubmit={this.handleSubmit}
             />
           </div>
@@ -66,7 +85,7 @@ class App extends React.Component {
         <div className="row">
           <h2 className="display-1">Select Your Publications</h2>
           {this.state.publicationList
-            ? <PublicationList publications={this.state.publicationList}/>
+            ? <PublicationList publications={this.state.publicationList} onChange={this.handlePublicationSelection}/>
             : noPostCodeMessage}
         </div>
       </div>
