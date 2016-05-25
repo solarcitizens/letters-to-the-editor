@@ -2,6 +2,7 @@
 
 const express = require('express'),
       lettersController = require('../controllers/lettersController'),
+      letsEncryptController = require('../controllers/letsEncryptController'),
       publicationsController = require('../controllers/publicationsController');
 var router = express.Router();
 
@@ -12,5 +13,7 @@ router.get('/', function (req, res) {
 router.post('/letters', lettersController.send);
 
 router.get('/publications/:postCode', publicationsController.get);
+
+router.get('/.well-known/acme-challenge/:acmeToken', letsEncryptController.get);
 
 module.exports = router;
