@@ -1,6 +1,6 @@
 'use strict';
 
-const lettersService = require('../services/lettersService');
+const letterService = require('../services/letterService');
 
 function parseLetter(req) {
   return {
@@ -19,7 +19,7 @@ function parseLetter(req) {
 function send(req, res) {
   let newLetter = parseLetter(req);
 
-  return lettersService.createLetter(newLetter)
+  return letterService.createLetter(newLetter)
     .then(() => {
       return res.sendStatus(201);
     })

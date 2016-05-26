@@ -14,7 +14,6 @@ const config = require(__dirname + '/../../config/db.json')[env];
 
 let connection = require(__dirname + '/../db/connection.js');
 
-console.log("Path to letter model: " + __dirname + "/letter.js");
 let Letter = connection.import(__dirname + "/letter.js");
 
 let models = {"Letter" : Letter,

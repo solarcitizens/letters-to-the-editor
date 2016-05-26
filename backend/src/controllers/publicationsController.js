@@ -1,5 +1,13 @@
+'use strict';
+
+const publicationService = require('../services/publicationService');
+
+
 function get(req, res) {
-  res.status(200).send({publications: ['The Indi Chronicles', 'The Wangaratta Warbler', 'The Sydney Snitch']});
+  const postCode = req.params.postCode;
+  const publications = publicationService.getPublications(postCode);
+
+  res.status(200).send(publications);
 }
 
 module.exports = {
