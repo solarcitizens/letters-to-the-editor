@@ -4,7 +4,7 @@ import $ from 'jquery';
 const fetchPublicationsFor = postCode => (
   q($.ajax({
     type: 'GET',
-    url: `/publications/ ${postCode}`,
+    url: `/publications/${postCode}`,
   }))
     .catch(() => { throw new Error('OH NO PIGEONS'); })
     .then(data =>

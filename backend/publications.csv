@@ -1,0 +1,4 @@
+NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
+1,The Indi Chronicles,test@test.com,,,By the creek,3676
+2,The Wangaratta Warbler,test@test.com,,,By the boardwalk,"3676,hello"
+3,The Sydney Snitch,test@test.com,,,Box Hill,2765

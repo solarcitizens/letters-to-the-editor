@@ -7,7 +7,7 @@ function get(req, res) {
   const postCode = req.params.postCode;
   const publications = publicationService.getPublications(postCode);
 
-  res.status(200).send(publications);
+  res.status(200).send({publications: publications});
 }
 
 module.exports = {
