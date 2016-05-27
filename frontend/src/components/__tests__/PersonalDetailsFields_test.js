@@ -1,27 +1,23 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import PersonalDetailsForm from '../PersonalDetailsForm';
+import PersonalDetailsFields from '../PersonalDetailsFields';
 
-describe('PersonalDetailsForm', () => {
+describe('PersonalDetailsFields', () => {
   const fields = {
     firstName: 'firstName',
     lastName: 'lastName',
     email: 'email',
     phone: 'phone',
-    address: 'address',
+    street: 'street',
+    city: 'city',
+    state: 'state',
     postCode: 'postCode',
   };
 
   let rendered;
 
   beforeEach(() => {
-    rendered = shallow(
-      <PersonalDetailsForm
-        formValues={fields}
-        onChange={() => () => {}}
-        onPostCodeChange={() => {}}
-        onSubmit={() => ''}
-      />);
+    rendered = shallow(<PersonalDetailsFields formValues={fields} onChange={() => () => {}}/>);
   });
 
   it('renders a firstName field', () => {
