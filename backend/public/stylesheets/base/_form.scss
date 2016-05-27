@@ -1,16 +1,20 @@
-* {
-  @include fill-parent;
-}
-
 form {
   @include outer-container(100%);
   @include margin(2em);
 }
 
 fieldset {
-  @include pad(1.5em);
-  @include margin(1.5em 0 0 0);
+  @include pad(1.5em 0 1.5em 0);
+  @include margin(0 1em 0 0);
   border: none;
+}
+
+input {
+  @include fill-parent();
+}
+
+legend {
+  @include fill-parent();
 }
 
 .formContainer {
@@ -30,10 +34,15 @@ fieldset {
 }
 
 .fields {
+  @include fill-parent();
   @include shift(0.5);
-  @include span-columns(10);
 }
 
 .instruction {
   @include span-columns(8);
+}
+
+.steps {
+  float: left;
+  @include margin(0 0.5em 0 0);
 }

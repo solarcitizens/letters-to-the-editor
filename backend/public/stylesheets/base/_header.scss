@@ -4,10 +4,16 @@
 .header {
   background-color: $dark-blue;
   overflow: hidden;
+  text-align: center;
 }
 
 .campaignTitle {
   background-color: $dark-blue;
   overflow: hidden;
   text-align: center;
+}
+
+#logo {
+  max-width: 250px;
+  @include margin(1em)
 }

@@ -30,7 +30,7 @@ class SelectPublicationsFields extends React.Component {
     return (
       <fieldset>
         <legend>
-          Select Your Publications
+          <h5>Select Your Publications</h5>
         </legend>
         {!this.props.postCode || this.props.postCode.length !== 4
           ? noPostCodeMessage

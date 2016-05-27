@@ -5,9 +5,9 @@ const PersonalDetailsFields = props =>
  (
   <fieldset>
     <legend>
-        <h5>Enter your details</h5>
+      <h5>Enter your details</h5>
     </legend>
-    <div className="fields">
+    <section class="fields">
       <Field id="firstName" onChange={props.onChange('firstName')}>First Name</Field>
       <Field id="lastName" onChange={props.onChange('lastName')}>Last Name</Field>
       <Field id="email" type="email" onChange={props.onChange('email')}>Email</Field>
@@ -16,7 +16,7 @@ const PersonalDetailsFields = props =>
       <Field id="city" onChange={props.onChange('city')}>City</Field>
       <Field id="state" onChange={props.onChange('state')}>State</Field>
       <Field id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
-    </div>
+    </section>
     </fieldset>
 );
 
