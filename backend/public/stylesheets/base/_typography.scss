@@ -1,0 +1,47 @@
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+  color: $white;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: $darker-gray;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: $yellow;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: $dark-blue;
+}
+
+h6 {
+  font-family: 700;
+  font-size: 18px;
+  color: $white;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  color: $darker-gray;
+}
+
+.campaignDescription {
+  font-weight: 16px;
+  line-height: 22px;
+  color: $darker-gray;
+}

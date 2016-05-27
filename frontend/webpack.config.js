@@ -6,15 +6,23 @@ module.exports = {
     publicPath: 'javascript',
     filename: 'ltte.bundle.js',
   },
-  module: {
-    preLoaders: [
-      {
+  preLoaders: [
+     {
         test: /\.js$/,
         loader: 'eslint-loader',
         exclude: /node_modules|dist/
       }
-    ],
+  ],
+  module: {
     loaders: [
+      {
+        test: /\.css$/,
+        loader: 'style!css',
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style!css!sass',
+      },
       {
         test: /\.js$/,
         exclude: /(node_modules|dist)/,

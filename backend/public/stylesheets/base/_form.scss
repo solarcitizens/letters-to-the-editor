@@ -1,0 +1,33 @@
+* {
+  @include fill-parent;
+}
+
+.campaignDescription {
+  overflow: hidden;
+  @include span-columns(6);
+  @include shift(3);
+  @include pad(2em);
+}
+
+.personalDetailsSection,
+.publicationSection {
+  @include span-columns(10);
+  @include shift(1);
+}
+
+.formBody,
+.publicationList {
+  @include span-columns(9);
+}
+
+.formHeading {
+  @include span-columns(10);
+}
+
+.instruction {
+  @include span-columns(8);
+}
+
+[type="checkbox"] {
+    vertical-align:middle;
+}

@@ -1,0 +1,13 @@
+@import "variables";
+@import "typography";
+
+.header {
+  background-color: $dark-blue;
+  overflow: hidden;
+}
+
+.campaignTitle {
+  background-color: $dark-blue;
+  overflow: hidden;
+  text-align: center;
+}

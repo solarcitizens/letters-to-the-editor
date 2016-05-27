@@ -1,0 +1,38 @@
+// Typography
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,600italic,900);
+
+$helvetic: 'Source Sans Pro', sans-serif;
+$base-font-family: $helvetic;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 1em;
+$mobile-font-size: 0.8em;
+
+// Colors
+$dark-blue: #2E436C;
+$darkest-gray: #3C3C3C;
+$darker-gray: #4A4A4A;
+$medium-gray: #818181;
+$light-gray: #ddd;
+$white: #FFFFFF;
+$yellow: #FFCB14;
+
+// Font Colors
+$base-font-color: $darker-gray;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+// $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
