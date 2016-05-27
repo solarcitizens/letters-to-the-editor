@@ -5,7 +5,7 @@ const ComposeLetterFields = props =>
 (
   <fieldset>
     <legend>
-        Write your letter
+        <h5>Write your letter</h5>
     </legend>
     <aside>
       Here are some helpful tips/talking points to get you started:

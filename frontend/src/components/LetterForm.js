@@ -48,7 +48,7 @@ class LetterForm extends React.Component {
 
   render() {
     return (
-      <form className="form-horizontal" onSubmit={this.handleSubmit}>
+      <form className="form" onSubmit={this.handleSubmit}>
         <PersonalDetailsFields
           onChange={this.handleChange}
         />
