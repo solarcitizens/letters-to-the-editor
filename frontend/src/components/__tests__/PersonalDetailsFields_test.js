@@ -17,7 +17,7 @@ describe('PersonalDetailsFields', () => {
   let rendered;
 
   beforeEach(() => {
-    rendered = shallow(<PersonalDetailsFields formValues={fields} onChange={() => () => {}}/>);
+    rendered = shallow(<PersonalDetailsFields fieldValues={fields} onChange={() => () => {}}/>);
   });
 
   it('renders a firstName field', () => {

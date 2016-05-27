@@ -72,18 +72,18 @@ class LetterForm extends React.Component {
     return (
       <form className="form-horizontal" onSubmit={this.handleSubmit}>
         <PersonalDetailsFields
-          formValues={this.state.fieldValues}
+          fieldValues={this.state.fieldValues}
           onChange={this.handleChange}
           onPostCodeChange={this.handlePostCode}
-        />
-        <ComposeLetterFields
-          formValues={this.state.fieldValues}
-          onChange={this.handleChange}
         />
         <h2 className="display-1">Select Your Publications</h2>
         {this.state.publicationList
           ? <PublicationList publications={this.state.publicationList} onChange={this.handlePublicationSelection}/>
           : noPostCodeMessage}
+        <ComposeLetterFields
+          fieldValues={this.state.fieldValues}
+          onChange={this.handleChange}
+        />
         <button className="btn btn-primary" type="submit">Go</button>
       </form>
     );
