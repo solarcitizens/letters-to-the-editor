@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../app';
-import PersonalDetailsForm from '../PersonalDetailsForm';
+import LetterForm from '../LetterForm';
 
 describe('App', () => {
-  it('includes PersonalDetailsForm', () => {
+  it('includes LetterForm', () => {
     const app = shallow(<App/>);
 
-    expect(app.find(PersonalDetailsForm).length).toEqual(1);
+    expect(app.find(LetterForm).length).toEqual(1);
   });
 });
