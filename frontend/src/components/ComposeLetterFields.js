@@ -7,12 +7,13 @@ const ComposeLetterFields = props =>
     <legend>
         Write your letter
     </legend>
-    <p>Here are some helpful tips/talking points to get you started:
+    <aside>
+      Here are some helpful tips/talking points to get you started:
       <ul>
         <li>Personal messages are the most powerful.</li>
         <li>Try to be brief, stick to your message and be cordial.</li>
       </ul>
-    </p>
+    </aside>
     <section>
       <Field id="subject" onChange={props.onChange('subject')}>Subject</Field>
       <Field id="body" type="textarea" onChange={props.onChange('body')}>Body</Field>
