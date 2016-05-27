@@ -14,13 +14,12 @@ const PersonalDetailsFields = props =>
     <Field id="street" onChange={props.onChange('street')}>Street</Field>
     <Field id="city" onChange={props.onChange('city')}>City</Field>
     <Field id="state" onChange={props.onChange('state')}>State</Field>
-    <Field id="postCode" onChange={props.onPostCodeChange}>Post code</Field>
+    <Field id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
   </fieldset>
 );
 
 PersonalDetailsFields.propTypes = {
   onChange: React.PropTypes.func.isRequired,
-  onPostCodeChange: React.PropTypes.func.isRequired,
 };
 
 export default PersonalDetailsFields;

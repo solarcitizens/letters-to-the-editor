@@ -1,17 +1,14 @@
 import React from 'react';
 import PersonalDetailsFields from './PersonalDetailsFields';
 import ComposeLetterFields from './ComposeLetterFields';
-import publicationService from '../services/publicationService';
+import SelectPublicationsFields from './SelectPublicationsFields';
 import letterService from '../services/letterService';
-import PublicationList from './PublicationList';
 
 class LetterForm extends React.Component {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.handlePostCode = this.handlePostCode.bind(this);
-    this.fetchPublications = this.fetchPublications.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
     this.state = {
       fieldValues: { },
@@ -37,16 +34,6 @@ class LetterForm extends React.Component {
     };
   }
 
-  fetchPublications(event) {
-    const value = event.target.value;
-
-    publicationService.fetchPublicationsFor(value)
-      .then(publications => {
-        this.setState({ publicationList: publications });
-      });
-  }
-
-
   handlePublicationSelection(event) {
     const publicationTitle = event.target.labels[0].innerText;
 
@@ -59,26 +46,16 @@ class LetterForm extends React.Component {
     }
   }
 
-  handlePostCode(event) {
-    this.handleChange('postCode')(event);
-    if (event.target.value.length >= 4) {
-      this.fetchPublications(event);
-    }
-  }
-
   render() {
-    const noPostCodeMessage = <div>Please select a post code in order to view a list of publications.</div>;
-
     return (
       <form className="form-horizontal" onSubmit={this.handleSubmit}>
         <PersonalDetailsFields
           onChange={this.handleChange}
-          onPostCodeChange={this.handlePostCode}
         />
-        <h2 className="display-1">Select Your Publications</h2>
-        {this.state.publicationList
-          ? <PublicationList publications={this.state.publicationList} onChange={this.handlePublicationSelection}/>
-          : noPostCodeMessage}
+        <SelectPublicationsFields
+          postCode={this.state.fieldValues.postCode}
+          onChange={this.handlePublicationSelection}
+        />
         <ComposeLetterFields
           onChange={this.handleChange}
         />
