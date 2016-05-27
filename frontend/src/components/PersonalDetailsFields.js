@@ -19,7 +19,6 @@ const PersonalDetailsFields = props =>
 );
 
 PersonalDetailsFields.propTypes = {
-  formValues: React.PropTypes.object.isRequired,
   onChange: React.PropTypes.func.isRequired,
   onPostCodeChange: React.PropTypes.func.isRequired,
 };
