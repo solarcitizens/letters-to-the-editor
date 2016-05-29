@@ -25,6 +25,8 @@
     "node-neat": "^1.7.2",
     "node-sass-middleware": "^0.9.8",
     "node-uuid": "^1.4.7",
+    "nodemailer": "^2.4.1",
+    "nodemailer-mailgun-transport": "^1.0.2",
     "pg": "^4.5.5",
     "sequelize": "^3.23.2",
     "sequelize-cli": "^2.4.0",

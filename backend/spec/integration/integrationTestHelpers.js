@@ -14,7 +14,7 @@ let makeLetter = () => {
     },
     'publications': ['New York Times', 'New York Post']
   }
-}
+};
 
 let makeInvalidLetter = () => {
   return {
@@ -29,9 +29,9 @@ let makeInvalidLetter = () => {
       'postCode': '10022'
     }
   }
-}
+};
 
 module.exports = {
   makeLetter: makeLetter,
   makeInvalidLetter: makeInvalidLetter
-}
+};

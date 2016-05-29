@@ -1,5 +1,8 @@
 {
   "publications": {
     "file": "./spec/integration/resources/test.csv"
+  },
+  "email": {
+    "sendEmails": false
   }
 }

@@ -9,5 +9,8 @@
     "install:frontend": "npm --prefix frontend install",
     "postinstall:frontend": "npm --prefix frontend run build",
     "start": "npm --prefix backend start"
+  },
+  "devDependencies": {
+    "sinon": "^1.17.4"
   }
 }
