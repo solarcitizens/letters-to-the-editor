@@ -18,7 +18,7 @@ let sendEmail = () => {
 
   let transport = nodemailer.createTransport(mailgunTransport(mailgunAuth));
   let mailOptions = {
-    from: 'Solar Citizens <email@solarcitizens.org.au>',
+    from: 'Solar Citizens <email@mg.solarcitizens.org.au>',
     to: 'rdoherty@thoughtworks.com',
     subject: 'Hello ✔',
     text: 'Hello world'
