@@ -13,11 +13,11 @@ describe('Register', () => {
 
   it('should return 201 when the input is valid', () => {
     return agent
-    .post('/letters')
-    .set('Content-Type', 'application/json')
-    .set('Accept', 'application/json')
-    .send(integrationTestHelpers.makeLetter())
-    .expect(201);
+      .post('/letters')
+      .set('Content-Type', 'application/json')
+      .set('Accept', 'application/json')
+      .send(integrationTestHelpers.makeLetter())
+      .expect(201);
   });
 
   it('should safely create a letter with dodgy information', () => {
@@ -25,20 +25,20 @@ describe('Register', () => {
     dodgyLetter.address = '\'); DROP TABLE LETTERS';
 
     return agent
-    .post('/letters')
-    .set('Content-Type', 'application/json')
-    .set('Accept', 'application/json')
-    .send(dodgyLetter)
-    .expect(201);
+      .post('/letters')
+      .set('Content-Type', 'application/json')
+      .set('Accept', 'application/json')
+      .send(dodgyLetter)
+      .expect(201);
   });
 
   it('should return 400 if the input is incomplete', () => {
     console.error = () => {};
     return agent
-    .post('/letters')
-    .set('Content-Type', 'application/json')
-    .set('Accept', 'application/json')
-    .send(integrationTestHelpers.makeInvalidLetter())
-    .expect(400);
+      .post('/letters')
+      .set('Content-Type', 'application/json')
+      .set('Accept', 'application/json')
+      .send(integrationTestHelpers.makeInvalidLetter())
+      .expect(400);
   });
 });
