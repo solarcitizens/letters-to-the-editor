@@ -9,7 +9,14 @@ function sendEmail() {
     return;
   }
 
-  let transport = nodemailer.createTransport(mailgunTransport({auth: {api_key: '', domain: ''}}));
+  let mailgunAuth = {
+    auth: {
+      api_key: config.get('email.apiKey'),
+      domain: config.get('email.domain')
+    }
+  };
+  
+  let transport = nodemailer.createTransport(mailgunTransport(mailgunAuth));
   let mailOptions = {
     from: 'Solar Citizens <email@solarcitizens.org.au>',
     to: 'rdoherty@thoughtworks.com',

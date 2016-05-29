@@ -1,0 +1,5 @@
+{
+  "email": {
+    "apiKey": "MAILGUN_API_KEY"
+  }
+}

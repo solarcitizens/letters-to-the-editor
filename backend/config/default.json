@@ -3,6 +3,7 @@
     "file": "publications.csv"
   },
   "email": {
-    "sendEmails": false
+    "sendEmails": false,
+    "domain": "mg.solarcitizens.org.au"
   }
 }

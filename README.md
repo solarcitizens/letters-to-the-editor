@@ -36,6 +36,12 @@
 
         npm install
 
+0. Email configuration [Optional]
+
+        1. Get a Mailgun account.
+        2. Add MAILGUN_API_KEY="your-key" to environment vars
+        3. Turn on the toggle `email.sendEmails` in each specific environment (`config/default.json`, `config/staging.json`, `config/production.json`)
+
 0. Run the tests
 
         npm test
