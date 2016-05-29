@@ -5,17 +5,17 @@ const chai = require('chai'),
 
 let publicationParser;
 
-beforeEach(() => {
+describe('publication parser', () => {
+  beforeEach(() => {
     let configStub = sinon.stub(config, 'get');
     configStub.withArgs('publications.file').returns('./spec/integration/resources/test.csv');
     publicationParser = require('../../src/parsers/publicationParser');
-});
+  });
 
-afterEach(() => {
+  afterEach(() => {
     config.get.restore();
-});
+  });
 
-describe('publication parser', () => {
   it('should parse the publication data', () => {
     const expectedPublications = {
       '2250': [{ 'title': 'Central Coast Express Advocate',
