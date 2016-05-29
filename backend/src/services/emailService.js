@@ -4,7 +4,7 @@ const config = require('config');
 const nodemailer = require('nodemailer');
 const mailgunTransport = require('nodemailer-mailgun-transport');
 
-function sendEmail() {
+let sendEmail = () => {
   if (!config.get('email.sendEmails')) {
     return;
   }
@@ -15,7 +15,7 @@ function sendEmail() {
       domain: config.get('email.domain')
     }
   };
-  
+
   let transport = nodemailer.createTransport(mailgunTransport(mailgunAuth));
   let mailOptions = {
     from: 'Solar Citizens <email@solarcitizens.org.au>',
@@ -30,7 +30,7 @@ function sendEmail() {
     }
     console.log('Message sent: ' + info.response);
   });
-}
+};
 
 module.exports = {
   sendEmail: sendEmail

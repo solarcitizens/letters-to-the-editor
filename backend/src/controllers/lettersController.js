@@ -1,6 +1,7 @@
 'use strict';
 
 const letterService = require('../services/letterService');
+const emailService = require('../services/emailService');
 
 function parseLetter(req) {
   return {
@@ -20,6 +21,7 @@ function send(req, res) {
   let newLetter = parseLetter(req);
 
   return letterService.createLetter(newLetter)
+    .then(emailService.sendEmail)
     .then(() => {
       return res.sendStatus(201);
     })
