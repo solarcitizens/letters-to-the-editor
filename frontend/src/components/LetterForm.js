@@ -52,16 +52,16 @@ class LetterForm extends React.Component {
   render() {
     return (
       <form className="form" onSubmit={this.handleSubmit}>
-        <img className="steps" src="../images/1.svg"/>
+        <img alt="Step 1" className="steps" src="../images/1.svg"/>
         <PersonalDetailsFields
           onChange={this.handleChange}
         />
-        <img className="steps" src="../images/2.svg"/>
+        <img alt="Step 2" className="steps" src="../images/2.svg"/>
         <SelectPublicationsFields
           postCode={this.state.fieldValues.postCode}
           onChange={this.handlePublicationSelection}
         />
-        <img className="steps" src="../images/3.svg"/>
+        <img alt="Step 3" className="steps" src="../images/3.svg"/>
         <ComposeLetterFields
           onChange={this.handleChange}
         />

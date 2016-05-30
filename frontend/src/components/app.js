@@ -4,7 +4,7 @@ import LetterForm from './LetterForm';
 const App = () => (
   <div className="lettersToTheEditor container">
     <div className="header">
-      <img id="logo" src="../images/solar-citizens-logo.png"/>
+      <img alt="Solar Citizens Logo" id="logo" src="../images/solar-citizens-logo.png"/>
     </div>
     <div className="row">
       <div className="campaignTitle">
