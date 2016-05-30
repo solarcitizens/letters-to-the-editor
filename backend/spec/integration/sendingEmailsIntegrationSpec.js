@@ -54,11 +54,14 @@ describe('sending emails', () => {
         .catch(done);
     });
 
-    xit('should take a signature and append it to the end of the body', (done) => {
-      emailService.sendEmail(integrationTestHelpers.makeLetter())
+    it('should take a signature and append it to the end of the body', (done) => {
+      let sendThis = integrationTestHelpers.makeLetter();
+      sendThis.signature = 'ran out of ideas.';
+
+      emailService.sendEmail(sendThis)
         .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              text: 'Hello world \nRegards, \nSolar Citizens'
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match((params) => {
+              return params.text.indexOf('ran out of ideas.') > -1;
             }));
         })
         .then(done)
