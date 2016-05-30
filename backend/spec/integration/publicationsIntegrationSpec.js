@@ -1,21 +1,8 @@
 'use strict';
 const chai = require('chai'),
-      config = require('config'),
-      sinon = require('sinon');
-
-let publicationParser;
+      publicationParser = require('../../src/parsers/publicationParser');
 
 describe('publication parser', () => {
-  beforeEach(() => {
-    let configStub = sinon.stub(config, 'get');
-    configStub.withArgs('publications.file').returns('./spec/integration/resources/test.csv');
-    publicationParser = require('../../src/parsers/publicationParser');
-  });
-
-  afterEach(() => {
-    config.get.restore();
-  });
-
   it('should parse the publication data', () => {
     const expectedPublications = {
       '2250': [{ 'title': 'Central Coast Express Advocate',
