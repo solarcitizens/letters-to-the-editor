@@ -15,13 +15,6 @@ describe('sending emails', () => {
   let configStub;
 
   beforeEach(() => {
-    transportStub = {
-      sendMail: (options, callback) => {
-        callback(false, true);
-      }
-    };
-    sendMailSpy = sinon.spy(transportStub, 'sendMail');
-    sinon.stub(nodemailer, 'createTransport').returns(transportStub);
     configStub = sinon.stub(config, 'get');
     configStub.withArgs('email.sendEmails').returns(true);
   });
@@ -32,6 +25,13 @@ describe('sending emails', () => {
   });
 
   describe('happy', () => {
+    beforeEach(() => {
+      transportStub = { sendMail: function(options, callback) { callback(false,true); }};
+
+      sendMailSpy = sinon.spy(transportStub, 'sendMail');
+      sinon.stub(nodemailer, 'createTransport').returns(transportStub);
+    });
+
     it('sends an email to the editor', (done) => {
       emailService.sendEmail(integrationTestHelpers.makeLetter())
         .then(() => {
@@ -59,9 +59,16 @@ describe('sending emails', () => {
       sinon.stub(nodemailer, 'createTransport').returns(transportStub);
     });
 
-    xit('throws an error when something unexpected happens', (done) => {
-      emailService.sendEmail(integrationTestHelpers.makeLetter());
-
+    it('throws an error when something unexpected happens', (done) => {
+      emailService.sendEmail(integrationTestHelpers.makeLetter())
+        .then(() => {
+            done.fail('sendEmail should not have succeded. It should have failed.');
+        })
+        .catch((error) => {
+            expect(error).to.not.be.null;
+        })
+        .then(done)
+        .catch(done);
     });
   });
 });

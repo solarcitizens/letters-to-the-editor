@@ -29,10 +29,10 @@ let sendEmail = () => {
 
   transport.sendMail(mailOptions, (error, info) => {
     if (error) {
-      return console.log(error);
-      deferred.reject('CHANGE THIS FOR A BETTER MESSAGE');
+      deferred.reject(error);
+    } else {
+      deferred.resolve(`Message sent ${info.response}`);
     }
-    deferred.resolve(`Message sent ${info.response}`);
   });
 
   return deferred.promise;
