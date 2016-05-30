@@ -44,4 +44,7 @@ describe('PersonalDetailsFields', () => {
   it('renders a postcode field', () => {
     expect(rendered.find('#postCode').length).toEqual(1);
   });
+  it('renders an opt in to email communications field', () => {
+    expect(rendered.find('#optedIn').length).toEqual(1);
+  });
 });

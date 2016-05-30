@@ -17,6 +17,8 @@ const PersonalDetailsFields = props =>
       <Field id="state" onChange={props.onChange('state')}>State</Field>
       <Field id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
     </section>
+    <input defaultChecked="true" id="optedIn" type="checkbox" onChange={props.onChange('optedIn')}/>
+    <label className="checkbox" htmlFor="optedIn">I want to receive updates and news from Solar Citizens.</label>
     </fieldset>
 );
 

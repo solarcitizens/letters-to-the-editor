@@ -7,11 +7,12 @@ import letterService from '../services/letterService';
 class LetterForm extends React.Component {
   constructor(props) {
     super(props);
+    this.initialFieldValues = { optedIn: true };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
     this.state = {
-      fieldValues: { },
+      fieldValues: this.initialFieldValues,
       selectedPublications: [],
     };
   }
@@ -21,16 +22,18 @@ class LetterForm extends React.Component {
 
     letterService.sendLetter(letter)
       .then(() => {
-        this.setState({ fieldValues: {} });
+        this.setState({ fieldValues: this.initialFieldValues });
       });
     e.preventDefault();
   }
 
   handleChange(fieldName) {
     return event => {
-      const newFieldValues = Object.assign({}, this.state.fieldValues, { [fieldName]: event.target.value });
+      const newValue = event.target.type === 'checkbox'
+        ? !this.state.fieldValues[fieldName]
+        : event.target.value;
 
-      this.setState({ fieldValues: newFieldValues });
+      this.setState(state => { state.fieldValues[fieldName] = newValue; });
     };
   }
 
