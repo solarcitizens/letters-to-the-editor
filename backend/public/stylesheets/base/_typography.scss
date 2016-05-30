@@ -20,6 +20,10 @@ h3 {
   font-weight: 700;
   font-size: 24px;
   color: $yellow;
+  text-transform: uppercase;
+  @include shift(1);
+  line-height: 70px;
+  display: inline;
 }
 
 h5 {

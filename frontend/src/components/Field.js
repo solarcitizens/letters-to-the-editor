@@ -11,7 +11,7 @@ const Field = ({ children, id, onChange, optional, placeholder, type = 'text' })
   });
 
   return (
-    <div className="form-group row field-entry">
+    <div className={"form-group row field-entry " + id}>
       {children && (
         <label className="col-sm-2 form-control-label" htmlFor={id}>
           {children}
