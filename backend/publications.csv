@@ -1,4 +1,528 @@
 NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
-1,The Indi Chronicles,test@test.com,,,By the creek,3676
-2,The Wangaratta Warbler,test@test.com,,,By the boardwalk,"3676,hello"
-3,The Sydney Snitch,test@test.com,,,Box Hill,2765
+1,Central Coast Express Advocate,advertising@expressadvocate.com.au,Geoff,Hawthorne,West Gosford,2250
+2,Peninsula News,mail@peninsulanews.asn.au,Mark,Snell,Woy Woy,2250
+3,Daily Liberal,mail.liberal@ruralpress.com,Lynton,Grace,Dubbo,2830
+4,The Western Advocate/Western times,mail.westernadvocate@ruralpress.com,,,Bathurst,2795
+5,Central Western Daily,mail.cwd@ruralpress.com,Tracey,Prisk,Orange,2800
+6,The Canowindra News,mail.cowraguardian@ruralpress.com,,,Cowra,2794
+7,Cowra Guardian,mail.cowraguardian@ruralpress.com,,,Cowra,2794
+8,Forbes Advocate,mail.forbesadvocate@ruralpress.com,Barry,Shine,Forbes,2871
+9,Hillston - Ivanhoe Spectator,,Pat,O'Sullivan,Hillston,2675
+10,Grenfell Record,mail.grenfellrecord@ruralpress.com,,,Grenfell,2810
+11,Lithgow Mercury,mail.lithgowmercury@ruralpress.com,Don,Kipp,Lithgow,2790
+12,Mudgee Guardian & The Weekly,editor.mguardian@ruralpress.com,Robyn,Murray,Mudgee,2850
+13,Parkes Champion Post,mail.championpost@ruralpress.com,Luke,Merriman,Parkes,2870
+14,Blayney Chronicle,mail.blayney@ruralpress.com,Lynne,Hand,Blayney,2799
+15,Molong Express,molongex@bigpond.net.au,Rozzi,Smith,Molong,2866
+16,Oberon Review,maureen.lawson@fairfaxmedia.com.au,Maureen,Lawson,Oberon,2787
+17,Midstate Observer,mail.cwd@ruralpress.com,Tony,Rhead,Orange,2800
+18,Barrier Daily Truth,editorial@bdtruth.com.au,David,Pearce,Broken Hill,2880
+19,The Lachlander,lachlander@bigpond.com,Graham,Scott,Condobolin,2877
+20,Narromine News & Trangie Advocate,mail.narrominenews@ruralpress.com,Stephanie,Barlow,Narromine,2821
+21,West Wyalong Advocate,wwadvoc@bigpond.net.au,,,West Wyalong,2671
+22,Pastoral Times,pt@deni.net.au,Garry,Baker,Deniliquin,2710
+23,Cobar Weekly,editor@cobarweekly.com.au,Sharon,Harland,Cobar,2835
+24,Cobar Age,mail.cobarage@ruralpress.com,,,Cobar,2835
+25,Coonamble Times,editor@coonambletimes.com.au,Michael,Graham,Coonamble,2829
+26,Warren Advocate,mail.warrenadvocate@ruralpress.com,Julie,Lincoln,Warren,2824
+27,Warren Weekly,waweekly@bigpond.net.au,Sue,Harvey,Warren,2824
+28,The Condobolin Argus,news@condobolinargus.com.au,Karen,Tooth,Condobolin,2877
+29,Lower Hunter Star/Maitland Mercury,mail.mercury@ruralpress.com,,,Maitland,2320
+30,The Herald,news@theherald.com.au,Jason,Gordon,Newcastle,2300
+31,Hunter Valley News/Muswellbrook Chronicle,editor.muschronicle@ruralpress.com,Amy,Slessor,Muswellbrook,2333
+32,Scone Advocate,editor.sconeadvocate@ruralpress.com,Tanya,Marschke,Scone,2337
+33,The Advertiser,manager.cessadvertiser@ruralpress.com,,,Cessnock,"2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752"
+34,Dungog Chronicle,mail.dungogchronicle@ruralpress.com,,,Dungog,2420
+35,Newcastle Star,editor.thestar@ruralpress.com,Kim-Cherie,Davidson,Newcastle,2300
+36,Port Stephens Examiner,news@pse.fairfax.com.au,,,Raymond Terrace,2324
+37,Quirindi Advocate,editorial@qdiadvocate.com.au,Jocelyn,Brackenbury,Quirindi,2343
+38,Singleton Argus,vicki.caelli@fairfaxmedia.com.au,Vicki,Caelli,Singleton,2330
+39,Illawarra Mercury,cos@illawarramercury.com.au,Chris,Dyson,Wollongong,2500
+40,Highlands Post/Southern Highlands News,mail.highlandspost@ruralpress.com,,,Bowral,2576
+41,Kiama Independent,news@kiamaindependent.com.au,,,Kiama,2529
+42,Shoalhaven & Nowra News/South Coast Register,mail.scregister@ruralpress.com,John,Hanscombe,Nowra,2541
+43,Lake Times,ltnews@laketimes.com.au,Kerrielyn,Clark,Kiama,2533
+44,Wollongong Advertiser,lbennett@wollongongadvertiser.com.au,,,Shellharbour,2529
+45,The Coffs Coast Advocate,advocate@coffscoastadvocate.com.au,,,Coffs Harbour,2450
+46,The Manning-Great Lakes Extra/Manning River T,editor.mrtimes@ruralpress.com,Toni,Bell,Taree,"2428,2429,2430"
+47,The Daily Examiner,peter.chapman@dailyexaminer.com.au,,,Grafton,2460
+48,Don Dorrigo Gazette,dgogazette@westnet.com.au,Michael,English,Dorrigo,2453
+49,Great Lakes Advocate,editor.gladvocate@ruralpress.com,,,Forster,2428
+50,Gloucester Advocate,mail.gloucesteradvocate@ruralpress.com,Therese,Ryan,Gloucester,2422
+51,Macleay Argus,mail.macleayargus@ruralpress.com,,,Kempsey,2440
+52,Midcoast Observer,editor.macleayargus@ruralpress.com,,,West Kempsey,2440
+53,Port Macquarie Express/Port Macquarie News,editor.portnews@ruralpress.com,,,Port Macquarie,"2446,2444,2443,2445"
+54,Coffs Coast Independent,sales.coffsindependent@ruralpress.com,Neil,Wood,Coffs Harbour,2450
+55,Macleay Valley Happynings,editor.macleayargus@ruralpress.com,,,Kempsey,2440
+56,Hastings Gazette,wauchopegazette@ruralpress.com,K,Butler,Wauchope,2446
+57,Wingham Chronicle,mail.wchronicle@ruralpress.com,James,Law,Wingham,2429
+58,Coastal Views,newsroom@dailyexaminer.com.au,David,Moase,Grafton,2460
+59,Clarence Valley Review,mail@cvreview.com.au,John,Warden,Yamba,2464
+60,Barraba Gazette,oliver_woodley@hotmail.com,,,,2347
+61,Glen Innes Examiner,mail.glenexaminer@ruralpress.com,Tim,Hughes,Glen Innes,2370
+62,Northern Daily Leader/Coutry Leader/Tamworth ,mail.ndl@ruralpress.com,Simon,Chamberlain,Tamworth,2340
+63,Tenterfield Star,mail.tentstar@ruralpress.com,Lisa,Finnerty,Tenterfield,2372
+64,Walcha News,walcha.news@ruralpress.com,Vanessa,Arundale,Walcha,2354
+65,The Armidale Express/Express Extra,editor.armexpress@ruralpress.com,Christian,Knight,Armidale,2350
+66,The Armidale Independent,newsdesk@armidaleindependent.com.au,Jo,Harrison,Armidale,2350
+67,Coonabarabran Times,cbntimes@tpg.com.au,,,Coonabarabran,2357
+68,Namoi Valley Independent,bmorgan@nvi.com.au,,,Gunnedah,2380
+69,North West Magazine,nwmagedit@nvi.com.au,Keith,Millerd,Gunnedah,2380
+70,Inverell Times,editor.invtimes@ruralpress.com,,,Inverell,2360
+71,Moree Champion,cady.andersen@fairfaxmedia.com.au,Pramil,Masih,Moree,2400
+72,The Wee Waa News,wwnews@nwcourier.com.au,Jessica,Atkinson,Narrabri,2390
+73,The Courier,advertising@nwcourier.com.au,Ian,Dunnet,Narrabri,2390
+74,The Norwester,editorial@nwcourier.com.au,Annie,Alexander,Narrabri,2390
+75,The Bingara Advocate,editorial@bingaraadvocate.com.au,Nancy,Capel,Bingara,2404
+76,Guyra Argus,guyra.argus@ruralpress.com,,,Guyra,2365
+77,Manilla Express,manxpres@bigpond.net.au,,,Manilla,2346
+78,The Spectator,spectator07@bigpond.com,,,Walgett,2832
+79,Warialda Standard,editor@warialdastandard.com.au,Rachel,Sherman,Warialda,2402
+80,The Northern Star,news@northernstar.com.au,Steve,Spinks,Goonellabah,2480
+81,The Northern Rivers Echo,advertising@echonews.com,Rudi,Maxwell,Lismore,2480
+82,Daily News,editorial@tweednews.com.au,Mikarla,Marsden,South Tweed Heads,2486
+83,Tweed Border Mail,editor@tweednews.com.au,Zoe,Hancock,South Tweed Heads,2486
+84,Richmond River Express Examiner,rrexp@northernstar.com.au,,,Casino,2470
+85,The Byron Shire Echo,editor@echo.net.au,Michael,McDonald,Mullumbimby,2482
+86,Ballina Shire Advocate,starballedit@northernstar.com.au,,,Ballina,2478
+87,Bellingen Shire Courier Sun,editor.couriersun@ruralpress.com,,,Bellingen,2454
+88,Byron Shire News,admin@byronnews.com.au,Julie,Bergin,Byron Bay,2481
+89,Nambucca Guardian News,editor.guardiannews@ruralpress.com,Michael,O'Neil,Nambucca Heads,2448
+90,The Cootamundra Herald,manager.cootaherald@ruralpress.com,,,Cootamundra,2590
+91,The Area News,classifieds@areanews.com.au,,,Griffith,2680
+92,Harden-Murrumburrah Express,mail.hmexpress@ruralpress.com,,,Harden,2587
+93,The Narrandera Argus,liz@narranderaargus.com.au,,,Narrandera,2700
+94,The Daily Advertiser,news@dailyadvertiser.com.au,,,Wagga Wagga,"2560,2567,2571,2752,2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574"
+95,Koondrook & Barham Bridge,barhamnews@datafast.net.au,Peter,Herbert,Barham,2732
+96,Gundagai Independent,sultim@gundagai.net,,,Gundagai,2722
+97,Temora Independent,editorial@temoraindependent.com.au,,,Temora,2666
+98,Corowa Free Press,news@corowafreepress.com.au,Alannah,Lewis,Corowa,2646
+99,Southern Riverina News,srn@mcmedia.com.au,,,Finley,2713
+100,The Irrigator,editor@irrigator.com.au,Felicity,Nolen,Leeton,2705
+101,Gilgandra Weekly,mail.gilgandraweekly@ruralpress.com,,,Gilgandra,2827
+102,Eastern Riverina Chronicle,mail.erchronholbrook@ruralpress.com,,,Holbrook,2644
+103,The Lake News,lakenews@temoraindependent.com.au,,,Temora,2666
+104,Southern Weekly Magazine,editorial.southernweekly@ruralpress.com,,,Wagga Wagga,2650
+105,Southern Cross,jsx@dailyadvertiser.com.au,,,Wagga Wagga,2650
+106,The Leader,editor@rivleader.com.au,Scott,Sanbrook,Wagga Wagga,2650
+107,Boorowa News,mail.boorowanews@ruralpress.com,Sharon,Meere,Boorowa,2586
+108,Cooma-Monaro Express,editor.cmexpress@ruralpress.com,Colleen,O'Sullivan,Cooma,2630
+109,The Magnet,mail.magnet@ruralpress.com,,,Eden,2551
+110,Summit Sun,editor.cmexpress@ruralpress.com,Colleen,O'Sullivan,Jindabyne,2627
+111,Bega District News,admin.beganews@ruralpress.com,Steve,Strevens,Bega,2550
+112,Goulburn Post,editorial.goulburnpost@ruralpress.com,Gerard,Walsh,Goulburn,2580
+113,The Bay Post/Moruya Examiner,editor.baypost@ruralpress.com,Barbara,Pike,Batemans Bay,2536
+114,The Queanbeyan Age,classifieds@queanbeyanage.com.au,Erika,Seymour,Queanbeyan,2620
+115,Tumbarumba Times/Tumut and Adelong Times,news@tatimes.com.au,Luke,Watson,Tumut,2720
+116,Milton-Ulladulla Times,mail.mutimes@ruralpress.com,,,Ulladulla,2539
+117,Yass Tribune,editorial.yasstribune@ruralpress.com,Robyn,Sykes,Yass,2582
+118,Bombala Times,mail.bombalatimes@ruralpress.com,,,Bombala,2632
+119,Braidwood Times,braidwood@ruralpress.com,,,Braidwood,2622
+120,Merimbula News Weekly,mail.newsweekly@ruralpress.com,,,Merimbula,2548
+121,Narooma News,mail.naroomanews@ruralpress.com,,,Narooma,2546
+122,Hawkesbury Gazette,mail.hawkgazette@ruralpress.com,,,Richmond,"2155,2762,2753,2765,2754,2775,2756"
+123,Hawkesbury Courier,sales.hawkgazette@ruralpress.com,,,Richmond,2753
+124,Blue Mountains Gazette,editorial.bmgazette@ruralpress.com,Michael,Ticehurst,Springwood,"2773,2778,2783,2774,2779,2784,2776,2780,2785,2777,2782,2786"
+125,Camden Haven Courier,mail.camcourier@ruralpress.com,,,Laurieton,2443
+126,The Western Weekender,penrithproduction@mediaview.com.au,Troy,Dodds,Jamisontown,2750
+127,Hills News,hillsnews@fairfax.com.au,Heloise,Reece,Castle Hill,2154
+128,Fairfield City Champion,mlawrence@fairfaxmedia.com.au,,,Fairfield,2165
+129,Bankstown-Canterbury Torch,torch@torchpublishing.com.au,,,Condell Park,2200
+130,Blacktown Advocate,advertising@blacktownadvocate.com.au,Simon,Kent,Blacktown,2148
+131,The Canterbury-Bankstown Express,advertising@theexpress.com.au,Joanne,Vella,Liverpool,2170
+132,Blacktown City Sun,oliver_woodley@hotmail.com,,,,2148
+133,Fairfield Advance,advertising@fairfieldadvance.com.au,,,Liverpool,2170
+134,Inner West Courier - Inner West Edition,innerwestcourierads@couriernews.com.au,,,Five Dock,"2040,2044,2048,2131,2135,2140,2037,2041,2045,2049,2132,2136,2193,2038,2042,2046,2050,2133,2137,2203,2039,2043,2047,2130,2134,2138,2204"
+135,Hills Shire Times,advertising@hillsshiretimes.com.au,Therese,Murray,Castle Hill,2154
+136,Hornsby & Upper North Shore Advocate,advertising@hornsbyadvocate.com.au,,,Hornsby,2250
+137,The Inner West Courier (Gloss Edition),innerwestcouriernews@couriernews.com.au,,,Five Dock,"2134,2138,2204,2039,2043,2047,2130,2135,2140,2040,2044,2048,2131,2136,2193,2037,2041,2045,2049,2132,2133,2137,2203,2038,2042,2046,2050"
+138,Liverpool City Champion,EKontos@mail.fairfax.com.au,,,Liverpool,2170
+139,The Weekly Times,contactus@weeklytimes.com.au,Ulrike,Eichmeyer,Ryde,2112
+140,The Liverpool Leader,advertising@liverpoolleader.com.au,Melissa,Mitchell,Liverpool,2170
+141,The Manly Daily,advertising@manlydaily.com.au,,,Manly,2095
+142,The Mosman Daily,advertising@mosmandaily.com.au,,,North Sydney,2060
+143,Mt Druitt-St Marys Standard,editor@mtdruittstandard.com.au,Andrew,Kacimaiwai,Mt Druitt,2770
+144,North Shore Times,advertising@northshoretimes.com.au,,,North Sydney,2060
+145,Northern District Times,advertising@northerndistricttimes.com.au,,,Epping,2121
+146,Parramatta Advertiser,advertising@parramattaadvertiser.com.au,Rick,Allen,Parramatta,2150
+147,Penrith Press,advertising@penrithpress.com.au,,,Penrith,2750
+148,Review Pictorial,review@torchpublishing.com.au,,,Auburn,2144
+149,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,Rockdale,"2196,2210,2219,2223,2227,2231,2508,2205,2216,2220,2224,2228,2232,2207,2217,2221,2225,2229,2233,2209,2218,2222,2226,2230,2234"
+150,Southern Courier,southerncouriernews@couriernews.com.au,,,Alexandria,2015
+151,Wentworth Courier,news@couriernews.com.au,,,Alexandria,2015
+152,Campbelltown-Macarthur Advertiser,jmcgill@mail.fairfax.com.au,,,Campbelltown,"2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752,2167,2564,2568,2572"
+153,The Macarthur Chronicle,editor@macarthurchronicle.com.au,Mandy,Perrin,Campbelltown,"2171,2564,2570,2574,2558,2565,2571,2559,2566,2572,2167,2560,2567,2573"
+154,2120 & Beyond Monthly Chronicle,news@monthlychronicle.com,Bill,Aitken,Thornleigh,2120
+155,The Balmain & Rozelle Village Voice,editor@villagevoice.com.au,,,Five Dock,2046
+156,Cooks River Valley Times,torch@torchpublishing.com.au,,,Earlwood,2206
+157,"Drummoyne, Five Dock & Concord Village Voice",editor@villagevoice.com.au,Ben,Douglas,Alexandria,2015
+158,"Leichhardt, Glebe & Annandale Village Voice",editor@villagevoice.com.au,,,Petersham,2049
+159,Eastern Suburbs Spectator,spectate@ihug.com.au,,,Bondi Junction,2022
+160,Camden Advertiser,rsenescall@fairfax.com.au,,,Camden,2570
+161,Tweed Sun,tweed@gcb.newsltd.com.au,Shane,Watson,Tweed Heads South,2486
+162,Parramatta Sun,thesun@mail.fairfax.com.au,,,Castle Hill,2154
+163,St Marys Mt Druitt Star,r_smith@fairfaxmedia.com.au,Roslyn,Smith,Blacktown,2148
+164,Times,spectate@ihug.com.au,,,Bondi Junction,2022
+165,Leader,spectate@ihug.com.au,,,Bondi Junction,2022
+166,Wollondilly Advertiser,jmcgill@fairfax.com.au,,,Picton,2571
+167,Rouse Hill Times,advertising@rousehilltimes.com.au,David,Catt,Castle Hill,2154
+168,Penrith City Star,r_smith@fairfaxmedia.com.au,Gemma,Seymour,Penrith,2750
+169,The Glebe,advertising@theglebe.com.au,,,Ultimo,2077
+170,Village Voice,editor@innerwestcourier.com.au,,,Alexandria,2015
+171,North Shore Times,editor@northshoretimes.com.au,Nicole,Bauche,North Sydney,2060
+172,The Port Macquarie Independent,newsdesk@portmacquarieindependent.com.au,,,,"2443,2444,2445,2440,2446"
+173,City Hub,question@alternativemediagroup.com,,,,"2000,2010,2050,2007,2011,2008,2037,2009,2042"
+174,South Sydney Herald,editor@ssh.com.au,,,,"2015,2037,2008,2016,2042,2010,2017,2043,2011,2021"
+175,Central,editor@centralmag.com.au,,,,"2007,2011,2021,2050,2008,2015,2037,2009,2016,2042,2000,2010,2017,2043"
+176,Ballarat Courier,inquiries@thecourier.com.au,Chloe,Biggin,Ballarat,"3352,3350,3357,3363"
+177,Ballarat News,ballarat.news@thecourier.com.au,,,Ballarat,"3352,3350,3357,3363"
+178,Ararat Advertiser,ararateditorial@ruralpress.com,,,Ararat,3377
+179,The Advocate,theadvocate@ruralpress.com.au,Aaron,Van Kessel,,"3363,3370,3461,3458,3460"
+180,Maryborough District Advertiser,maryaddy@bigpond.net.au,Michael,Rossi,Maryborough,"3475,3370,3467,3551,3352,3465,3371"
+181,Pyrenees Advocate,editor@theadvocate.net.au,Craig,Wilson,,"3352,3477,3469,3478,3468,3373,3351,3371,3467,3384,3361"
+182,The McIvor Times,editor@mcivortimes.com.au,Ben,Cameron,Heathcote,"3559,3444,3523,3551,3550,3522,3558,3521"
+183,The Sea Lake & Wycheproof Times - Ensign,times@bigpond.net.au,Bernie,Clohesy,Sea Lake,",3533,3531,3485"
+184,Robinvale Sentinel,sentinel@robinvaleprinters.com.au,,,Robinvale,"2736,3549,2737,3546,,3599"
+185,Bendigo Advertiser,cos@bendigoadvertiser.com.au,Nicole,Ferrie,Bendigo,"3450,3518,3523,3444,3550,3561"
+186,Bendigo Weekly,news@bendigoweekly.com.au,Anthony,Radford,Bendigo,"3523,3559,3550,3570,3518,3450,3442,3551,3571,3561"
+187,Campaspe Valley News,office@campaspenews.com.au,Monique,Preston,Rochester,"3572,3559,3557,3558,3561,3563"
+188,Riverine Herald,yournews@riverineherald.com.au,Annette,Gregson,Echuca,"3639,3562,3575,3620,3564,3568,3566,3621,2731,3563,3567,3622,2710,3561,3579,3619"
+189,Kyabram Free Press/Tatura Guardian,press@kyabram.net.au,Michael,Maskell,Kyabram,3620
+190,The Free Press,fpeditorial@newspaperhouse.com.au,Lara,Bailey,Kilmore,3764
+191,The North Central Review,manager@newspaperhouse.com.au,Robin,Northover,Kilmore,3764
+192,Macedon Ranges/Sunbury Telegraph,fcnvic_telegraph@fairfax.com.au,,,Gisborne,3437
+193,Macedon Ranges Guardian,editor@elliottmidnews.com.au,Angela,Crawford,Kyneton,3444
+194,Midland Express,editor@elliottmidnews.com.au,Angela,Crawford,Kyneton,3444
+195,Castlemaine Mail,dcox@elliottmidnews.com.au,Jeff,Jones,Castlemaine,3450
+196,Tarrangower Times,viv@tarrangowertimes.com.au,Vivien,Markham,Maldon,3463
+197,Geelong Independent,starnewsgroup@starnewsgroup.com.au,,,Geelong,3215
+198,Geelong Advertiser,journo@geelongadvertiser.com.au,Greg,Dundas,Geelong,3220
+199,Geelong News,newsroom@geelongnews.com.au,Grant,Payne,Geelong,3220
+200,The Geelong Times,reception@thegeelongtimes.com.au,Ian,Kenins,Newtown,3220
+201,Queenscliffe Herald,quherald@bigpond.net.au,Carmel,Murphy,Queenscliff,3226
+202,The Echo,office@geelonginfo.com,Grant,Payne,Geelong,3220
+203,Mountain Views Mail,edit.mvmail@yvnews.com.au,Kath,Gannaway,Healesville,3777
+204,Seymour Nagambie Advertiser,seyadv@knox.hotkey.net.au,,,Emerald,3782
+205,The Ranges Trader Mail,rtmail@yvnews.com.au,Tania,Martin,Monbulk,3793
+206,Upper Yarra Mail,mvmail@yvnews.com.au,Kath,Gannaway,Yarra Junction,3797
+207,Warragul & Drouin Gazette,editorial@warragulgazette.com.au,Carolyn,Turner,Warragul,3820
+208,The Baw Baw Shire & West Gippsland Trader,administration@warragulgazette.com.au,Carolyn,Turner,Warragul,3820
+209,Moe & Narracan News,news@moenews.net.au,Fiona,Broom,Moe,3825
+210,Latrobe Valley Express,news@lvexpress.com.au,Kristin,Favaloro,Morwell,3840
+211,The Traralgon Journal,news@traralgonjournal.com.au,,,Traralgon,3844
+212,Gippsland Times & Maffra Spectator,news@gippslandtimes.com.au,,,Sale,3850
+213,Bairnsdale Advertiser,egnews@eastvicmedia.com.au,Luke,Robinson,Bairnsdale,3875
+214,East Gippsland News,egnews@eastvicmedia.com.au,Luke,Robinson,Bairnsdale,3875
+215,Snowy River Mail,srm@eastvicmedia.com.au,,,Orbost,3888
+216,Lakes Post,lakespost@eastvicmedia.com.au,Stephanie,Nicholls,Lakes Entrance,3909
+217,Phillip Island & San Remo Advertiser,advertiser@waterfront.net.au,Anne,Oswin,Cowes,3922
+218,The Great Southern Star,editorial@thestar.com.au,,,Leongatha,3953
+219,South Gippsland Sentinel-Times,ads@sgst.com.au,Nathan,Johnston,Leongatha,3953
+220,The Mirror,mirror@tpg.com.au,Robert,Best,Foster,3960
+221,Yarram Standard - News,news@standardnews.com.au,,,Yarram,3971
+222,West Wimmera Advocate,advocate@netconnect.com.au,Franco,Vanzini,Edenhope,3318
+223,Stawell Times - News,stawelltimes@thecourier.com.au,,,Stawell,3380
+224,Dimboola Banner,wkherald@netconnect.com.au,Audrey,Hurst,Warracknabeal,3393
+225,Warracknabeal Herald,wkherald@netconnect.com.au,David,Ward,Warracknabeal,3393
+226,Hopetoun Courier & Mallee Pioneer,hcourier@iinet.net.au,Kathleen,Poulton,Hopetoun,3396
+227,Wimmera Mail-Times,newsdesk@mailtimes.com.au,Peter,Hammond,Horsham,3400
+228,The Weekly Advertiser,weeklyadvertiser@aceradio.com.au,,,Horsham,3400
+229,Wimmera Messengers: The Voice of Hindmarsh,advertising@wimmeramessengers.com.au,,,Nhill,3418
+230,Wimmera Messengers: The Voice of Wimmera,news@wimmeramessengers.com.au,Gary,Sherwell,Nhill,3418
+231,The Rainbow-Jeparit Argus,editor@theargus.com.au,,,Rainbow,3424
+232,North Central News,ncn@iinet.net.au,Ella,Ebery,St Arnaud,3478
+233,Buloke Times,buloket@iinet.net.au,Shane,O'Shea,Donald,3480
+234,North West Express,times@bigpond.net.au,Bernie,Clohesy,Ouyen,3490
+235,Mildura Midweek,newsdesk@milduraweekly.com.au,Keiran,Iles,Mildura,3500
+236,Sunraysia Daily,pro@sunraysiadaily.com.au,Kieran,Iles,Mildura,3500
+237,Cohuna Farmers' Weekly,editorial@northernnewspapers.com.au,,,Cohuna,3568
+238,The Loddon Times,loddon@northernnewspapers.com.au,Ken,Jenkins,Kerang,3579
+239,The Northern Times,editorial@northernnewspapers.com.au,Ken,Jenkins,Kerang,3579
+240,Swan Hill Guardian,admin@theguardian.com.au,Rob,Duffield,Swan Hill,3585
+241,Shepparton Adviser,editorial@sheppartonadviser.com.au,Tony,Mac,Shepparton,3630
+242,Shepparton News,editor@sheppnews.com.au,Richard,Bryce,Shepparton,3630
+243,Numurkah Leader,Editorial@leader.net.au,Tony,Morris,Numurkah,3636
+244,Cobram Courier,courier@cobram.net.au,,,Cobram,3644
+245,The Seymour Telegraph,telegraph@mcmedia.com.au,Michelle,Bradley,Seymour,3660
+246,Euroa Gazette,editor@euroa-gazette.com.au,,,Euroa,3666
+247,Benalla Ensign,ensign@benalla.net.au,Angela,Townsend,Benalla,3672
+248,Ovens & Murray Advertiser,sales.chronicle@nenews.com.au,Zoe,Rudder,Wangaratta,3677
+249,The Chronicle,edit.chronicle@nenews.com.au,Jeff,Zeuschner,Wangaratta,3677
+250,The Border Mail,newsroom@bordermail.com.au,,,Wodonga,3690
+251,The Post,bmm@bordermail.com.au,,,Wodonga,3690
+252,Corryong Courier,mail@corryongcourier.com.au,Mark,Collins,Corryong,3707
+253,Alexandra & Eildon Standard,alexstd@virtual.net.au,,,Alexandra,3714
+254,Yea Chronicle,alexstd@virtual.net.au,,,Yea,3717
+255,Mansfield Courier,edit.mcourier@nenews.com.au,Pam,Zierk-Mahoney,Mansfield,3722
+256,Yarrawonga Chronicle,editorial@yarrawongachronicle.com.au,,,Yarrawonga,3730
+257,Tatura Guardian,guardian@mcmedia.net.au,,,Tatura,3616
+258,Bright Observer,adsalp@nenews.com.au,Ebony,D'Arcy,Myrtleford,3737
+259,Myrtleford Times,edit.alptimes@nenews.com.au,Ebony,D'Arcy,Myrtleford,3737
+260,Surf Coast Times,editor@surfcoasttimes.com.au,Nathan,Hale,Torquay,3228
+261,Colac Herald,news@colacherald.com,Bruce,Lawson,Colac,3250
+262,Camperdown Chronicle,news@wdnews.com.au,,,Camperdown,3260
+263,Cobden Times,ads@wdnews.com.au,,,Camperdown,3260
+264,Western Plains Advertiser,news@wdnews.com.au,,,Camperdown,3260
+265,Terang Express,news@wdnews.com.au,,,Camperdown,3260
+266,The Warrnambool Standard,wseditor@standard.fairfax.com.au,Shane,Fowles,Warrnambool,3280
+267,The Moyne Gazette,gazette@standard.fairfax.com.au,,,Port Fairy,3284
+268,Hamilton Spectator,specadmin@spec.com.au,,,Hamilton,3300
+269,The Portland Observer & Guardian,obsnews@spec.com.au,,,Portland,3305
+270,Casterton News,castnews@spec.com.au,Marion,Cowland,Casterton,3311
+271,Cranbourne News,starnewsgroup@starnewsgroup.com.au,Garry,Howe,Pakenham,3810
+272,Berwick/Pakenham Cardinia Leader,berwick@leadernewspapers.com.au,,,Berwick,3806
+273,Brimbank Leader,brimbank@leadernewspapers.com.au,,,Tullamarine,3043
+274,Caulfield Glen Eira/Port Phillip Leader,theleader@leadernewspapers.com.au,,,Glen Iris,3146
+275,Community News - Moonee Valley,mooneeads@fairfax.com.au,,,Airport West,3042
+276,Cranbourne Journal,journal@fairfax.com.au,,,Dandenong,3175
+277,Cranbourne Leader,cranbourne@leadernewspapers.com.au,,,Berwick,3806
+278,The Journal,journal@fairfax.com.au,,,Dandenong,3175
+279,Diamond Valley Leader,diamondvalley@leadernewspapers.com.au,,,Briar Hill,3088
+280,Manningham Leader,manningham@leadernewspapers.com.au,,,Blackburn,3130
+281,The Emerald Hill Weekly,newsroom@fairfax.com.au,,,East Melbourne,3002
+282,"The Chelsea, Mordialloc, Mentone Independent",fcnvic_chelseaedit@fairfax.com.au,,,Hastings,3915
+283,Peninsula Journal Weekender,journal@fairfax.com.au,,,Dandenong,3175
+284,Frankston & Hastings Independent,fcnvic_mailedit@fairfax.com.au,,,Hastings,3915
+285,Frankston Standard/Hastings Leader,frankston@leadernewspapers.com.au,Natalie,Kealey,Mornington,"3200,3912,3195,3201,3913,3198,3910,3918,3199,3911,3919"
+286,Heidelberg Leader,heidelberg@leadernewspapers.com.au,,,Briar Hill,3088
+287,Hume Leader,hume@leadernewspapers.com.au,,,Tullamarine,3043
+288,Knox Leader,knox@leadernewspapers.com.au,,,Boronia,"3155,3156,3152,3178,3153,3179"
+289,Knox Journal,journal@fairfax.com.au,,,Bayswater,3153
+290,Lilydale & Yarra Valley Leader,lilydale@leadernewspapers.com.au,,,Lilydale,"3139,3775,3116,3140,3777,3137,3765,3796,3138,3770,3799"
+291,The Mail/Williamstown Advertiser/Altona-Laver,fcnvic_mail@fairfax.com.au,,,Airport West,3042
+292,Stonnington Leader,stonnington@leadernewspapers.com.au,,,Glen Iris,3146
+293,Maroondah Journal/Yarra Ranges Journal,journal@fairfax.com.au,,,Bayswater,3153
+294,Melbourne Leader,melbourne@leadernewspapers.com.au,,,Glen Iris,3146
+295,The Melbourne Times,newsroom@fairfax.com.au,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
+296,The Melbourne Weekly Magazine,newsroom@fairfax.com.au,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
+297,Melton/Moorabool Express Telegraph,fcnvic_expresstelegraph@fairfax.com.au,,,Melton,3337
+298,Monash Journal,journal@fairfax.com.au,,,Bayswater,3153
+299,Moonee Valley Leader,mooneevalley@leadernewspapers.com.au,,,Tullamarine,3043
+300,Moorabbin Kingston/Moorabbin Glen Eira Leader,moorabbin@leadernewspapers.com.au,,,Cheltenham,3192
+301,Mordialloc Chelsea Leader,mordialloc.chelsea@leadernewspapers.com.au,,,Cheltenham,3192
+302,Moreland Leader,moreland@leadernewspapers.com.au,Simon,Craig,Northcote,3070
+303,Mornington Peninsula Leader,mornington@leadernewspapers.com.au,,,Mornington,3931
+304,Northcote Leader,northcote@leadernewspapers.com.au,,,Northcote,"3071,3078,3070"
+305,Dandenong/Springvale Dandenong Leader,dandenong@leadernewspapers.com.au,,,Cheltenham,3192
+306,Pakenham-Berwick Gazette,starnewsgroup@starnewsgroup.com.au,Garry,Howe,Pakenham,3810
+307,Preston Leader,preston@leadernewspapers.com.au,,,Northcote,"3072,3073,3083"
+308,Progress Leader,progress@leadernewspapers.com.au,,,Glen Iris,3146
+309,Sunbury/Macedon Ranges Leader,sunbury@leadernewspapers.com.au,,,Sunbury,3429
+310,Maroondah Leader,maroondah@leadernewspapers.com.au,,,Boronia,"3134,3135,3137"
+311,Bayside Leader,bayside@leadernewspapers.com.au,,,Glen Iris,3146
+312,Free Press Leader,fpeditorial@reviewnews.com.au,,,Boronia,3155
+313,Waverley/Oakleigh Monash Leader,waverley@leadernewspapers.com.au,,,Glen Iris,3146
+314,Werribee/Point Cook Banner,fcnvic_banner@fairfax.com.au,,,Werribee,3030
+315,The Wyndham Leader,wyndham@leadernewspapers.com.au,,,Werribee,3030
+316,Western Leader,times@timespublications.com.au,,,Newport,3015
+317,Whitehorse Leader,whitehorse@leadernewspapers.com.au,,,Blackburn,"3129,3133,3130,3151,3127,3131,3215,3128,3132"
+318,Whittlesea Leader,whittlesea@leadernewspapers.com.au,,,Briar Hill,3088
+319,Mornington & Southern Peninsula Mail,fcnvic_mailedit@fairfax.com.au,,,Hastings,3915
+320,Maribyrnong Leader,maribyrnong@leadernewspapers.com.au,,,Newport,3015
+321,Berwick News,starnewsgroup@starnewsgroup.com.au,Garry,Howe,Pakenham,3810
+322,Hobsons Bay Leader,hobsonsbay@leadernewspapers.com.au,,,Newport,3015
+323,"Star Keilor, Taylors Lakes, Sydenham",star@starnewsgroup.com.au,,,Tullamarine,3043
+324,Ferntree Gully - Belgrave Mail,starnewsgroup@starnewsgroup.com.au,Tania,Martin,Monbulk,3793
+325,Northern Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
+326,The City Weekly Melbourne,newsroom@fairfax.com.au,,,East Melbourne,3002
+327,Melbourne Weekly Bayside,newsroom@fairfax.com.au,,,East Melbourne,3002
+328,Melbourne Observer,editor@melbourneobserver.com.au,,,Eltham,3095
+329,"Star St Albans, Deer Park, Caroline Springs",starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
+330,"Star Werribee, Hoppers Crossing",star@starnewsgroup.com.au,,,Tullamarine,3043
+331,"Star Williamstown, Altona, Laverton",star@starnewsgroup.com.au,,,Tullamarine,3043
+332,"Star Footscray, Yarraville, Braybrook",starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
+333,"Star Sunshine, Ardeer, Albion",star@starnewsgroup.com.au,,,Tullamarine,3043
+334,Western Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
+335,North West Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
+336,Melton/Moorabool Leader,melton@leadernewspapers.com.au,,,Melton,3337
+337,Pakenham News,starnewsgroup@starnewsgroup.com.au,Gary,Howe,Pakenham,3810
+338,Heidelberg & Diamond Valley Weekly,newsroom@fairfax.com.au,,,Briar Hill,3088
+339,Berwick and District Journal/Pakenham Journal,journal@fairfaxmedia.com.au,,,Dandenong,3175
+340,Northern Weekly,newsroom@fairfax.com.au,,,Briar Hill,3088
+341,Melbourne Weekly Eastern,newsroom@fairfax.com.au,,,Briar Hill,3088
+342,Hume Weekly,fcnvic_humeweekly@fairfax.com.au,,,Airport West,3042
+343,Moonee Valley Community News,fcnvic_communitynews@fairfax.com.au,,,Airport West,3042
+344,Whittlesea Review,manager@newspaperhouse.com.au,Robin,Northover,Kilmore,3764
+345,Star Hume - Our City,starnorth@starnewsgroup.com.au,,,Tullamarine,3043
+346,"Star Whittlesea, Mernda, Doreen",starnorth@starnewsgroup.com.au,,,Tullamarine,3043
+347,"Star Wallan, Kilmore, Broadford",starnorth@starnewsgroup.com.au,,,Tullamarine,3043
+348,Maroondah Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3153,3134,3135,3136"
+349,Knox Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3155,3180,3152,3156,3153,3178,3154,3179"
+350,Casey Weekly Berwick,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3807,3804,3805,3806"
+351,Yarra Ranges Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3140,3116,3153,3137,3796,3138"
+352,Frankston Weekly,peninsulanews@yourweekly.com.au,,,,"3199,3930,3201,3910,3198,3912"
+353,Kalgoorlie Miner,news@kalminer.com.au,John,Horner,Kalgoorlie,6430
+354,Esperance Express,editor.espexpress@ruralpress.com,Paul,Goldie,Esperance,6450
+355,Central Midlands Coastal Advocate,sales.advocate@ruralpress.com,,,Moora,6510
+356,The Geraldton Guardian,reception@geraldtonnewspapers.com.au,Sue,Cheira,Geraldton,6530
+357,Midwest Times,midwest@midwest.com.au,,,Geraldton,6530
+358,Mandurah Mail,editor.mandurahmail@ruralpress.com,,,Mandurah,6210
+359,Mandurah Coastal Times,mctsales@communitynews.com.au,,,Mandurah,"6174,6207,6211,6175,6208,6213,6180,6209,6214,6173,6181,6210,6215"
+360,Harvey Reporter,editor@harveyreporter.com.au,,,Harvey,6220
+361,Donnybrook-Bridgetown Mail,editor.colliemail@ruralpress.com,Raelene,Heston,Collie,6225
+362,Collie Mail,editor.colliemail@ruralpress.com,Raelene,Heston,Collie,6225
+363,Bunbury Mail,sales.bunburymail@ruralpress.com,,,Bunbury,6230
+364,South-Western Times,editor@swtimes.com.au,,,Bunbury,6230
+365,Bunbury Herald,editor@swtimes.com.au,Jamie,Tatham,Bunbury,6230
+366,Manjimup-Bridgetown Times,editor@mbtimes.com.au,Dannae,Synot,Manjimup,6258
+367,Busselton Dunsborough Times,editor@bdtimes.com.au,Hayley,Jensz,Busselton,6280
+368,Busselton-Dunsborough Mail,mail.bdmail@ruralpress.com,,,Busselton,6280
+369,Augusta Margaret River Mail,editor@amrtimes.com.au,Hayley,Jensz,Margaret River,6285
+370,Northern Guardian,news@northernguardian.com.au,,,Carnarvon,6701
+371,North West Telegraph,news@northwesttelegraph.com.au,,,Port Headland,6721
+372,Broome Advertiser,news@broomead.com.au,Chris,Hingston,Chinatown,6725
+373,Kimberley Echo,admin@kimberleyecho.com,Nathan,Dyer,Kununurra,6743
+374,Narrogin Observer,news@narroginobserver.com.au,Andrew,Hobbs,Narrogin,6312
+375,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315
+376,Great Southern Herald,news@greatsouthernherald.com.au,,,Katanning,6317
+377,Albany Advertiser,ads@albanyadvertiser.com,Ben,Spencer,Albany,6330
+378,Albany & Great Southern Weekender,manager@albanyweekender.com.au,Wayne,Harrington,Albany,6330
+379,Avon Valley Advocate,reporter.avonadvocate@ruralpress.com,,,Northam,6401
+380,Merredin Wheatbelt Mercury,editorial.mercury@ruralpress.com,,,Merredin,6415
+381,The Sunday Times,editorial@sundaytimes.newsltd.com.au,John,Flint,Perth,6000
+382,The West Australian,westinfo@wanews.com.au,Margaret,Marshall,Osborne Park,6017
+383,The Canning Times Community,canningtimes@communitynews.com.au,Rachel,Watts,Myaree,"6102,6148,6106,6155,6107,6154,6147"
+384,The Claremont-Nedlands Post,mailbox@postnewspapers.com.au,Bret,Christian,Shenton Park,6008
+385,Comment News Community,commentnews@communitynews.com.au,Lucien,Wilkinson,Kelmscott,"6108,6112,6109,6147,6110,6155,6107,6111"
+386,Eastern Reporter,esr@communitynews.com.au,Karen,Valenti,Osborne Park,6017
+387,Cambridge Post,mailbox@postnewspapers.com.au,,,Shenton Park,6008
+388,Fremantle Cockburn Gazette,fremantlegazette@communitynews.com.au,David,Johns,Myaree,6154
+389,Fremantle Herald,advertising@fremantleherald.com,Natalie,Hug,Fremantle,6160
+390,Guardian Express Community,guardianexpress@communitynews.com.au,,,Northbridge,6003
+391,Hills Gazette,hillsgazette@communitynews.com.au,,,Midland,6056
+392,The Melville Times Community,melvilletimes@communitynews.com.au,David,Johns,Myaree,6154
+393,Echo News,production@echo-news.com,,,Midland,6056
+394,Midland - Kalamunda Reporter,MidlandKalamundaReporter@communitynews.com.au,Nathan,Watson,Midland,6936
+395,Mosman Park-Cottesloe Post,advertising@postnewspapers.com.au,Bret,Christian,Shenton Park,6008
+396,Western Suburbs Weekly,news@wsweekly.com.au,Denise,Cahill,Northbridge,6003
+397,Sound Telegraph,advertsales@soundtelegraph.com.au,Monique,Mulligan,Rockingham,6168
+398,Southern Gazette Community,sgsales@communitynews.com.au,Rachel,Watts,Myaree,"6100,6104,6101,6105,6102,6151,6154,6103,6152"
+399,Stirling Times Community,stirlingtimes@communitynews.com.au,Karen,Valenti,Osborne Park,6017
+400,Subiaco Post,advertising@postnewspapers.com.au,Bret,Christian,Shenton Park,6008
+401,Joondalup/Wanneroo Times Community Newspaper,wannerootimes@communitynews.com.au,,,Joondalup,6027
+402,Weekend Courier,weekendcourier@communitynews.com.au,,,Rockingham,6168
+403,The Perth Voice,advertising@fremantleherald.com,Natalie,Hug,Fremantle,6160
+404,The Islander,theislander@ruralpress.com,Shauna,Black,Kingscote,5223
+405,Southern Argus,sargus@adam.com.au,,,Strathalbyn,5255
+406,Murray Valley Standard,editor.mvstandard@ruralpress.com,,,Murray Bridge,5253
+407,Border Chronicle,reporter@borderchronicle.com.au,Lauren,Barker,Bordertown,5268
+408,The Naracoorte Herald,editor@naracoorteherald.com.au,Sue,Waite,Naracoorte,5271
+409,The South-East Coastal Leader,coastal.leader@naracoorteherald.com.au,Jenni,Ling,Kingston SE,5275
+410,The South Eastern Times,ads@setimes.com.au,,,Millicent,5280
+411,The Border Watch,tim@tbw.com.au,,,Mount Gambier,5290
+412,The Penola Pennant,tim@tbw.com.au,,,Mount Gambier,5290
+413,The River News,enquiries@rivernews.com.au,,,Waikerie,5330
+414,The Loxton News,ads@loxton-news.com.au,Paul,Mitchell,Loxton,5333
+415,The Border Times,editor@murraypioneer.com.au,Paul,Mitchell,Renmark,5341
+416,The Murray Pioneer,mpioneer@riverland.net.au,Paul,Mitchell,Renmark,5341
+417,The Barossa & Light Herald,barossaherald@ruralpress.com,,,Tanunda,5352
+418,The Northern Argus,northernargus@ruralpress.com,,,Clare,5453
+419,The Plains Producer,sales@plainsproducer.com.au,Andrew,Manuel,Balaklava,5461
+420,Flinders News,flindersnews@ruralpress.com,,,Port Pirie,5540
+421,The Recorder,recorder@ruralpress.com,,,Port Pirie,5540
+422,Yorke Peninsula Country Times,ypct@ypct.com.au,Amie,Brokenshire,Kadina,5554
+423,Whyalla News,admin.whyallanews@ruralpress.com,,,Whyalla,5600
+424,Port Lincoln Times,editor.lincolntimes@ruralpress.com,,,Port Lincoln,5606
+425,West Coast Sentinel,westcoastsentinel@ruralpress.com,Eugene,Boisvert,Ceduna,5690
+426,The Transcontinental,sales.trans@ruralpress.com,,,Port Augusta,5700
+427,The Monitor - Your Community Newspaper,news@themonitor.com.au,,,Roxby Downs,5725
+428,Eyre Peninsula Tribune,eptribune@ruralpress.com,Seonie,Lyon,Cleve,5640
+429,City Messenger,tiser@adv.newsltd.com.au,Kara,Phillips,Norwood,5067
+430,Eastern Courier Messenger,eastern@mng.newsltd.com.au,Shannon,Caton,Norwood,5067
+431,The Guardian Messenger,messenger@mng.newsltd.com.au,,,Morphettville,5043
+432,Leader Messenger,tiser@adv.newsltd.com.au,Chris,Day,Salisbury,5108
+433,News Review Messenger,tiser@adv.newsltd.com.au,Andrew,Spence,Salisbury,5108
+434,East Torrens Messenger,alyssajane.tucker@news.com.au,Rachel,Moore,Norwood,5067
+435,Portside Messenger,deightonm@mng.newsltd.com.au,David,Klar,Adelaide,5015
+436,Southern Times Messenger,southern@mng.newsltd.com.au,Emma,Graham,Morphett Vale,5162
+437,City North Messenger,tiser@adv.newsltd.com.au,Chris,Day,Adelaide,5015
+438,The Weekly Times Messenger,tiser@adv.newsltd.com.au,David,Klar,Kidman Park,5025
+439,Adelaide Hills Weekender,edit@saint.net.au,,,Crafers,5152
+440,The Independent Weekly,admin@independentweekly.com.au,Hendrik,Gout,Adelaide,5000
+441,Adelaide Church Guardian,communications@adelaide.anglican.com.au,Steve,Daughtry,North Adelaide,5006
+442,The Bunyip,editorial@bunyippress.com.au,Emma,Moreland,Gawler,5118
+443,On the Coast,victortimes@ruralpress.com,Claire,Thwaites,Victor Harbor,5211
+444,The Times,victortimes@ruralpress.com,Claire,Thwaites,Victor Harbor,5211
+445,Northern Territory News/Sunday Territorian,online@ntn.newsltd.com.au,Matt,Cunningham,Darwin,0800
+446,Tennant & District Times,media@tdtimes.com.au,Jasmin,Afianos,Tennant Creek,0861
+447,Arafura Times,atimes@bigpond.com,,,Nhulunbuy,0880
+448,Centralian Advocate,advocate@ntn.newsltd.com.au,,,Alice Springs,0870
+449,Katherine Times,mail.kathtimes@ruralpress.com,Tegan,Forder,Katherine,0850
+450,Darwin Sun/Litchfield Sun/Palmerston Sun,mailsun@thesuns.com.au,,,Palmerston,0831
+451,Alice Springs News,erwin@alicespringsnews.com.au,Erwin,Chlanda,Alice Springs,0870
+452,The Advocate/Coast to Coast News,news@theadvocate.com.au,Danny,Clark,Burnie,7320
+453,Mercury/Sunday Tasmanian,mercury.news@dbl.newsltd.com.au,,,Hobart,7000
+454,The Examiner/Launceston Times/Meander valley ,editor@examiner.com.au,Edwina,Yates,Launceston,7250
+455,The Huon Valley News,hvn@bigpond.com,Maureen,Oates,Franklin,7113
+456,The Gazette,gazette@dbl.newsltd.com.au,Blair,Richards,New Norfolk,7140
+457,Central Coast Courier,cccjread@tassie.net.au,,,Orford,7190
+458,North Eastern Advertiser,editor@northeasternadvertiser.com,Peter,Fish,Scottsdale,7260
+459,Circular Head Chronicle,chc@printdomain.com.au,,,Smithton,7330
+460,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315
+461,NT Times,ntnmail@ntnews.com.au,,,,0800
+462,Sydney Morning Herald,newsdesk@smh.com.au,,,,2000
+463,Daily Telegraph,news@dailytelegraph.com.au,,,,2000
+464,Newcastle Herald,news@theherald.com.au,,,,2000
+465,Canberra Times xx,letters.editor@canberratimes.com.au,,,,2000
+466,The Age,newsdesk@theage.com.au,,,,3000
+467,Herald Sun,news@heraldsun.com.au,,,,3000
+468,Courier Mail,crutcherm@qnp.newsltd.com.au,,,,4000
+469,Brisbane Times,scoop@brisbanetimes.com.au,,,,4000
+470,Adelaide Now,tiser@adv.newsltd.com.au,,,,5000
+471,The Mercury,mercuryedletter@dbl.newsltd.com.au,,,,7000
+472,The Examiner,editor@examiner.com.au,,,,7000
+475,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,,"2211,2223,2196,2213,2210,2222,2220,2212,2209,2200,2214"
+476,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,,"2218,2208,2207,2220,2217,2223,2205,2219,2216,2222,2221"
+477,"The Examiner: Northern Tasmania News, sport a",stennant@examiner.com.au,Simon,Tennant,,"7248,7277,7255,7249,7290,7264,7267,7261,7212,7268,7262,7259,7253,7265,7260,7254,7257,7250,7263,7258,7252,3960"
+478,Brisbane Times,scoop@brisbanetimes.com.au,,,,"4173,4113,4152,4179,4121,4153,4157,4174,4156,4170,4178,4122,4154,4123,4155,4172,4025"
+479,Circular Head Chronicle,chc@printdomain.com.au,,,,"7307,7256,7310,7331,7322,7316,7275,7315,7305,7321,7325,7320,7330"
+480,The Advocate,news@theadvocate.com.au,,,,"7316,7307,7256,7321,7331,7322,7275,7315,7305,7310,7325,7320,7330"
+481,Brisbane Times,scoop@brisbanetimes.com.au,,,,"4053,4010,4000,4030,4060,4066,4061,4005,4051,4006,4064,4059,4065"
+482,The Bulletin,mirror@capnews.com.au,,,,"4738,4702,4704,4706,4805,4739,4741,4743,4707,4820,4740,4742,4744,4710,4714,4723,4728,4745,4711,4721,4724,4699,4746,4753,4756,4804,4700,4751,4754,4757,4737,4701,4703,4705"
+483,Whitsunday Times,editor@whitsundaytimes.com.au,,,,"4744,4710,4714,4723,4728,4700,4751,4754,4742,4699,4746,4753,4756,4804,4738,4702,4724,4757,4737,4701,4703,4705,4707,4820,4740,4706,4805,4739,4741,4743,4745,4711,4721,4704"
+484,Central Queensland News,news@cqnews.com.au,,,,"4753,4756,4804,4820,4740,4742,4744,4699,4739,4741,4743,4745,4700,4702,4704,4706,4746,4701,4703,4705,4707,4751,4721,4724,4737,4710,4714,4723,4728,4738,4711,4754,4757,4805"
+485,Surf Coast Times,web@surfcoasttimes.com.au,,,,"3328,3221,3260,3233,3334,3250,3329,3222,3266,3235,3342,3228,3239,3223,3321,3236,3351,3230,3240,3224,3322,3251,3330,3241,3225,3324,3216,3254,3331,3242,3226,3237,3352,3231,3332,3243,3227,3238,3360,3232,3333,3249"
+486,Colac Herald,news@colacherald.com,,,,"3235,3342,3251,3330,3241,3225,3324,3216,3254,3331,3224,3322,3237,3352,3231,3332,3243,3227,3238,3360,3232,3242,3226,3328,3221,3260,3233,3334,3250,3329,3222,3266,3333,3249,3228,3239,3223,3321,3236,3351,3230,3240"
+487,Maroon Leader,maroondah@leadernewspapers.com.au,,,,"3134,3133,3136,3135,3153,3151,3132,3131,3130"
+488,Manningham Leader,manningham@leadernewspapers.com.au,,,,"3153,3151,3136,3131,3130,3133,3132,3135,3134"
+489,The Weekly Review,editorial@theweeklyreview.com.au,Eileen,Berry,,"3132,3131,3135,3134,3133,3151,3136,3130,3153"
+490,Moreton Quest News,editorial@pineriverspress.com.au,,,,"4502,4037,4306,4521,4311,4346,4503,4342,4500,4520,4054,4312,4053,4055,4313,4501,4035"
+491,Central Coast News Local,editor@expressadvocate.com.au,,,,"2262,2263,2250,2258,2259,2260,2261"
+492,South East Leader,frankston@leadernewspapers.com.au,,,,"3911,3930,3931,3977,3198,3200,3199,3201,3910"
+493,Mornington Peninsula News,keith@mpnews.com.au,Keith,Platt,,"3199,3198,3201,3200,3911,3910,3977,3931,3930"
+494,The Monara Post,editor@monaropost.com.au,,,,"2623,2536,2640,2620,2622,2624,2537,2642,2621,2653,2625,2545,2649,2652,2720,2626,2546,2650,2551,2722,2627,2548,2550,2580,2729,2628,2549,2632,2611,2730,2629,2631,2633,2619,3707,2630"
+495,Bay Post Moruya,kerrie.oconnor@fairfaxmedia.com.au,Kerrie,O'Connor,,"2611,2730,2629,2631,2633,2619,3707,2630,2632,2640,2620,2622,2624,2537,2642,2621,2623,2536,2545,2649,2652,2720,2626,2546,2650,2653,2625,2627,2548,2550,2580,2729,2628,2549,2551,2722"
+496,Bega District News,ben.smyth@fairfaxmedia.com.au,Ben,Smyth,,"2548,2550,2580,2729,2628,2549,2551,2722,2627,2629,2631,2633,2619,3707,2630,2632,2611,2730,2622,2624,2537,2642,2621,2623,2536,2640,2620,2652,2720,2626,2546,2650,2653,2625,2545,2649"
+497,Gladstone Observer,newsroom@gladstoneobserver.com.au,,,,"4695,4746,4727,4605,4420,4678,4650,4717,4697,4719,4709,4721,4731,4610,4454,4725,4472,4418,4676,4627,4715,4724,4735,4726,4821,4728,4606,4427,4680,4670,4612,4673,4625,4712,4722,4732,4611,4470,4415,4478,4419,4677,4630,4716,4718,4702,4720,4730,4608,4428,4694,4671,4613,4674,4626,4713,4723,4733"
+498,Central Telegraph,newsroom@centraltelegraph.com.au,,,,"4627,4678,4715,4724,4735,4726,4821,4728,4713,4723,4733,4472,4418,4605,4712,4722,4732,4470,4415,4478,4419,4606,4731,4454,4612,4673,4625,4676,4730,4428,4611,4671,4613,4674,4626,4677,4427,4610,4670,4695,4718,4702,4720,4608,4650,4694,4717,4697,4719,4709,4721,4630,4680,4716,4725,4746,4727,4420"
+499,News Mail,chiefofstaff@news-mail.com.au,Liz,Carson,,"4725,4746,4727,4427,4610,4670,4695,4735,4726,4821,4728,4428,4611,4671,4613,4478,4419,4606,4630,4680,4716,4472,4418,4605,4420,4608,4650,4694,4717,4697,4674,4626,4677,4713,4723,4732,4673,4625,4676,4627,4678,4715,4724,4733,4719,4709,4721,4730,4454,4612,4718,4702,4720,4712,4722,4731,4470,4415"
+500,Albert and Logan News online,editorial@albertlogannews.com.au,,,,"4133,4287,4131,4285,4280,4211,4275,4208,4130,4207,4129,4205,4128,4272,4125,4271,4124,4270"
+501,South Coast Register,editor.scregister@fairfaxmedia.com.au,John,Hanscombe,,"2534,2540,2537,2622,2533,2539,2536,2577,2541,2538,2535"
+502,Kiama Independent,kerrielyn.clark@fairfaxmedia.com.au,Kerrielyn,Clark,,"2540,2537,2622,2533,2539,2536,2577,2541,2538,2535,2534"
+503,Kangaroo Valley Voice,TheVoice@kangaroovalley.nsw.au,,,,"2537,2622,2533,2539,2536,2577,2541,2538,2535,2534,2540"
+504,Fremantle Herald,news@fremantleherald.com,Andrew,Smith,,"6057,6056,6108,6070,6058,6055,6107,6076,6110,6109"
+505,Community News,mkr@communitynews.com.au,,,,"6107,6076,6057,6109,6108,6056,6055,6070,6058,6110"
+506,Townsville Bulletin,edsec@townsvillebulletin.com.au ,,,,"4816,4813,4819,4818,4815,4812,4811,4817,4814,4850,4810"
+507,Guardian Messenger,emma.grahame@news.com.au,Emma,Grahame,,"5039,5031,5021,5025,5020,5024,5019,5038,5009,5950,5007,5045,5023,5044,5037,5043,5033,5040,5032,5022"
+508,Messenger,chris.day@news.com.au,Chris,Day,,"5037,5007,5045,5023,5032,5044,5022,5043,5033,5040,5020,5039,5031,5021,5025,5950,5024,5019,5038,5009"
+509,Cranbourne News,editor@starnewsgroup.com.au,,,,"3782,3159,3809,3978,3160,3767,3156,3807,3789,3155,3158,3808,3810,3154,3805,3787,3153,3804,3806,3788,3791,3785,3765,3781,3783,3786,3139"
+510,Berwick Leader,berwick@leadernewspapers.com.au,Dimity,Barber,,"3767,3782,3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160"
+511,Lilydale & Yarra Valley Leader,lilydale@leadernewspapers.com.au,Elaine,Phelan,,"3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160,3767,3782"
+512,Penrith City Gazette,hreece@fairfaxmedia.com.au,Heloise,Reece,,"2750,2749,2753,2751,2745,2555,2760,2748,2747"
+513,Caboolture News,cabnewsed@scnews.com.au,,,,"4503,4511,4505,4504,4507,4506,4510,4509,4508"
+514,Bribie Weekly,cabnewsed@scnews.com.au,,,,"4509,4508,4507,4511,4510,4504,4503,4506,4505"
+515,The Examiner,stennant@examiner.com.au,Simon,Tennant,,"7304,7290,7250,7321,7011,7467,7017,7469,7305,7173,7030,7212,7185,7214,7187,7025,7470,7306,7174,7119,7176,7139,7178,7171,7026,7210,7183,7300,7270,7302,7276,7179,7172,7027,7211,7184,7213,7186,7215,7190,7180,7291,7258,7466,7012,7468,7216,7209,7182,7292,7264,7301,7275,7303,7277,7249,7310,7175,7120,7177,7140"
+516,Ther Mercury,mercuryedletter@themercury.com.au,,,,"7177,7187,7179,7209,7250,7292,7321,7301,7467,7303,7469,7305,7030,7175,7185,7214,7276,7216,7290,7306,7119,7011,7139,7017,7171,7026,7173,7183,7212,7270,7302,7468,7304,7470,7027,7174,7184,7176,7186,7178,7190,7180,7210,7258,7300,7466,7012,7140,7025,7172,7182,7211,7264,7213,7275,7215,7277,7249,7291,7310,7120"
+517,Blue Mountains Gazette,damien.madigan@fairfaxmedia.com.au,Damien,Madigan,,"2580,2845,2786,2780,2774,2849,2795,2784,2778,2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777"
+518,Hawkesbury Gazette,mlawrence@fairfaxmedia.com.au,Matt,Lawrence,,"2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777,2580,2845,2786,2780,2774,2849,2795,2784,2778"
+519,Northern Star,opinions@northernstar.com.au,,,,"2471,2475,2453,2474,2469,2460,2466,2480,2465,2370,2473,2477,2472,2476,2478,2464,2470,2463"
+520,Daily Examiner,newsroom@dailyexaminer.com.au,David,Moase,,"2475,2453,2474,2370,2473,2466,2480,2465,2478,2477,2472,2476,2471,2464,2470,2463,2469,2460"
+521,Redcliffe and Bayside Herald,editorial@redcliffeherald.com.au ,,,,"4032,4020,4017,4019,4035,4509,4036,4503,4018,4022,4021,4053,4034"
+522,Auburn Review,review@torchpublishing.com.au,,,,"2128,2160,2142,2046,2161,2145,2140,2127,2150,2141,2117,2137,2116,2144,2138,2143,2047,2162,2135,2115"
+523,Ciao Magazine,info@ciaomagazine.com.au,,,,"2047,2162,2135,2115,2143,2160,2142,2046,2161,2128,2145,2140,2127,2150,2141,2137,2116,2144,2138,2117"
+524,Burwood Scene,editor@burwoodscene.com.au,,,,"2162,2135,2115,2143,2047,2142,2046,2161,2128,2160,2140,2127,2150,2141,2145,2116,2144,2138,2117,2137"
+525,Central Coast Express Advocate,editor@expressadvocate.com.au ,Mark ,Nolan,,"2251,2256,2257,2260,2775,2083,2250"
+526,Peninsula News,editor@peninsulanews.asn.au,,,,"2260,2775,2083,2250,2251,2256,2257"
+527,NT news,news@ntnews.com.au ,,,,"829,828,832,830,800,810,812,820"
+528,Adelaide Now Messenger,tiser@adv.newsltd.com.au,,,,"5063,5150,5086,5064,5081,5089,5076,5070,5090,5068,5074,5067,5088,5075,5087,5065,5073,5066,5072"
+529,Community News,SouthernGazette@communitynews.com.au,,,,"6105,6102,6101,6107,6104,6100,6106,6103,6152,6151"
