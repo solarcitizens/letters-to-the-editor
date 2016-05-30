@@ -11,7 +11,9 @@ let makeLetter = () => {
     'state': 'NY',
     'postCode': '10022',
     'optedIn': true,
-    'publications': ['New York Times', 'New York Post']
+    'publications': ['New York Times', 'New York Post'],
+    'subject': 'Bake America great again',
+    'body': 'No comments here.'
   }
 };
 

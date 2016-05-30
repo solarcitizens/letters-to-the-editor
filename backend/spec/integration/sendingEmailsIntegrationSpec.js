@@ -54,14 +54,28 @@ describe('sending emails', () => {
         .catch(done);
     });
 
-    xit('should take a signature and append it to the end of the body', (done) => {
+    it('should use the body sent in params', (done) => {
       let sendThis = integrationTestHelpers.makeLetter();
-      sendThis.signature = 'ran out of ideas.';
+      sendThis.body = 'ran out of ideas.';
 
       emailService.sendEmail(sendThis)
         .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match((params) => {
-              return params.text.indexOf('ran out of ideas.') > -1;
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+              text: 'ran out of ideas.'
+            }));
+        })
+        .then(done)
+        .catch(done);
+    });
+
+    it('should use the subject sent in params', (done) => {
+      let sendThis = integrationTestHelpers.makeLetter();
+      sendThis.subject = 'we care about clean energy';
+
+      emailService.sendEmail(sendThis)
+        .then(() => {
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+              subject: 'we care about clean energy'
             }));
         })
         .then(done)

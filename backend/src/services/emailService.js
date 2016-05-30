@@ -24,7 +24,7 @@ let sendEmail = (params) => {
   let mailOptions = {
     from: `${fullName} <email@${config.get('email.domain')}>`,
     to: 'rdoherty@thoughtworks.com',
-    subject: 'Hello ✔',
+    subject: params.subject,
     text: params.body
   };
 
