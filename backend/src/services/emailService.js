@@ -3,11 +3,14 @@
 const config = require('config');
 const nodemailer = require('nodemailer');
 const mailgunTransport = require('nodemailer-mailgun-transport');
+const Q = require('q');
 
 let sendEmail = () => {
   if (!config.get('email.sendEmails')) {
-    return;
+    return Q.resolve();
   }
+
+  let deferred = Q.defer();
 
   let mailgunAuth = {
     auth: {
@@ -27,9 +30,12 @@ let sendEmail = () => {
   transport.sendMail(mailOptions, (error, info) => {
     if (error) {
       return console.log(error);
+      deferred.reject('CHANGE THIS FOR A BETTER MESSAGE');
     }
-    console.log('Message sent: ' + info.response);
+    deferred.resolve(`Message sent ${info.response}`);
   });
+
+  return deferred.promise;
 };
 
 module.exports = {

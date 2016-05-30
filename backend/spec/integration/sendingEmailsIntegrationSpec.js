@@ -4,6 +4,8 @@ const emailService = require('../../src/services/emailService');
 const integrationTestHelpers = require('./integrationTestHelpers');
 const sinon = require('sinon');
 const config = require('config');
+const chai = require('chai');
+const expect = chai.expect;
 
 const nodemailer = require('nodemailer');
 
@@ -30,16 +32,23 @@ describe('sending emails', () => {
   });
 
   describe('happy', () => {
-    it('sends an email to the editor', () => {
-      console.log = () => {};
-      emailService.sendEmail(integrationTestHelpers.makeLetter());
-      sinon.assert.calledOnce(sendMailSpy);
+    it('sends an email to the editor', (done) => {
+      emailService.sendEmail(integrationTestHelpers.makeLetter())
+        .then(() => {
+            expect(sendMailSpy).to.have.been.called;
+        })
+        .then(done)
+        .catch(done);
     });
 
-    it('does not send an email if disabled in configuration', () => {
+    it('does not send an email if disabled in configuration', (done) => {
       configStub.withArgs('email.sendEmails').returns(false);
-      emailService.sendEmail(integrationTestHelpers.makeLetter());
-      sinon.assert.notCalled(sendMailSpy);
+      emailService.sendEmail(integrationTestHelpers.makeLetter())
+        .then(() => {
+            expect(sendMailSpy).not.to.have.been.called;
+        })
+        .then(done)
+        .catch(done);
     });
   });
 
