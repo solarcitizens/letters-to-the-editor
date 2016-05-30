@@ -10,7 +10,8 @@ let makeLetter = () => {
       'street': '725 5th Ave Trump Tower',
       'city': 'New York',
       'state': 'NY',
-      'postCode': '10022'
+      'postCode': '10022',
+      'optedIn': true
     },
     'publications': ['New York Times', 'New York Post']
   }

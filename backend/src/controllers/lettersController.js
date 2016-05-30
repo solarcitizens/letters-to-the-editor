@@ -13,6 +13,7 @@ function parseLetter(req) {
       city: req.body.personalDetails.city,
       state: req.body.personalDetails.state,
       postCode: req.body.personalDetails.postCode,
+      optedIn: req.body.personalDetails.optedIn,
       publications: req.body.publications
   };
 }
