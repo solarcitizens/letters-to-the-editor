@@ -89,7 +89,7 @@ describe('sending emails', () => {
       emailService.sendEmail(letter)
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              replyTo: 'personThatSentTheLetter@gmail.com'
+              'h:Reply-To': 'personThatSentTheLetter@gmail.com'
             }));
         })
         .then(done)

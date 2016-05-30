@@ -26,7 +26,7 @@ let sendEmail = (params) => {
     to: 'rdoherty@thoughtworks.com',
     subject: params.subject,
     text: params.body,
-    replyTo: params.email
+    'h:Reply-To': params.email
   };
 
   transport.sendMail(mailOptions, (error, info) => {
