@@ -2,24 +2,10 @@
 
 const letterService = require('../services/letterService');
 const emailService = require('../services/emailService');
-
-function parseLetter(req) {
-  return {
-      firstName: req.body.firstName,
-      lastName: req.body.lastName,
-      email: req.body.email,
-      phone: req.body.phone,
-      street: req.body.street,
-      city: req.body.city,
-      state: req.body.state,
-      postCode: req.body.postCode,
-      optedIn: req.body.optedIn,
-      publications: req.body.publications
-  };
-}
+const transformLetter = require('../parsers/letterTransformer').transformLetter;
 
 function send(req, res) {
-  let newLetter = parseLetter(req);
+  let newLetter = transformLetter(req.body);
 
   return letterService.createLetter(newLetter)
     .then(emailService.sendEmail)
