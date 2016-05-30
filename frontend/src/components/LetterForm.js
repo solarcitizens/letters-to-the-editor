@@ -3,6 +3,7 @@ import PersonalDetailsFields from './PersonalDetailsFields';
 import ComposeLetterFields from './ComposeLetterFields';
 import SelectPublicationsFields from './SelectPublicationsFields';
 import letterService from '../services/letterService';
+import configService from '../services/configService';
 
 class LetterForm extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class LetterForm extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
+    configService.getConfig().then(config => (this.config = config));
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
@@ -20,7 +22,7 @@ class LetterForm extends React.Component {
   handleSubmit(e) {
     const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
 
-    letterService.sendLetter(letter)
+    letterService.sendLetter(letter, this.config.confirmationPageUrl)
       .then(() => {
         this.setState({ fieldValues: this.initialFieldValues });
       });
