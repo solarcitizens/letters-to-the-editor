@@ -5,12 +5,10 @@ const nodemailer = require('nodemailer');
 const mailgunTransport = require('nodemailer-mailgun-transport');
 const Q = require('q');
 
-let sendEmail = () => {
+let sendEmail = (params) => {
   if (!config.get('email.sendEmails')) {
     return Q.resolve();
   }
-
-  let deferred = Q.defer();
 
   let mailgunAuth = {
     auth: {
@@ -19,12 +17,18 @@ let sendEmail = () => {
     }
   };
 
+  let fullName = `${params.personalDetails.firstName} ${params.personalDetails.lastName}`
+                    || 'Solar Citizens';
+  let signature = '' || `Regards, \nSolar Citizens`;
+
+
+  let deferred = Q.defer();
   let transport = nodemailer.createTransport(mailgunTransport(mailgunAuth));
   let mailOptions = {
-    from: 'Solar Citizens <email@mg.solarcitizens.org.au>',
+    from: `${fullName} <email@${config.get('email.domain')}>`,
     to: 'rdoherty@thoughtworks.com',
     subject: 'Hello ✔',
-    text: 'Hello world'
+    text: 'Hello world \n${signature}'
   };
 
   transport.sendMail(mailOptions, (error, info) => {

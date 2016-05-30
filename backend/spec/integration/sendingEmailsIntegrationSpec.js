@@ -6,6 +6,7 @@ const sinon = require('sinon');
 const config = require('config');
 const chai = require('chai');
 const expect = chai.expect;
+chai.use(require('sinon-chai'));
 
 const nodemailer = require('nodemailer');
 
@@ -17,6 +18,7 @@ describe('sending emails', () => {
   beforeEach(() => {
     configStub = sinon.stub(config, 'get');
     configStub.withArgs('email.sendEmails').returns(true);
+    configStub.withArgs('email.domain').returns('done.on.friday.com');
   });
 
   afterEach(() => {
@@ -36,6 +38,28 @@ describe('sending emails', () => {
       emailService.sendEmail(integrationTestHelpers.makeLetter())
         .then(() => {
             expect(sendMailSpy).to.have.been.called;
+        })
+        .then(done)
+        .catch(done);
+    });
+
+    it('should take the sender name and add it to the from field', (done) => {
+      emailService.sendEmail(integrationTestHelpers.makeLetter())
+        .then(() => {
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+              from: 'Donald Trump <email@done.on.friday.com>'
+            }));
+        })
+        .then(done)
+        .catch(done);
+    });
+
+    xit('should take a signature and append it to the end of the body', (done) => {
+      emailService.sendEmail(integrationTestHelpers.makeLetter())
+        .then(() => {
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+              text: 'Hello world \nRegards, \nSolar Citizens'
+            }));
         })
         .then(done)
         .catch(done);
