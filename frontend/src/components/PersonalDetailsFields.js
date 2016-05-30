@@ -7,7 +7,7 @@ const PersonalDetailsFields = props =>
     <legend>
       <h5>Enter your details</h5>
     </legend>
-    <section class="fields">
+    <section className="fields">
       <Field id="firstName" onChange={props.onChange('firstName')}>First Name</Field>
       <Field id="lastName" onChange={props.onChange('lastName')}>Last Name</Field>
       <Field id="email" type="email" onChange={props.onChange('email')}>Email</Field>
@@ -19,7 +19,7 @@ const PersonalDetailsFields = props =>
     </section>
     <input defaultChecked="true" id="optedIn" type="checkbox" onChange={props.onChange('optedIn')}/>
     <label className="checkbox" htmlFor="optedIn">I want to receive updates and news from Solar Citizens.</label>
-    </fieldset>
+  </fieldset>
 );
 
 PersonalDetailsFields.propTypes = {

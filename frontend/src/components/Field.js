@@ -6,7 +6,7 @@ const Field = ({ children, id, onChange, optional, type = 'text' }) => {
   switch (type) {
   case 'textarea' :
     input = (
-      <textarea className="form-control" id={id} type={type} onChange={onChange}/>
+      <textarea className="form-control" id={id} required={!optional} type={type} onChange={onChange}/>
       );
     break;
   default:
