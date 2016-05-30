@@ -9,8 +9,33 @@ fieldset {
   border: none;
 }
 
-input {
-  @include fill-parent();
+.form-group.row.field-entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.compose-letter-fields {
+  background: #EEE;
+  padding: 10px;
+  border-radius: 3px
+}
+
+label {
+  flex-grow: 1;
+  padding-right: 0.5em;
+  min-width: 80px;
+}
+
+input, textarea {
+  flex-grow: 12;
+  min-height: 40px;
+}
+
+textarea#body {
+  min-height: 300px;
 }
 
 legend {

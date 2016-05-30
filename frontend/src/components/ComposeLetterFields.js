@@ -14,7 +14,7 @@ const ComposeLetterFields = props =>
         <li>Try to be brief, stick to your message and be cordial.</li>
       </ul>
     </aside>
-    <section className="fields">
+    <section className="compose-letter-fields">
       <Field id="subject" placeholder="enter a subject" onChange={props.onChange('subject')}/>
       <Field id="body" placeholder="compose your letter" type="textarea" onChange={props.onChange('body')}/>
     </section>
