@@ -33,7 +33,7 @@ class LetterForm extends React.Component {
         ? !this.state.fieldValues[fieldName]
         : event.target.value;
 
-      this.setState(state => { state.fieldValues[fieldName] = newValue; });
+      this.setState(state => ({ fieldValues: Object.assign({}, state.fieldValues, { [fieldName]: newValue }) }));
     };
   }
 
