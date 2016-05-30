@@ -3,7 +3,7 @@
 const integrationTestHelpers = require('./integrationTestHelpers');
 const app = require('../../src/app.js');
 
-describe('Register', () => {
+describe('Letters', () => {
   let agent;
   let request = require('supertest-as-promised');
 
