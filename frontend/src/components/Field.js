@@ -1,26 +1,22 @@
 import React, { PropTypes } from 'react';
 
-const Field = ({ children, id, onChange, optional, type = 'text' }) => {
-  let input;
-
-  switch (type) {
-  case 'textarea' :
-    input = (
-      <textarea className="form-control" id={id} required={!optional} type={type} onChange={onChange}/>
-      );
-    break;
-  default:
-    input = (
-      <input className="form-control" id={id} required={!optional} type={type} onChange={onChange}/>
-      );
-    break;
-  }
+const Field = ({ children, id, onChange, optional, placeholder, type = 'text' }) => {
+  let input = React.createElement(type === 'textarea' ? 'textarea' : 'input', {
+    className: 'form-control',
+    id,
+    placeholder,
+    onChange,
+    optional,
+    type,
+  });
 
   return (
     <div className="form-group row">
-      <label className="col-sm-2 form-control-label" htmlFor={id}>
+      {children && (
+        <label className="col-sm-2 form-control-label" htmlFor={id}>
           {children}
-      </label>
+        </label>
+      )}
       <div className="col-sm-4">
       {input}
       </div>
@@ -29,10 +25,11 @@ const Field = ({ children, id, onChange, optional, type = 'text' }) => {
 };
 
 Field.propTypes = {
-  children: PropTypes.any.isRequired,
   id: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
+  children: PropTypes.any,
   optional: PropTypes.bool,
+  placeholder: PropTypes.string,
   type: PropTypes.string,
 };
 
