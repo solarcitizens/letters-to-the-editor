@@ -30,6 +30,7 @@ let sendEmail = (params) => {
 
   transport.sendMail(mailOptions, (error, info) => {
     if (error) {
+      console.log(error);
       deferred.reject(error);
     } else {
       deferred.resolve(`Message sent ${info.response}`);
