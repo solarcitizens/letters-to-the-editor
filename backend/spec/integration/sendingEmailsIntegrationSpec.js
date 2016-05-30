@@ -84,12 +84,12 @@ describe('sending emails', () => {
 
     it('should set the reply-to header to the senders email address', (done) => {
       let letter = testHelpers.makeLetter();
-      letter.email = 'someone@candidate.com';
+      letter.email = 'personThatSentTheLetter@gmail.com';
 
       emailService.sendEmail(letter)
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              replyTo: 'someone@candidate.com'
+              replyTo: 'personThatSentTheLetter@gmail.com'
             }));
         })
         .then(done)
