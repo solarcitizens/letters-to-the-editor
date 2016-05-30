@@ -1,6 +1,6 @@
 'use strict';
 
-const integrationTestHelpers = require('./integrationTestHelpers');
+const testHelpers = require('../testHelpers');
 const app = require('../../src/app.js');
 
 describe('LetsEncrypt ACME verification', () => {

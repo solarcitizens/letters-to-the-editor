@@ -1,6 +1,6 @@
 'use strict';
 
-const integrationTestHelpers = require('./integrationTestHelpers');
+const testHelpers = require('../testHelpers');
 const app = require('../../src/app.js');
 
 describe('Letters', () => {
@@ -16,12 +16,12 @@ describe('Letters', () => {
       .post('/letters')
       .set('Content-Type', 'application/json')
       .set('Accept', 'application/json')
-      .send(integrationTestHelpers.makeLetter())
+      .send(testHelpers.makeLetter())
       .expect(201);
   });
 
   it('should safely create a letter with dodgy information', () => {
-    let dodgyLetter = integrationTestHelpers.makeLetter();
+    let dodgyLetter = testHelpers.makeLetter();
     dodgyLetter.address = '\'); DROP TABLE LETTERS';
 
     return agent
@@ -38,7 +38,7 @@ describe('Letters', () => {
       .post('/letters')
       .set('Content-Type', 'application/json')
       .set('Accept', 'application/json')
-      .send(integrationTestHelpers.makeInvalidLetter())
+      .send(testHelpers.makeInvalidLetter())
       .expect(400);
   });
 });

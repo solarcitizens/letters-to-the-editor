@@ -1,7 +1,7 @@
 'use strict';
 
 const emailService = require('../../src/services/emailService');
-const integrationTestHelpers = require('./integrationTestHelpers');
+const testHelpers = require('../testHelpers');
 const sinon = require('sinon');
 const config = require('config');
 const chai = require('chai');
@@ -35,7 +35,7 @@ describe('sending emails', () => {
     });
 
     it('sends an email to the editor', (done) => {
-      emailService.sendEmail(integrationTestHelpers.makeLetter())
+      emailService.sendEmail(testHelpers.makeLetter())
         .then(() => {
             expect(sendMailSpy).to.have.been.called;
         })
@@ -44,7 +44,7 @@ describe('sending emails', () => {
     });
 
     it('should take the sender name and add it to the from field', (done) => {
-      emailService.sendEmail(integrationTestHelpers.makeLetter())
+      emailService.sendEmail(testHelpers.makeLetter())
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
               from: 'Donald Trump <email@done.on.friday.com>'
@@ -55,7 +55,7 @@ describe('sending emails', () => {
     });
 
     it('should use the body sent in params', (done) => {
-      let sendThis = integrationTestHelpers.makeLetter();
+      let sendThis = testHelpers.makeLetter();
       sendThis.body = 'ran out of ideas.';
 
       emailService.sendEmail(sendThis)
@@ -69,7 +69,7 @@ describe('sending emails', () => {
     });
 
     it('should use the subject sent in params', (done) => {
-      let sendThis = integrationTestHelpers.makeLetter();
+      let sendThis = testHelpers.makeLetter();
       sendThis.subject = 'we care about clean energy';
 
       emailService.sendEmail(sendThis)
@@ -84,7 +84,7 @@ describe('sending emails', () => {
 
     it('does not send an email if disabled in configuration', (done) => {
       configStub.withArgs('email.sendEmails').returns(false);
-      emailService.sendEmail(integrationTestHelpers.makeLetter())
+      emailService.sendEmail(testHelpers.makeLetter())
         .then(() => {
             expect(sendMailSpy).not.to.have.been.called;
         })
@@ -101,7 +101,7 @@ describe('sending emails', () => {
     });
 
     it('throws an error when something unexpected happens', (done) => {
-      emailService.sendEmail(integrationTestHelpers.makeLetter())
+      emailService.sendEmail(testHelpers.makeLetter())
         .then(() => {
             done.fail('sendEmail should not have succeded. It should have failed.');
         })
