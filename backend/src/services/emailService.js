@@ -25,7 +25,8 @@ let sendEmail = (params) => {
     from: `${fullName} <email@${config.get('email.domain')}>`,
     to: 'rdoherty@thoughtworks.com',
     subject: params.subject,
-    text: params.body
+    text: params.body,
+    replyTo: params.email
   };
 
   transport.sendMail(mailOptions, (error, info) => {

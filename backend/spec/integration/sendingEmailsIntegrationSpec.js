@@ -82,6 +82,20 @@ describe('sending emails', () => {
         .catch(done);
     });
 
+    it('should set the reply-to header to the senders email address', (done) => {
+      let letter = testHelpers.makeLetter();
+      letter.email = 'bernie.sanders@better.candidate.com';
+
+      emailService.sendEmail(letter)
+        .then(() => {
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+              replyTo: 'bernie.sanders@better.candidate.com'
+            }));
+        })
+        .then(done)
+        .catch(done);
+    });
+
     it('does not send an email if disabled in configuration', (done) => {
       configStub.withArgs('email.sendEmails').returns(false);
       emailService.sendEmail(testHelpers.makeLetter())
