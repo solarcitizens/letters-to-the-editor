@@ -6,7 +6,7 @@ const fetchPublicationsFor = postCode => (
     type: 'GET',
     url: `/publications/${postCode}`,
   }))
-    .catch(() => { throw new Error('OH NO PIGEONS'); })
+    .catch(() => { throw new Error(`Unable to retrieve publications for postCode ${postCode}`); })
     .then(data =>
       data.publications
     )
