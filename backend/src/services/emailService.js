@@ -17,8 +17,7 @@ let sendEmail = (params) => {
     }
   };
 
-  let fullName = `${params.personalDetails.firstName} ${params.personalDetails.lastName}`;
-  let signature = params.signature || `Regards, \nSolar Citizens`;
+  let fullName = `${params.firstName} ${params.lastName}`;
 
   let deferred = Q.defer();
   let transport = nodemailer.createTransport(mailgunTransport(mailgunAuth));
@@ -26,7 +25,7 @@ let sendEmail = (params) => {
     from: `${fullName} <email@${config.get('email.domain')}>`,
     to: 'rdoherty@thoughtworks.com',
     subject: 'Hello ✔',
-    text: `Hello world \n${signature}`
+    text: params.body
   };
 
   transport.sendMail(mailOptions, (error, info) => {

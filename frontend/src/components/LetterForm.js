@@ -18,7 +18,7 @@ class LetterForm extends React.Component {
   }
 
   handleSubmit(e) {
-    const letter = { personalDetails: this.state.fieldValues, publications: this.state.selectedPublications };
+    const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
 
     letterService.sendLetter(letter)
       .then(() => {

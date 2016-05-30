@@ -5,15 +5,15 @@ const emailService = require('../services/emailService');
 
 function parseLetter(req) {
   return {
-      firstName: req.body.personalDetails.firstName,
-      lastName: req.body.personalDetails.lastName,
-      email: req.body.personalDetails.email,
-      phone: req.body.personalDetails.phone,
-      street: req.body.personalDetails.street,
-      city: req.body.personalDetails.city,
-      state: req.body.personalDetails.state,
-      postCode: req.body.personalDetails.postCode,
-      optedIn: req.body.personalDetails.optedIn,
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      email: req.body.email,
+      phone: req.body.phone,
+      street: req.body.street,
+      city: req.body.city,
+      state: req.body.state,
+      postCode: req.body.postCode,
+      optedIn: req.body.optedIn,
       publications: req.body.publications
   };
 }
