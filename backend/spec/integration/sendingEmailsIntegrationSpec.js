@@ -128,7 +128,7 @@ describe('sending emails', () => {
     it('throws an error when something unexpected happens', (done) => {
       emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
         .then(() => {
-            done.fail('sendEmail should not have succeded. It should have failed.');
+            done.fail('sendToEditor should not have succeded. It should have failed.');
         })
         .catch((error) => {
             expect(error).to.not.be.null;
