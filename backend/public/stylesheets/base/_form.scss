@@ -116,8 +116,9 @@ legend {
 }
 
 .errors {
-  border: 3px solid $red;
-  color: red;
+  border: 1px solid $red;
+  color: $darker-gray;
   list-style-type: none;
   padding: 10px 15px;
+  background-color: rgba(204, 71, 86, 0.17);
 }
