@@ -45,11 +45,16 @@ label {
   padding-right: 0.5em;
   min-width: 80px;
   flex: 1;
+  white-space: nowrap;
 }
 
 input, textarea {
   flex-grow: 12;
   min-height: 40px;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $medium-gray;
+  padding: 0.5em;
 }
 
 textarea#body {
@@ -82,11 +87,6 @@ legend {
   @include outer-container(60%);
   background-color: #F9F9F9;
   @include pad(3em);
-}
-
-.form {
-  @include span-columns(10);
-  @include shift(1);
 }
 
 .fields {
