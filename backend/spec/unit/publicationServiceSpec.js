@@ -8,8 +8,7 @@ describe('publication service', () => {
     const expectedPublications = [
           {
              'title': 'New York Post',
-             'email': 'manager.cessadvertiser@ruralpress.com',
-             'suburb': 'Cessnock'
+             'email': 'manager.cessadvertiser@ruralpress.com'
            }];
 
     expect(publicationService.findByNameAndPostCode('10022', ['New York Post', 'I do not exist'])).to.deep.equal(expectedPublications);
