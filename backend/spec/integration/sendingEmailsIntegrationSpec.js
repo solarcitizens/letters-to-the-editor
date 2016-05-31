@@ -34,8 +34,8 @@ describe('sending emails', () => {
       sinon.stub(nodemailer, 'createTransport').returns(transportStub);
     });
 
-    it('sends an email to the editor', (done) => {
-      emailService.sendEmail(testHelpers.makeLetter())
+    it('sends an email', (done) => {
+      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
         .then(() => {
             expect(sendMailSpy).to.have.been.called;
         })
@@ -43,11 +43,22 @@ describe('sending emails', () => {
         .catch(done);
     });
 
-    it('should take the sender name and add it to the from field', (done) => {
-      emailService.sendEmail(testHelpers.makeLetter())
+    it('should address the email to the editors email', (done) => {
+      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              from: 'Donald Trump <email@done.on.friday.com>'
+              to: 'journalist@newspaper.com'
+            }));
+        })
+        .then(done)
+        .catch(done);
+    });
+
+    it('should use the sender name and last name to create the from email', (done) => {
+      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
+        .then(() => {
+            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+              from: 'Donald Trump <donald.trump@done.on.friday.com>'
             }));
         })
         .then(done)
@@ -58,7 +69,7 @@ describe('sending emails', () => {
       let sendThis = testHelpers.makeLetter();
       sendThis.body = 'ran out of ideas.';
 
-      emailService.sendEmail(sendThis)
+      emailService.sendToEditor(sendThis, {email: 'journalist@newspaper.com'})
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
               text: 'ran out of ideas.'
@@ -72,7 +83,7 @@ describe('sending emails', () => {
       let sendThis = testHelpers.makeLetter();
       sendThis.subject = 'we care about clean energy';
 
-      emailService.sendEmail(sendThis)
+      emailService.sendToEditor(sendThis, {email: 'journalist@newspaper.com'})
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
               subject: 'we care about clean energy'
@@ -86,7 +97,7 @@ describe('sending emails', () => {
       let letter = testHelpers.makeLetter();
       letter.email = 'personThatSentTheLetter@gmail.com';
 
-      emailService.sendEmail(letter)
+      emailService.sendToEditor(letter, {email: 'journalist@newspaper.com'})
         .then(() => {
             expect(sendMailSpy).to.have.been.calledWith(sinon.match({
               'h:Reply-To': 'personThatSentTheLetter@gmail.com'
@@ -98,7 +109,7 @@ describe('sending emails', () => {
 
     it('does not send an email if disabled in configuration', (done) => {
       configStub.withArgs('email.sendEmails').returns(false);
-      emailService.sendEmail(testHelpers.makeLetter())
+      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
         .then(() => {
             expect(sendMailSpy).not.to.have.been.called;
         })
@@ -115,7 +126,7 @@ describe('sending emails', () => {
     });
 
     it('throws an error when something unexpected happens', (done) => {
-      emailService.sendEmail(testHelpers.makeLetter())
+      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
         .then(() => {
             done.fail('sendEmail should not have succeded. It should have failed.');
         })

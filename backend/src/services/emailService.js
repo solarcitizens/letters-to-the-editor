@@ -17,17 +17,19 @@ let sendEmail = (params) => {
     }
   };
 
-  let fullName = `${params.firstName} ${params.lastName}`;
-
   let deferred = Q.defer();
   let transport = nodemailer.createTransport(mailgunTransport(mailgunAuth));
+
   let mailOptions = {
-    from: `${fullName} <email@${config.get('email.domain')}>`,
-    to: 'rdoherty@thoughtworks.com',
+    from: params.from,
+    to: params.to,
     subject: params.subject,
-    text: params.body,
-    'h:Reply-To': params.email
+    text: params.body
   };
+
+  if (params.replyTo) {
+    mailOptions['h:Reply-To'] = params.replyTo;
+  }
 
   transport.sendMail(mailOptions, (error, info) => {
     if (error) {
@@ -41,6 +43,29 @@ let sendEmail = (params) => {
   return deferred.promise;
 };
 
+function senderEmail(firstName, lastName) {
+  let fullName = `${firstName} ${lastName}`;
+  let senderEmail = `${firstName.toLowerCase()}.${lastName.toLowerCase()}`;
+
+  return `${fullName} <${senderEmail}@${config.get('email.domain')}>`;
+}
+
+function sendToEditor(letterInfo, editor) {
+  editor = {
+    email: 'rdoherty@thoughtworks.com'
+  };
+
+  let emailParams = {
+    subject: letterInfo.subject,
+    body: letterInfo.body,
+    to: editor.email,
+    from: senderEmail(letterInfo.firstName, letterInfo.lastName),
+    replyTo: letterInfo.email
+  };
+
+  return sendEmail(emailParams);
+}
+
 module.exports = {
-  sendEmail: sendEmail
+  sendToEditor: sendToEditor
 };
