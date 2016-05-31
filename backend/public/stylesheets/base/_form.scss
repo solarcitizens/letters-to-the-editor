@@ -112,7 +112,7 @@ legend {
   border-left: 2em solid transparent;
   border-right: 2em solid transparent;
   border-top: 2em solid $dark-blue;
-  @include shift(1.5);
+  @include shift(1.25 of 11);
   @include media($mobile) {
     border-left: 1em solid transparent;
     border-right: 1em solid transparent;
