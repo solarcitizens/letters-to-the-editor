@@ -51,9 +51,7 @@ function senderEmail(firstName, lastName) {
 }
 
 function sendToEditor(letterInfo, editor) {
-  editor = {
-    email: 'rdoherty@thoughtworks.com'
-  };
+  editor = editor ? editor : {email: 'rdoherty@thoughtworks.com'};
 
   let emailParams = {
     subject: letterInfo.subject,
