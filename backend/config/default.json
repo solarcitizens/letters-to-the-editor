@@ -1,6 +1,6 @@
 {
   "publications": {
-    "file": "publications.csv"
+    "file": "./spec/integration/resources/development.csv"
   },
   "email": {
     "sendEmails": false,

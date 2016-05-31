@@ -1,4 +1,7 @@
 {
+  "publications": {
+    "file": "publications.csv"
+  },
   "email": {
     "sendEmails": true
   }
