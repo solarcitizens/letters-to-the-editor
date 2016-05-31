@@ -9,7 +9,10 @@ fieldset {
   border: none;
 }
 
-
+.address {
+  display: flex;
+  width: 100%;
+}
 .form-group.row.field-entry {
   display: flex;
   align-items: center;
@@ -18,12 +21,12 @@ fieldset {
 
   &.city {
     display: inline-flex;
-    width: 50%;
+    flex: 2;
   }
 
   &.state, &.postCode {
     display: inline-flex;
-    width: 25%;
+    flex: 1;
     label {
       min-width: auto;
       white-space: nowrap;
@@ -41,6 +44,7 @@ fieldset {
 label {
   padding-right: 0.5em;
   min-width: 80px;
+  flex: 1;
 }
 
 input, textarea {
