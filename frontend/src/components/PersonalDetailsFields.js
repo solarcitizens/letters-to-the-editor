@@ -19,10 +19,8 @@ const PersonalDetailsFields = props =>
       <Field id="phone" type="tel" onChange={props.onChange('phone')}>Phone</Field>
       <Field id="email" type="email" onChange={props.onChange('email')}>Email</Field>
     </section>
-    <label className="checkbox" htmlFor="optedIn">
-      <input defaultChecked="true" id="optedIn" type="checkbox" onChange={props.onChange('optedIn')}/>
-      I want to receive updates and news from Solar Citizens.
-    </label>
+    <input defaultChecked="true" id="optedIn" type="checkbox" onChange={props.onChange('optedIn')}/>
+    <label className="checkbox" htmlFor="optedIn">I want to receive updates and news from Solar Citizens.</label>
   </fieldset>
 );
 

@@ -1,10 +1,10 @@
 @import 'bourbon';
 @import 'neat';
-@import 'partials/layout';
 @import 'base/base';
+@import 'base/header';
+@import 'base/form';
 @import 'partials/buttons';
 @import 'partials/lists';
-
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,600italic,900);
 

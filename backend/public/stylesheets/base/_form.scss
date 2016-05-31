@@ -1,9 +1,6 @@
 form {
   @include outer-container(100%);
   @include margin(2em);
-  @include media($mobile) {
-    @include margin(1em);
-  }
 }
 
 fieldset {
@@ -17,9 +14,6 @@ label {
   min-width: 80px;
   flex: 1;
   white-space: nowrap;
-  @include media($mobile) {
-    min-width: 60px;
-  }
 }
 
 input, textarea {
@@ -32,18 +26,10 @@ input, textarea {
   border-width: 1px;
   border-style: solid;
   border-color: $light-gray;
-  @include media($mobile) {
-    font-size: $mobile-font-size;
-    min-height: 25px;
-    flex-grow: 2;
-  }
 }
 
 textarea#body {
     min-height: 300px;
-    @include media($mobile) {
-      min-height: 100px;
-    }
 }
 
 legend {
@@ -53,15 +39,12 @@ legend {
 .address {
   display: flex;
   width: 100%;
-  @include media($mobile) {
-    display: block;
-  }
 }
 .form-group.row.field-entry {
   display: flex;
   align-items: center;
   text-align: right;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
 
   &.city {
     display: inline-flex;
@@ -74,31 +57,19 @@ legend {
     label {
       min-width: auto;
       white-space: nowrap;
-      padding-left: 1em
-    }
-  }
-
-  @include media($mobile) {
-    max-width: $mobile-width;
-    &.city, &.state, &.postCode {
-      display: flex;
-      label{
-        padding-right: 0.5em;
-        padding-left: 0;
-        min-width: 60px;
-      }
+      padding-left: 1em;
     }
   }
 }
 
 .compose-letter-fields {
-  background: $light-gray;
-  padding: 0.5em;
+  background: #EEE;
+  padding: 10px;
   border-radius: 3px
 }
 
 .formContainer {
-  @include outer-container(90%);
+  @include outer-container(80%);
   background-color: $white;
 }
 
@@ -106,46 +77,28 @@ legend {
   background-color: $dark-blue;
 }
 
-.arrowDown {
+.arrowDown{
   width: 0;
   height: 0;
-  border-left: 2em solid transparent;
-  border-right: 2em solid transparent;
-  border-top: 2em solid $dark-blue;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid $dark-blue;
   @include shift(1.5);
-  @include media($mobile) {
-    border-left: 1em solid transparent;
-    border-right: 1em solid transparent;
-    border-top: 1em solid $dark-blue;
-    @include shift(0.8 of 10);
-	}
 }
 
 .formTitle {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 24px;
   color: $white;
-  line-height: 4em;
+  line-height: 50px;
   display: inline;
   padding: 1em;
-  @include media($mobile) {
-    @include shift(0.5 of 10);
-		line-height: 2em;
-    display: block;
-    font-weight: 600;
-    padding: 0;
-	}
 }
 
 .campaignDescription {
   @include outer-container(60%);
   background-color: #F9F9F9;
   @include pad(3em);
-
-  @include media($mobile) {
-    @include pad(1em);
-    @include outer-container(90%);
-  }
 }
 
 .fields {
@@ -166,21 +119,6 @@ legend {
   border: 1px solid $red;
   color: $darker-gray;
   list-style-type: none;
-  padding: 1em 1.5em;
+  padding: 10px 15px;
   background-color: rgba(204, 71, 86, 0.17);
-}
-
-label.checkbox {
-  display: block;
-  line-height: 1.75em;
-  @include media($mobile) {
-    white-space: pre-wrap;
-  }
-}
-input[type=checkbox] {
-    @include media($mobile) {
-      position: relative;
-      vertical-align: middle;
-      bottom: 1px;
-    }
 }
