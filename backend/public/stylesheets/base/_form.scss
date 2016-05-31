@@ -74,18 +74,13 @@ legend {
   background-color: $dark-blue;
 }
 
-.formHeader:after{
-	top: 78%;
-	left: 23%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-top-color: $dark-blue;
-	border-width: 45px;
-	margin-left: -45px;
+.arrowDown{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid $dark-blue;
+  @include shift(1.5);
 }
 
 .formTitle {
@@ -113,5 +108,6 @@ legend {
 
 .steps {
   float: left;
+  height: 24px;
   @include margin(0 0.5em 0 0);
 }

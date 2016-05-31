@@ -18,6 +18,7 @@ const App = () => (
           <h3>Take Action</h3>
           <div className="formTitle">Send Your Letter to Local Media</div>
         </div>
+        <div className="arrowDown"/>
         <LetterForm/>
       </div>
     </div>
