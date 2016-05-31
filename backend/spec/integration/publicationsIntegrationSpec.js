@@ -8,17 +8,14 @@ describe('publication parser', () => {
       '2250': [{ 'title': 'Central Coast Express Advocate',
                  'email': 'advertising@expressadvocate.com.au',
                  'firstName': 'Geoff',
-                 'lastName': 'Hawthorne',
-                 'suburb': 'West Gosford'
+                 'lastName': 'Hawthorne'
                }, {
                  'title': 'The Advertiser',
-                 'email': 'manager.cessadvertiser@ruralpress.com',
-                 'suburb': 'Cessnock'
+                 'email': 'manager.cessadvertiser@ruralpress.com'
                }],
       '2564': [{
                 'title': 'The Advertiser',
-                'email': 'manager.cessadvertiser@ruralpress.com',
-                'suburb': 'Cessnock'
+                'email': 'manager.cessadvertiser@ruralpress.com'
               }]
     };
 

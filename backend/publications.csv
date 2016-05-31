@@ -7,7 +7,6 @@ NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
 6,The Canowindra News,mail.cowraguardian@ruralpress.com,,,Cowra,2794
 7,Cowra Guardian,mail.cowraguardian@ruralpress.com,,,Cowra,2794
 8,Forbes Advocate,mail.forbesadvocate@ruralpress.com,Barry,Shine,Forbes,2871
-9,Hillston - Ivanhoe Spectator,,Pat,O'Sullivan,Hillston,2675
 10,Grenfell Record,mail.grenfellrecord@ruralpress.com,,,Grenfell,2810
 11,Lithgow Mercury,mail.lithgowmercury@ruralpress.com,Don,Kipp,Lithgow,2790
 12,Mudgee Guardian & The Weekly,editor.mguardian@ruralpress.com,Robyn,Murray,Mudgee,2850
@@ -523,6 +522,6 @@ NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
 524,Burwood Scene,editor@burwoodscene.com.au,,,,"2162,2135,2115,2143,2047,2142,2046,2161,2128,2160,2140,2127,2150,2141,2145,2116,2144,2138,2117,2137"
 525,Central Coast Express Advocate,editor@expressadvocate.com.au ,Mark ,Nolan,,"2251,2256,2257,2260,2775,2083,2250"
 526,Peninsula News,editor@peninsulanews.asn.au,,,,"2260,2775,2083,2250,2251,2256,2257"
-527,NT news,news@ntnews.com.au ,,,,"829,828,832,830,800,810,812,820"
+527,NT news,news@ntnews.com.au ,,,,"0829,0828,0832,0830,0800,0810,0812,0820"
 528,Adelaide Now Messenger,tiser@adv.newsltd.com.au,,,,"5063,5150,5086,5064,5081,5089,5076,5070,5090,5068,5074,5067,5088,5075,5087,5065,5073,5066,5072"
 529,Community News,SouthernGazette@communitynews.com.au,,,,"6105,6102,6101,6107,6104,6100,6106,6103,6152,6151"

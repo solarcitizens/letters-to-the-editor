@@ -7,8 +7,7 @@ const fs = require('fs'),
 function parsePublication(record) {
   const publication = {
     title: record['Title'],
-    email: record['Email'],
-    suburb: record['Suburb']
+    email: record['Email']
   };
   if (record['FirstName'] != "") publication.firstName = record.FirstName;
   if (record['Surname'] != "") publication.lastName = record.Surname;
