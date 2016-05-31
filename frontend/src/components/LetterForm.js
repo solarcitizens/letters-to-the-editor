@@ -2,6 +2,7 @@ import React from 'react';
 import PersonalDetailsFields from './PersonalDetailsFields';
 import ComposeLetterFields from './ComposeLetterFields';
 import SelectPublicationsFields from './SelectPublicationsFields';
+import Errors from './Errors';
 import letterService from '../services/letterService';
 import configService from '../services/configService';
 
@@ -16,6 +17,7 @@ class LetterForm extends React.Component {
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
+      errors: [],
     };
   }
 
@@ -23,8 +25,8 @@ class LetterForm extends React.Component {
     const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
 
     letterService.sendLetter(letter, this.config.confirmationPageUrl)
-      .then(() => {
-        this.setState({ fieldValues: this.initialFieldValues });
+      .catch(() => {
+        this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
       });
     e.preventDefault();
   }
@@ -80,6 +82,9 @@ class LetterForm extends React.Component {
             </ul>
           </aside>
         </fieldset>
+        <Errors
+          errors={this.state.errors}
+        />
         <button className="btn btn-primary" type="submit">Send my Letter</button>
       </form>
     );

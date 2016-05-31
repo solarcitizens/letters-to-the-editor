@@ -9,10 +9,6 @@ const sendLetter = (letter, confirmationPageUrl) => (
     success: () => {
       window.location = confirmationPageUrl;
     },
-    error: res => {
-      console.log('Ajax failed');
-      console.log(res);
-    },
   })
   )
 );

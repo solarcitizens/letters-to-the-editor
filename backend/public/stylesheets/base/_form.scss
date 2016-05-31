@@ -114,3 +114,10 @@ legend {
   height: 24px;
   @include margin(0 0.5em 0 0);
 }
+
+.errors {
+  border: 3px solid $red;
+  color: red;
+  list-style-type: none;
+  padding: 10px 15px;
+}
