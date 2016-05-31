@@ -9,6 +9,33 @@ fieldset {
   border: none;
 }
 
+label {
+  padding-right: 0.5em;
+  min-width: 80px;
+  flex: 1;
+  white-space: nowrap;
+}
+
+input, textarea {
+  flex-grow: 12;
+  min-height: 40px;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $medium-gray;
+  padding: 0.5em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $light-gray;
+}
+
+textarea#body {
+    min-height: 300px;
+}
+
+legend {
+  @include fill-parent();
+}
+
 .address {
   display: flex;
   width: 100%;
@@ -39,30 +66,6 @@ fieldset {
   background: #EEE;
   padding: 10px;
   border-radius: 3px
-}
-
-label {
-  padding-right: 0.5em;
-  min-width: 80px;
-  flex: 1;
-  white-space: nowrap;
-}
-
-input, textarea {
-  flex-grow: 12;
-  min-height: 40px;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  color: $medium-gray;
-  padding: 0.5em;
-}
-
-textarea#body {
-  min-height: 300px;
-}
-
-legend {
-  @include fill-parent();
 }
 
 .formContainer {

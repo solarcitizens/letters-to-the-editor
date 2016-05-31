@@ -67,7 +67,20 @@ class LetterForm extends React.Component {
         <ComposeLetterFields
           onChange={this.handleChange}
         />
-        <button className="btn btn-primary" type="submit">Go</button>
+        <img alt="Step 4" className="steps" src="../images/4.svg"/>
+        <fieldset>
+          <legend>
+            <h5>Proof Read and Send</h5>
+          </legend>
+          <aside>
+            You're almost there! Before you send:
+            <ul className="tick">
+              <li>Have you proof read your letter?</li>
+              <li>Are your details correct?</li>
+            </ul>
+          </aside>
+        </fieldset>
+        <button className="btn btn-primary" type="submit">Send my Letter</button>
       </form>
     );
   }

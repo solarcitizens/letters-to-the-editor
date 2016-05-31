@@ -1,0 +1,11 @@
+ul {
+  line-height: 2em;
+
+  &.tick {
+    list-style-image: url('../images/check-box-outline.svg');
+  }
+
+  &.pencil {
+    list-style-image: url('../images/create.svg');
+  }
+}
