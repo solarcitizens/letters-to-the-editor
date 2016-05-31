@@ -2,7 +2,7 @@ import React from 'react';
 import PublicationList from './PublicationList';
 import publicationService from '../services/publicationService';
 
-const noPostCodeMessage = <div>Please select a post code in order to view a list of publications.</div>;
+const noPostCodeMessage = <div>Please enter a post code in order to view a list of publications.</div>;
 
 class SelectPublicationsFields extends React.Component {
   constructor(props) {

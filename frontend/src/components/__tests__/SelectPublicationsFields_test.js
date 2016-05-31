@@ -15,7 +15,7 @@ describe('SelectPublicationsFields', () => {
     });
 
     it('renders a message', () => {
-      expect(rendered.text()).toContain('Please select a post code in order to view a list of publications.');
+      expect(rendered.text()).toContain('Please enter a post code in order to view a list of publications.');
     });
   });
 
