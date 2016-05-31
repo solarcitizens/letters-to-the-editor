@@ -5,18 +5,18 @@ const chai = require('chai'),
 describe('publication parser', () => {
   it('should parse the publication data', () => {
     const expectedPublications = {
-      '2250': [{ 'title': 'Central Coast Express Advocate',
+      '10022': [{ 'title': 'New York Times',
                  'email': 'advertising@expressadvocate.com.au',
                  'firstName': 'Geoff',
                  'lastName': 'Hawthorne'
                }, {
-                 'title': 'The Advertiser',
+                 'title': 'New York Post',
                  'email': 'manager.cessadvertiser@ruralpress.com'
                }],
       '2564': [{
-                'title': 'The Advertiser',
-                'email': 'manager.cessadvertiser@ruralpress.com'
-              }]
+                 'title': 'New York Post',
+                 'email': 'manager.cessadvertiser@ruralpress.com',
+               }]
     };
 
     chai.expect(publicationParser.publications).to.deep.equal(expectedPublications);

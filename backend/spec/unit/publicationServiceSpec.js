@@ -7,20 +7,20 @@ describe('publication service', () => {
   it('should get the info for a list of publications', () => {
     const expectedPublications = [
           {
-             'title': 'The Advertiser',
+             'title': 'New York Post',
              'email': 'manager.cessadvertiser@ruralpress.com',
              'suburb': 'Cessnock'
            }];
 
-    expect(publicationService.findByNameAndPostCode('2250', ['The Advertiser', 'I do not exist'])).to.deep.equal(expectedPublications);
+    expect(publicationService.findByNameAndPostCode('10022', ['New York Post', 'I do not exist'])).to.deep.equal(expectedPublications);
   });
 
   it('should return an empty list if no titles to find provided', () => {
-    expect(publicationService.findByNameAndPostCode('2250', null)).to.be.empty;
+    expect(publicationService.findByNameAndPostCode('10022', null)).to.be.empty;
   });
 
   it('should return an empty list if no postcode provided', () => {
-    expect(publicationService.findByNameAndPostCode(null, ['The Advertiser'])).to.be.empty;
+    expect(publicationService.findByNameAndPostCode(null, ['New York Post'])).to.be.empty;
   });
 
 });
