@@ -74,6 +74,20 @@ legend {
   background-color: $dark-blue;
 }
 
+.formHeader:after{
+	top: 78%;
+	left: 23%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: $dark-blue;
+	border-width: 45px;
+	margin-left: -45px;
+}
+
 .formTitle {
   font-weight: 700;
   font-size: 24px;
