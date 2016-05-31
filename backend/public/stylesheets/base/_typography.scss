@@ -2,33 +2,45 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  @include media($mobile) {
+		font-size: $mobile-font-size;
+	}
 }
 
 h1 {
   font-weight: 900;
-  font-size: 50px;
+  font-size: em(50);
   color: $white;
+  @include media($mobile) {
+    font-size: 2em;
+    margin: 0.25em;
+  }
 }
 
 h2 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: em(30);
   color: $darker-gray;
 }
 
 h3 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: em(24);
   color: $yellow;
   text-transform: uppercase;
   @include shift(1);
-  line-height: 70px;
+  line-height: em(70);
   display: inline;
+  @include media($mobile) {
+		font-size: 1.5em;
+    line-height: 2em;
+    @include shift(0.5);
+	}
 }
 
 h5 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: em(18);
   color: $dark-blue;
   text-transform: uppercase;
   margin: 0;
@@ -42,18 +54,18 @@ h5 {
 
 h6 {
   font-family: 700;
-  font-size: 18px;
+  font-size: em(18);
   color: $white;
 }
 
 p {
   font-weight: 600;
-  font-size: 18px;
+  font-size: em(18);
   color: $darker-gray;
 }
 
 .campaignDescription {
-  font-weight: 16px;
-  line-height: 22px;
+  font-weight: em(16);
+  line-height: em(22);
   color: $darker-gray;
 }

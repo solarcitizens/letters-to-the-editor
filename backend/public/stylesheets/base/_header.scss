@@ -16,4 +16,8 @@
 #logo {
   max-width: 250px;
   @include margin(1em)
+  @include media($mobile) {
+    max-width: 150px;
+    @include margin(0.5em);
+  }
 }
