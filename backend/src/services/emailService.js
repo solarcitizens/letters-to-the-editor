@@ -50,10 +50,6 @@ function senderEmail(firstName, lastName) {
 }
 
 function sendToEditor(letterInfo, editor) {
-  if (!editor) {
-    Q.reject('editor not provided.');
-  }
-
   let emailParams = {
     subject: letterInfo.subject,
     body: letterInfo.body,
