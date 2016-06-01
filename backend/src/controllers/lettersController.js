@@ -7,10 +7,6 @@ const transformLetter = require('../parsers/letterTransformer').transformLetter;
 const _ = require('underscore');
 const Q = require('q');
 
-function getFirstWhileWeImplementThisForMultipleLetters(publications) {
-  return _.first(publications);
-}
-
 function getEditorsInformation(letter) {
   return [letter,
     publicationService.findByNameAndPostCode(letter.postCode, letter.publications)];
@@ -36,7 +32,7 @@ function allSucceded(promisesResults) {
     .value();
 }
 
-function failedEditors(promisesResults) {
+function failedPublications(promisesResults) {
   return _.chain(promisesResults)
     .filter({state: 'rejected'})
     .pluck('reason')
@@ -56,7 +52,7 @@ function send(req, res) {
         return res.sendStatus(201);
       }
 
-      return res.status(206).send(failedEditors(sendEmailResults));
+      return res.status(206).send(failedPublications(sendEmailResults));
 
     })
     .catch((error) => {
