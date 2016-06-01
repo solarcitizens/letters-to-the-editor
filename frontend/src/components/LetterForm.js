@@ -4,16 +4,16 @@ import ComposeLetterFields from './ComposeLetterFields';
 import SelectPublicationsFields from './SelectPublicationsFields';
 import Errors from './Errors';
 import letterService from '../services/letterService';
-import configService from '../services/configService';
 
 class LetterForm extends React.Component {
   constructor(props) {
     super(props);
+    this.config = props.config;
     this.initialFieldValues = { optedIn: true };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
-    configService.getConfig().then(config => (this.config = config));
+
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
@@ -24,7 +24,7 @@ class LetterForm extends React.Component {
   handleSubmit(e) {
     const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
 
-    if(letter.publications.length === 0) {
+    if (letter.publications.length === 0) {
       this.setState({ errors: ['Please select at least one publication.'] });
     }
     else {
@@ -59,6 +59,8 @@ class LetterForm extends React.Component {
   }
 
   render() {
+    const almostThereMessage = 'You\'re almost there! Before you send:';
+
     return (
       <form className="form" onSubmit={this.handleSubmit}>
         <img alt="Step 1" className="steps" src="../images/1.svg"/>
@@ -80,7 +82,7 @@ class LetterForm extends React.Component {
             <h5>Proof Read and Send</h5>
           </legend>
           <aside>
-            You're almost there! Before you send:
+            {almostThereMessage}
             <ul className="tick">
               <li>Have you proof read your letter?</li>
               <li>Are your details correct?</li>
@@ -95,4 +97,9 @@ class LetterForm extends React.Component {
     );
   }
 }
+
+LetterForm.propTypes = {
+  config: React.PropTypes.object.isRequired,
+};
+
 export default LetterForm;

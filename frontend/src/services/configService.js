@@ -1,10 +1,10 @@
 import q from 'q';
 import $ from 'jquery';
 
-const getConfig = () => (
+const getConfig = campaignName => (
   q($.ajax({
     type: 'GET',
-    url: 'config',
+    url: `/config/${campaignName}`,
   }))
     .catch(() => { throw new Error('Unable to retrieve config'); })
     .then(config => (config))

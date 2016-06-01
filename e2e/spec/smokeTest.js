@@ -2,15 +2,13 @@ const casper = window.casper;
 
 function navigateTo(url) {
   const baseUrl = casper.cli.get('url');
-  console.log("********************************");
-  console.log(baseUrl + url);
 
   return casper.start(baseUrl + url)
     .then(() => casper.waitForSelector('body'));
 }
 
 function loadFormPage() {
-  return navigateTo('/');
+  return navigateTo('/campaigns/my-campaign');
 }
 
 const submitButton = 'button[type="submit"]';
