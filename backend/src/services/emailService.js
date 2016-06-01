@@ -65,6 +65,23 @@ function sendToEditor(letterInfo, editor) {
   return sendEmail(emailParams);
 }
 
+function thankYouText(letter) {
+  return '';
+}
+
+function sendThankYouEmail(user, letter) {
+  let emailParams = {
+    subject: 'Thank You',
+    body: thankYouText(letter),
+    to: user.email,
+    from: config.get('email.from'),
+    replyTo: config.get('email.replyTo')
+  };
+
+  return sendEmail(emailParams);
+}
+
 module.exports = {
-  sendToEditor: sendToEditor
+  sendToEditor: sendToEditor,
+  sendThankYouEmail: sendThankYouEmail
 };
