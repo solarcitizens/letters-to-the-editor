@@ -1,4 +1,4 @@
-NewsId,Title,,FirstName,Surname,Suburb,Postcodes
+NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
 1,Central Coast Express Advocate,rdoherty@thoughtworks.com,Geoff,Hawthorne,West Gosford,2250
 2,Peninsula News,rdoherty@thoughtworks.com,Mark,Snell,Woy Woy,2250
 3,Daily Liberal,rdoherty@thoughtworks.com,Lynton,Grace,Dubbo,2830
