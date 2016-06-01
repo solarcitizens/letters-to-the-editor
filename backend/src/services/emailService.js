@@ -45,7 +45,7 @@ let sendEmail = (params) => {
 
 function senderEmail(firstName, lastName) {
   let fullName = `${firstName} ${lastName}`;
-  let senderEmail = `${firstName.toLowerCase()}.${lastName.toLowerCase()}`;
+  let senderEmail = `${firstName.toLowerCase().trim()}.${lastName.toLowerCase().trim()}`;
 
   return `${fullName} <${senderEmail}@${config.get('email.domain')}>`;
 }
