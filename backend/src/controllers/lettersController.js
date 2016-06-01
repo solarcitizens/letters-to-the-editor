@@ -32,6 +32,13 @@ function allSucceded(promisesResults) {
     .value();
 }
 
+function allFailed(promisesResults) {
+  return _.chain(promisesResults)
+    .filter({state: 'fulfilled'})
+    .isEmpty()
+    .value();
+}
+
 function failedPublications(promisesResults) {
   return _.chain(promisesResults)
     .filter({state: 'rejected'})
@@ -50,6 +57,10 @@ function send(req, res) {
 
       if (allSucceded(sendEmailResults)) {
         return res.sendStatus(201);
+      }
+
+      if (allFailed(sendEmailResults)) {
+        throw Error('None of the emails were sent');
       }
 
       return res.status(206).send(failedPublications(sendEmailResults));

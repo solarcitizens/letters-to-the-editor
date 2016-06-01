@@ -22,9 +22,7 @@ describe('letters controller', () => {
   let req;
 
   beforeEach(() => {
-    res = {
-      sendStatus: sinon.spy()
-    };
+    res = { status: sinon.stub().returns({ send: sinon.spy()}), sendStatus: sinon.spy()};
 
     req = {
       body: letter,
@@ -72,12 +70,23 @@ describe('letters controller', () => {
     sendEmailStub.withArgs(match.any, match.has('title', 'New York Times')).returns(Q.reject());
     sendEmailStub.withArgs(match.any, match.has('title', 'El Espectador')).returns(Q.reject());
 
-    res = { status: sinon.stub().returns({ send: sinon.spy() }) };
+
 
     lettersController.send(req, res)
     .then(() => {
       expect(res.status).to.have.been.calledWith(206);
       expect(res.status().send).to.have.been.calledWith(['New York Times', 'El Espectador']);
+    })
+    .then(done)
+    .catch(done);
+  });
+
+  it('should fail when all of the emails fail', (done) => {
+    sinon.stub(emailService, 'sendToEditor').returns(Q.reject());
+
+    lettersController.send(req, res)
+    .then(() => {
+      expect(res.status).to.have.been.calledWith(400);
     })
     .then(done)
     .catch(done);
