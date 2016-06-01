@@ -7,22 +7,21 @@ const transformLetter = require('../parsers/letterTransformer').transformLetter;
 const _ = require('underscore');
 const Q = require('q');
 
-function getEditorsInformation(letter) {
-  return [letter,
-    publicationService.findByNameAndPostCode(letter.postCode, letter.publications)];
+function addPublicationsInformation(letter) {
+  let publicationsInfo = publicationService.findByNameAndPostCode(letter.postCode, letter.publications);
+  return Object.assign({}, letter, {publications: publicationsInfo});
 }
 
-function sendLetterToEditors(letter, editors) {
-
-  let sendToChosenEditors = _.map(editors, (editor) => {
+function sendLetterToEditors(letter) {
+  let emailsToSelectedEditors = _.map(letter.publications, (publication) => {
     return emailService
-    .sendToEditor(letter, editor)
+    .sendToEditor(letter, {email: publication.email})
     .fail((error) => {
-      throw Error(editor.title);
+      throw Error(publication.title);
     });
   });
 
-  return Q.allSettled(sendToChosenEditors);
+  return Q.allSettled(emailsToSelectedEditors);
 }
 
 function allSucceded(promisesResults) {
@@ -48,11 +47,11 @@ function failedPublications(promisesResults) {
 }
 
 function send(req, res) {
-  let newLetter = transformLetter(req.body);
 
-  return letterService.createLetter(newLetter)
-    .then(getEditorsInformation)
-    .spread(sendLetterToEditors)
+  return Q(transformLetter(req.body))
+    .then(addPublicationsInformation)
+    .tap(letterService.createLetter)
+    .then(sendLetterToEditors)
     .then((sendEmailResults) => {
 
       if (allSucceded(sendEmailResults)) {
@@ -67,7 +66,6 @@ function send(req, res) {
 
     })
     .catch((error) => {
-      console.log(error);
       return res.status(400).send("letter creation failed");
     });
 }

@@ -28,7 +28,7 @@ describe('letters controller', () => {
       body: letter,
     };
 
-    sinon.stub(letterService, 'createLetter').returns(Q.resolve(letter));
+    sinon.stub(letterService, 'createLetter').returns(Q.resolve());
 
     sinon.stub(publicationService, 'findByNameAndPostCode').returns([
       {'title': 'New York Post', 'email': 'email@do.com'},
@@ -66,9 +66,9 @@ describe('letters controller', () => {
 
   it('should respond 206 when one of the emails fails', (done) => {
     let sendEmailStub = sinon.stub(emailService, 'sendToEditor');
-    sendEmailStub.withArgs(match.any, match.has('title', 'New York Post')).returns(Q.resolve());
-    sendEmailStub.withArgs(match.any, match.has('title', 'New York Times')).returns(Q.reject());
-    sendEmailStub.withArgs(match.any, match.has('title', 'El Espectador')).returns(Q.reject());
+    sendEmailStub.withArgs(match.any, match.has('email', 'email@do.com')).returns(Q.resolve());
+    sendEmailStub.withArgs(match.any, match.has('email', 'correo@es.com')).returns(Q.reject());
+    sendEmailStub.withArgs(match.any, match.has('email', 'editor@co.com')).returns(Q.reject());
 
 
 
