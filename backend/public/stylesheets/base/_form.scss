@@ -35,7 +35,6 @@ input, textarea {
   @include media($mobile) {
     font-size: $mobile-font-size;
     min-height: 25px;
-    flex-grow: 2;
   }
 }
 
@@ -79,7 +78,7 @@ legend {
   }
 
   @include media($mobile) {
-    max-width: $mobile-width;
+    max-width: $desktop-width;
     &.city, &.state, &.postCode {
       display: flex;
       label{
@@ -143,8 +142,8 @@ legend {
   @include pad(3em);
 
   @include media($mobile) {
-    @include pad(1em);
-    @include outer-container(90%);
+    @include pad(2em);
+    @include outer-container(80%);
   }
 }
 
