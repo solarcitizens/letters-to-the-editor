@@ -7,8 +7,8 @@
     "migrate": "sequelize --config config/db.json db:migrate",
     "pretest": "NODE_ENV=test npm run migrate",
     "prestart": "npm run migrate",
-    "test": "NODE_ENV=test mocha --check-leaks --timeout 10000 --compilers js:babel-core/register spec/unit spec/integration",
-    "smoke": "NODE_ENV=test mocha --check-leaks --timeout 10000 --compilers js:babel-core/register spec/smoke"
+    "smoke": "NODE_ENV=test mocha --check-leaks --timeout 10000 --compilers js:babel-core/register spec/smoke",
+    "test": "NODE_ENV=test mocha --check-leaks --timeout 10000 --recursive spec/"
   },
   "babel": {
     "presets": [
