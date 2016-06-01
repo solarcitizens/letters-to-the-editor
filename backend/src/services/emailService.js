@@ -46,12 +46,13 @@ let sendEmail = (params) => {
 function senderEmail(firstName, lastName) {
   let fullName = `${firstName} ${lastName}`;
   let senderEmail = `${firstName.toLowerCase().trim()}.${lastName.toLowerCase().trim()}`;
-
   return `${fullName} <${senderEmail}@${config.get('email.domain')}>`;
 }
 
 function sendToEditor(letterInfo, editor) {
-  editor = editor ? editor : {email: 'rdoherty@thoughtworks.com'};
+  if (!editor) {
+    Q.reject('editor not provided.');
+  }
 
   let emailParams = {
     subject: letterInfo.subject,
