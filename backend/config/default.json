@@ -4,7 +4,12 @@
   },
   "email": {
     "sendEmails": false,
-    "domain": "mg.solarcitizens.org.au"
+    "domain": "mg.solarcitizens.org.au",
+    "thankYou":{
+      "from": "letters",
+      "replyTo": "info",
+      "note": "./resources/thankYou.txt"
+    }
   },
   "confirmationPageUrl": "http://localhost:8080/confirmation"
 }
