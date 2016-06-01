@@ -26,7 +26,8 @@ describe('sending emails', () => {
     config.get.restore();
   });
 
-  describe('happy', () => {
+  describe('to editors', () => {
+    describe('happy', () => {
     beforeEach(() => {
       transportStub = { sendMail: function(options, callback) { callback(false,true); }};
 
@@ -136,5 +137,6 @@ describe('sending emails', () => {
         .then(done)
         .catch(done);
     });
+  });
   });
 });
