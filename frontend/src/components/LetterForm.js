@@ -13,11 +13,13 @@ class LetterForm extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
+    this.handleFailedCaptcha = this.handleFailedCaptcha.bind(this);
     configService.getConfig().then(config => (this.config = config));
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
       errors: [],
+      failedCaptcha: false,
     };
   }
 
@@ -53,7 +55,13 @@ class LetterForm extends React.Component {
     }
   }
 
+  handleFailedCaptcha() {
+    this.setState({ failedCaptcha: true });
+  }
+
   render() {
+    const almostThereMessage = 'You\'re almost there! Before you send:';
+
     return (
       <form className="form" onSubmit={this.handleSubmit}>
         <img alt="Step 1" className="steps" src="../images/1.svg"/>
@@ -75,7 +83,7 @@ class LetterForm extends React.Component {
             <h5>Proof Read and Send</h5>
           </legend>
           <aside>
-            You're almost there! Before you send:
+            {almostThereMessage}
             <ul className="tick">
               <li>Have you proof read your letter?</li>
               <li>Are your details correct?</li>
@@ -86,6 +94,9 @@ class LetterForm extends React.Component {
           errors={this.state.errors}
         />
         <button className="btn btn-primary" type="submit">Send my Letter</button>
+        <div className="no-bots-allowed">
+          <label><input type="checkbox" onChange={this.handleFailedCaptcha}/>I am totes a bot.</label>
+        </div>
       </form>
     );
   }
