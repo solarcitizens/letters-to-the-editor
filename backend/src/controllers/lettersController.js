@@ -1,7 +1,7 @@
 'use strict';
 
 const letterService = require('../services/letterService');
-const findPublicationsInfo = require('../services/publicationService').findByNameAndPostCode;
+const publicationService = require('../services/publicationService');
 const emailService = require('../services/emailService');
 const transformLetter = require('../parsers/letterTransformer').transformLetter;
 const _ = require('underscore');
@@ -12,16 +12,36 @@ function getFirstWhileWeImplementThisForMultipleLetters(publications) {
 }
 
 function getEditorsInformation(letter) {
-  return [letter, findPublicationsInfo(letter.postCode, letter.publications)];
+  return [letter,
+    publicationService.findByNameAndPostCode(letter.postCode, letter.publications)];
 }
 
 function sendLetterToEditors(letter, editors) {
 
   let sendToChosenEditors = _.map(editors, (editor) => {
-    return emailService.sendToEditor(letter, editor);
+    return emailService
+    .sendToEditor(letter, editor)
+    .fail((error) => {
+      throw Error(editor.title);
+    });
   });
 
-  return Q.any(sendToChosenEditors);
+  return Q.allSettled(sendToChosenEditors);
+}
+
+function allSucceded(promisesResults) {
+  return _.chain(promisesResults)
+    .filter({state: 'rejected'})
+    .isEmpty()
+    .value();
+}
+
+function failedEditors(promisesResults) {
+  return _.chain(promisesResults)
+    .filter({state: 'rejected'})
+    .pluck('reason')
+    .pluck('message')
+    .value();
 }
 
 function send(req, res) {
@@ -30,10 +50,17 @@ function send(req, res) {
   return letterService.createLetter(newLetter)
     .then(getEditorsInformation)
     .spread(sendLetterToEditors)
-    .then(() => {
-      return res.sendStatus(201);
+    .then((sendEmailResults) => {
+
+      if (allSucceded(sendEmailResults)) {
+        return res.sendStatus(201);
+      }
+
+      return res.status(206).send(failedEditors(sendEmailResults));
+
     })
-    .catch(() => {
+    .catch((error) => {
+      console.log(error);
       return res.status(400).send("letter creation failed");
     });
 }
