@@ -24,10 +24,15 @@ class LetterForm extends React.Component {
   handleSubmit(e) {
     const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
 
-    letterService.sendLetter(letter, this.config.confirmationPageUrl)
-      .catch(() => {
-        this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
-      });
+    if(letter.publications.length === 0) {
+      this.setState({ errors: ['Please select at least one publication.'] });
+    }
+    else {
+      letterService.sendLetter(letter, this.config.confirmationPageUrl)
+        .catch(() => {
+          this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
+        });
+    }
     e.preventDefault();
   }
 
