@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         state: DataTypes.STRING,
         postCode: DataTypes.STRING,
         optedIn: DataTypes.BOOLEAN,
-        publications: DataTypes.ARRAY(DataTypes.STRING),
+        publications: DataTypes.JSON,
         body: { type: DataTypes.TEXT, allowNull: false },
         subject: { type: DataTypes.STRING, allowNull: false }
     }, {
