@@ -8,16 +8,16 @@ const PersonalDetailsFields = props =>
       <h5>Enter your details</h5>
     </legend>
     <section className="fields">
-      <Field id="firstName" onChange={props.onChange('firstName')}>First Name</Field>
-      <Field id="lastName" onChange={props.onChange('lastName')}>Last Name</Field>
-      <Field id="street" onChange={props.onChange('street')}>Street</Field>
+      <Field id="firstName" true onChange={props.onChange('firstName')}>First Name</Field>
+      <Field id="lastName" true onChange={props.onChange('lastName')}>Last Name</Field>
+      <Field id="street" true onChange={props.onChange('street')}>Street</Field>
       <div className="address">
-        <Field id="city" onChange={props.onChange('city')}>City</Field>
-        <Field id="state" onChange={props.onChange('state')}>State</Field>
-        <Field id="postCode" onChange={props.onChange('postCode')}>Post code</Field>
+        <Field id="city" true onChange={props.onChange('city')}>City</Field>
+        <Field id="state" true onChange={props.onChange('state')}>State</Field>
+        <Field id="postCode" true onChange={props.onChange('postCode')}>Post code</Field>
       </div>
-      <Field id="phone" type="tel" onChange={props.onChange('phone')}>Phone</Field>
-      <Field id="email" type="email" onChange={props.onChange('email')}>Email</Field>
+      <Field id="phone" true type="tel" onChange={props.onChange('phone')}>Phone</Field>
+      <Field id="email" true type="email" onChange={props.onChange('email')}>Email</Field>
     </section>
     <label className="checkbox" htmlFor="optedIn">
       <input defaultChecked="true" id="optedIn" type="checkbox" onChange={props.onChange('optedIn')}/>
