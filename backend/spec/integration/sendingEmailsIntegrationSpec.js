@@ -160,14 +160,15 @@ describe('emails', () => {
     });
 
     it('should be sent from a configurable email account', (done) => {
-      configStub.withArgs('email.thankYou.from').returns('letters');
-      configStub.withArgs('email.thankYou.replyTo').returns('info');
+      configStub.withArgs('email.thankYou.fromName').returns('Solar Citizens');
+      configStub.withArgs('email.thankYou.fromEmail').returns('letters@solar-citizens.test.com');
+      configStub.withArgs('email.thankYou.replyTo').returns('info@solar-citizens.test.com');
 
       emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-            from: 'letters@solar.citizens.test.com',
-            'h:Reply-To': 'info@solar.citizens.test.com'
+            from: 'Solar Citizens <letters@solar-citizens.test.com>',
+            'h:Reply-To': 'info@solar-citizens.test.com'
           }));
       })
       .then(done)

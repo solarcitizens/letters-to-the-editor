@@ -69,8 +69,8 @@ function thankYouText(letter) {
 
 function sendThankYouEmail(user, letter) {
 
-  let fromEmail = `${config.get('email.thankYou.from')}@${config.get('email.domain')}`;
-  let replyTo = `${config.get('email.thankYou.replyTo')}@${config.get('email.domain')}`
+  let fromEmail = `${config.get('email.thankYou.fromName')} <${config.get('email.thankYou.fromEmail')}>`;
+  let replyTo = `${config.get('email.thankYou.replyTo')}`
 
   let emailParams = {
     subject: 'Thank You',
