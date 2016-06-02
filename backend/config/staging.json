@@ -1,5 +1,5 @@
 {
   "email": {
-    "sendEmails": false
+    "sendEmails": true
   }
 }
