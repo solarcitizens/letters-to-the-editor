@@ -62,16 +62,20 @@ function sendToEditor(letterInfo, editor) {
 }
 
 function thankYouText(letter) {
-  return '';
+  return config.get('email.thankYou.note');
 }
 
 function sendThankYouEmail(user, letter) {
+
+  let fromEmail = `${config.get('email.thankYou.from')}@${config.get('email.domain')}`;
+  let replyTo = `${config.get('email.thankYou.replyTo')}@${config.get('email.domain')}`
+
   let emailParams = {
     subject: 'Thank You',
     body: thankYouText(letter),
     to: user.email,
-    from: config.get('email.from'),
-    replyTo: config.get('email.replyTo')
+    from: fromEmail,
+    replyTo:replyTo
   };
 
   return sendEmail(emailParams);

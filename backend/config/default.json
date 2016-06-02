@@ -8,7 +8,7 @@
     "thankYou":{
       "from": "letters",
       "replyTo": "info",
-      "note": "./resources/thankYou.txt"
+      "note": "Hey, thank you."
     }
   },
   "confirmationPageUrl": "http://localhost:8080/confirmation"

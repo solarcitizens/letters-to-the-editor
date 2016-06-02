@@ -18,7 +18,7 @@ describe('emails', () => {
   beforeEach(() => {
     configStub = sinon.stub(config, 'get');
     configStub.withArgs('email.sendEmails').returns(true);
-    configStub.withArgs('email.domain').returns('done.on.friday.com');
+    configStub.withArgs('email.domain').returns('solar.citizens.test.com');
   });
 
   afterEach(() => {
@@ -59,7 +59,7 @@ describe('emails', () => {
         emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
           .then(() => {
               expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-                from: 'Donald Trump <donald.trump@done.on.friday.com>'
+                from: 'Donald Trump <donald.trump@solar.citizens.test.com>'
               }));
           })
           .then(done)
@@ -159,7 +159,34 @@ describe('emails', () => {
       .catch(done);
     });
 
-    it('should use the config settings to create the body');
+    it('should be sent from a configurable email account', (done) => {
+      configStub.withArgs('email.thankYou.from').returns('letters');
+      configStub.withArgs('email.thankYou.replyTo').returns('info');
+
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, testHelpers.makeLetter())
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            from: 'letters@solar.citizens.test.com',
+            'h:Reply-To': 'info@solar.citizens.test.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should use the config settings to create the body', done => {
+      configStub.withArgs('email.thankYou.note').returns('Hey, thanks!');
+
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, testHelpers.makeLetter())
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            text: 'Hey, thanks!'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
     it('should copy the letter below the signature');
   });
 });
