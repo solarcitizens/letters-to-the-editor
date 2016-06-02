@@ -11,6 +11,6 @@
       "note": "Hi!\nYour letter has been sent.\n\nThank You!\nSolar Citizens\n\n--\n\nThis is a copy of your letter: \n\n"
     }
   },
-  "confirmationPageUrl": "http://localhost:8080/confirmation",
+  "confirmationPageUrl": "/confirmation",
   "domainUrl": "http://solarcitizens.org.au/"
 }
