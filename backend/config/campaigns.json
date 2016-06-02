@@ -1,5 +1,14 @@
 {
-  "homegrown-power-plan" : { "title": "The Homegrown Power Plan",
-                    "description": "The Homegrown Power Plan, a joint project between GetUp! and Solar Citizens, shows how we can repower the country with 100% renewable power by 2030. How? By rebooting our failing electricity system, removing the roadblocks holding us back, and investing in the renewables boom."}
-
+  "homegrown-power-plan" : {
+    "title": "The Homegrown Power Plan",
+    "description": "The Homegrown Power Plan, a joint project between GetUp! and Solar Citizens, shows how we can repower the country with 100% renewable power by 2030. How? By rebooting our failing electricity system, removing the roadblocks holding us back, and investing in the renewables boom."
+  },
+  "fair-go-tas" : {
+    "title": "Fair go for Tassie Solar",
+    "description": "Tasmania is in the grip of an energy crisis. Record low dam levels have incapacitated hydro power, our state has lost the Basslink connection to the mainland grid and deadlines to fix it have been missed repeatedly. Tell the Tasmanian government that the answer lies in clean, renewable energy, not expensive diesel."
+  },
+  "vote-1-solar": {
+    "title": "Vote 1 Solar",
+    "description": "This election, we’re going all out to get all major parties on board with 100% renewable electricity by 2030. Sign the petition today to call on all parties and candidates to get Australia on the path to a clean, sun-powered future."
+  }
 }
