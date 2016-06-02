@@ -3,7 +3,9 @@ import PersonalDetailsFields from './PersonalDetailsFields';
 import ComposeLetterFields from './ComposeLetterFields';
 import SelectPublicationsFields from './SelectPublicationsFields';
 import Errors from './Errors';
+import {FormValidationErrors as ErrorStrings } from '../config/strings.js';
 import letterService from '../services/letterService';
+import applicationValidator from '../services/applicationValidator';
 
 class LetterForm extends React.Component {
   constructor(props) {
@@ -18,16 +20,27 @@ class LetterForm extends React.Component {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
       errors: [],
+      invalidFields: [],
+      scrollToError: false,
     };
   }
 
+  componentWillReceiveProps(props) {
+    this.setState({
+      errors: props.errors,
+    });
+  }
+
   handleSubmit(e) {
+    this.setState({ invalidFields: [], errors: [] });
     const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
+    const validationErrors = applicationValidator.isValid(this.state.fieldValues);
 
     if (letter.publications.length === 0) {
       this.setState({ errors: ['Please select at least one publication.'] });
-    }
-    else {
+    } else if (validationErrors.length > 0) {
+      this.handleValidationErrors(validationErrors, true);
+    } else {
       letterService.sendLetter(letter, this.config.campaign.confirmationPageUrl)
         .catch(() => {
           this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
@@ -58,6 +71,19 @@ class LetterForm extends React.Component {
     }
   }
 
+  handleValidationErrors(validationErrors, scrollToError) {
+    const invalidFields = validationErrors;
+    const errors = [];
+
+    invalidFields.forEach(error => errors.push(ErrorStrings[error].message));
+
+    this.setState({
+      invalidFields,
+      errors: errors,
+      scrollToError,
+    });
+  }
+
   render() {
     const almostThereMessage = 'You\'re almost there! Before you send:';
 
@@ -65,6 +91,7 @@ class LetterForm extends React.Component {
       <form className="form" onSubmit={this.handleSubmit}>
         <img alt="Step 1" className="steps" src="../images/1.svg"/>
         <PersonalDetailsFields
+          invalidFields={this.state.invalidFields}
           onChange={this.handleChange}
         />
         <img alt="Step 2" className="steps" src="../images/2.svg"/>
@@ -74,6 +101,7 @@ class LetterForm extends React.Component {
         />
         <img alt="Step 3" className="steps" src="../images/3.svg"/>
         <ComposeLetterFields
+          invalidFields={this.state.invalidFields}
           onChange={this.handleChange}
         />
         <img alt="Step 4" className="steps" src="../images/4.svg"/>
@@ -91,6 +119,8 @@ class LetterForm extends React.Component {
         </fieldset>
         <Errors
           errors={this.state.errors}
+          invalidFields={this.state.invalidFields}
+          scrollToError={this.state.scrollToError}
         />
         <button className="btn btn-primary" type="submit">Send my Letter</button>
       </form>

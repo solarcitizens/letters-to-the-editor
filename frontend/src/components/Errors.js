@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-const Errors = props => (
-  <div id="errors">
-    <ul className={props.errors.length > 0 ? 'errors' : ''}>
-      {props.errors.map(error => <li key={error}>{error}</li>)}
-    </ul>
-  </div>
-);
+export default class Errors extends Component {
+  constructor(props) {
+    super(props);
+    this.componentDidUpdate = this.componentDidUpdate.bind(this);
+  }
 
+  componentDidUpdate() {
+    if (this.props.scrollToError) {
+      ReactDOM.findDOMNode(this).scrollIntoView(false);
+    }
+  }
 
-Errors.propTypes = {
-  errors: React.PropTypes.array.isRequired,
-};
-
-export default Errors;
+  render(props) {
+    return (
+      <div id="errors">
+        <ul className={(this.props.errors.length > 0 || this.props.invalidFields.length > 0) ? 'errors' : ''}>
+          {this.props.errors.map(error => <li key={error}>{error}</li>)}
+        </ul>
+      </div>
+    );
+  }
+}

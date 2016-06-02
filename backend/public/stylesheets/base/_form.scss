@@ -55,6 +55,11 @@ legend {
     display: block;
   }
 }
+
+.invalid {
+    border: 2px solid $red;
+}
+
 .form-group.row.field-entry {
   display: flex;
   align-items: center;
