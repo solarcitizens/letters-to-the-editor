@@ -29,6 +29,7 @@ describe('letters controller', () => {
     };
 
     sinon.stub(letterService, 'createLetter').returns(Q.resolve());
+    sinon.stub(emailService, 'sendThankYouEmail').returns(Q.resolve());
 
     sinon.stub(publicationService, 'findByNameAndPostCode').returns([
       {'title': 'New York Post', 'email': 'email@do.com'},
@@ -38,6 +39,7 @@ describe('letters controller', () => {
 
   afterEach(() => {
     letterService.createLetter.restore();
+    emailService.sendThankYouEmail.restore();
     publicationService.findByNameAndPostCode.restore();
     emailService.sendToEditor.restore();
   });

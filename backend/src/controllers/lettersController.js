@@ -46,25 +46,35 @@ function failedPublications(promisesResults) {
     .value();
 }
 
-function send(req, res) {
+function respondToUser(res) {
+  return function(sendEmailResults) {
+    if (allSucceded(sendEmailResults)) {
+      return res.sendStatus(201);
+    }
 
-  return Q(transformLetter(req.body))
+    if (allFailed(sendEmailResults)) {
+      throw Error('None of the emails were sent');
+    }
+
+    return res.status(206).send(failedPublications(sendEmailResults));
+  }
+}
+
+function sendThankYouEmail(letter) {
+  return function() {
+    return emailService.sendThankYouEmail({email: letter.email}, letter.body);
+  }
+}
+
+function send(req, res) {
+  let letter = transformLetter(req.body);
+
+  return Q(letter)
     .then(addPublicationsInformation)
     .tap(letterService.createLetter)
     .then(sendLetterToEditors)
-    .then((sendEmailResults) => {
-
-      if (allSucceded(sendEmailResults)) {
-        return res.sendStatus(201);
-      }
-
-      if (allFailed(sendEmailResults)) {
-        throw Error('None of the emails were sent');
-      }
-
-      return res.status(206).send(failedPublications(sendEmailResults));
-
-    })
+    .then(respondToUser(res))
+    .then(sendThankYouEmail(letter))
     .catch((error) => {
       return res.status(400).send("letter creation failed");
     });
