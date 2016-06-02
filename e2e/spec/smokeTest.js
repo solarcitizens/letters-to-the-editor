@@ -8,7 +8,7 @@ function navigateTo(url) {
 }
 
 function loadFormPage() {
-  return navigateTo('/campaigns/my-campaign');
+  return navigateTo('/campaigns/homegrown-power-plan');
 }
 
 const submitButton = 'button[type="submit"]';
