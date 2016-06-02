@@ -8,7 +8,7 @@
 
 import validator from 'validator';
 import moment from 'moment';
-import { isEmpty } from 'lodash';
+import { isEmpty } from 'underscore';
 
 const containsSpecialCharacters = (theString, restricted) => restricted.test(theString);
 

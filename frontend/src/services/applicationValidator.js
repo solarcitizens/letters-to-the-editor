@@ -1,5 +1,5 @@
 import inputValidator from '../lib/inputValidator';
-import _ from 'lodash';
+import _ from 'underscore';
 
 const applicationFieldsChecks = {
   firstName: inputValidator.isValidName,
