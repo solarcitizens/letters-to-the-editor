@@ -28,7 +28,7 @@ class LetterForm extends React.Component {
       this.setState({ errors: ['Please select at least one publication.'] });
     }
     else {
-      letterService.sendLetter(letter, this.config.confirmationPageUrl)
+      letterService.sendLetter(letter, this.config.campaign.confirmationPageUrl)
         .catch(() => {
           this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
         });

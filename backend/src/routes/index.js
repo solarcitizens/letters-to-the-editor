@@ -26,9 +26,7 @@ router.get('/.well-known/acme-challenge/:acmeToken', letsEncryptController.get);
 router.get('/config/:campaignName', (req, res) => {
   let campaign = campaignConfig[req.params.campaignName];
   if (campaign) {
-    res.status(200).send({ confirmationPageUrl: config.get('confirmationPageUrl'),
-                           campaign: campaign
-                        });
+    res.status(200).send({ campaign });
   } else {
     res.sendStatus(404);
   }
