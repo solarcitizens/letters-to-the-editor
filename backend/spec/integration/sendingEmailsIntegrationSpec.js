@@ -175,12 +175,12 @@ describe('emails', () => {
     });
 
     it('should copy the letter below the signature', done => {
-      configStub.withArgs('email.thankYou.note').returns('Hey, thanks!');
+      configStub.withArgs('email.thankYou.note').returns('Hey, thanks!\n--\nThis was your letter:\n');
 
       emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-            text: 'Hey, thanks!\n--\nPlease help us save the planet.'
+            text: 'Hey, thanks!\n--\nThis was your letter:\nPlease help us save the planet.'
           }));
       })
       .then(done)
