@@ -149,7 +149,7 @@ describe('emails', () => {
     });
 
     it('should send the email to the users email', done => {
-      emailService.sendThankYouEmail({email: 'user@gmail.com'}, testHelpers.makeLetter())
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
             to: 'user@gmail.com'
@@ -163,7 +163,7 @@ describe('emails', () => {
       configStub.withArgs('email.thankYou.from').returns('letters');
       configStub.withArgs('email.thankYou.replyTo').returns('info');
 
-      emailService.sendThankYouEmail({email: 'user@gmail.com'}, testHelpers.makeLetter())
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
             from: 'letters@solar.citizens.test.com',
@@ -176,10 +176,8 @@ describe('emails', () => {
 
     it('should copy the letter below the signature', done => {
       configStub.withArgs('email.thankYou.note').returns('Hey, thanks!');
-      let letter = testHelpers.makeLetter();
-      letter.body = 'Please help us save the planet.';
 
-      emailService.sendThankYouEmail({email: 'user@gmail.com'}, letter)
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
             text: 'Hey, thanks!\n--\nPlease help us save the planet.'
