@@ -14,6 +14,11 @@ module.exports = {
           presets: ['es2015'],
         },
       },
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
+        exclude: /node_modules/,
+      },
     ],
   },
   devtool: 'source-map',
