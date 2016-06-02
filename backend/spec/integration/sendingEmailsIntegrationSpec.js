@@ -174,19 +174,19 @@ describe('emails', () => {
       .catch(done);
     });
 
-    it('should use the config settings to create the body', done => {
+    it('should copy the letter below the signature', done => {
       configStub.withArgs('email.thankYou.note').returns('Hey, thanks!');
+      let letter = testHelpers.makeLetter();
+      letter.body = 'Please help us save the planet.';
 
-      emailService.sendThankYouEmail({email: 'user@gmail.com'}, testHelpers.makeLetter())
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, letter)
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-            text: 'Hey, thanks!'
+            text: 'Hey, thanks!\n--\nPlease help us save the planet.'
           }));
       })
       .then(done)
       .catch(done);
     });
-
-    it('should copy the letter below the signature');
   });
 });

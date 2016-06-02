@@ -62,7 +62,7 @@ function sendToEditor(letterInfo, editor) {
 }
 
 function thankYouText(letter) {
-  return config.get('email.thankYou.note');
+  return `${config.get('email.thankYou.note')}\n--\n${letter.body}`;
 }
 
 function sendThankYouEmail(user, letter) {
