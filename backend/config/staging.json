@@ -1,5 +1,6 @@
 {
   "email": {
     "sendEmails": true
-  }
+  },
+  "forceSsl": true
 }

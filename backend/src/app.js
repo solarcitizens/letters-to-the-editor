@@ -8,10 +8,21 @@ const express = require('express'),
       routes = require('./routes/index'),
       sassMiddleware = require('node-sass-middleware'),
       helmet = require('helmet'),
-      scheduler = require('./export/scheduler');
+      scheduler = require('./export/scheduler'),
+      config = require('config');
 
 const app = express();
 
+let forceSsl = function (req, res, next) {
+  if (req.headers['x-forwarded-proto'] !== 'https') {
+    return res.redirect(['https://', req.get('Host'), req.url].join(''));
+  }
+  return next();
+};
+
+if (config.get('forceSsl')) {
+  app.use(forceSsl);
+}
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressSanitized());
@@ -31,15 +42,6 @@ app.set('view engine', 'html');
 app.use(helmet());
 
 app.use(express.static(path.join(__dirname, '../public')));
-
-let forceSsl = function (req, res, next) {
-  if (req.headers['x-forwarded-proto'] !== 'https') {
-    return res.redirect(['https://', req.get('Host'), req.url].join(''));
-  }
-  return next();
-};
-
-app.use(forceSsl);
 
 scheduler.init();
 

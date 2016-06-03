@@ -17,5 +17,6 @@
       "toEmail": "mcassel@thoughtworks.com"
     }
   },
-  "domainUrl": "http://solarcitizens.org.au/"
+  "domainUrl": "http://solarcitizens.org.au/",
+  "forceSsl": false
 }
