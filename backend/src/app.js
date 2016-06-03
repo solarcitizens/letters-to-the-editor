@@ -32,6 +32,15 @@ app.use(helmet());
 
 app.use(express.static(path.join(__dirname, '../public')));
 
+let forceSsl = function (req, res, next) {
+  if (req.headers['x-forwarded-proto'] !== 'https') {
+    return res.redirect(['https://', req.get('Host'), req.url].join(''));
+  }
+  return next();
+};
+
+app.use(forceSsl);
+
 scheduler.init();
 
 module.exports = app;
