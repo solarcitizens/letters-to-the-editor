@@ -7,7 +7,8 @@ const express = require('express'),
       neat = require('node-neat'),
       routes = require('./routes/index'),
       sassMiddleware = require('node-sass-middleware'),
-      helmet = require('helmet');
+      helmet = require('helmet'),
+      scheduler = require('./export/scheduler');
 
 const app = express();
 
@@ -30,5 +31,7 @@ app.set('view engine', 'html');
 app.use(helmet());
 
 app.use(express.static(path.join(__dirname, '../public')));
+
+scheduler.init();
 
 module.exports = app;
