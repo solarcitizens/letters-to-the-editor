@@ -30,6 +30,9 @@ let sendEmail = (params) => {
   if (params.replyTo) {
     mailOptions['h:Reply-To'] = params.replyTo;
   }
+  if (params.attachments) {
+    mailOptions.attachments = params.attachments;
+  }
 
   transport.sendMail(mailOptions, (error, info) => {
     if (error) {
@@ -83,7 +86,22 @@ function sendThankYouEmail(user, letter) {
   return sendEmail(emailParams);
 }
 
+function sendUserDataExportEmail(exportDataFilePath) {
+  let email = {
+    subject: 'Letters to the Editor user data export',
+    body: 'User data export attached.',
+    to: config.get('admin.export.toEmail'),
+    from: `export@${config.get('email.domain')}`,
+    attachments: [
+      { path: exportDataFilePath, encoding: 'utf-8' }
+    ]
+  };
+
+  return sendEmail(email);
+}
+
 module.exports = {
-  sendToEditor: sendToEditor,
-  sendThankYouEmail: sendThankYouEmail
+  sendToEditor,
+  sendThankYouEmail,
+  sendUserDataExportEmail
 };

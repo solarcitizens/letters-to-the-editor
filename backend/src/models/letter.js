@@ -17,8 +17,6 @@ module.exports = (sequelize, DataTypes) => {
         publications: {type: DataTypes.JSON, allowNull:false},
         body: { type: DataTypes.TEXT, allowNull: false },
         subject: { type: DataTypes.STRING, allowNull: false }
-    }, {
-        paranoid: true
     });
     return Letter;
 };

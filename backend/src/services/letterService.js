@@ -5,6 +5,10 @@ const uuid = require('node-uuid');
 const models = require('../models'),
       Letter = models.Letter;
 
+let getAllLetters = attributes => {
+  return Letter.findAll({attributes});
+}
+
 function save(letter) {
   return Letter.create.bind(Letter)(letter);
 }
@@ -26,5 +30,6 @@ let createLetter = (newLetter) => {
 };
 
 module.exports = {
-    createLetter: createLetter
+  createLetter,
+  getAllLetters
 };

@@ -19,6 +19,11 @@ describe('emails', () => {
     configStub = sinon.stub(config, 'get');
     configStub.withArgs('email.sendEmails').returns(true);
     configStub.withArgs('email.domain').returns('solar.citizens.test.com');
+
+    transportStub = { sendMail: function(options, callback) { callback(false,true); }};
+
+    sendMailSpy = sinon.spy(transportStub, 'sendMail');
+    sinon.stub(nodemailer, 'createTransport').returns(transportStub);
   });
 
   afterEach(() => {
@@ -28,13 +33,6 @@ describe('emails', () => {
 
   describe('to editors', () => {
     describe('happy', () => {
-      beforeEach(() => {
-        transportStub = { sendMail: function(options, callback) { callback(false,true); }};
-
-        sendMailSpy = sinon.spy(transportStub, 'sendMail');
-        sinon.stub(nodemailer, 'createTransport').returns(transportStub);
-      });
-
       it('sends an email', (done) => {
         emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
           .then(() => {
@@ -120,12 +118,6 @@ describe('emails', () => {
     });
 
     describe('sad', () => {
-      beforeEach(() => {
-        transportStub = { sendMail: function(options, callback) { callback(true,false); }};
-        sendMailSpy = sinon.spy(transportStub, 'sendMail');
-        sinon.stub(nodemailer, 'createTransport').returns(transportStub);
-      });
-
       it('throws an error when something unexpected happens', (done) => {
         emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
           .then(() => {
@@ -141,13 +133,6 @@ describe('emails', () => {
   });
 
   describe('thank you email to users', () => {
-    beforeEach(() => {
-      transportStub = { sendMail: function(options, callback) { callback(false,true); }};
-
-      sendMailSpy = sinon.spy(transportStub, 'sendMail');
-      sinon.stub(nodemailer, 'createTransport').returns(transportStub);
-    });
-
     it('should send the email to the users email', done => {
       emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
       .then(() => {
@@ -182,6 +167,61 @@ describe('emails', () => {
       .then(() => {
           expect(sendMailSpy).to.have.been.calledWith(sinon.match({
             text: 'Hey, thanks!\n--\nThis was your letter:\nPlease help us save the planet.'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+  });
+
+  describe('user data export email to admins', () => {
+    it('should send the export file as an attachment encoded in UTF 8', done => {
+      emailService.sendUserDataExportEmail('path/to/file')
+      .then(() => {
+        expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+          attachments: [
+            {
+              path: 'path/to/file',
+              encoding: 'utf-8'
+            }
+          ]
+        }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should send the email to the configured admin email address', done => {
+      configStub.withArgs('admin.export.toEmail').returns('admin@solar-citizens.test.com');
+
+      emailService.sendUserDataExportEmail('')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            to: 'admin@solar-citizens.test.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should send the email from a dummy email address', done => {
+      configStub.withArgs('email.domain').returns('solar-citizens.test.com');
+
+      emailService.sendUserDataExportEmail('')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            from: 'export@solar-citizens.test.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should send the email with a subject that identifies the email', done => {
+      emailService.sendUserDataExportEmail('')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            subject: 'Letters to the Editor user data export'
           }));
       })
       .then(done)
