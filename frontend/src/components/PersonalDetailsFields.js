@@ -23,7 +23,7 @@ const PersonalDetailsFields = props => {
         </div>
         <Field false hasError={isValidationError('phone')} id="phone" type="tel" onChange={props.onChange('phone')}>Phone</Field>
         <Field false hasError={isValidationError('email')} id="email" type="email" onChange={props.onChange('email')}>Email</Field>
-        <div className="explanation">We need to know this information so that editors can contact you.  Please fill in all fields.</div>
+        <div className="explanation">We need to send this information with your letter so that editors can contact you.  Please fill in all details.</div>
       </section>
       <label className="checkbox" htmlFor="optedIn">
         <input defaultChecked="true" id="optedIn" type="checkbox" onChange={props.onChange('optedIn')}/>
