@@ -442,13 +442,13 @@ NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
 442,The Bunyip,editorial@bunyippress.com.au,Emma,Moreland,Gawler,5118
 443,On the Coast,victortimes@ruralpress.com,Claire,Thwaites,Victor Harbor,5211
 444,The Times,victortimes@ruralpress.com,Claire,Thwaites,Victor Harbor,5211
-445,Northern Territory News/Sunday Territorian,online@ntn.newsltd.com.au,Matt,Cunningham,Darwin,800
-446,Tennant & District Times,media@tdtimes.com.au,Jasmin,Afianos,Tennant Creek,861
-447,Arafura Times,atimes@bigpond.com,,,Nhulunbuy,880
-448,Centralian Advocate,advocate@ntn.newsltd.com.au,,,Alice Springs,870
-449,Katherine Times,mail.kathtimes@ruralpress.com,Tegan,Forder,Katherine,850
-450,Darwin Sun/Litchfield Sun/Palmerston Sun,mailsun@thesuns.com.au,,,Palmerston,831
-451,Alice Springs News,erwin@alicespringsnews.com.au,Erwin,Chlanda,Alice Springs,870
+445,Northern Territory News/Sunday Territorian,online@ntn.newsltd.com.au,Matt,Cunningham,Darwin,0800
+446,Tennant & District Times,media@tdtimes.com.au,Jasmin,Afianos,Tennant Creek,0861
+447,Arafura Times,atimes@bigpond.com,,,Nhulunbuy,0880
+448,Centralian Advocate,advocate@ntn.newsltd.com.au,,,Alice Springs,0870
+449,Katherine Times,mail.kathtimes@ruralpress.com,Tegan,Forder,Katherine,0850
+450,Darwin Sun/Litchfield Sun/Palmerston Sun,mailsun@thesuns.com.au,,,Palmerston,0831
+451,Alice Springs News,erwin@alicespringsnews.com.au,Erwin,Chlanda,Alice Springs,0870
 452,The Advocate/Coast to Coast News,news@theadvocate.com.au,Danny,Clark,Burnie,7320
 453,Mercury/Sunday Tasmanian,mercury.news@dbl.newsltd.com.au,,,Hobart,7000
 454,The Examiner/Launceston Times/Meander valley ,editor@examiner.com.au,Edwina,Yates,Launceston,7250
@@ -458,7 +458,7 @@ NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
 458,North Eastern Advertiser,editor@northeasternadvertiser.com,Peter,Fish,Scottsdale,7260
 459,Circular Head Chronicle,chc@printdomain.com.au,,,Smithton,7330
 460,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315
-461,NT Times,ntnmail@ntnews.com.au,,,,800
+461,NT Times,ntnmail@ntnews.com.au,,,,0800
 462,Sydney Morning Herald,newsdesk@smh.com.au,,,,2000
 463,Daily Telegraph,news@dailytelegraph.com.au,,,,2000
 464,Newcastle Herald,news@theherald.com.au,,,,2000
@@ -525,4 +525,3 @@ NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
 527,NT news,news@ntnews.com.au ,,,,"0829,0828,0832,0830,0800,0810,0812,0820"
 528,Adelaide Now Messenger,tiser@adv.newsltd.com.au,,,,"5063,5150,5086,5064,5081,5089,5076,5070,5090,5068,5074,5067,5088,5075,5087,5065,5073,5066,5072"
 529,Community News,SouthernGazette@communitynews.com.au,,,,"6105,6102,6101,6107,6104,6100,6106,6103,6152,6151"
-530,Awesome News,rdoherty@thoughtworks.com,,,,3000
