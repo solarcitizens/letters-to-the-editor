@@ -16,5 +16,11 @@
     "description": "This election, we’re going all out to get all major parties on board with 100% renewable electricity by 2030. Sign the petition today to call on all parties and candidates to get Australia on the path to a clean, sun-powered future.",
     "confirmationPageUrl": "/confirmation",
     "logo": "solar-citizens-logo.png"
+  },
+  "solar-scorecard": {
+    "title": "Please write a letter about Solar Scorecard",
+    "description": "blahblah hello",
+    "confirmationPageUrl": "http://solarcitizens.org.au/thankyou-for-solar-scorecard",
+    "logo": "solar-citizens-logo.png"
   }
 }
