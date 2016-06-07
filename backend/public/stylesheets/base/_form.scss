@@ -14,33 +14,32 @@ fieldset {
 
 label {
   margin-right: 0.5em;
-  min-width: 80px;
-  flex: 1;
+  min-width: em(80);
   white-space: nowrap;
   @include media($mobile) {
-    min-width: 60px;
+    min-width: 5em;
   }
 }
 
 input, textarea {
   flex-grow: 12;
-  min-height: 40px;
+  min-height: em(40);
   font-family: $base-font-family;
   font-size: $base-font-size;
   color: $medium-gray;
   padding: 0.5em;
-  border-width: 1px;
+  border-width: em(1);
   border-style: solid;
   border-color: $light-gray;
   @include media($mobile) {
-    min-height: 25px;
+    min-height: em(25);
   }
 }
 
 textarea#body {
-    min-height: 300px;
+    min-height: em(300);
     @include media($mobile) {
-      min-height: 100px;
+      min-height: em(100);
     }
 }
 
@@ -57,7 +56,7 @@ legend {
 }
 
 .invalid {
-    border: 2px solid $red;
+    border: em(2) solid $red;
 }
 
 .form-group.row.field-entry {
@@ -75,7 +74,7 @@ legend {
     display: inline-flex;
     flex: 1;
     label {
-      min-width: auto;
+      min-width: 3em;
       white-space: nowrap;
       padding-left: 1em
     }
@@ -86,9 +85,9 @@ legend {
     &.city, &.state, &.postCode {
       display: flex;
       label{
-        padding-right: 0.5em;
+        margin-right: 0.5em;
         padding-left: 0;
-        min-width: 60px;
+        min-width: 5em;
       }
     }
   }
@@ -97,7 +96,7 @@ legend {
 .compose-letter-fields {
   background: $light-gray;
   padding: 0.5em;
-  border-radius: 3px
+  border-radius: em(3s)
 }
 
 .formContainer {
@@ -161,12 +160,12 @@ legend {
 
 .steps {
   float: left;
-  height: 24px;
+  height: em(24);
   @include margin(0 0.5em 0 0);
 }
 
 .errors {
-  border: 1px solid $red;
+  border: em(1) solid $red;
   color: $darker-gray;
   list-style-type: none;
   padding: 1em 1.5em;
@@ -181,11 +180,9 @@ label.checkbox {
   }
 }
 input[type=checkbox] {
-    @include media($mobile) {
-      position: relative;
-      vertical-align: middle;
-      bottom: 1px;
-    }
+  position: relative;
+  vertical-align: middle;
+  bottom: em(1);
 }
 
 .explanation {
