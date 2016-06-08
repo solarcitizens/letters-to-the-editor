@@ -13,8 +13,7 @@ import { isEmpty } from 'underscore';
 const containsSpecialCharacters = (theString, restricted) => restricted.test(theString);
 
 const isValidString = (theString, restricted) => (
-  Boolean(theString) && !containsSpecialCharacters(theString, restricted || new RegExp('[<>"%;()&+]'))
-);
+  Boolean(theString) && !containsSpecialCharacters(theString, restricted || new RegExp('[<>&]')));
 
 const isValidOptionalName = name => isEmpty(name) || (isValidString(name) && name.length < 256);
 
