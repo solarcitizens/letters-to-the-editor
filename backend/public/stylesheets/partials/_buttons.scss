@@ -1,5 +1,5 @@
 button {
-  border: 1px solid $yellow;
+  border: none;
   background: $yellow;
   font-weight: 700;
   font-size: 15px;
@@ -10,4 +10,9 @@ button {
     font-size: $mobile-font-size;
     @include shift(0.5);
   }
+}
+
+button:hover, button:focus {
+  background: $mustard;
+  color: $white;
 }
