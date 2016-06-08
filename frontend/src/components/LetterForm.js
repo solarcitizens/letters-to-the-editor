@@ -22,6 +22,7 @@ class LetterForm extends React.Component {
       errors: [],
       invalidFields: [],
       scrollToError: false,
+      submitted: false,
     };
   }
 
@@ -41,9 +42,11 @@ class LetterForm extends React.Component {
     } else if (validationErrors.length > 0) {
       this.handleValidationErrors(validationErrors, true);
     } else {
+      this.setState({ submitted: true });
       letterService.sendLetter(letter, this.config.campaign.confirmationPageUrl)
         .catch(() => {
-          this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
+          this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'],
+                          submitted: false });
         });
     }
     e.preventDefault();
@@ -122,7 +125,8 @@ class LetterForm extends React.Component {
           invalidFields={this.state.invalidFields}
           scrollToError={this.state.scrollToError}
         />
-        <button className="btn btn-primary" type="submit">Send my Letter</button>
+        <button className="sendMyLetter" type="submit" disabled={this.state.submitted}>
+        {this.state.submitted ? "Sending..." : "Send my Letter"}</button>
       </form>
     );
   }
