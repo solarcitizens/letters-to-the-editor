@@ -180,9 +180,15 @@ label.checkbox {
   }
 }
 input[type=checkbox] {
-  position: relative;
-  vertical-align: middle;
-  bottom: em(1);
+  @include media($mobile) {
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+  }
+}
+
+.no-bots-allowed {
+  display: none;
 }
 
 .explanation {

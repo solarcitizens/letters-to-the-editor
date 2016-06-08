@@ -15,11 +15,14 @@ class LetterForm extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
+    this.handleFailedCaptcha = this.handleFailedCaptcha.bind(this);
+    configService.getConfig().then(config => (this.config = config));
 
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
       errors: [],
+      failedCaptcha: false,
       invalidFields: [],
       scrollToError: false,
       submitted: false,
@@ -74,6 +77,10 @@ class LetterForm extends React.Component {
     }
   }
 
+  handleFailedCaptcha() {
+    this.setState({failedCaptcha: true});
+  }
+
   handleValidationErrors(validationErrors, scrollToError) {
     const invalidFields = validationErrors;
     const errors = [];
@@ -125,6 +132,10 @@ class LetterForm extends React.Component {
           invalidFields={this.state.invalidFields}
           scrollToError={this.state.scrollToError}
         />
+        <button className="btn btn-primary" type="submit">Send my Letter</button>
+        <div className="no-bots-allowed">
+          <label><input type="checkbox" onChange={this.handleFailedCaptcha}/>I am a bot.</label>
+        </div>
         <button className="sendMyLetter" type="submit" disabled={this.state.submitted}>
         {this.state.submitted ? "Sending..." : "Send my Letter"}</button>
       </form>
