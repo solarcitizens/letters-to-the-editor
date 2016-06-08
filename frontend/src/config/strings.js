@@ -1,6 +1,6 @@
 export const FormValidationErrors = {
-  firstName: { name: 'firstName', message: 'Please enter your first name. No symbols allowed.' },
-  lastName: { name: 'lastName', message: 'Please enter your last name. No symbols allowed.' },
+  firstName: { name: 'firstName', message: 'Please enter your first name. The symbols <>& are not allowed.' },
+  lastName: { name: 'lastName', message: 'Please enter your last name. The symbols <>& are not allowed.' },
   street: { name: 'street', message: 'Please enter your street address.' },
   city: { name: 'city', message: 'Please enter a city.' },
   state: { name: 'state', message: 'Please enter a state.' },
