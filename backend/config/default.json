@@ -4,7 +4,19 @@
   },
   "email": {
     "sendEmails": false,
-    "domain": "mg.solarcitizens.org.au"
+    "domain": "mg.solarcitizens.org.au",
+    "thankYou":{
+      "fromName": "Solar Citizens",
+      "fromEmail": "letters@mg.solarcitizens.org.au",
+      "replyTo": "info@mg.solarcitizens.org.au",
+      "note": "Hi!\nYour letter has been sent.\n\nThank You!\nSolar Citizens\n\n--\n\nThis is a copy of your letter: \n\n"
+    }
   },
-  "confirmationPageUrl": "http://localhost:8080/confirmation"
+  "admin": {
+    "export": {
+      "toEmail": "mcassel@thoughtworks.com"
+    }
+  },
+  "domainUrl": "http://solarcitizens.org.au/",
+  "forceSsl": false
 }

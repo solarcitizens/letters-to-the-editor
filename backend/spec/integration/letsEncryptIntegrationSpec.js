@@ -11,8 +11,8 @@ describe('LetsEncrypt ACME verification', () => {
 
   beforeEach(() => {
     agent = request.agent(app);
-    process.env['ACME_TOKEN'] = token;
-    process.env['ACME_KEY'] = key;
+    process.env['ACME_TOKEN_1'] = token;
+    process.env['ACME_KEY_1'] = key;
   });
 
   it('should return acme key when the token is valid', () => {

@@ -3,33 +3,55 @@ import PersonalDetailsFields from './PersonalDetailsFields';
 import ComposeLetterFields from './ComposeLetterFields';
 import SelectPublicationsFields from './SelectPublicationsFields';
 import Errors from './Errors';
+import {FormValidationErrors as ErrorStrings } from '../config/strings.js';
 import letterService from '../services/letterService';
-import configService from '../services/configService';
+import applicationValidator from '../services/applicationValidator';
 
 class LetterForm extends React.Component {
   constructor(props) {
     super(props);
+    this.config = props.config;
     this.initialFieldValues = { optedIn: true };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
     this.handleFailedCaptcha = this.handleFailedCaptcha.bind(this);
     configService.getConfig().then(config => (this.config = config));
+
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
       errors: [],
       failedCaptcha: false,
+      invalidFields: [],
+      scrollToError: false,
+      submitted: false,
     };
   }
 
-  handleSubmit(e) {
-    const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
+  componentWillReceiveProps(props) {
+    this.setState({
+      errors: props.errors,
+    });
+  }
 
-    letterService.sendLetter(letter, this.config.confirmationPageUrl)
-      .catch(() => {
-        this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'] });
-      });
+  handleSubmit(e) {
+    this.setState({ invalidFields: [], errors: [] });
+    const letter = Object.assign({}, this.state.fieldValues, { publications: this.state.selectedPublications });
+    const validationErrors = applicationValidator.isValid(this.state.fieldValues);
+
+    if (letter.publications.length === 0) {
+      this.setState({ errors: ['Please select at least one publication.'] });
+    } else if (validationErrors.length > 0) {
+      this.handleValidationErrors(validationErrors, true);
+    } else {
+      this.setState({ submitted: true });
+      letterService.sendLetter(letter, this.config.campaign.confirmationPageUrl)
+        .catch(() => {
+          this.setState({ errors: ['Your letter could not be submitted.  Please try again later.'],
+                          submitted: false });
+        });
+    }
     e.preventDefault();
   }
 
@@ -56,7 +78,20 @@ class LetterForm extends React.Component {
   }
 
   handleFailedCaptcha() {
-    this.setState({ failedCaptcha: true });
+    this.setState({failedCaptcha: true});
+  }
+
+  handleValidationErrors(validationErrors, scrollToError) {
+    const invalidFields = validationErrors;
+    const errors = [];
+
+    invalidFields.forEach(error => errors.push(ErrorStrings[error].message));
+
+    this.setState({
+      invalidFields,
+      errors: errors,
+      scrollToError,
+    });
   }
 
   render() {
@@ -66,6 +101,7 @@ class LetterForm extends React.Component {
       <form className="form" onSubmit={this.handleSubmit}>
         <img alt="Step 1" className="steps" src="../images/1.svg"/>
         <PersonalDetailsFields
+          invalidFields={this.state.invalidFields}
           onChange={this.handleChange}
         />
         <img alt="Step 2" className="steps" src="../images/2.svg"/>
@@ -75,6 +111,7 @@ class LetterForm extends React.Component {
         />
         <img alt="Step 3" className="steps" src="../images/3.svg"/>
         <ComposeLetterFields
+          invalidFields={this.state.invalidFields}
           onChange={this.handleChange}
         />
         <img alt="Step 4" className="steps" src="../images/4.svg"/>
@@ -92,13 +129,22 @@ class LetterForm extends React.Component {
         </fieldset>
         <Errors
           errors={this.state.errors}
+          invalidFields={this.state.invalidFields}
+          scrollToError={this.state.scrollToError}
         />
         <button className="btn btn-primary" type="submit">Send my Letter</button>
         <div className="no-bots-allowed">
-          <label><input type="checkbox" onChange={this.handleFailedCaptcha}/>I am totes a bot.</label>
+          <label><input type="checkbox" onChange={this.handleFailedCaptcha}/>I am a bot.</label>
         </div>
+        <button className="sendMyLetter" type="submit" disabled={this.state.submitted}>
+        {this.state.submitted ? "Sending..." : "Send my Letter"}</button>
       </form>
     );
   }
 }
+
+LetterForm.propTypes = {
+  config: React.PropTypes.object.isRequired,
+};
+
 export default LetterForm;

@@ -1,23 +1,28 @@
 import React, { PropTypes } from 'react';
+import InlineError from './InlineError';
 
-const Field = ({ children, id, onChange, optional, placeholder, type = 'text' }) => {
+const Field = ({ children, hasError, id, onChange, required, placeholder, type = 'text' }) => {
   let input = React.createElement(type === 'textarea' ? 'textarea' : 'input', {
-    className: 'form-control',
+    className: hasError ? 'invalid' : '',
     id,
     placeholder,
     onChange,
-    optional,
+    required: false,
+    noValidate: true,
     type,
   });
 
+  const optional = required ? <span className="optional"> (optional)</span> : <span className="mandatory"/>;
+
   return (
-    <div className={"form-group row field-entry " + id}>
+    <div className={'form-group row field-entry ' + id}>
       {children && (
-        <label className="col-sm-2 form-control-label" htmlFor={id}>
+        <label htmlFor={id}>
           {children}
         </label>
       )}
       {input}
+      {optional}
     </div>
   );
 };
@@ -26,8 +31,9 @@ Field.propTypes = {
   id: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   children: PropTypes.any,
-  optional: PropTypes.bool,
+  hasError: PropTypes.bool,
   placeholder: PropTypes.string,
+  required: PropTypes.bool,
   type: PropTypes.string,
 };
 

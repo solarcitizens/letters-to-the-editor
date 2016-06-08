@@ -7,6 +7,7 @@
     "ci": "npm run lint && npm run test-single",
     "build": "webpack",
     "lint": "eslint src || exit 0",
+    "lintfix": "eslint src --fix",
     "start": "webpack --progress --colors --watch",
     "test": "karma start",
     "test-single": "karma start --single-run"
@@ -29,7 +30,6 @@
     "karma-webpack": "^1.7.0",
     "phantomjs-prebuilt": "^2.1.5",
     "react-addons-test-utils": "^15.0.2",
-    "underscore": "^1.8.3",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
@@ -47,11 +47,15 @@
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "eslint-plugin-react": "^5.1.1",
     "jquery": "^2.2.3",
+    "moment": "^2.13.0",
     "q": "^1.4.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-router": "^2.4.1",
     "redbox-react": "^1.2.2",
     "seamless-immutable": "^5.1.0",
+    "underscore": "^1.8.3",
+    "validator": "^5.3.0",
     "webpack": "^1.12.14"
   }
 }

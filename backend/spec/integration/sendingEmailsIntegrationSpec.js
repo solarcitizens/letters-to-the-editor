@@ -10,7 +10,7 @@ chai.use(require('sinon-chai'));
 
 const nodemailer = require('nodemailer');
 
-describe('sending emails', () => {
+describe('emails', () => {
   let transportStub;
   let sendMailSpy;
   let configStub;
@@ -18,7 +18,12 @@ describe('sending emails', () => {
   beforeEach(() => {
     configStub = sinon.stub(config, 'get');
     configStub.withArgs('email.sendEmails').returns(true);
-    configStub.withArgs('email.domain').returns('done.on.friday.com');
+    configStub.withArgs('email.domain').returns('solar.citizens.test.com');
+
+    transportStub = { sendMail: function(options, callback) { callback(false,true); }};
+
+    sendMailSpy = sinon.spy(transportStub, 'sendMail');
+    sinon.stub(nodemailer, 'createTransport').returns(transportStub);
   });
 
   afterEach(() => {
@@ -26,115 +31,201 @@ describe('sending emails', () => {
     config.get.restore();
   });
 
-  describe('happy', () => {
-    beforeEach(() => {
-      transportStub = { sendMail: function(options, callback) { callback(false,true); }};
+  describe('to editors', () => {
+    describe('happy', () => {
+      it('sends an email', (done) => {
+        emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).to.have.been.called;
+          })
+          .then(done)
+          .catch(done);
+      });
 
-      sendMailSpy = sinon.spy(transportStub, 'sendMail');
-      sinon.stub(nodemailer, 'createTransport').returns(transportStub);
+      it('should address the email to the editors email', (done) => {
+        emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+                to: 'journalist@newspaper.com'
+              }));
+          })
+          .then(done)
+          .catch(done);
+      });
+
+      it('should use the sender name and last name to create the from email', (done) => {
+        emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+                from: 'Donald Trump <donald.trump@solar.citizens.test.com>'
+              }));
+          })
+          .then(done)
+          .catch(done);
+      });
+
+      it('should use the body sent in params', (done) => {
+        let sendThis = testHelpers.makeLetter();
+        sendThis.body = 'ran out of ideas.';
+
+        emailService.sendToEditor(sendThis, {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+                text: 'ran out of ideas.'
+              }));
+          })
+          .then(done)
+          .catch(done);
+      });
+
+      it('should use the subject sent in params', (done) => {
+        let sendThis = testHelpers.makeLetter();
+        sendThis.subject = 'we care about clean energy';
+
+        emailService.sendToEditor(sendThis, {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+                subject: 'we care about clean energy'
+              }));
+          })
+          .then(done)
+          .catch(done);
+      });
+
+      it('should set the reply-to header to the senders email address', (done) => {
+        let letter = testHelpers.makeLetter();
+        letter.email = 'personThatSentTheLetter@gmail.com';
+
+        emailService.sendToEditor(letter, {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+                'h:Reply-To': 'personThatSentTheLetter@gmail.com'
+              }));
+          })
+          .then(done)
+          .catch(done);
+      });
+
+      it('does not send an email if disabled in configuration', (done) => {
+        configStub.withArgs('email.sendEmails').returns(false);
+        emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
+          .then(() => {
+              expect(sendMailSpy).not.to.have.been.called;
+          })
+          .then(done)
+          .catch(done);
+      });
     });
 
-    it('sends an email', (done) => {
-      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).to.have.been.called;
-        })
-        .then(done)
-        .catch(done);
-    });
-
-    it('should address the email to the editors email', (done) => {
-      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              to: 'journalist@newspaper.com'
-            }));
-        })
-        .then(done)
-        .catch(done);
-    });
-
-    it('should use the sender name and last name to create the from email', (done) => {
-      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              from: 'Donald Trump <donald.trump@done.on.friday.com>'
-            }));
-        })
-        .then(done)
-        .catch(done);
-    });
-
-    it('should use the body sent in params', (done) => {
-      let sendThis = testHelpers.makeLetter();
-      sendThis.body = 'ran out of ideas.';
-
-      emailService.sendToEditor(sendThis, {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              text: 'ran out of ideas.'
-            }));
-        })
-        .then(done)
-        .catch(done);
-    });
-
-    it('should use the subject sent in params', (done) => {
-      let sendThis = testHelpers.makeLetter();
-      sendThis.subject = 'we care about clean energy';
-
-      emailService.sendToEditor(sendThis, {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              subject: 'we care about clean energy'
-            }));
-        })
-        .then(done)
-        .catch(done);
-    });
-
-    it('should set the reply-to header to the senders email address', (done) => {
-      let letter = testHelpers.makeLetter();
-      letter.email = 'personThatSentTheLetter@gmail.com';
-
-      emailService.sendToEditor(letter, {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).to.have.been.calledWith(sinon.match({
-              'h:Reply-To': 'personThatSentTheLetter@gmail.com'
-            }));
-        })
-        .then(done)
-        .catch(done);
-    });
-
-    it('does not send an email if disabled in configuration', (done) => {
-      configStub.withArgs('email.sendEmails').returns(false);
-      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
-        .then(() => {
-            expect(sendMailSpy).not.to.have.been.called;
-        })
-        .then(done)
-        .catch(done);
+    describe('sad', () => {
+      it('throws an error when something unexpected happens', (done) => {
+        emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
+          .then(() => {
+              done.fail('sendToEditor should not have succeded. It should have failed.');
+          })
+          .catch((error) => {
+              expect(error).to.not.be.null;
+          })
+          .then(done)
+          .catch(done);
+      });
     });
   });
 
-  describe('sad', () => {
-    beforeEach(() => {
-      transportStub = { sendMail: function(options, callback) { callback(true,false); }};
-      sendMailSpy = sinon.spy(transportStub, 'sendMail');
-      sinon.stub(nodemailer, 'createTransport').returns(transportStub);
+  describe('thank you email to users', () => {
+    it('should send the email to the users email', done => {
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            to: 'user@gmail.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
     });
 
-    it('throws an error when something unexpected happens', (done) => {
-      emailService.sendToEditor(testHelpers.makeLetter(), {email: 'journalist@newspaper.com'})
-        .then(() => {
-            done.fail('sendToEditor should not have succeded. It should have failed.');
-        })
-        .catch((error) => {
-            expect(error).to.not.be.null;
-        })
-        .then(done)
-        .catch(done);
+    it('should be sent from a configurable email account', (done) => {
+      configStub.withArgs('email.thankYou.fromName').returns('Solar Citizens');
+      configStub.withArgs('email.thankYou.fromEmail').returns('letters@solar-citizens.test.com');
+      configStub.withArgs('email.thankYou.replyTo').returns('info@solar-citizens.test.com');
+
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            from: 'Solar Citizens <letters@solar-citizens.test.com>',
+            'h:Reply-To': 'info@solar-citizens.test.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should copy the letter below the signature', done => {
+      configStub.withArgs('email.thankYou.note').returns('Hey, thanks!\n--\nThis was your letter:\n');
+
+      emailService.sendThankYouEmail({email: 'user@gmail.com'}, 'Please help us save the planet.')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            text: 'Hey, thanks!\n--\nThis was your letter:\nPlease help us save the planet.'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+  });
+
+  describe('user data export email to admins', () => {
+    it('should send the export file as an attachment encoded in UTF 8', done => {
+      emailService.sendUserDataExportEmail('path/to/file')
+      .then(() => {
+        expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+          attachments: [
+            {
+              path: 'path/to/file',
+              encoding: 'utf-8'
+            }
+          ]
+        }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should send the email to the configured admin email address', done => {
+      configStub.withArgs('admin.export.toEmail').returns('admin@solar-citizens.test.com');
+
+      emailService.sendUserDataExportEmail('')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            to: 'admin@solar-citizens.test.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should send the email from a dummy email address', done => {
+      configStub.withArgs('email.domain').returns('solar-citizens.test.com');
+
+      emailService.sendUserDataExportEmail('')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            from: 'export@solar-citizens.test.com'
+          }));
+      })
+      .then(done)
+      .catch(done);
+    });
+
+    it('should send the email with a subject that identifies the email', done => {
+      emailService.sendUserDataExportEmail('')
+      .then(() => {
+          expect(sendMailSpy).to.have.been.calledWith(sinon.match({
+            subject: 'Letters to the Editor user data export'
+          }));
+      })
+      .then(done)
+      .catch(done);
     });
   });
 });

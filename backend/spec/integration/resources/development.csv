@@ -1,528 +1,530 @@
 NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
-1,Central Coast Express Advocate,rdoherty@thoughtworks.com,Geoff,Hawthorne,West Gosford,2250
-2,Peninsula News,rdoherty@thoughtworks.com,Mark,Snell,Woy Woy,2250
-3,Daily Liberal,rdoherty@thoughtworks.com,Lynton,Grace,Dubbo,2830
-4,The Western Advocate/Western times,rdoherty@thoughtworks.com,,,Bathurst,2795
-5,Central Western Daily,rdoherty@thoughtworks.com,Tracey,Prisk,Orange,2800
-6,The Canowindra News,rdoherty@thoughtworks.com,,,Cowra,2794
-7,Cowra Guardian,rdoherty@thoughtworks.com,,,Cowra,2794
-8,Forbes Advocate,rdoherty@thoughtworks.com,Barry,Shine,Forbes,2871
-9,Hillston - Ivanhoe Spectator,rdoherty@thoughtworks.com,Pat,O'Sullivan,Hillston,2675
-10,Grenfell Record,rdoherty@thoughtworks.com,,,Grenfell,2810
-11,Lithgow Mercury,rdoherty@thoughtworks.com,Don,Kipp,Lithgow,2790
-12,Mudgee Guardian & The Weekly,rdoherty@thoughtworks.com,Robyn,Murray,Mudgee,2850
-13,Parkes Champion Post,rdoherty@thoughtworks.com,Luke,Merriman,Parkes,2870
-14,Blayney Chronicle,rdoherty@thoughtworks.com,Lynne,Hand,Blayney,2799
-15,Molong Express,rdoherty@thoughtworks.com,Rozzi,Smith,Molong,2866
-16,Oberon Review,rdoherty@thoughtworks.com,Maureen,Lawson,Oberon,2787
-17,Midstate Observer,rdoherty@thoughtworks.com,Tony,Rhead,Orange,2800
-18,Barrier Daily Truth,rdoherty@thoughtworks.com,David,Pearce,Broken Hill,2880
-19,The Lachlander,rdoherty@thoughtworks.com,Graham,Scott,Condobolin,2877
-20,Narromine News & Trangie Advocate,rdoherty@thoughtworks.com,Stephanie,Barlow,Narromine,2821
-21,West Wyalong Advocate,rdoherty@thoughtworks.com,,,West Wyalong,2671
-22,Pastoral Times,rdoherty@thoughtworks.com,Garry,Baker,Deniliquin,2710
-23,Cobar Weekly,rdoherty@thoughtworks.com,Sharon,Harland,Cobar,2835
-24,Cobar Age,rdoherty@thoughtworks.com,,,Cobar,2835
-25,Coonamble Times,rdoherty@thoughtworks.com,Michael,Graham,Coonamble,2829
-26,Warren Advocate,rdoherty@thoughtworks.com,Julie,Lincoln,Warren,2824
-27,Warren Weekly,rdoherty@thoughtworks.com,Sue,Harvey,Warren,2824
-28,The Condobolin Argus,rdoherty@thoughtworks.com,Karen,Tooth,Condobolin,2877
-29,Lower Hunter Star/Maitland Mercury,rdoherty@thoughtworks.com,,,Maitland,2320
-30,The Herald,rdoherty@thoughtworks.com,Jason,Gordon,Newcastle,2300
-31,Hunter Valley News/Muswellbrook Chronicle,rdoherty@thoughtworks.com,Amy,Slessor,Muswellbrook,2333
-32,Scone Advocate,rdoherty@thoughtworks.com,Tanya,Marschke,Scone,2337
-33,The Advertiser,rdoherty@thoughtworks.com,,,Cessnock,"2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752"
-34,Dungog Chronicle,rdoherty@thoughtworks.com,,,Dungog,2420
-35,Newcastle Star,rdoherty@thoughtworks.com,Kim-Cherie,Davidson,Newcastle,2300
-36,Port Stephens Examiner,rdoherty@thoughtworks.com,,,Raymond Terrace,2324
-37,Quirindi Advocate,rdoherty@thoughtworks.com,Jocelyn,Brackenbury,Quirindi,2343
-38,Singleton Argus,rdoherty@thoughtworks.com,Vicki,Caelli,Singleton,2330
-39,Illawarra Mercury,rdoherty@thoughtworks.com,Chris,Dyson,Wollongong,2500
-40,Highlands Post/Southern Highlands News,rdoherty@thoughtworks.com,,,Bowral,2576
-41,Kiama Independent,rdoherty@thoughtworks.com,,,Kiama,2529
-42,Shoalhaven & Nowra News/South Coast Register,rdoherty@thoughtworks.com,John,Hanscombe,Nowra,2541
-43,Lake Times,rdoherty@thoughtworks.com,Kerrielyn,Clark,Kiama,2533
-44,Wollongong Advertiser,rdoherty@thoughtworks.com,,,Shellharbour,2529
-45,The Coffs Coast Advocate,rdoherty@thoughtworks.com,,,Coffs Harbour,2450
-46,The Manning-Great Lakes Extra/Manning River T,rdoherty@thoughtworks.com,Toni,Bell,Taree,"2428,2429,2430"
-47,The Daily Examiner,rdoherty@thoughtworks.com,,,Grafton,2460
-48,Don Dorrigo Gazette,rdoherty@thoughtworks.com,Michael,English,Dorrigo,2453
-49,Great Lakes Advocate,rdoherty@thoughtworks.com,,,Forster,2428
-50,Gloucester Advocate,rdoherty@thoughtworks.com,Therese,Ryan,Gloucester,2422
-51,Macleay Argus,rdoherty@thoughtworks.com,,,Kempsey,2440
-52,Midcoast Observer,rdoherty@thoughtworks.com,,,West Kempsey,2440
-53,Port Macquarie Express/Port Macquarie News,rdoherty@thoughtworks.com,,,Port Macquarie,"2446,2444,2443,2445"
-54,Coffs Coast Independent,rdoherty@thoughtworks.com,Neil,Wood,Coffs Harbour,2450
-55,Macleay Valley Happynings,rdoherty@thoughtworks.com,,,Kempsey,2440
-56,Hastings Gazette,rdoherty@thoughtworks.com,K,Butler,Wauchope,2446
-57,Wingham Chronicle,rdoherty@thoughtworks.com,James,Law,Wingham,2429
-58,Coastal Views,rdoherty@thoughtworks.com,David,Moase,Grafton,2460
-59,Clarence Valley Review,rdoherty@thoughtworks.com,John,Warden,Yamba,2464
-60,Barraba Gazette,rdoherty@thoughtworks.com,,,,2347
-61,Glen Innes Examiner,rdoherty@thoughtworks.com,Tim,Hughes,Glen Innes,2370
-62,Northern Daily Leader/Coutry Leader/Tamworth ,rdoherty@thoughtworks.com,Simon,Chamberlain,Tamworth,2340
-63,Tenterfield Star,rdoherty@thoughtworks.com,Lisa,Finnerty,Tenterfield,2372
-64,Walcha News,rdoherty@thoughtworks.com,Vanessa,Arundale,Walcha,2354
-65,The Armidale Express/Express Extra,rdoherty@thoughtworks.com,Christian,Knight,Armidale,2350
-66,The Armidale Independent,rdoherty@thoughtworks.com,Jo,Harrison,Armidale,2350
-67,Coonabarabran Times,rdoherty@thoughtworks.com,,,Coonabarabran,2357
-68,Namoi Valley Independent,rdoherty@thoughtworks.com,,,Gunnedah,2380
-69,North West Magazine,rdoherty@thoughtworks.com,Keith,Millerd,Gunnedah,2380
-70,Inverell Times,rdoherty@thoughtworks.com,,,Inverell,2360
-71,Moree Champion,rdoherty@thoughtworks.com,Pramil,Masih,Moree,2400
-72,The Wee Waa News,rdoherty@thoughtworks.com,Jessica,Atkinson,Narrabri,2390
-73,The Courier,rdoherty@thoughtworks.com,Ian,Dunnet,Narrabri,2390
-74,The Norwester,rdoherty@thoughtworks.com,Annie,Alexander,Narrabri,2390
-75,The Bingara Advocate,rdoherty@thoughtworks.com,Nancy,Capel,Bingara,2404
-76,Guyra Argus,rdoherty@thoughtworks.com,,,Guyra,2365
-77,Manilla Express,rdoherty@thoughtworks.com,,,Manilla,2346
-78,The Spectator,rdoherty@thoughtworks.com,,,Walgett,2832
-79,Warialda Standard,rdoherty@thoughtworks.com,Rachel,Sherman,Warialda,2402
-80,The Northern Star,rdoherty@thoughtworks.com,Steve,Spinks,Goonellabah,2480
-81,The Northern Rivers Echo,rdoherty@thoughtworks.com,Rudi,Maxwell,Lismore,2480
-82,Daily News,rdoherty@thoughtworks.com,Mikarla,Marsden,South Tweed Heads,2486
-83,Tweed Border Mail,rdoherty@thoughtworks.com,Zoe,Hancock,South Tweed Heads,2486
-84,Richmond River Express Examiner,rdoherty@thoughtworks.com,,,Casino,2470
-85,The Byron Shire Echo,rdoherty@thoughtworks.com,Michael,McDonald,Mullumbimby,2482
-86,Ballina Shire Advocate,rdoherty@thoughtworks.com,,,Ballina,2478
-87,Bellingen Shire Courier Sun,rdoherty@thoughtworks.com,,,Bellingen,2454
-88,Byron Shire News,rdoherty@thoughtworks.com,Julie,Bergin,Byron Bay,2481
-89,Nambucca Guardian News,rdoherty@thoughtworks.com,Michael,O'Neil,Nambucca Heads,2448
-90,The Cootamundra Herald,rdoherty@thoughtworks.com,,,Cootamundra,2590
-91,The Area News,rdoherty@thoughtworks.com,,,Griffith,2680
-92,Harden-Murrumburrah Express,rdoherty@thoughtworks.com,,,Harden,2587
-93,The Narrandera Argus,rdoherty@thoughtworks.com,,,Narrandera,2700
-94,The Daily Advertiser,rdoherty@thoughtworks.com,,,Wagga Wagga,"2560,2567,2571,2752,2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574"
-95,Koondrook & Barham Bridge,rdoherty@thoughtworks.com,Peter,Herbert,Barham,2732
-96,Gundagai Independent,rdoherty@thoughtworks.com,,,Gundagai,2722
-97,Temora Independent,rdoherty@thoughtworks.com,,,Temora,2666
-98,Corowa Free Press,rdoherty@thoughtworks.com,Alannah,Lewis,Corowa,2646
-99,Southern Riverina News,rdoherty@thoughtworks.com,,,Finley,2713
-100,The Irrigator,rdoherty@thoughtworks.com,Felicity,Nolen,Leeton,2705
-101,Gilgandra Weekly,rdoherty@thoughtworks.com,,,Gilgandra,2827
-102,Eastern Riverina Chronicle,rdoherty@thoughtworks.com,,,Holbrook,2644
-103,The Lake News,rdoherty@thoughtworks.com,,,Temora,2666
-104,Southern Weekly Magazine,rdoherty@thoughtworks.com,,,Wagga Wagga,2650
-105,Southern Cross,rdoherty@thoughtworks.com,,,Wagga Wagga,2650
-106,The Leader,rdoherty@thoughtworks.com,Scott,Sanbrook,Wagga Wagga,2650
-107,Boorowa News,rdoherty@thoughtworks.com,Sharon,Meere,Boorowa,2586
-108,Cooma-Monaro Express,rdoherty@thoughtworks.com,Colleen,O'Sullivan,Cooma,2630
-109,The Magnet,rdoherty@thoughtworks.com,,,Eden,2551
-110,Summit Sun,rdoherty@thoughtworks.com,Colleen,O'Sullivan,Jindabyne,2627
-111,Bega District News,rdoherty@thoughtworks.com,Steve,Strevens,Bega,2550
-112,Goulburn Post,rdoherty@thoughtworks.com,Gerard,Walsh,Goulburn,2580
-113,The Bay Post/Moruya Examiner,rdoherty@thoughtworks.com,Barbara,Pike,Batemans Bay,2536
-114,The Queanbeyan Age,rdoherty@thoughtworks.com,Erika,Seymour,Queanbeyan,2620
-115,Tumbarumba Times/Tumut and Adelong Times,rdoherty@thoughtworks.com,Luke,Watson,Tumut,2720
-116,Milton-Ulladulla Times,rdoherty@thoughtworks.com,,,Ulladulla,2539
-117,Yass Tribune,rdoherty@thoughtworks.com,Robyn,Sykes,Yass,2582
-118,Bombala Times,rdoherty@thoughtworks.com,,,Bombala,2632
-119,Braidwood Times,rdoherty@thoughtworks.com,,,Braidwood,2622
-120,Merimbula News Weekly,rdoherty@thoughtworks.com,,,Merimbula,2548
-121,Narooma News,rdoherty@thoughtworks.com,,,Narooma,2546
-122,Hawkesbury Gazette,rdoherty@thoughtworks.com,,,Richmond,"2155,2762,2753,2765,2754,2775,2756"
-123,Hawkesbury Courier,rdoherty@thoughtworks.com,,,Richmond,2753
-124,Blue Mountains Gazette,rdoherty@thoughtworks.com,Michael,Ticehurst,Springwood,"2773,2778,2783,2774,2779,2784,2776,2780,2785,2777,2782,2786"
-125,Camden Haven Courier,rdoherty@thoughtworks.com,,,Laurieton,2443
-126,The Western Weekender,rdoherty@thoughtworks.com,Troy,Dodds,Jamisontown,2750
-127,Hills News,rdoherty@thoughtworks.com,Heloise,Reece,Castle Hill,2154
-128,Fairfield City Champion,rdoherty@thoughtworks.com,,,Fairfield,2165
-129,Bankstown-Canterbury Torch,rdoherty@thoughtworks.com,,,Condell Park,2200
-130,Blacktown Advocate,rdoherty@thoughtworks.com,Simon,Kent,Blacktown,2148
-131,The Canterbury-Bankstown Express,rdoherty@thoughtworks.com,Joanne,Vella,Liverpool,2170
-132,Blacktown City Sun,rdoherty@thoughtworks.com,,,,2148
-133,Fairfield Advance,rdoherty@thoughtworks.com,,,Liverpool,2170
-134,Inner West Courier - Inner West Edition,rdoherty@thoughtworks.com,,,Five Dock,"2040,2044,2048,2131,2135,2140,2037,2041,2045,2049,2132,2136,2193,2038,2042,2046,2050,2133,2137,2203,2039,2043,2047,2130,2134,2138,2204"
-135,Hills Shire Times,rdoherty@thoughtworks.com,Therese,Murray,Castle Hill,2154
-136,Hornsby & Upper North Shore Advocate,rdoherty@thoughtworks.com,,,Hornsby,2250
-137,The Inner West Courier (Gloss Edition),rdoherty@thoughtworks.com,,,Five Dock,"2134,2138,2204,2039,2043,2047,2130,2135,2140,2040,2044,2048,2131,2136,2193,2037,2041,2045,2049,2132,2133,2137,2203,2038,2042,2046,2050"
-138,Liverpool City Champion,rdoherty@thoughtworks.com,,,Liverpool,2170
-139,The Weekly Times,rdoherty@thoughtworks.com,Ulrike,Eichmeyer,Ryde,2112
-140,The Liverpool Leader,rdoherty@thoughtworks.com,Melissa,Mitchell,Liverpool,2170
-141,The Manly Daily,rdoherty@thoughtworks.com,,,Manly,2095
-142,The Mosman Daily,rdoherty@thoughtworks.com,,,North Sydney,2060
-143,Mt Druitt-St Marys Standard,rdoherty@thoughtworks.com,Andrew,Kacimaiwai,Mt Druitt,2770
-144,North Shore Times,rdoherty@thoughtworks.com,,,North Sydney,2060
-145,Northern District Times,rdoherty@thoughtworks.com,,,Epping,2121
-146,Parramatta Advertiser,rdoherty@thoughtworks.com,Rick,Allen,Parramatta,2150
-147,Penrith Press,rdoherty@thoughtworks.com,,,Penrith,2750
-148,Review Pictorial,rdoherty@thoughtworks.com,,,Auburn,2144
-149,St George & Sutherland Shire Leader,rdoherty@thoughtworks.com,Christine,Ryan,Rockdale,"2196,2210,2219,2223,2227,2231,2508,2205,2216,2220,2224,2228,2232,2207,2217,2221,2225,2229,2233,2209,2218,2222,2226,2230,2234"
-150,Southern Courier,rdoherty@thoughtworks.com,,,Alexandria,2015
-151,Wentworth Courier,rdoherty@thoughtworks.com,,,Alexandria,2015
-152,Campbelltown-Macarthur Advertiser,rdoherty@thoughtworks.com,,,Campbelltown,"2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752,2167,2564,2568,2572"
-153,The Macarthur Chronicle,rdoherty@thoughtworks.com,Mandy,Perrin,Campbelltown,"2171,2564,2570,2574,2558,2565,2571,2559,2566,2572,2167,2560,2567,2573"
-154,2120 & Beyond Monthly Chronicle,rdoherty@thoughtworks.com,Bill,Aitken,Thornleigh,2120
-155,The Balmain & Rozelle Village Voice,rdoherty@thoughtworks.com,,,Five Dock,2046
-156,Cooks River Valley Times,rdoherty@thoughtworks.com,,,Earlwood,2206
-157,"Drummoyne, Five Dock & Concord Village Voice",rdoherty@thoughtworks.com,Ben,Douglas,Alexandria,2015
-158,"Leichhardt, Glebe & Annandale Village Voice",rdoherty@thoughtworks.com,,,Petersham,2049
-159,Eastern Suburbs Spectator,rdoherty@thoughtworks.com,,,Bondi Junction,2022
-160,Camden Advertiser,rdoherty@thoughtworks.com,,,Camden,2570
-161,Tweed Sun,rdoherty@thoughtworks.com,Shane,Watson,Tweed Heads South,2486
-162,Parramatta Sun,rdoherty@thoughtworks.com,,,Castle Hill,2154
-163,St Marys Mt Druitt Star,rdoherty@thoughtworks.com,Roslyn,Smith,Blacktown,2148
-164,Times,rdoherty@thoughtworks.com,,,Bondi Junction,2022
-165,Leader,rdoherty@thoughtworks.com,,,Bondi Junction,2022
-166,Wollondilly Advertiser,rdoherty@thoughtworks.com,,,Picton,2571
-167,Rouse Hill Times,rdoherty@thoughtworks.com,David,Catt,Castle Hill,2154
-168,Penrith City Star,rdoherty@thoughtworks.com,Gemma,Seymour,Penrith,2750
-169,The Glebe,rdoherty@thoughtworks.com,,,Ultimo,2077
-170,Village Voice,rdoherty@thoughtworks.com,,,Alexandria,2015
-171,North Shore Times,rdoherty@thoughtworks.com,Nicole,Bauche,North Sydney,2060
-172,The Port Macquarie Independent,rdoherty@thoughtworks.com,,,,"2443,2444,2445,2440,2446"
-173,City Hub,rdoherty@thoughtworks.com,,,,"2000,2010,2050,2007,2011,2008,2037,2009,2042"
-174,South Sydney Herald,rdoherty@thoughtworks.com,,,,"2015,2037,2008,2016,2042,2010,2017,2043,2011,2021"
-175,Central,rdoherty@thoughtworks.com,,,,"2007,2011,2021,2050,2008,2015,2037,2009,2016,2042,2000,2010,2017,2043"
-176,Ballarat Courier,rdoherty@thoughtworks.com,Chloe,Biggin,Ballarat,"3352,3350,3357,3363"
-177,Ballarat News,rdoherty@thoughtworks.com,,,Ballarat,"3352,3350,3357,3363"
-178,Ararat Advertiser,rdoherty@thoughtworks.com,,,Ararat,3377
-179,The Advocate,rdoherty@thoughtworks.com,Aaron,Van Kessel,,"3363,3370,3461,3458,3460"
-180,Maryborough District Advertiser,rdoherty@thoughtworks.com,Michael,Rossi,Maryborough,"3475,3370,3467,3551,3352,3465,3371"
-181,Pyrenees Advocate,rdoherty@thoughtworks.com,Craig,Wilson,,"3352,3477,3469,3478,3468,3373,3351,3371,3467,3384,3361"
-182,The McIvor Times,rdoherty@thoughtworks.com,Ben,Cameron,Heathcote,"3559,3444,3523,3551,3550,3522,3558,3521"
-183,The Sea Lake & Wycheproof Times - Ensign,rdoherty@thoughtworks.com,Bernie,Clohesy,Sea Lake,",3533,3531,3485"
-184,Robinvale Sentinel,rdoherty@thoughtworks.com,,,Robinvale,"2736,3549,2737,3546,,3599"
-185,Bendigo Advertiser,rdoherty@thoughtworks.com,Nicole,Ferrie,Bendigo,"3450,3518,3523,3444,3550,3561"
-186,Bendigo Weekly,rdoherty@thoughtworks.com,Anthony,Radford,Bendigo,"3523,3559,3550,3570,3518,3450,3442,3551,3571,3561"
-187,Campaspe Valley News,rdoherty@thoughtworks.com,Monique,Preston,Rochester,"3572,3559,3557,3558,3561,3563"
-188,Riverine Herald,rdoherty@thoughtworks.com,Annette,Gregson,Echuca,"3639,3562,3575,3620,3564,3568,3566,3621,2731,3563,3567,3622,2710,3561,3579,3619"
-189,Kyabram Free Press/Tatura Guardian,rdoherty@thoughtworks.com,Michael,Maskell,Kyabram,3620
-190,The Free Press,rdoherty@thoughtworks.com,Lara,Bailey,Kilmore,3764
-191,The North Central Review,rdoherty@thoughtworks.com,Robin,Northover,Kilmore,3764
-192,Macedon Ranges/Sunbury Telegraph,rdoherty@thoughtworks.com,,,Gisborne,3437
-193,Macedon Ranges Guardian,rdoherty@thoughtworks.com,Angela,Crawford,Kyneton,3444
-194,Midland Express,rdoherty@thoughtworks.com,Angela,Crawford,Kyneton,3444
-195,Castlemaine Mail,rdoherty@thoughtworks.com,Jeff,Jones,Castlemaine,3450
-196,Tarrangower Times,rdoherty@thoughtworks.com,Vivien,Markham,Maldon,3463
-197,Geelong Independent,rdoherty@thoughtworks.com,,,Geelong,3215
-198,Geelong Advertiser,rdoherty@thoughtworks.com,Greg,Dundas,Geelong,3220
-199,Geelong News,rdoherty@thoughtworks.com,Grant,Payne,Geelong,3220
-200,The Geelong Times,rdoherty@thoughtworks.com,Ian,Kenins,Newtown,3220
-201,Queenscliffe Herald,rdoherty@thoughtworks.com,Carmel,Murphy,Queenscliff,3226
-202,The Echo,rdoherty@thoughtworks.com,Grant,Payne,Geelong,3220
-203,Mountain Views Mail,rdoherty@thoughtworks.com,Kath,Gannaway,Healesville,3777
-204,Seymour Nagambie Advertiser,rdoherty@thoughtworks.com,,,Emerald,3782
-205,The Ranges Trader Mail,rdoherty@thoughtworks.com,Tania,Martin,Monbulk,3793
-206,Upper Yarra Mail,rdoherty@thoughtworks.com,Kath,Gannaway,Yarra Junction,3797
-207,Warragul & Drouin Gazette,rdoherty@thoughtworks.com,Carolyn,Turner,Warragul,3820
-208,The Baw Baw Shire & West Gippsland Trader,rdoherty@thoughtworks.com,Carolyn,Turner,Warragul,3820
-209,Moe & Narracan News,rdoherty@thoughtworks.com,Fiona,Broom,Moe,3825
-210,Latrobe Valley Express,rdoherty@thoughtworks.com,Kristin,Favaloro,Morwell,3840
-211,The Traralgon Journal,rdoherty@thoughtworks.com,,,Traralgon,3844
-212,Gippsland Times & Maffra Spectator,rdoherty@thoughtworks.com,,,Sale,3850
-213,Bairnsdale Advertiser,rdoherty@thoughtworks.com,Luke,Robinson,Bairnsdale,3875
-214,East Gippsland News,rdoherty@thoughtworks.com,Luke,Robinson,Bairnsdale,3875
-215,Snowy River Mail,rdoherty@thoughtworks.com,,,Orbost,3888
-216,Lakes Post,rdoherty@thoughtworks.com,Stephanie,Nicholls,Lakes Entrance,3909
-217,Phillip Island & San Remo Advertiser,rdoherty@thoughtworks.com,Anne,Oswin,Cowes,3922
-218,The Great Southern Star,rdoherty@thoughtworks.com,,,Leongatha,3953
-219,South Gippsland Sentinel-Times,rdoherty@thoughtworks.com,Nathan,Johnston,Leongatha,3953
-220,The Mirror,rdoherty@thoughtworks.com,Robert,Best,Foster,3960
-221,Yarram Standard - News,rdoherty@thoughtworks.com,,,Yarram,3971
-222,West Wimmera Advocate,rdoherty@thoughtworks.com,Franco,Vanzini,Edenhope,3318
-223,Stawell Times - News,rdoherty@thoughtworks.com,,,Stawell,3380
-224,Dimboola Banner,rdoherty@thoughtworks.com,Audrey,Hurst,Warracknabeal,3393
-225,Warracknabeal Herald,rdoherty@thoughtworks.com,David,Ward,Warracknabeal,3393
-226,Hopetoun Courier & Mallee Pioneer,rdoherty@thoughtworks.com,Kathleen,Poulton,Hopetoun,3396
-227,Wimmera Mail-Times,rdoherty@thoughtworks.com,Peter,Hammond,Horsham,3400
-228,The Weekly Advertiser,rdoherty@thoughtworks.com,,,Horsham,3400
-229,Wimmera Messengers: The Voice of Hindmarsh,rdoherty@thoughtworks.com,,,Nhill,3418
-230,Wimmera Messengers: The Voice of Wimmera,rdoherty@thoughtworks.com,Gary,Sherwell,Nhill,3418
-231,The Rainbow-Jeparit Argus,rdoherty@thoughtworks.com,,,Rainbow,3424
-232,North Central News,rdoherty@thoughtworks.com,Ella,Ebery,St Arnaud,3478
-233,Buloke Times,rdoherty@thoughtworks.com,Shane,O'Shea,Donald,3480
-234,North West Express,rdoherty@thoughtworks.com,Bernie,Clohesy,Ouyen,3490
-235,Mildura Midweek,rdoherty@thoughtworks.com,Keiran,Iles,Mildura,3500
-236,Sunraysia Daily,rdoherty@thoughtworks.com,Kieran,Iles,Mildura,3500
-237,Cohuna Farmers' Weekly,rdoherty@thoughtworks.com,,,Cohuna,3568
-238,The Loddon Times,rdoherty@thoughtworks.com,Ken,Jenkins,Kerang,3579
-239,The Northern Times,rdoherty@thoughtworks.com,Ken,Jenkins,Kerang,3579
-240,Swan Hill Guardian,rdoherty@thoughtworks.com,Rob,Duffield,Swan Hill,3585
-241,Shepparton Adviser,rdoherty@thoughtworks.com,Tony,Mac,Shepparton,3630
-242,Shepparton News,rdoherty@thoughtworks.com,Richard,Bryce,Shepparton,3630
-243,Numurkah Leader,rdoherty@thoughtworks.com,Tony,Morris,Numurkah,3636
-244,Cobram Courier,rdoherty@thoughtworks.com,,,Cobram,3644
-245,The Seymour Telegraph,rdoherty@thoughtworks.com,Michelle,Bradley,Seymour,3660
-246,Euroa Gazette,rdoherty@thoughtworks.com,,,Euroa,3666
-247,Benalla Ensign,rdoherty@thoughtworks.com,Angela,Townsend,Benalla,3672
-248,Ovens & Murray Advertiser,rdoherty@thoughtworks.com,Zoe,Rudder,Wangaratta,3677
-249,The Chronicle,rdoherty@thoughtworks.com,Jeff,Zeuschner,Wangaratta,3677
-250,The Border Mail,rdoherty@thoughtworks.com,,,Wodonga,3690
-251,The Post,rdoherty@thoughtworks.com,,,Wodonga,3690
-252,Corryong Courier,rdoherty@thoughtworks.com,Mark,Collins,Corryong,3707
-253,Alexandra & Eildon Standard,rdoherty@thoughtworks.com,,,Alexandra,3714
-254,Yea Chronicle,rdoherty@thoughtworks.com,,,Yea,3717
-255,Mansfield Courier,rdoherty@thoughtworks.com,Pam,Zierk-Mahoney,Mansfield,3722
-256,Yarrawonga Chronicle,rdoherty@thoughtworks.com,,,Yarrawonga,3730
-257,Tatura Guardian,rdoherty@thoughtworks.com,,,Tatura,3616
-258,Bright Observer,rdoherty@thoughtworks.com,Ebony,D'Arcy,Myrtleford,3737
-259,Myrtleford Times,rdoherty@thoughtworks.com,Ebony,D'Arcy,Myrtleford,3737
-260,Surf Coast Times,rdoherty@thoughtworks.com,Nathan,Hale,Torquay,3228
-261,Colac Herald,rdoherty@thoughtworks.com,Bruce,Lawson,Colac,3250
-262,Camperdown Chronicle,rdoherty@thoughtworks.com,,,Camperdown,3260
-263,Cobden Times,rdoherty@thoughtworks.com,,,Camperdown,3260
-264,Western Plains Advertiser,rdoherty@thoughtworks.com,,,Camperdown,3260
-265,Terang Express,rdoherty@thoughtworks.com,,,Camperdown,3260
-266,The Warrnambool Standard,rdoherty@thoughtworks.com,Shane,Fowles,Warrnambool,3280
-267,The Moyne Gazette,rdoherty@thoughtworks.com,,,Port Fairy,3284
-268,Hamilton Spectator,rdoherty@thoughtworks.com,,,Hamilton,3300
-269,The Portland Observer & Guardian,rdoherty@thoughtworks.com,,,Portland,3305
-270,Casterton News,rdoherty@thoughtworks.com,Marion,Cowland,Casterton,3311
-271,Cranbourne News,rdoherty@thoughtworks.com,Garry,Howe,Pakenham,3810
-272,Berwick/Pakenham Cardinia Leader,rdoherty@thoughtworks.com,,,Berwick,3806
-273,Brimbank Leader,rdoherty@thoughtworks.com,,,Tullamarine,3043
-274,Caulfield Glen Eira/Port Phillip Leader,rdoherty@thoughtworks.com,,,Glen Iris,3146
-275,Community News - Moonee Valley,rdoherty@thoughtworks.com,,,Airport West,3042
-276,Cranbourne Journal,rdoherty@thoughtworks.com,,,Dandenong,3175
-277,Cranbourne Leader,rdoherty@thoughtworks.com,,,Berwick,3806
-278,The Journal,rdoherty@thoughtworks.com,,,Dandenong,3175
-279,Diamond Valley Leader,rdoherty@thoughtworks.com,,,Briar Hill,3088
-280,Manningham Leader,rdoherty@thoughtworks.com,,,Blackburn,3130
-281,The Emerald Hill Weekly,rdoherty@thoughtworks.com,,,East Melbourne,3002
-282,"The Chelsea, Mordialloc, Mentone Independent",rdoherty@thoughtworks.com,,,Hastings,3915
-283,Peninsula Journal Weekender,rdoherty@thoughtworks.com,,,Dandenong,3175
-284,Frankston & Hastings Independent,rdoherty@thoughtworks.com,,,Hastings,3915
-285,Frankston Standard/Hastings Leader,rdoherty@thoughtworks.com,Natalie,Kealey,Mornington,"3200,3912,3195,3201,3913,3198,3910,3918,3199,3911,3919"
-286,Heidelberg Leader,rdoherty@thoughtworks.com,,,Briar Hill,3088
-287,Hume Leader,rdoherty@thoughtworks.com,,,Tullamarine,3043
-288,Knox Leader,rdoherty@thoughtworks.com,,,Boronia,"3155,3156,3152,3178,3153,3179"
-289,Knox Journal,rdoherty@thoughtworks.com,,,Bayswater,3153
-290,Lilydale & Yarra Valley Leader,rdoherty@thoughtworks.com,,,Lilydale,"3139,3775,3116,3140,3777,3137,3765,3796,3138,3770,3799"
-291,The Mail/Williamstown Advertiser/Altona-Laver,rdoherty@thoughtworks.com,,,Airport West,3042
-292,Stonnington Leader,rdoherty@thoughtworks.com,,,Glen Iris,3146
-293,Maroondah Journal/Yarra Ranges Journal,rdoherty@thoughtworks.com,,,Bayswater,3153
-294,Melbourne Leader,rdoherty@thoughtworks.com,,,Glen Iris,3146
-295,The Melbourne Times,rdoherty@thoughtworks.com,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
-296,The Melbourne Weekly Magazine,rdoherty@thoughtworks.com,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
-297,Melton/Moorabool Express Telegraph,rdoherty@thoughtworks.com,,,Melton,3337
-298,Monash Journal,rdoherty@thoughtworks.com,,,Bayswater,3153
-299,Moonee Valley Leader,rdoherty@thoughtworks.com,,,Tullamarine,3043
-300,Moorabbin Kingston/Moorabbin Glen Eira Leader,rdoherty@thoughtworks.com,,,Cheltenham,3192
-301,Mordialloc Chelsea Leader,rdoherty@thoughtworks.com,,,Cheltenham,3192
-302,Moreland Leader,rdoherty@thoughtworks.com,Simon,Craig,Northcote,3070
-303,Mornington Peninsula Leader,rdoherty@thoughtworks.com,,,Mornington,3931
-304,Northcote Leader,rdoherty@thoughtworks.com,,,Northcote,"3071,3078,3070"
-305,Dandenong/Springvale Dandenong Leader,rdoherty@thoughtworks.com,,,Cheltenham,3192
-306,Pakenham-Berwick Gazette,rdoherty@thoughtworks.com,Garry,Howe,Pakenham,3810
-307,Preston Leader,rdoherty@thoughtworks.com,,,Northcote,"3072,3073,3083"
-308,Progress Leader,rdoherty@thoughtworks.com,,,Glen Iris,3146
-309,Sunbury/Macedon Ranges Leader,rdoherty@thoughtworks.com,,,Sunbury,3429
-310,Maroondah Leader,rdoherty@thoughtworks.com,,,Boronia,"3134,3135,3137"
-311,Bayside Leader,rdoherty@thoughtworks.com,,,Glen Iris,3146
-312,Free Press Leader,rdoherty@thoughtworks.com,,,Boronia,3155
-313,Waverley/Oakleigh Monash Leader,rdoherty@thoughtworks.com,,,Glen Iris,3146
-314,Werribee/Point Cook Banner,rdoherty@thoughtworks.com,,,Werribee,3030
-315,The Wyndham Leader,rdoherty@thoughtworks.com,,,Werribee,3030
-316,Western Leader,rdoherty@thoughtworks.com,,,Newport,3015
-317,Whitehorse Leader,rdoherty@thoughtworks.com,,,Blackburn,"3129,3133,3130,3151,3127,3131,3215,3128,3132"
-318,Whittlesea Leader,rdoherty@thoughtworks.com,,,Briar Hill,3088
-319,Mornington & Southern Peninsula Mail,rdoherty@thoughtworks.com,,,Hastings,3915
-320,Maribyrnong Leader,rdoherty@thoughtworks.com,,,Newport,3015
-321,Berwick News,rdoherty@thoughtworks.com,Garry,Howe,Pakenham,3810
-322,Hobsons Bay Leader,rdoherty@thoughtworks.com,,,Newport,3015
-323,"Star Keilor, Taylors Lakes, Sydenham",rdoherty@thoughtworks.com,,,Tullamarine,3043
-324,Ferntree Gully - Belgrave Mail,rdoherty@thoughtworks.com,Tania,Martin,Monbulk,3793
-325,Northern Star Real Estate,rdoherty@thoughtworks.com,,,Tullamarine,3043
-326,The City Weekly Melbourne,rdoherty@thoughtworks.com,,,East Melbourne,3002
-327,Melbourne Weekly Bayside,rdoherty@thoughtworks.com,,,East Melbourne,3002
-328,Melbourne Observer,rdoherty@thoughtworks.com,,,Eltham,3095
-329,"Star St Albans, Deer Park, Caroline Springs",rdoherty@thoughtworks.com,,,Tullamarine,3043
-330,"Star Werribee, Hoppers Crossing",rdoherty@thoughtworks.com,,,Tullamarine,3043
-331,"Star Williamstown, Altona, Laverton",rdoherty@thoughtworks.com,,,Tullamarine,3043
-332,"Star Footscray, Yarraville, Braybrook",rdoherty@thoughtworks.com,,,Tullamarine,3043
-333,"Star Sunshine, Ardeer, Albion",rdoherty@thoughtworks.com,,,Tullamarine,3043
-334,Western Star Real Estate,rdoherty@thoughtworks.com,,,Tullamarine,3043
-335,North West Star Real Estate,rdoherty@thoughtworks.com,,,Tullamarine,3043
-336,Melton/Moorabool Leader,rdoherty@thoughtworks.com,,,Melton,3337
-337,Pakenham News,rdoherty@thoughtworks.com,Gary,Howe,Pakenham,3810
-338,Heidelberg & Diamond Valley Weekly,rdoherty@thoughtworks.com,,,Briar Hill,3088
-339,Berwick and District Journal/Pakenham Journal,rdoherty@thoughtworks.com,,,Dandenong,3175
-340,Northern Weekly,rdoherty@thoughtworks.com,,,Briar Hill,3088
-341,Melbourne Weekly Eastern,rdoherty@thoughtworks.com,,,Briar Hill,3088
-342,Hume Weekly,rdoherty@thoughtworks.com,,,Airport West,3042
-343,Moonee Valley Community News,rdoherty@thoughtworks.com,,,Airport West,3042
-344,Whittlesea Review,rdoherty@thoughtworks.com,Robin,Northover,Kilmore,3764
-345,Star Hume - Our City,rdoherty@thoughtworks.com,,,Tullamarine,3043
-346,"Star Whittlesea, Mernda, Doreen",rdoherty@thoughtworks.com,,,Tullamarine,3043
-347,"Star Wallan, Kilmore, Broadford",rdoherty@thoughtworks.com,,,Tullamarine,3043
-348,Maroondah Weekly,rdoherty@thoughtworks.com,Greg,Videon,,"3153,3134,3135,3136"
-349,Knox Weekly,rdoherty@thoughtworks.com,Greg,Videon,,"3155,3180,3152,3156,3153,3178,3154,3179"
-350,Casey Weekly Berwick,rdoherty@thoughtworks.com,Greg,Videon,,"3807,3804,3805,3806"
-351,Yarra Ranges Weekly,rdoherty@thoughtworks.com,Greg,Videon,,"3140,3116,3153,3137,3796,3138"
-352,Frankston Weekly,rdoherty@thoughtworks.com,,,,"3199,3930,3201,3910,3198,3912"
-353,Kalgoorlie Miner,rdoherty@thoughtworks.com,John,Horner,Kalgoorlie,6430
-354,Esperance Express,rdoherty@thoughtworks.com,Paul,Goldie,Esperance,6450
-355,Central Midlands Coastal Advocate,rdoherty@thoughtworks.com,,,Moora,6510
-356,The Geraldton Guardian,rdoherty@thoughtworks.com,Sue,Cheira,Geraldton,6530
-357,Midwest Times,rdoherty@thoughtworks.com,,,Geraldton,6530
-358,Mandurah Mail,rdoherty@thoughtworks.com,,,Mandurah,6210
-359,Mandurah Coastal Times,rdoherty@thoughtworks.com,,,Mandurah,"6174,6207,6211,6175,6208,6213,6180,6209,6214,6173,6181,6210,6215"
-360,Harvey Reporter,rdoherty@thoughtworks.com,,,Harvey,6220
-361,Donnybrook-Bridgetown Mail,rdoherty@thoughtworks.com,Raelene,Heston,Collie,6225
-362,Collie Mail,rdoherty@thoughtworks.com,Raelene,Heston,Collie,6225
-363,Bunbury Mail,rdoherty@thoughtworks.com,,,Bunbury,6230
-364,South-Western Times,rdoherty@thoughtworks.com,,,Bunbury,6230
-365,Bunbury Herald,rdoherty@thoughtworks.com,Jamie,Tatham,Bunbury,6230
-366,Manjimup-Bridgetown Times,rdoherty@thoughtworks.com,Dannae,Synot,Manjimup,6258
-367,Busselton Dunsborough Times,rdoherty@thoughtworks.com,Hayley,Jensz,Busselton,6280
-368,Busselton-Dunsborough Mail,rdoherty@thoughtworks.com,,,Busselton,6280
-369,Augusta Margaret River Mail,rdoherty@thoughtworks.com,Hayley,Jensz,Margaret River,6285
-370,Northern Guardian,rdoherty@thoughtworks.com,,,Carnarvon,6701
-371,North West Telegraph,rdoherty@thoughtworks.com,,,Port Headland,6721
-372,Broome Advertiser,rdoherty@thoughtworks.com,Chris,Hingston,Chinatown,6725
-373,Kimberley Echo,rdoherty@thoughtworks.com,Nathan,Dyer,Kununurra,6743
-374,Narrogin Observer,rdoherty@thoughtworks.com,Andrew,Hobbs,Narrogin,6312
-375,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,rdoherty@thoughtworks.com,Veana,Scott,Wagin,6315
-376,Great Southern Herald,rdoherty@thoughtworks.com,,,Katanning,6317
-377,Albany Advertiser,rdoherty@thoughtworks.com,Ben,Spencer,Albany,6330
-378,Albany & Great Southern Weekender,rdoherty@thoughtworks.com,Wayne,Harrington,Albany,6330
-379,Avon Valley Advocate,rdoherty@thoughtworks.com,,,Northam,6401
-380,Merredin Wheatbelt Mercury,rdoherty@thoughtworks.com,,,Merredin,6415
-381,The Sunday Times,rdoherty@thoughtworks.com,John,Flint,Perth,6000
-382,The West Australian,rdoherty@thoughtworks.com,Margaret,Marshall,Osborne Park,6017
-383,The Canning Times Community,rdoherty@thoughtworks.com,Rachel,Watts,Myaree,"6102,6148,6106,6155,6107,6154,6147"
-384,The Claremont-Nedlands Post,rdoherty@thoughtworks.com,Bret,Christian,Shenton Park,6008
-385,Comment News Community,rdoherty@thoughtworks.com,Lucien,Wilkinson,Kelmscott,"6108,6112,6109,6147,6110,6155,6107,6111"
-386,Eastern Reporter,rdoherty@thoughtworks.com,Karen,Valenti,Osborne Park,6017
-387,Cambridge Post,rdoherty@thoughtworks.com,,,Shenton Park,6008
-388,Fremantle Cockburn Gazette,rdoherty@thoughtworks.com,David,Johns,Myaree,6154
-389,Fremantle Herald,rdoherty@thoughtworks.com,Natalie,Hug,Fremantle,6160
-390,Guardian Express Community,rdoherty@thoughtworks.com,,,Northbridge,6003
-391,Hills Gazette,rdoherty@thoughtworks.com,,,Midland,6056
-392,The Melville Times Community,rdoherty@thoughtworks.com,David,Johns,Myaree,6154
-393,Echo News,rdoherty@thoughtworks.com,,,Midland,6056
-394,Midland - Kalamunda Reporter,rdoherty@thoughtworks.com,Nathan,Watson,Midland,6936
-395,Mosman Park-Cottesloe Post,rdoherty@thoughtworks.com,Bret,Christian,Shenton Park,6008
-396,Western Suburbs Weekly,rdoherty@thoughtworks.com,Denise,Cahill,Northbridge,6003
-397,Sound Telegraph,rdoherty@thoughtworks.com,Monique,Mulligan,Rockingham,6168
-398,Southern Gazette Community,rdoherty@thoughtworks.com,Rachel,Watts,Myaree,"6100,6104,6101,6105,6102,6151,6154,6103,6152"
-399,Stirling Times Community,rdoherty@thoughtworks.com,Karen,Valenti,Osborne Park,6017
-400,Subiaco Post,rdoherty@thoughtworks.com,Bret,Christian,Shenton Park,6008
-401,Joondalup/Wanneroo Times Community Newspaper,rdoherty@thoughtworks.com,,,Joondalup,6027
-402,Weekend Courier,rdoherty@thoughtworks.com,,,Rockingham,6168
-403,The Perth Voice,rdoherty@thoughtworks.com,Natalie,Hug,Fremantle,6160
-404,The Islander,rdoherty@thoughtworks.com,Shauna,Black,Kingscote,5223
-405,Southern Argus,rdoherty@thoughtworks.com,,,Strathalbyn,5255
-406,Murray Valley Standard,rdoherty@thoughtworks.com,,,Murray Bridge,5253
-407,Border Chronicle,rdoherty@thoughtworks.com,Lauren,Barker,Bordertown,5268
-408,The Naracoorte Herald,rdoherty@thoughtworks.com,Sue,Waite,Naracoorte,5271
-409,The South-East Coastal Leader,rdoherty@thoughtworks.com,Jenni,Ling,Kingston SE,5275
-410,The South Eastern Times,rdoherty@thoughtworks.com,,,Millicent,5280
-411,The Border Watch,rdoherty@thoughtworks.com,,,Mount Gambier,5290
-412,The Penola Pennant,rdoherty@thoughtworks.com,,,Mount Gambier,5290
-413,The River News,rdoherty@thoughtworks.com,,,Waikerie,5330
-414,The Loxton News,rdoherty@thoughtworks.com,Paul,Mitchell,Loxton,5333
-415,The Border Times,rdoherty@thoughtworks.com,Paul,Mitchell,Renmark,5341
-416,The Murray Pioneer,rdoherty@thoughtworks.com,Paul,Mitchell,Renmark,5341
-417,The Barossa & Light Herald,rdoherty@thoughtworks.com,,,Tanunda,5352
-418,The Northern Argus,rdoherty@thoughtworks.com,,,Clare,5453
-419,The Plains Producer,rdoherty@thoughtworks.com,Andrew,Manuel,Balaklava,5461
-420,Flinders News,rdoherty@thoughtworks.com,,,Port Pirie,5540
-421,The Recorder,rdoherty@thoughtworks.com,,,Port Pirie,5540
-422,Yorke Peninsula Country Times,rdoherty@thoughtworks.com,Amie,Brokenshire,Kadina,5554
-423,Whyalla News,rdoherty@thoughtworks.com,,,Whyalla,5600
-424,Port Lincoln Times,rdoherty@thoughtworks.com,,,Port Lincoln,5606
-425,West Coast Sentinel,rdoherty@thoughtworks.com,Eugene,Boisvert,Ceduna,5690
-426,The Transcontinental,rdoherty@thoughtworks.com,,,Port Augusta,5700
-427,The Monitor - Your Community Newspaper,rdoherty@thoughtworks.com,,,Roxby Downs,5725
-428,Eyre Peninsula Tribune,rdoherty@thoughtworks.com,Seonie,Lyon,Cleve,5640
-429,City Messenger,rdoherty@thoughtworks.com,Kara,Phillips,Norwood,5067
-430,Eastern Courier Messenger,rdoherty@thoughtworks.com,Shannon,Caton,Norwood,5067
-431,The Guardian Messenger,rdoherty@thoughtworks.com,,,Morphettville,5043
-432,Leader Messenger,rdoherty@thoughtworks.com,Chris,Day,Salisbury,5108
-433,News Review Messenger,rdoherty@thoughtworks.com,Andrew,Spence,Salisbury,5108
-434,East Torrens Messenger,rdoherty@thoughtworks.com,Rachel,Moore,Norwood,5067
-435,Portside Messenger,rdoherty@thoughtworks.com,David,Klar,Adelaide,5015
-436,Southern Times Messenger,rdoherty@thoughtworks.com,Emma,Graham,Morphett Vale,5162
-437,City North Messenger,rdoherty@thoughtworks.com,Chris,Day,Adelaide,5015
-438,The Weekly Times Messenger,rdoherty@thoughtworks.com,David,Klar,Kidman Park,5025
-439,Adelaide Hills Weekender,rdoherty@thoughtworks.com,,,Crafers,5152
-440,The Independent Weekly,rdoherty@thoughtworks.com,Hendrik,Gout,Adelaide,5000
-441,Adelaide Church Guardian,rdoherty@thoughtworks.com,Steve,Daughtry,North Adelaide,5006
-442,The Bunyip,rdoherty@thoughtworks.com,Emma,Moreland,Gawler,5118
-443,On the Coast,rdoherty@thoughtworks.com,Claire,Thwaites,Victor Harbor,5211
-444,The Times,rdoherty@thoughtworks.com,Claire,Thwaites,Victor Harbor,5211
-445,Northern Territory News/Sunday Territorian,rdoherty@thoughtworks.com,Matt,Cunningham,Darwin,800
-446,Tennant & District Times,rdoherty@thoughtworks.com,Jasmin,Afianos,Tennant Creek,861
-447,Arafura Times,rdoherty@thoughtworks.com,,,Nhulunbuy,880
-448,Centralian Advocate,rdoherty@thoughtworks.com,,,Alice Springs,870
-449,Katherine Times,rdoherty@thoughtworks.com,Tegan,Forder,Katherine,850
-450,Darwin Sun/Litchfield Sun/Palmerston Sun,rdoherty@thoughtworks.com,,,Palmerston,831
-451,Alice Springs News,rdoherty@thoughtworks.com,Erwin,Chlanda,Alice Springs,870
-452,The Advocate/Coast to Coast News,rdoherty@thoughtworks.com,Danny,Clark,Burnie,7320
-453,Mercury/Sunday Tasmanian,rdoherty@thoughtworks.com,,,Hobart,7000
-454,The Examiner/Launceston Times/Meander valley ,rdoherty@thoughtworks.com,Edwina,Yates,Launceston,7250
-455,The Huon Valley News,rdoherty@thoughtworks.com,Maureen,Oates,Franklin,7113
-456,The Gazette,rdoherty@thoughtworks.com,Blair,Richards,New Norfolk,7140
-457,Central Coast Courier,rdoherty@thoughtworks.com,,,Orford,7190
-458,North Eastern Advertiser,rdoherty@thoughtworks.com,Peter,Fish,Scottsdale,7260
-459,Circular Head Chronicle,rdoherty@thoughtworks.com,,,Smithton,7330
-460,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,rdoherty@thoughtworks.com,Veana,Scott,Wagin,6315
-461,NT Times,rdoherty@thoughtworks.com,,,,800
-462,Sydney Morning Herald,rdoherty@thoughtworks.com,,,,2000
-463,Daily Telegraph,rdoherty@thoughtworks.com,,,,2000
-464,Newcastle Herald,rdoherty@thoughtworks.com,,,,2000
-465,Canberra Times xx,rdoherty@thoughtworks.com,,,,2000
-466,The Age,rdoherty@thoughtworks.com,,,,3000
-467,Herald Sun,rdoherty@thoughtworks.com,,,,3000
-468,Courier Mail,rdoherty@thoughtworks.com,,,,4000
-469,Brisbane Times,rdoherty@thoughtworks.com,,,,4000
-470,Adelaide Now,rdoherty@thoughtworks.com,,,,5000
-471,The Mercury,rdoherty@thoughtworks.com,,,,7000
-472,The Examiner,rdoherty@thoughtworks.com,,,,7000
-475,St George & Sutherland Shire Leader,rdoherty@thoughtworks.com,Christine,Ryan,,"2211,2223,2196,2213,2210,2222,2220,2212,2209,2200,2214"
-476,St George & Sutherland Shire Leader,rdoherty@thoughtworks.com,Christine,Ryan,,"2218,2208,2207,2220,2217,2223,2205,2219,2216,2222,2221"
-477,"The Examiner: Northern Tasmania News, sport a",rdoherty@thoughtworks.com,Simon,Tennant,,"7248,7277,7255,7249,7290,7264,7267,7261,7212,7268,7262,7259,7253,7265,7260,7254,7257,7250,7263,7258,7252,3960"
-478,Brisbane Times,rdoherty@thoughtworks.com,,,,"4173,4113,4152,4179,4121,4153,4157,4174,4156,4170,4178,4122,4154,4123,4155,4172,4025"
-479,Circular Head Chronicle,rdoherty@thoughtworks.com,,,,"7307,7256,7310,7331,7322,7316,7275,7315,7305,7321,7325,7320,7330"
-480,The Advocate,rdoherty@thoughtworks.com,,,,"7316,7307,7256,7321,7331,7322,7275,7315,7305,7310,7325,7320,7330"
-481,Brisbane Times,rdoherty@thoughtworks.com,,,,"4053,4010,4000,4030,4060,4066,4061,4005,4051,4006,4064,4059,4065"
-482,The Bulletin,rdoherty@thoughtworks.com,,,,"4738,4702,4704,4706,4805,4739,4741,4743,4707,4820,4740,4742,4744,4710,4714,4723,4728,4745,4711,4721,4724,4699,4746,4753,4756,4804,4700,4751,4754,4757,4737,4701,4703,4705"
-483,Whitsunday Times,rdoherty@thoughtworks.com,,,,"4744,4710,4714,4723,4728,4700,4751,4754,4742,4699,4746,4753,4756,4804,4738,4702,4724,4757,4737,4701,4703,4705,4707,4820,4740,4706,4805,4739,4741,4743,4745,4711,4721,4704"
-484,Central Queensland News,rdoherty@thoughtworks.com,,,,"4753,4756,4804,4820,4740,4742,4744,4699,4739,4741,4743,4745,4700,4702,4704,4706,4746,4701,4703,4705,4707,4751,4721,4724,4737,4710,4714,4723,4728,4738,4711,4754,4757,4805"
-485,Surf Coast Times,rdoherty@thoughtworks.com,,,,"3328,3221,3260,3233,3334,3250,3329,3222,3266,3235,3342,3228,3239,3223,3321,3236,3351,3230,3240,3224,3322,3251,3330,3241,3225,3324,3216,3254,3331,3242,3226,3237,3352,3231,3332,3243,3227,3238,3360,3232,3333,3249"
-486,Colac Herald,rdoherty@thoughtworks.com,,,,"3235,3342,3251,3330,3241,3225,3324,3216,3254,3331,3224,3322,3237,3352,3231,3332,3243,3227,3238,3360,3232,3242,3226,3328,3221,3260,3233,3334,3250,3329,3222,3266,3333,3249,3228,3239,3223,3321,3236,3351,3230,3240"
-487,Maroon Leader,rdoherty@thoughtworks.com,,,,"3134,3133,3136,3135,3153,3151,3132,3131,3130"
-488,Manningham Leader,rdoherty@thoughtworks.com,,,,"3153,3151,3136,3131,3130,3133,3132,3135,3134"
-489,The Weekly Review,rdoherty@thoughtworks.com,Eileen,Berry,,"3132,3131,3135,3134,3133,3151,3136,3130,3153"
-490,Moreton Quest News,rdoherty@thoughtworks.com,,,,"4502,4037,4306,4521,4311,4346,4503,4342,4500,4520,4054,4312,4053,4055,4313,4501,4035"
-491,Central Coast News Local,rdoherty@thoughtworks.com,,,,"2262,2263,2250,2258,2259,2260,2261"
-492,South East Leader,rdoherty@thoughtworks.com,,,,"3911,3930,3931,3977,3198,3200,3199,3201,3910"
-493,Mornington Peninsula News,rdoherty@thoughtworks.com,Keith,Platt,,"3199,3198,3201,3200,3911,3910,3977,3931,3930"
-494,The Monara Post,rdoherty@thoughtworks.com,,,,"2623,2536,2640,2620,2622,2624,2537,2642,2621,2653,2625,2545,2649,2652,2720,2626,2546,2650,2551,2722,2627,2548,2550,2580,2729,2628,2549,2632,2611,2730,2629,2631,2633,2619,3707,2630"
-495,Bay Post Moruya,rdoherty@thoughtworks.com,Kerrie,O'Connor,,"2611,2730,2629,2631,2633,2619,3707,2630,2632,2640,2620,2622,2624,2537,2642,2621,2623,2536,2545,2649,2652,2720,2626,2546,2650,2653,2625,2627,2548,2550,2580,2729,2628,2549,2551,2722"
-496,Bega District News,rdoherty@thoughtworks.com,Ben,Smyth,,"2548,2550,2580,2729,2628,2549,2551,2722,2627,2629,2631,2633,2619,3707,2630,2632,2611,2730,2622,2624,2537,2642,2621,2623,2536,2640,2620,2652,2720,2626,2546,2650,2653,2625,2545,2649"
-497,Gladstone Observer,rdoherty@thoughtworks.com,,,,"4695,4746,4727,4605,4420,4678,4650,4717,4697,4719,4709,4721,4731,4610,4454,4725,4472,4418,4676,4627,4715,4724,4735,4726,4821,4728,4606,4427,4680,4670,4612,4673,4625,4712,4722,4732,4611,4470,4415,4478,4419,4677,4630,4716,4718,4702,4720,4730,4608,4428,4694,4671,4613,4674,4626,4713,4723,4733"
-498,Central Telegraph,rdoherty@thoughtworks.com,,,,"4627,4678,4715,4724,4735,4726,4821,4728,4713,4723,4733,4472,4418,4605,4712,4722,4732,4470,4415,4478,4419,4606,4731,4454,4612,4673,4625,4676,4730,4428,4611,4671,4613,4674,4626,4677,4427,4610,4670,4695,4718,4702,4720,4608,4650,4694,4717,4697,4719,4709,4721,4630,4680,4716,4725,4746,4727,4420"
-499,News Mail,rdoherty@thoughtworks.com,Liz,Carson,,"4725,4746,4727,4427,4610,4670,4695,4735,4726,4821,4728,4428,4611,4671,4613,4478,4419,4606,4630,4680,4716,4472,4418,4605,4420,4608,4650,4694,4717,4697,4674,4626,4677,4713,4723,4732,4673,4625,4676,4627,4678,4715,4724,4733,4719,4709,4721,4730,4454,4612,4718,4702,4720,4712,4722,4731,4470,4415"
-500,Albert and Logan News online,rdoherty@thoughtworks.com,,,,"4133,4287,4131,4285,4280,4211,4275,4208,4130,4207,4129,4205,4128,4272,4125,4271,4124,4270"
-501,South Coast Register,rdoherty@thoughtworks.com,John,Hanscombe,,"2534,2540,2537,2622,2533,2539,2536,2577,2541,2538,2535"
-502,Kiama Independent,rdoherty@thoughtworks.com,Kerrielyn,Clark,,"2540,2537,2622,2533,2539,2536,2577,2541,2538,2535,2534"
-503,Kangaroo Valley Voice,rdoherty@thoughtworks.com,,,,"2537,2622,2533,2539,2536,2577,2541,2538,2535,2534,2540"
-504,Fremantle Herald,rdoherty@thoughtworks.com,Andrew,Smith,,"6057,6056,6108,6070,6058,6055,6107,6076,6110,6109"
-505,Community News,rdoherty@thoughtworks.com,,,,"6107,6076,6057,6109,6108,6056,6055,6070,6058,6110"
-506,Townsville Bulletin,rdoherty@thoughtworks.com,,,,"4816,4813,4819,4818,4815,4812,4811,4817,4814,4850,4810"
-507,Guardian Messenger,rdoherty@thoughtworks.com,Emma,Grahame,,"5039,5031,5021,5025,5020,5024,5019,5038,5009,5950,5007,5045,5023,5044,5037,5043,5033,5040,5032,5022"
-508,Messenger,rdoherty@thoughtworks.com,Chris,Day,,"5037,5007,5045,5023,5032,5044,5022,5043,5033,5040,5020,5039,5031,5021,5025,5950,5024,5019,5038,5009"
-509,Cranbourne News,rdoherty@thoughtworks.com,,,,"3782,3159,3809,3978,3160,3767,3156,3807,3789,3155,3158,3808,3810,3154,3805,3787,3153,3804,3806,3788,3791,3785,3765,3781,3783,3786,3139"
-510,Berwick Leader,rdoherty@thoughtworks.com,Dimity,Barber,,"3767,3782,3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160"
-511,Lilydale & Yarra Valley Leader,rdoherty@thoughtworks.com,Elaine,Phelan,,"3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160,3767,3782"
-512,Penrith City Gazette,rdoherty@thoughtworks.com,Heloise,Reece,,"2750,2749,2753,2751,2745,2555,2760,2748,2747"
-513,Caboolture News,rdoherty@thoughtworks.com,,,,"4503,4511,4505,4504,4507,4506,4510,4509,4508"
-514,Bribie Weekly,rdoherty@thoughtworks.com,,,,"4509,4508,4507,4511,4510,4504,4503,4506,4505"
-515,The Examiner,rdoherty@thoughtworks.com,Simon,Tennant,,"7304,7290,7250,7321,7011,7467,7017,7469,7305,7173,7030,7212,7185,7214,7187,7025,7470,7306,7174,7119,7176,7139,7178,7171,7026,7210,7183,7300,7270,7302,7276,7179,7172,7027,7211,7184,7213,7186,7215,7190,7180,7291,7258,7466,7012,7468,7216,7209,7182,7292,7264,7301,7275,7303,7277,7249,7310,7175,7120,7177,7140"
-516,Ther Mercury,rdoherty@thoughtworks.com,,,,"7177,7187,7179,7209,7250,7292,7321,7301,7467,7303,7469,7305,7030,7175,7185,7214,7276,7216,7290,7306,7119,7011,7139,7017,7171,7026,7173,7183,7212,7270,7302,7468,7304,7470,7027,7174,7184,7176,7186,7178,7190,7180,7210,7258,7300,7466,7012,7140,7025,7172,7182,7211,7264,7213,7275,7215,7277,7249,7291,7310,7120"
-517,Blue Mountains Gazette,rdoherty@thoughtworks.com,Damien,Madigan,,"2580,2845,2786,2780,2774,2849,2795,2784,2778,2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777"
-518,Hawkesbury Gazette,rdoherty@thoughtworks.com,Matt,Lawrence,,"2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777,2580,2845,2786,2780,2774,2849,2795,2784,2778"
-519,Northern Star,rdoherty@thoughtworks.com,,,,"2471,2475,2453,2474,2469,2460,2466,2480,2465,2370,2473,2477,2472,2476,2478,2464,2470,2463"
-520,Daily Examiner,rdoherty@thoughtworks.com,David,Moase,,"2475,2453,2474,2370,2473,2466,2480,2465,2478,2477,2472,2476,2471,2464,2470,2463,2469,2460"
-521,Redcliffe and Bayside Herald,rdoherty@thoughtworks.com,,,,"4032,4020,4017,4019,4035,4509,4036,4503,4018,4022,4021,4053,4034"
-522,Auburn Review,rdoherty@thoughtworks.com,,,,"2128,2160,2142,2046,2161,2145,2140,2127,2150,2141,2117,2137,2116,2144,2138,2143,2047,2162,2135,2115"
-523,Ciao Magazine,rdoherty@thoughtworks.com,,,,"2047,2162,2135,2115,2143,2160,2142,2046,2161,2128,2145,2140,2127,2150,2141,2137,2116,2144,2138,2117"
-524,Burwood Scene,rdoherty@thoughtworks.com,,,,"2162,2135,2115,2143,2047,2142,2046,2161,2128,2160,2140,2127,2150,2141,2145,2116,2144,2138,2117,2137"
-525,Central Coast Express Advocate,rdoherty@thoughtworks.com,Mark ,Nolan,,"2251,2256,2257,2260,2775,2083,2250"
-526,Peninsula News,rdoherty@thoughtworks.com,,,,"2260,2775,2083,2250,2251,2256,2257"
-527,NT news,rdoherty@thoughtworks.com,,,,829828832830801000000000
-528,Adelaide Now Messenger,rdoherty@thoughtworks.com,,,,"5063,5150,5086,5064,5081,5089,5076,5070,5090,5068,5074,5067,5088,5075,5087,5065,5073,5066,5072"
-529,Community News,rdoherty@thoughtworks.com,,,,"6105,6102,6101,6107,6104,6100,6106,6103,6152,6151"
+1,Central Coast Express Advocate,ajuarez@thoughtworks.com,Geoff,Hawthorne,West Gosford,2250
+2,Peninsula News,ajuarez@thoughtworks.com,Mark,Snell,Woy Woy,2250
+3,Daily Liberal,ajuarez@thoughtworks.com,Lynton,Grace,Dubbo,2830
+4,The Western Advocate/Western times,ajuarez@thoughtworks.com,,,Bathurst,2795
+5,Central Western Daily,ajuarez@thoughtworks.com,Tracey,Prisk,Orange,2800
+6,The Canowindra News,ajuarez@thoughtworks.com,,,Cowra,2794
+7,Cowra Guardian,ajuarez@thoughtworks.com,,,Cowra,2794
+8,Forbes Advocate,ajuarez@thoughtworks.com,Barry,Shine,Forbes,2871
+9,Hillston - Ivanhoe Spectator,ajuarez@thoughtworks.com,Pat,O'Sullivan,Hillston,2675
+10,Grenfell Record,ajuarez@thoughtworks.com,,,Grenfell,2810
+11,Lithgow Mercury,ajuarez@thoughtworks.com,Don,Kipp,Lithgow,2790
+12,Mudgee Guardian & The Weekly,ajuarez@thoughtworks.com,Robyn,Murray,Mudgee,2850
+13,Parkes Champion Post,ajuarez@thoughtworks.com,Luke,Merriman,Parkes,2870
+14,Blayney Chronicle,ajuarez@thoughtworks.com,Lynne,Hand,Blayney,2799
+15,Molong Express,ajuarez@thoughtworks.com,Rozzi,Smith,Molong,2866
+16,Oberon Review,ajuarez@thoughtworks.com,Maureen,Lawson,Oberon,2787
+17,Midstate Observer,ajuarez@thoughtworks.com,Tony,Rhead,Orange,2800
+18,Barrier Daily Truth,ajuarez@thoughtworks.com,David,Pearce,Broken Hill,2880
+19,The Lachlander,ajuarez@thoughtworks.com,Graham,Scott,Condobolin,2877
+20,Narromine News & Trangie Advocate,ajuarez@thoughtworks.com,Stephanie,Barlow,Narromine,2821
+21,West Wyalong Advocate,ajuarez@thoughtworks.com,,,West Wyalong,2671
+22,Pastoral Times,ajuarez@thoughtworks.com,Garry,Baker,Deniliquin,2710
+23,Cobar Weekly,ajuarez@thoughtworks.com,Sharon,Harland,Cobar,2835
+24,Cobar Age,ajuarez@thoughtworks.com,,,Cobar,2835
+25,Coonamble Times,ajuarez@thoughtworks.com,Michael,Graham,Coonamble,2829
+26,Warren Advocate,ajuarez@thoughtworks.com,Julie,Lincoln,Warren,2824
+27,Warren Weekly,ajuarez@thoughtworks.com,Sue,Harvey,Warren,2824
+28,The Condobolin Argus,ajuarez@thoughtworks.com,Karen,Tooth,Condobolin,2877
+29,Lower Hunter Star/Maitland Mercury,ajuarez@thoughtworks.com,,,Maitland,2320
+30,The Herald,ajuarez@thoughtworks.com,Jason,Gordon,Newcastle,2300
+31,Hunter Valley News/Muswellbrook Chronicle,ajuarez@thoughtworks.com,Amy,Slessor,Muswellbrook,2333
+32,Scone Advocate,ajuarez@thoughtworks.com,Tanya,Marschke,Scone,2337
+33,The Advertiser,ajuarez@thoughtworks.com,,,Cessnock,"2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752"
+34,Dungog Chronicle,ajuarez@thoughtworks.com,,,Dungog,2420
+35,Newcastle Star,ajuarez@thoughtworks.com,Kim-Cherie,Davidson,Newcastle,2300
+36,Port Stephens Examiner,ajuarez@thoughtworks.com,,,Raymond Terrace,2324
+37,Quirindi Advocate,ajuarez@thoughtworks.com,Jocelyn,Brackenbury,Quirindi,2343
+38,Singleton Argus,ajuarez@thoughtworks.com,Vicki,Caelli,Singleton,2330
+39,Illawarra Mercury,ajuarez@thoughtworks.com,Chris,Dyson,Wollongong,2500
+40,Highlands Post/Southern Highlands News,ajuarez@thoughtworks.com,,,Bowral,2576
+41,Kiama Independent,ajuarez@thoughtworks.com,,,Kiama,2529
+42,Shoalhaven & Nowra News/South Coast Register,ajuarez@thoughtworks.com,John,Hanscombe,Nowra,2541
+43,Lake Times,ajuarez@thoughtworks.com,Kerrielyn,Clark,Kiama,2533
+44,Wollongong Advertiser,ajuarez@thoughtworks.com,,,Shellharbour,2529
+45,The Coffs Coast Advocate,ajuarez@thoughtworks.com,,,Coffs Harbour,2450
+46,The Manning-Great Lakes Extra/Manning River T,ajuarez@thoughtworks.com,Toni,Bell,Taree,"2428,2429,2430"
+47,The Daily Examiner,ajuarez@thoughtworks.com,,,Grafton,2460
+48,Don Dorrigo Gazette,ajuarez@thoughtworks.com,Michael,English,Dorrigo,2453
+49,Great Lakes Advocate,ajuarez@thoughtworks.com,,,Forster,2428
+50,Gloucester Advocate,ajuarez@thoughtworks.com,Therese,Ryan,Gloucester,2422
+51,Macleay Argus,ajuarez@thoughtworks.com,,,Kempsey,2440
+52,Midcoast Observer,ajuarez@thoughtworks.com,,,West Kempsey,2440
+53,Port Macquarie Express/Port Macquarie News,ajuarez@thoughtworks.com,,,Port Macquarie,"2446,2444,2443,2445"
+54,Coffs Coast Independent,ajuarez@thoughtworks.com,Neil,Wood,Coffs Harbour,2450
+55,Macleay Valley Happynings,ajuarez@thoughtworks.com,,,Kempsey,2440
+56,Hastings Gazette,ajuarez@thoughtworks.com,K,Butler,Wauchope,2446
+57,Wingham Chronicle,ajuarez@thoughtworks.com,James,Law,Wingham,2429
+58,Coastal Views,ajuarez@thoughtworks.com,David,Moase,Grafton,2460
+59,Clarence Valley Review,ajuarez@thoughtworks.com,John,Warden,Yamba,2464
+60,Barraba Gazette,ajuarez@thoughtworks.com,,,,2347
+61,Glen Innes Examiner,ajuarez@thoughtworks.com,Tim,Hughes,Glen Innes,2370
+62,Northern Daily Leader/Coutry Leader/Tamworth ,ajuarez@thoughtworks.com,Simon,Chamberlain,Tamworth,2340
+63,Tenterfield Star,ajuarez@thoughtworks.com,Lisa,Finnerty,Tenterfield,2372
+64,Walcha News,ajuarez@thoughtworks.com,Vanessa,Arundale,Walcha,2354
+65,The Armidale Express/Express Extra,ajuarez@thoughtworks.com,Christian,Knight,Armidale,2350
+66,The Armidale Independent,ajuarez@thoughtworks.com,Jo,Harrison,Armidale,2350
+67,Coonabarabran Times,ajuarez@thoughtworks.com,,,Coonabarabran,2357
+68,Namoi Valley Independent,ajuarez@thoughtworks.com,,,Gunnedah,2380
+69,North West Magazine,ajuarez@thoughtworks.com,Keith,Millerd,Gunnedah,2380
+70,Inverell Times,ajuarez@thoughtworks.com,,,Inverell,2360
+71,Moree Champion,ajuarez@thoughtworks.com,Pramil,Masih,Moree,2400
+72,The Wee Waa News,ajuarez@thoughtworks.com,Jessica,Atkinson,Narrabri,2390
+73,The Courier,ajuarez@thoughtworks.com,Ian,Dunnet,Narrabri,2390
+74,The Norwester,ajuarez@thoughtworks.com,Annie,Alexander,Narrabri,2390
+75,The Bingara Advocate,ajuarez@thoughtworks.com,Nancy,Capel,Bingara,2404
+76,Guyra Argus,ajuarez@thoughtworks.com,,,Guyra,2365
+77,Manilla Express,ajuarez@thoughtworks.com,,,Manilla,2346
+78,The Spectator,ajuarez@thoughtworks.com,,,Walgett,2832
+79,Warialda Standard,ajuarez@thoughtworks.com,Rachel,Sherman,Warialda,2402
+80,The Northern Star,ajuarez@thoughtworks.com,Steve,Spinks,Goonellabah,2480
+81,The Northern Rivers Echo,ajuarez@thoughtworks.com,Rudi,Maxwell,Lismore,2480
+82,Daily News,ajuarez@thoughtworks.com,Mikarla,Marsden,South Tweed Heads,2486
+83,Tweed Border Mail,ajuarez@thoughtworks.com,Zoe,Hancock,South Tweed Heads,2486
+84,Richmond River Express Examiner,ajuarez@thoughtworks.com,,,Casino,2470
+85,The Byron Shire Echo,ajuarez@thoughtworks.com,Michael,McDonald,Mullumbimby,2482
+86,Ballina Shire Advocate,ajuarez@thoughtworks.com,,,Ballina,2478
+87,Bellingen Shire Courier Sun,ajuarez@thoughtworks.com,,,Bellingen,2454
+88,Byron Shire News,ajuarez@thoughtworks.com,Julie,Bergin,Byron Bay,2481
+89,Nambucca Guardian News,ajuarez@thoughtworks.com,Michael,O'Neil,Nambucca Heads,2448
+90,The Cootamundra Herald,ajuarez@thoughtworks.com,,,Cootamundra,2590
+91,The Area News,ajuarez@thoughtworks.com,,,Griffith,2680
+92,Harden-Murrumburrah Express,ajuarez@thoughtworks.com,,,Harden,2587
+93,The Narrandera Argus,ajuarez@thoughtworks.com,,,Narrandera,2700
+94,The Daily Advertiser,ajuarez@thoughtworks.com,,,Wagga Wagga,"2560,2567,2571,2752,2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574"
+95,Koondrook & Barham Bridge,ajuarez@thoughtworks.com,Peter,Herbert,Barham,2732
+96,Gundagai Independent,ajuarez@thoughtworks.com,,,Gundagai,2722
+97,Temora Independent,ajuarez@thoughtworks.com,,,Temora,2666
+98,Corowa Free Press,ajuarez@thoughtworks.com,Alannah,Lewis,Corowa,2646
+99,Southern Riverina News,ajuarez@thoughtworks.com,,,Finley,2713
+100,The Irrigator,ajuarez@thoughtworks.com,Felicity,Nolen,Leeton,2705
+101,Gilgandra Weekly,ajuarez@thoughtworks.com,,,Gilgandra,2827
+102,Eastern Riverina Chronicle,ajuarez@thoughtworks.com,,,Holbrook,2644
+103,The Lake News,ajuarez@thoughtworks.com,,,Temora,2666
+104,Southern Weekly Magazine,ajuarez@thoughtworks.com,,,Wagga Wagga,2650
+105,Southern Cross,ajuarez@thoughtworks.com,,,Wagga Wagga,2650
+106,The Leader,ajuarez@thoughtworks.com,Scott,Sanbrook,Wagga Wagga,2650
+107,Boorowa News,ajuarez@thoughtworks.com,Sharon,Meere,Boorowa,2586
+108,Cooma-Monaro Express,ajuarez@thoughtworks.com,Colleen,O'Sullivan,Cooma,2630
+109,The Magnet,ajuarez@thoughtworks.com,,,Eden,2551
+110,Summit Sun,ajuarez@thoughtworks.com,Colleen,O'Sullivan,Jindabyne,2627
+111,Bega District News,ajuarez@thoughtworks.com,Steve,Strevens,Bega,2550
+112,Goulburn Post,ajuarez@thoughtworks.com,Gerard,Walsh,Goulburn,2580
+113,The Bay Post/Moruya Examiner,ajuarez@thoughtworks.com,Barbara,Pike,Batemans Bay,2536
+114,The Queanbeyan Age,ajuarez@thoughtworks.com,Erika,Seymour,Queanbeyan,2620
+115,Tumbarumba Times/Tumut and Adelong Times,ajuarez@thoughtworks.com,Luke,Watson,Tumut,2720
+116,Milton-Ulladulla Times,ajuarez@thoughtworks.com,,,Ulladulla,2539
+117,Yass Tribune,ajuarez@thoughtworks.com,Robyn,Sykes,Yass,2582
+118,Bombala Times,ajuarez@thoughtworks.com,,,Bombala,2632
+119,Braidwood Times,ajuarez@thoughtworks.com,,,Braidwood,2622
+120,Merimbula News Weekly,ajuarez@thoughtworks.com,,,Merimbula,2548
+121,Narooma News,ajuarez@thoughtworks.com,,,Narooma,2546
+122,Hawkesbury Gazette,ajuarez@thoughtworks.com,,,Richmond,"2155,2762,2753,2765,2754,2775,2756"
+123,Hawkesbury Courier,ajuarez@thoughtworks.com,,,Richmond,2753
+124,Blue Mountains Gazette,ajuarez@thoughtworks.com,Michael,Ticehurst,Springwood,"2773,2778,2783,2774,2779,2784,2776,2780,2785,2777,2782,2786"
+125,Camden Haven Courier,ajuarez@thoughtworks.com,,,Laurieton,2443
+126,The Western Weekender,ajuarez@thoughtworks.com,Troy,Dodds,Jamisontown,2750
+127,Hills News,ajuarez@thoughtworks.com,Heloise,Reece,Castle Hill,2154
+128,Fairfield City Champion,ajuarez@thoughtworks.com,,,Fairfield,2165
+129,Bankstown-Canterbury Torch,ajuarez@thoughtworks.com,,,Condell Park,2200
+130,Blacktown Advocate,ajuarez@thoughtworks.com,Simon,Kent,Blacktown,2148
+131,The Canterbury-Bankstown Express,ajuarez@thoughtworks.com,Joanne,Vella,Liverpool,2170
+132,Blacktown City Sun,ajuarez@thoughtworks.com,,,,2148
+133,Fairfield Advance,ajuarez@thoughtworks.com,,,Liverpool,2170
+134,Inner West Courier - Inner West Edition,ajuarez@thoughtworks.com,,,Five Dock,"2040,2044,2048,2131,2135,2140,2037,2041,2045,2049,2132,2136,2193,2038,2042,2046,2050,2133,2137,2203,2039,2043,2047,2130,2134,2138,2204"
+135,Hills Shire Times,ajuarez@thoughtworks.com,Therese,Murray,Castle Hill,2154
+136,Hornsby & Upper North Shore Advocate,ajuarez@thoughtworks.com,,,Hornsby,2250
+137,The Inner West Courier (Gloss Edition),ajuarez@thoughtworks.com,,,Five Dock,"2134,2138,2204,2039,2043,2047,2130,2135,2140,2040,2044,2048,2131,2136,2193,2037,2041,2045,2049,2132,2133,2137,2203,2038,2042,2046,2050"
+138,Liverpool City Champion,ajuarez@thoughtworks.com,,,Liverpool,2170
+139,The Weekly Times,ajuarez@thoughtworks.com,Ulrike,Eichmeyer,Ryde,2112
+140,The Liverpool Leader,ajuarez@thoughtworks.com,Melissa,Mitchell,Liverpool,2170
+141,The Manly Daily,ajuarez@thoughtworks.com,,,Manly,2095
+142,The Mosman Daily,ajuarez@thoughtworks.com,,,North Sydney,2060
+143,Mt Druitt-St Marys Standard,ajuarez@thoughtworks.com,Andrew,Kacimaiwai,Mt Druitt,2770
+144,North Shore Times,ajuarez@thoughtworks.com,,,North Sydney,2060
+145,Northern District Times,ajuarez@thoughtworks.com,,,Epping,2121
+146,Parramatta Advertiser,ajuarez@thoughtworks.com,Rick,Allen,Parramatta,2150
+147,Penrith Press,ajuarez@thoughtworks.com,,,Penrith,2750
+148,Review Pictorial,ajuarez@thoughtworks.com,,,Auburn,2144
+149,St George & Sutherland Shire Leader,ajuarez@thoughtworks.com,Christine,Ryan,Rockdale,"2196,2210,2219,2223,2227,2231,2508,2205,2216,2220,2224,2228,2232,2207,2217,2221,2225,2229,2233,2209,2218,2222,2226,2230,2234"
+150,Southern Courier,ajuarez@thoughtworks.com,,,Alexandria,2015
+151,Wentworth Courier,ajuarez@thoughtworks.com,,,Alexandria,2015
+152,Campbelltown-Macarthur Advertiser,ajuarez@thoughtworks.com,,,Campbelltown,"2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752,2167,2564,2568,2572"
+153,The Macarthur Chronicle,ajuarez@thoughtworks.com,Mandy,Perrin,Campbelltown,"2171,2564,2570,2574,2558,2565,2571,2559,2566,2572,2167,2560,2567,2573"
+154,2120 & Beyond Monthly Chronicle,ajuarez@thoughtworks.com,Bill,Aitken,Thornleigh,2120
+155,The Balmain & Rozelle Village Voice,ajuarez@thoughtworks.com,,,Five Dock,2046
+156,Cooks River Valley Times,ajuarez@thoughtworks.com,,,Earlwood,2206
+157,"Drummoyne, Five Dock & Concord Village Voice",ajuarez@thoughtworks.com,Ben,Douglas,Alexandria,2015
+158,"Leichhardt, Glebe & Annandale Village Voice",ajuarez@thoughtworks.com,,,Petersham,2049
+159,Eastern Suburbs Spectator,ajuarez@thoughtworks.com,,,Bondi Junction,2022
+160,Camden Advertiser,ajuarez@thoughtworks.com,,,Camden,2570
+161,Tweed Sun,ajuarez@thoughtworks.com,Shane,Watson,Tweed Heads South,2486
+162,Parramatta Sun,ajuarez@thoughtworks.com,,,Castle Hill,2154
+163,St Marys Mt Druitt Star,ajuarez@thoughtworks.com,Roslyn,Smith,Blacktown,2148
+164,Times,ajuarez@thoughtworks.com,,,Bondi Junction,2022
+165,Leader,ajuarez@thoughtworks.com,,,Bondi Junction,2022
+166,Wollondilly Advertiser,ajuarez@thoughtworks.com,,,Picton,2571
+167,Rouse Hill Times,ajuarez@thoughtworks.com,David,Catt,Castle Hill,2154
+168,Penrith City Star,ajuarez@thoughtworks.com,Gemma,Seymour,Penrith,2750
+169,The Glebe,ajuarez@thoughtworks.com,,,Ultimo,2077
+170,Village Voice,ajuarez@thoughtworks.com,,,Alexandria,2015
+171,North Shore Times,ajuarez@thoughtworks.com,Nicole,Bauche,North Sydney,2060
+172,The Port Macquarie Independent,ajuarez@thoughtworks.com,,,,"2443,2444,2445,2440,2446"
+173,City Hub,ajuarez@thoughtworks.com,,,,"2000,2010,2050,2007,2011,2008,2037,2009,2042"
+174,South Sydney Herald,ajuarez@thoughtworks.com,,,,"2015,2037,2008,2016,2042,2010,2017,2043,2011,2021"
+175,Central,ajuarez@thoughtworks.com,,,,"2007,2011,2021,2050,2008,2015,2037,2009,2016,2042,2000,2010,2017,2043"
+176,Ballarat Courier,ajuarez@thoughtworks.com,Chloe,Biggin,Ballarat,"3352,3350,3357,3363"
+177,Ballarat News,ajuarez@thoughtworks.com,,,Ballarat,"3352,3350,3357,3363"
+178,Ararat Advertiser,ajuarez@thoughtworks.com,,,Ararat,3377
+179,The Advocate,ajuarez@thoughtworks.com,Aaron,Van Kessel,,"3363,3370,3461,3458,3460"
+180,Maryborough District Advertiser,ajuarez@thoughtworks.com,Michael,Rossi,Maryborough,"3475,3370,3467,3551,3352,3465,3371"
+181,Pyrenees Advocate,ajuarez@thoughtworks.com,Craig,Wilson,,"3352,3477,3469,3478,3468,3373,3351,3371,3467,3384,3361"
+182,The McIvor Times,ajuarez@thoughtworks.com,Ben,Cameron,Heathcote,"3559,3444,3523,3551,3550,3522,3558,3521"
+183,The Sea Lake & Wycheproof Times - Ensign,ajuarez@thoughtworks.com,Bernie,Clohesy,Sea Lake,",3533,3531,3485"
+184,Robinvale Sentinel,ajuarez@thoughtworks.com,,,Robinvale,"2736,3549,2737,3546,,3599"
+185,Bendigo Advertiser,ajuarez@thoughtworks.com,Nicole,Ferrie,Bendigo,"3450,3518,3523,3444,3550,3561"
+186,Bendigo Weekly,ajuarez@thoughtworks.com,Anthony,Radford,Bendigo,"3523,3559,3550,3570,3518,3450,3442,3551,3571,3561"
+187,Campaspe Valley News,ajuarez@thoughtworks.com,Monique,Preston,Rochester,"3572,3559,3557,3558,3561,3563"
+188,Riverine Herald,ajuarez@thoughtworks.com,Annette,Gregson,Echuca,"3639,3562,3575,3620,3564,3568,3566,3621,2731,3563,3567,3622,2710,3561,3579,3619"
+189,Kyabram Free Press/Tatura Guardian,ajuarez@thoughtworks.com,Michael,Maskell,Kyabram,3620
+190,The Free Press,ajuarez@thoughtworks.com,Lara,Bailey,Kilmore,3764
+191,The North Central Review,ajuarez@thoughtworks.com,Robin,Northover,Kilmore,3764
+192,Macedon Ranges/Sunbury Telegraph,ajuarez@thoughtworks.com,,,Gisborne,3437
+193,Macedon Ranges Guardian,ajuarez@thoughtworks.com,Angela,Crawford,Kyneton,3444
+194,Midland Express,ajuarez@thoughtworks.com,Angela,Crawford,Kyneton,3444
+195,Castlemaine Mail,ajuarez@thoughtworks.com,Jeff,Jones,Castlemaine,3450
+196,Tarrangower Times,ajuarez@thoughtworks.com,Vivien,Markham,Maldon,3463
+197,Geelong Independent,ajuarez@thoughtworks.com,,,Geelong,3215
+198,Geelong Advertiser,ajuarez@thoughtworks.com,Greg,Dundas,Geelong,3220
+199,Geelong News,ajuarez@thoughtworks.com,Grant,Payne,Geelong,3220
+200,The Geelong Times,ajuarez@thoughtworks.com,Ian,Kenins,Newtown,3220
+201,Queenscliffe Herald,ajuarez@thoughtworks.com,Carmel,Murphy,Queenscliff,3226
+202,The Echo,ajuarez@thoughtworks.com,Grant,Payne,Geelong,3220
+203,Mountain Views Mail,ajuarez@thoughtworks.com,Kath,Gannaway,Healesville,3777
+204,Seymour Nagambie Advertiser,ajuarez@thoughtworks.com,,,Emerald,3782
+205,The Ranges Trader Mail,ajuarez@thoughtworks.com,Tania,Martin,Monbulk,3793
+206,Upper Yarra Mail,ajuarez@thoughtworks.com,Kath,Gannaway,Yarra Junction,3797
+207,Warragul & Drouin Gazette,ajuarez@thoughtworks.com,Carolyn,Turner,Warragul,3820
+208,The Baw Baw Shire & West Gippsland Trader,ajuarez@thoughtworks.com,Carolyn,Turner,Warragul,3820
+209,Moe & Narracan News,ajuarez@thoughtworks.com,Fiona,Broom,Moe,3825
+210,Latrobe Valley Express,ajuarez@thoughtworks.com,Kristin,Favaloro,Morwell,3840
+211,The Traralgon Journal,ajuarez@thoughtworks.com,,,Traralgon,3844
+212,Gippsland Times & Maffra Spectator,ajuarez@thoughtworks.com,,,Sale,3850
+213,Bairnsdale Advertiser,ajuarez@thoughtworks.com,Luke,Robinson,Bairnsdale,3875
+214,East Gippsland News,ajuarez@thoughtworks.com,Luke,Robinson,Bairnsdale,3875
+215,Snowy River Mail,ajuarez@thoughtworks.com,,,Orbost,3888
+216,Lakes Post,ajuarez@thoughtworks.com,Stephanie,Nicholls,Lakes Entrance,3909
+217,Phillip Island & San Remo Advertiser,ajuarez@thoughtworks.com,Anne,Oswin,Cowes,3922
+218,The Great Southern Star,ajuarez@thoughtworks.com,,,Leongatha,3953
+219,South Gippsland Sentinel-Times,ajuarez@thoughtworks.com,Nathan,Johnston,Leongatha,3953
+220,The Mirror,ajuarez@thoughtworks.com,Robert,Best,Foster,3960
+221,Yarram Standard - News,ajuarez@thoughtworks.com,,,Yarram,3971
+222,West Wimmera Advocate,ajuarez@thoughtworks.com,Franco,Vanzini,Edenhope,3318
+223,Stawell Times - News,ajuarez@thoughtworks.com,,,Stawell,3380
+224,Dimboola Banner,ajuarez@thoughtworks.com,Audrey,Hurst,Warracknabeal,3393
+225,Warracknabeal Herald,ajuarez@thoughtworks.com,David,Ward,Warracknabeal,3393
+226,Hopetoun Courier & Mallee Pioneer,ajuarez@thoughtworks.com,Kathleen,Poulton,Hopetoun,3396
+227,Wimmera Mail-Times,ajuarez@thoughtworks.com,Peter,Hammond,Horsham,3400
+228,The Weekly Advertiser,ajuarez@thoughtworks.com,,,Horsham,3400
+229,Wimmera Messengers: The Voice of Hindmarsh,ajuarez@thoughtworks.com,,,Nhill,3418
+230,Wimmera Messengers: The Voice of Wimmera,ajuarez@thoughtworks.com,Gary,Sherwell,Nhill,3418
+231,The Rainbow-Jeparit Argus,ajuarez@thoughtworks.com,,,Rainbow,3424
+232,North Central News,ajuarez@thoughtworks.com,Ella,Ebery,St Arnaud,3478
+233,Buloke Times,ajuarez@thoughtworks.com,Shane,O'Shea,Donald,3480
+234,North West Express,ajuarez@thoughtworks.com,Bernie,Clohesy,Ouyen,3490
+235,Mildura Midweek,ajuarez@thoughtworks.com,Keiran,Iles,Mildura,3500
+236,Sunraysia Daily,ajuarez@thoughtworks.com,Kieran,Iles,Mildura,3500
+237,Cohuna Farmers' Weekly,ajuarez@thoughtworks.com,,,Cohuna,3568
+238,The Loddon Times,ajuarez@thoughtworks.com,Ken,Jenkins,Kerang,3579
+239,The Northern Times,ajuarez@thoughtworks.com,Ken,Jenkins,Kerang,3579
+240,Swan Hill Guardian,ajuarez@thoughtworks.com,Rob,Duffield,Swan Hill,3585
+241,Shepparton Adviser,ajuarez@thoughtworks.com,Tony,Mac,Shepparton,3630
+242,Shepparton News,ajuarez@thoughtworks.com,Richard,Bryce,Shepparton,3630
+243,Numurkah Leader,ajuarez@thoughtworks.com,Tony,Morris,Numurkah,3636
+244,Cobram Courier,ajuarez@thoughtworks.com,,,Cobram,3644
+245,The Seymour Telegraph,ajuarez@thoughtworks.com,Michelle,Bradley,Seymour,3660
+246,Euroa Gazette,ajuarez@thoughtworks.com,,,Euroa,3666
+247,Benalla Ensign,ajuarez@thoughtworks.com,Angela,Townsend,Benalla,3672
+248,Ovens & Murray Advertiser,ajuarez@thoughtworks.com,Zoe,Rudder,Wangaratta,3677
+249,The Chronicle,ajuarez@thoughtworks.com,Jeff,Zeuschner,Wangaratta,3677
+250,The Border Mail,ajuarez@thoughtworks.com,,,Wodonga,3690
+251,The Post,ajuarez@thoughtworks.com,,,Wodonga,3690
+252,Corryong Courier,ajuarez@thoughtworks.com,Mark,Collins,Corryong,3707
+253,Alexandra & Eildon Standard,ajuarez@thoughtworks.com,,,Alexandra,3714
+254,Yea Chronicle,ajuarez@thoughtworks.com,,,Yea,3717
+255,Mansfield Courier,ajuarez@thoughtworks.com,Pam,Zierk-Mahoney,Mansfield,3722
+256,Yarrawonga Chronicle,ajuarez@thoughtworks.com,,,Yarrawonga,3730
+257,Tatura Guardian,ajuarez@thoughtworks.com,,,Tatura,3616
+258,Bright Observer,ajuarez@thoughtworks.com,Ebony,D'Arcy,Myrtleford,3737
+259,Myrtleford Times,ajuarez@thoughtworks.com,Ebony,D'Arcy,Myrtleford,3737
+260,Surf Coast Times,ajuarez@thoughtworks.com,Nathan,Hale,Torquay,3228
+261,Colac Herald,ajuarez@thoughtworks.com,Bruce,Lawson,Colac,3250
+262,Camperdown Chronicle,ajuarez@thoughtworks.com,,,Camperdown,3260
+263,Cobden Times,ajuarez@thoughtworks.com,,,Camperdown,3260
+264,Western Plains Advertiser,ajuarez@thoughtworks.com,,,Camperdown,3260
+265,Terang Express,ajuarez@thoughtworks.com,,,Camperdown,3260
+266,The Warrnambool Standard,ajuarez@thoughtworks.com,Shane,Fowles,Warrnambool,3280
+267,The Moyne Gazette,ajuarez@thoughtworks.com,,,Port Fairy,3284
+268,Hamilton Spectator,ajuarez@thoughtworks.com,,,Hamilton,3300
+269,The Portland Observer & Guardian,ajuarez@thoughtworks.com,,,Portland,3305
+270,Casterton News,ajuarez@thoughtworks.com,Marion,Cowland,Casterton,3311
+271,Cranbourne News,ajuarez@thoughtworks.com,Garry,Howe,Pakenham,3810
+272,Berwick/Pakenham Cardinia Leader,ajuarez@thoughtworks.com,,,Berwick,3806
+273,Brimbank Leader,ajuarez@thoughtworks.com,,,Tullamarine,3043
+274,Caulfield Glen Eira/Port Phillip Leader,ajuarez@thoughtworks.com,,,Glen Iris,3146
+275,Community News - Moonee Valley,ajuarez@thoughtworks.com,,,Airport West,3042
+276,Cranbourne Journal,ajuarez@thoughtworks.com,,,Dandenong,3175
+277,Cranbourne Leader,ajuarez@thoughtworks.com,,,Berwick,3806
+278,The Journal,ajuarez@thoughtworks.com,,,Dandenong,3175
+279,Diamond Valley Leader,ajuarez@thoughtworks.com,,,Briar Hill,3088
+280,Manningham Leader,ajuarez@thoughtworks.com,,,Blackburn,3130
+281,The Emerald Hill Weekly,ajuarez@thoughtworks.com,,,East Melbourne,3002
+282,"The Chelsea, Mordialloc, Mentone Independent",ajuarez@thoughtworks.com,,,Hastings,3915
+283,Peninsula Journal Weekender,ajuarez@thoughtworks.com,,,Dandenong,3175
+284,Frankston & Hastings Independent,ajuarez@thoughtworks.com,,,Hastings,3915
+285,Frankston Standard/Hastings Leader,ajuarez@thoughtworks.com,Natalie,Kealey,Mornington,"3200,3912,3195,3201,3913,3198,3910,3918,3199,3911,3919"
+286,Heidelberg Leader,ajuarez@thoughtworks.com,,,Briar Hill,3088
+287,Hume Leader,ajuarez@thoughtworks.com,,,Tullamarine,3043
+288,Knox Leader,ajuarez@thoughtworks.com,,,Boronia,"3155,3156,3152,3178,3153,3179"
+289,Knox Journal,ajuarez@thoughtworks.com,,,Bayswater,3153
+290,Lilydale & Yarra Valley Leader,ajuarez@thoughtworks.com,,,Lilydale,"3139,3775,3116,3140,3777,3137,3765,3796,3138,3770,3799"
+291,The Mail/Williamstown Advertiser/Altona-Laver,ajuarez@thoughtworks.com,,,Airport West,3042
+292,Stonnington Leader,ajuarez@thoughtworks.com,,,Glen Iris,3146
+293,Maroondah Journal/Yarra Ranges Journal,ajuarez@thoughtworks.com,,,Bayswater,3153
+294,Melbourne Leader,ajuarez@thoughtworks.com,,,Glen Iris,3146
+295,The Melbourne Times,ajuarez@thoughtworks.com,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
+296,The Melbourne Weekly Magazine,ajuarez@thoughtworks.com,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
+297,Melton/Moorabool Express Telegraph,ajuarez@thoughtworks.com,,,Melton,3337
+298,Monash Journal,ajuarez@thoughtworks.com,,,Bayswater,3153
+299,Moonee Valley Leader,ajuarez@thoughtworks.com,,,Tullamarine,3043
+300,Moorabbin Kingston/Moorabbin Glen Eira Leader,ajuarez@thoughtworks.com,,,Cheltenham,3192
+301,Mordialloc Chelsea Leader,ajuarez@thoughtworks.com,,,Cheltenham,3192
+302,Moreland Leader,ajuarez@thoughtworks.com,Simon,Craig,Northcote,3070
+303,Mornington Peninsula Leader,ajuarez@thoughtworks.com,,,Mornington,3931
+304,Northcote Leader,ajuarez@thoughtworks.com,,,Northcote,"3071,3078,3070"
+305,Dandenong/Springvale Dandenong Leader,ajuarez@thoughtworks.com,,,Cheltenham,3192
+306,Pakenham-Berwick Gazette,ajuarez@thoughtworks.com,Garry,Howe,Pakenham,3810
+307,Preston Leader,ajuarez@thoughtworks.com,,,Northcote,"3072,3073,3083"
+308,Progress Leader,ajuarez@thoughtworks.com,,,Glen Iris,3146
+309,Sunbury/Macedon Ranges Leader,ajuarez@thoughtworks.com,,,Sunbury,3429
+310,Maroondah Leader,ajuarez@thoughtworks.com,,,Boronia,"3134,3135,3137"
+311,Bayside Leader,ajuarez@thoughtworks.com,,,Glen Iris,3146
+312,Free Press Leader,ajuarez@thoughtworks.com,,,Boronia,3155
+313,Waverley/Oakleigh Monash Leader,ajuarez@thoughtworks.com,,,Glen Iris,3146
+314,Werribee/Point Cook Banner,ajuarez@thoughtworks.com,,,Werribee,3030
+315,The Wyndham Leader,ajuarez@thoughtworks.com,,,Werribee,3030
+316,Western Leader,ajuarez@thoughtworks.com,,,Newport,3015
+317,Whitehorse Leader,ajuarez@thoughtworks.com,,,Blackburn,"3129,3133,3130,3151,3127,3131,3215,3128,3132"
+318,Whittlesea Leader,ajuarez@thoughtworks.com,,,Briar Hill,3088
+319,Mornington & Southern Peninsula Mail,ajuarez@thoughtworks.com,,,Hastings,3915
+320,Maribyrnong Leader,ajuarez@thoughtworks.com,,,Newport,3015
+321,Berwick News,ajuarez@thoughtworks.com,Garry,Howe,Pakenham,3810
+322,Hobsons Bay Leader,ajuarez@thoughtworks.com,,,Newport,3015
+323,"Star Keilor, Taylors Lakes, Sydenham",ajuarez@thoughtworks.com,,,Tullamarine,3043
+324,Ferntree Gully - Belgrave Mail,ajuarez@thoughtworks.com,Tania,Martin,Monbulk,3793
+325,Northern Star Real Estate,ajuarez@thoughtworks.com,,,Tullamarine,3043
+326,The City Weekly Melbourne,ajuarez@thoughtworks.com,,,East Melbourne,3002
+327,Melbourne Weekly Bayside,ajuarez@thoughtworks.com,,,East Melbourne,3002
+328,Melbourne Observer,ajuarez@thoughtworks.com,,,Eltham,3095
+329,"Star St Albans, Deer Park, Caroline Springs",ajuarez@thoughtworks.com,,,Tullamarine,3043
+330,"Star Werribee, Hoppers Crossing",ajuarez@thoughtworks.com,,,Tullamarine,3043
+331,"Star Williamstown, Altona, Laverton",ajuarez@thoughtworks.com,,,Tullamarine,3043
+332,"Star Footscray, Yarraville, Braybrook",ajuarez@thoughtworks.com,,,Tullamarine,3043
+333,"Star Sunshine, Ardeer, Albion",ajuarez@thoughtworks.com,,,Tullamarine,3043
+334,Western Star Real Estate,ajuarez@thoughtworks.com,,,Tullamarine,3043
+335,North West Star Real Estate,ajuarez@thoughtworks.com,,,Tullamarine,3043
+336,Melton/Moorabool Leader,ajuarez@thoughtworks.com,,,Melton,3337
+337,Pakenham News,ajuarez@thoughtworks.com,Gary,Howe,Pakenham,3810
+338,Heidelberg & Diamond Valley Weekly,ajuarez@thoughtworks.com,,,Briar Hill,3088
+339,Berwick and District Journal/Pakenham Journal,ajuarez@thoughtworks.com,,,Dandenong,3175
+340,Northern Weekly,ajuarez@thoughtworks.com,,,Briar Hill,3088
+341,Melbourne Weekly Eastern,ajuarez@thoughtworks.com,,,Briar Hill,3088
+342,Hume Weekly,ajuarez@thoughtworks.com,,,Airport West,3042
+343,Moonee Valley Community News,ajuarez@thoughtworks.com,,,Airport West,3042
+344,Whittlesea Review,ajuarez@thoughtworks.com,Robin,Northover,Kilmore,3764
+345,Star Hume - Our City,ajuarez@thoughtworks.com,,,Tullamarine,3043
+346,"Star Whittlesea, Mernda, Doreen",ajuarez@thoughtworks.com,,,Tullamarine,3043
+347,"Star Wallan, Kilmore, Broadford",ajuarez@thoughtworks.com,,,Tullamarine,3043
+348,Maroondah Weekly,ajuarez@thoughtworks.com,Greg,Videon,,"3153,3134,3135,3136"
+349,Knox Weekly,ajuarez@thoughtworks.com,Greg,Videon,,"3155,3180,3152,3156,3153,3178,3154,3179"
+350,Casey Weekly Berwick,ajuarez@thoughtworks.com,Greg,Videon,,"3807,3804,3805,3806"
+351,Yarra Ranges Weekly,ajuarez@thoughtworks.com,Greg,Videon,,"3140,3116,3153,3137,3796,3138"
+352,Frankston Weekly,ajuarez@thoughtworks.com,,,,"3199,3930,3201,3910,3198,3912"
+353,Kalgoorlie Miner,ajuarez@thoughtworks.com,John,Horner,Kalgoorlie,6430
+354,Esperance Express,ajuarez@thoughtworks.com,Paul,Goldie,Esperance,6450
+355,Central Midlands Coastal Advocate,ajuarez@thoughtworks.com,,,Moora,6510
+356,The Geraldton Guardian,ajuarez@thoughtworks.com,Sue,Cheira,Geraldton,6530
+357,Midwest Times,ajuarez@thoughtworks.com,,,Geraldton,6530
+358,Mandurah Mail,ajuarez@thoughtworks.com,,,Mandurah,6210
+359,Mandurah Coastal Times,ajuarez@thoughtworks.com,,,Mandurah,"6174,6207,6211,6175,6208,6213,6180,6209,6214,6173,6181,6210,6215"
+360,Harvey Reporter,ajuarez@thoughtworks.com,,,Harvey,6220
+361,Donnybrook-Bridgetown Mail,ajuarez@thoughtworks.com,Raelene,Heston,Collie,6225
+362,Collie Mail,ajuarez@thoughtworks.com,Raelene,Heston,Collie,6225
+363,Bunbury Mail,ajuarez@thoughtworks.com,,,Bunbury,6230
+364,South-Western Times,ajuarez@thoughtworks.com,,,Bunbury,6230
+365,Bunbury Herald,ajuarez@thoughtworks.com,Jamie,Tatham,Bunbury,6230
+366,Manjimup-Bridgetown Times,ajuarez@thoughtworks.com,Dannae,Synot,Manjimup,6258
+367,Busselton Dunsborough Times,ajuarez@thoughtworks.com,Hayley,Jensz,Busselton,6280
+368,Busselton-Dunsborough Mail,ajuarez@thoughtworks.com,,,Busselton,6280
+369,Augusta Margaret River Mail,ajuarez@thoughtworks.com,Hayley,Jensz,Margaret River,6285
+370,Northern Guardian,ajuarez@thoughtworks.com,,,Carnarvon,6701
+371,North West Telegraph,ajuarez@thoughtworks.com,,,Port Headland,6721
+372,Broome Advertiser,ajuarez@thoughtworks.com,Chris,Hingston,Chinatown,6725
+373,Kimberley Echo,ajuarez@thoughtworks.com,Nathan,Dyer,Kununurra,6743
+374,Narrogin Observer,ajuarez@thoughtworks.com,Andrew,Hobbs,Narrogin,6312
+375,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,ajuarez@thoughtworks.com,Veana,Scott,Wagin,6315
+376,Great Southern Herald,ajuarez@thoughtworks.com,,,Katanning,6317
+377,Albany Advertiser,ajuarez@thoughtworks.com,Ben,Spencer,Albany,6330
+378,Albany & Great Southern Weekender,ajuarez@thoughtworks.com,Wayne,Harrington,Albany,6330
+379,Avon Valley Advocate,ajuarez@thoughtworks.com,,,Northam,6401
+380,Merredin Wheatbelt Mercury,ajuarez@thoughtworks.com,,,Merredin,6415
+381,The Sunday Times,ajuarez@thoughtworks.com,John,Flint,Perth,6000
+382,The West Australian,ajuarez@thoughtworks.com,Margaret,Marshall,Osborne Park,6017
+383,The Canning Times Community,ajuarez@thoughtworks.com,Rachel,Watts,Myaree,"6102,6148,6106,6155,6107,6154,6147"
+384,The Claremont-Nedlands Post,ajuarez@thoughtworks.com,Bret,Christian,Shenton Park,6008
+385,Comment News Community,ajuarez@thoughtworks.com,Lucien,Wilkinson,Kelmscott,"6108,6112,6109,6147,6110,6155,6107,6111"
+386,Eastern Reporter,ajuarez@thoughtworks.com,Karen,Valenti,Osborne Park,6017
+387,Cambridge Post,ajuarez@thoughtworks.com,,,Shenton Park,6008
+388,Fremantle Cockburn Gazette,ajuarez@thoughtworks.com,David,Johns,Myaree,6154
+389,Fremantle Herald,ajuarez@thoughtworks.com,Natalie,Hug,Fremantle,6160
+390,Guardian Express Community,prucinqu@thoughtworks.com,,,Northbridge,6003
+391,Hills Gazette,ajuarez@thoughtworks.com,,,Midland,6056
+392,The Melville Times Community,ajuarez@thoughtworks.com,David,Johns,Myaree,6154
+393,Echo News,ajuarez@thoughtworks.com,,,Midland,6056
+394,Midland - Kalamunda Reporter,ajuarez@thoughtworks.com,Nathan,Watson,Midland,6936
+395,Mosman Park-Cottesloe Post,ajuarez@thoughtworks.com,Bret,Christian,Shenton Park,6008
+396,Western Suburbs Weekly,prucinqu@thoughtworks.com,Denise,Cahill,Northbridge,6003
+397,Sound Telegraph,ajuarez@thoughtworks.com,Monique,Mulligan,Rockingham,6168
+398,Southern Gazette Community,ajuarez@thoughtworks.com,Rachel,Watts,Myaree,"6100,6104,6101,6105,6102,6151,6154,6103,6152"
+399,Stirling Times Community,ajuarez@thoughtworks.com,Karen,Valenti,Osborne Park,6017
+400,Subiaco Post,ajuarez@thoughtworks.com,Bret,Christian,Shenton Park,6008
+401,Joondalup/Wanneroo Times Community Newspaper,ajuarez@thoughtworks.com,,,Joondalup,6027
+402,Weekend Courier,ajuarez@thoughtworks.com,,,Rockingham,6168
+403,The Perth Voice,ajuarez@thoughtworks.com,Natalie,Hug,Fremantle,6160
+404,The Islander,ajuarez@thoughtworks.com,Shauna,Black,Kingscote,5223
+405,Southern Argus,ajuarez@thoughtworks.com,,,Strathalbyn,5255
+406,Murray Valley Standard,ajuarez@thoughtworks.com,,,Murray Bridge,5253
+407,Border Chronicle,ajuarez@thoughtworks.com,Lauren,Barker,Bordertown,5268
+408,The Naracoorte Herald,ajuarez@thoughtworks.com,Sue,Waite,Naracoorte,5271
+409,The South-East Coastal Leader,ajuarez@thoughtworks.com,Jenni,Ling,Kingston SE,5275
+410,The South Eastern Times,ajuarez@thoughtworks.com,,,Millicent,5280
+411,The Border Watch,ajuarez@thoughtworks.com,,,Mount Gambier,5290
+412,The Penola Pennant,ajuarez@thoughtworks.com,,,Mount Gambier,5290
+413,The River News,ajuarez@thoughtworks.com,,,Waikerie,5330
+414,The Loxton News,ajuarez@thoughtworks.com,Paul,Mitchell,Loxton,5333
+415,The Border Times,ajuarez@thoughtworks.com,Paul,Mitchell,Renmark,5341
+416,The Murray Pioneer,ajuarez@thoughtworks.com,Paul,Mitchell,Renmark,5341
+417,The Barossa & Light Herald,ajuarez@thoughtworks.com,,,Tanunda,5352
+418,The Northern Argus,ajuarez@thoughtworks.com,,,Clare,5453
+419,The Plains Producer,ajuarez@thoughtworks.com,Andrew,Manuel,Balaklava,5461
+420,Flinders News,ajuarez@thoughtworks.com,,,Port Pirie,5540
+421,The Recorder,ajuarez@thoughtworks.com,,,Port Pirie,5540
+422,Yorke Peninsula Country Times,ajuarez@thoughtworks.com,Amie,Brokenshire,Kadina,5554
+423,Whyalla News,ajuarez@thoughtworks.com,,,Whyalla,5600
+424,Port Lincoln Times,ajuarez@thoughtworks.com,,,Port Lincoln,5606
+425,West Coast Sentinel,ajuarez@thoughtworks.com,Eugene,Boisvert,Ceduna,5690
+426,The Transcontinental,ajuarez@thoughtworks.com,,,Port Augusta,5700
+427,The Monitor - Your Community Newspaper,ajuarez@thoughtworks.com,,,Roxby Downs,5725
+428,Eyre Peninsula Tribune,ajuarez@thoughtworks.com,Seonie,Lyon,Cleve,5640
+429,City Messenger,ajuarez@thoughtworks.com,Kara,Phillips,Norwood,5067
+430,Eastern Courier Messenger,ajuarez@thoughtworks.com,Shannon,Caton,Norwood,5067
+431,The Guardian Messenger,ajuarez@thoughtworks.com,,,Morphettville,5043
+432,Leader Messenger,ajuarez@thoughtworks.com,Chris,Day,Salisbury,5108
+433,News Review Messenger,ajuarez@thoughtworks.com,Andrew,Spence,Salisbury,5108
+434,East Torrens Messenger,ajuarez@thoughtworks.com,Rachel,Moore,Norwood,5067
+435,Portside Messenger,ajuarez@thoughtworks.com,David,Klar,Adelaide,5015
+436,Southern Times Messenger,ajuarez@thoughtworks.com,Emma,Graham,Morphett Vale,5162
+437,City North Messenger,ajuarez@thoughtworks.com,Chris,Day,Adelaide,5015
+438,The Weekly Times Messenger,ajuarez@thoughtworks.com,David,Klar,Kidman Park,5025
+439,Adelaide Hills Weekender,ajuarez@thoughtworks.com,,,Crafers,5152
+440,The Independent Weekly,ajuarez@thoughtworks.com,Hendrik,Gout,Adelaide,5000
+441,Adelaide Church Guardian,ajuarez@thoughtworks.com,Steve,Daughtry,North Adelaide,5006
+442,The Bunyip,ajuarez@thoughtworks.com,Emma,Moreland,Gawler,5118
+443,On the Coast,ajuarez@thoughtworks.com,Claire,Thwaites,Victor Harbor,5211
+444,The Times,ajuarez@thoughtworks.com,Claire,Thwaites,Victor Harbor,5211
+445,Northern Territory News/Sunday Territorian,ajuarez@thoughtworks.com,Matt,Cunningham,Darwin,800
+446,Tennant & District Times,ajuarez@thoughtworks.com,Jasmin,Afianos,Tennant Creek,861
+447,Arafura Times,ajuarez@thoughtworks.com,,,Nhulunbuy,880
+448,Centralian Advocate,ajuarez@thoughtworks.com,,,Alice Springs,870
+449,Katherine Times,ajuarez@thoughtworks.com,Tegan,Forder,Katherine,850
+450,Darwin Sun/Litchfield Sun/Palmerston Sun,ajuarez@thoughtworks.com,,,Palmerston,831
+451,Alice Springs News,ajuarez@thoughtworks.com,Erwin,Chlanda,Alice Springs,870
+452,The Advocate/Coast to Coast News,ajuarez@thoughtworks.com,Danny,Clark,Burnie,7320
+453,Mercury/Sunday Tasmanian,ajuarez@thoughtworks.com,,,Hobart,7000
+454,The Examiner/Launceston Times/Meander valley ,ajuarez@thoughtworks.com,Edwina,Yates,Launceston,7250
+455,The Huon Valley News,ajuarez@thoughtworks.com,Maureen,Oates,Franklin,7113
+456,The Gazette,ajuarez@thoughtworks.com,Blair,Richards,New Norfolk,7140
+457,Central Coast Courier,ajuarez@thoughtworks.com,,,Orford,7190
+458,North Eastern Advertiser,ajuarez@thoughtworks.com,Peter,Fish,Scottsdale,7260
+459,Circular Head Chronicle,ajuarez@thoughtworks.com,,,Smithton,7330
+460,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,ajuarez@thoughtworks.com,Veana,Scott,Wagin,6315
+461,NT Times,ajuarez@thoughtworks.com,,,,800
+462,Sydney Morning Herald,ajuarez@thoughtworks.com,,,,2000
+463,Daily Telegraph,ajuarez@thoughtworks.com,,,,2000
+464,Newcastle Herald,ajuarez@thoughtworks.com,,,,2000
+465,Canberra Times xx,ajuarez@thoughtworks.com,,,,2000
+466,The Age,ajuarez@thoughtworks.com,,,,3000
+467,Herald Sun,ajuarez@thoughtworks.com,,,,3000
+test,Magdalena's Favorite Newspaper,mcassel@thoughtworks.com,,,,3000
+468,Courier Mail,ajuarez@thoughtworks.com,,,,4000
+469,Brisbane Times,ajuarez@thoughtworks.com,,,,4000
+470,Adelaide Now,ajuarez@thoughtworks.com,,,,5000
+471,The Mercury,ajuarez@thoughtworks.com,,,,7000
+472,The Examiner,ajuarez@thoughtworks.com,,,,7000
+475,St George & Sutherland Shire Leader,ajuarez@thoughtworks.com,Christine,Ryan,,"2211,2223,2196,2213,2210,2222,2220,2212,2209,2200,2214"
+476,St George & Sutherland Shire Leader,ajuarez@thoughtworks.com,Christine,Ryan,,"2218,2208,2207,2220,2217,2223,2205,2219,2216,2222,2221"
+477,"The Examiner: Northern Tasmania News, sport a",ajuarez@thoughtworks.com,Simon,Tennant,,"7248,7277,7255,7249,7290,7264,7267,7261,7212,7268,7262,7259,7253,7265,7260,7254,7257,7250,7263,7258,7252,3960"
+478,Brisbane Times,ajuarez@thoughtworks.com,,,,"4173,4113,4152,4179,4121,4153,4157,4174,4156,4170,4178,4122,4154,4123,4155,4172,4025"
+479,Circular Head Chronicle,ajuarez@thoughtworks.com,,,,"7307,7256,7310,7331,7322,7316,7275,7315,7305,7321,7325,7320,7330"
+480,The Advocate,ajuarez@thoughtworks.com,,,,"7316,7307,7256,7321,7331,7322,7275,7315,7305,7310,7325,7320,7330"
+481,Brisbane Times,ajuarez@thoughtworks.com,,,,"4053,4010,4000,4030,4060,4066,4061,4005,4051,4006,4064,4059,4065"
+482,The Bulletin,ajuarez@thoughtworks.com,,,,"4738,4702,4704,4706,4805,4739,4741,4743,4707,4820,4740,4742,4744,4710,4714,4723,4728,4745,4711,4721,4724,4699,4746,4753,4756,4804,4700,4751,4754,4757,4737,4701,4703,4705"
+483,Whitsunday Times,ajuarez@thoughtworks.com,,,,"4744,4710,4714,4723,4728,4700,4751,4754,4742,4699,4746,4753,4756,4804,4738,4702,4724,4757,4737,4701,4703,4705,4707,4820,4740,4706,4805,4739,4741,4743,4745,4711,4721,4704"
+484,Central Queensland News,ajuarez@thoughtworks.com,,,,"4753,4756,4804,4820,4740,4742,4744,4699,4739,4741,4743,4745,4700,4702,4704,4706,4746,4701,4703,4705,4707,4751,4721,4724,4737,4710,4714,4723,4728,4738,4711,4754,4757,4805"
+485,Surf Coast Times,ajuarez@thoughtworks.com,,,,"3328,3221,3260,3233,3334,3250,3329,3222,3266,3235,3342,3228,3239,3223,3321,3236,3351,3230,3240,3224,3322,3251,3330,3241,3225,3324,3216,3254,3331,3242,3226,3237,3352,3231,3332,3243,3227,3238,3360,3232,3333,3249"
+486,Colac Herald,ajuarez@thoughtworks.com,,,,"3235,3342,3251,3330,3241,3225,3324,3216,3254,3331,3224,3322,3237,3352,3231,3332,3243,3227,3238,3360,3232,3242,3226,3328,3221,3260,3233,3334,3250,3329,3222,3266,3333,3249,3228,3239,3223,3321,3236,3351,3230,3240"
+487,Maroon Leader,ajuarez@thoughtworks.com,,,,"3134,3133,3136,3135,3153,3151,3132,3131,3130"
+488,Manningham Leader,ajuarez@thoughtworks.com,,,,"3153,3151,3136,3131,3130,3133,3132,3135,3134"
+489,The Weekly Review,ajuarez@thoughtworks.com,Eileen,Berry,,"3132,3131,3135,3134,3133,3151,3136,3130,3153"
+490,Moreton Quest News,ajuarez@thoughtworks.com,,,,"4502,4037,4306,4521,4311,4346,4503,4342,4500,4520,4054,4312,4053,4055,4313,4501,4035"
+491,Central Coast News Local,ajuarez@thoughtworks.com,,,,"2262,2263,2250,2258,2259,2260,2261"
+492,South East Leader,ajuarez@thoughtworks.com,,,,"3911,3930,3931,3977,3198,3200,3199,3201,3910"
+493,Mornington Peninsula News,ajuarez@thoughtworks.com,Keith,Platt,,"3199,3198,3201,3200,3911,3910,3977,3931,3930"
+494,The Monara Post,ajuarez@thoughtworks.com,,,,"2623,2536,2640,2620,2622,2624,2537,2642,2621,2653,2625,2545,2649,2652,2720,2626,2546,2650,2551,2722,2627,2548,2550,2580,2729,2628,2549,2632,2611,2730,2629,2631,2633,2619,3707,2630"
+495,Bay Post Moruya,ajuarez@thoughtworks.com,Kerrie,O'Connor,,"2611,2730,2629,2631,2633,2619,3707,2630,2632,2640,2620,2622,2624,2537,2642,2621,2623,2536,2545,2649,2652,2720,2626,2546,2650,2653,2625,2627,2548,2550,2580,2729,2628,2549,2551,2722"
+496,Bega District News,ajuarez@thoughtworks.com,Ben,Smyth,,"2548,2550,2580,2729,2628,2549,2551,2722,2627,2629,2631,2633,2619,3707,2630,2632,2611,2730,2622,2624,2537,2642,2621,2623,2536,2640,2620,2652,2720,2626,2546,2650,2653,2625,2545,2649"
+497,Gladstone Observer,ajuarez@thoughtworks.com,,,,"4695,4746,4727,4605,4420,4678,4650,4717,4697,4719,4709,4721,4731,4610,4454,4725,4472,4418,4676,4627,4715,4724,4735,4726,4821,4728,4606,4427,4680,4670,4612,4673,4625,4712,4722,4732,4611,4470,4415,4478,4419,4677,4630,4716,4718,4702,4720,4730,4608,4428,4694,4671,4613,4674,4626,4713,4723,4733"
+498,Central Telegraph,ajuarez@thoughtworks.com,,,,"4627,4678,4715,4724,4735,4726,4821,4728,4713,4723,4733,4472,4418,4605,4712,4722,4732,4470,4415,4478,4419,4606,4731,4454,4612,4673,4625,4676,4730,4428,4611,4671,4613,4674,4626,4677,4427,4610,4670,4695,4718,4702,4720,4608,4650,4694,4717,4697,4719,4709,4721,4630,4680,4716,4725,4746,4727,4420"
+499,News Mail,ajuarez@thoughtworks.com,Liz,Carson,,"4725,4746,4727,4427,4610,4670,4695,4735,4726,4821,4728,4428,4611,4671,4613,4478,4419,4606,4630,4680,4716,4472,4418,4605,4420,4608,4650,4694,4717,4697,4674,4626,4677,4713,4723,4732,4673,4625,4676,4627,4678,4715,4724,4733,4719,4709,4721,4730,4454,4612,4718,4702,4720,4712,4722,4731,4470,4415"
+500,Albert and Logan News online,ajuarez@thoughtworks.com,,,,"4133,4287,4131,4285,4280,4211,4275,4208,4130,4207,4129,4205,4128,4272,4125,4271,4124,4270"
+501,South Coast Register,ajuarez@thoughtworks.com,John,Hanscombe,,"2534,2540,2537,2622,2533,2539,2536,2577,2541,2538,2535"
+502,Kiama Independent,ajuarez@thoughtworks.com,Kerrielyn,Clark,,"2540,2537,2622,2533,2539,2536,2577,2541,2538,2535,2534"
+503,Kangaroo Valley Voice,ajuarez@thoughtworks.com,,,,"2537,2622,2533,2539,2536,2577,2541,2538,2535,2534,2540"
+504,Fremantle Herald,ajuarez@thoughtworks.com,Andrew,Smith,,"6057,6056,6108,6070,6058,6055,6107,6076,6110,6109"
+505,Community News,ajuarez@thoughtworks.com,,,,"6107,6076,6057,6109,6108,6056,6055,6070,6058,6110"
+506,Townsville Bulletin,ajuarez@thoughtworks.com,,,,"4816,4813,4819,4818,4815,4812,4811,4817,4814,4850,4810"
+507,Guardian Messenger,ajuarez@thoughtworks.com,Emma,Grahame,,"5039,5031,5021,5025,5020,5024,5019,5038,5009,5950,5007,5045,5023,5044,5037,5043,5033,5040,5032,5022"
+508,Messenger,ajuarez@thoughtworks.com,Chris,Day,,"5037,5007,5045,5023,5032,5044,5022,5043,5033,5040,5020,5039,5031,5021,5025,5950,5024,5019,5038,5009"
+509,Cranbourne News,ajuarez@thoughtworks.com,,,,"3782,3159,3809,3978,3160,3767,3156,3807,3789,3155,3158,3808,3810,3154,3805,3787,3153,3804,3806,3788,3791,3785,3765,3781,3783,3786,3139"
+510,Berwick Leader,ajuarez@thoughtworks.com,Dimity,Barber,,"3767,3782,3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160"
+511,Lilydale & Yarra Valley Leader,ajuarez@thoughtworks.com,Elaine,Phelan,,"3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160,3767,3782"
+512,Penrith City Gazette,ajuarez@thoughtworks.com,Heloise,Reece,,"2750,2749,2753,2751,2745,2555,2760,2748,2747"
+513,Caboolture News,ajuarez@thoughtworks.com,,,,"4503,4511,4505,4504,4507,4506,4510,4509,4508"
+514,Bribie Weekly,ajuarez@thoughtworks.com,,,,"4509,4508,4507,4511,4510,4504,4503,4506,4505"
+515,The Examiner,ajuarez@thoughtworks.com,Simon,Tennant,,"7304,7290,7250,7321,7011,7467,7017,7469,7305,7173,7030,7212,7185,7214,7187,7025,7470,7306,7174,7119,7176,7139,7178,7171,7026,7210,7183,7300,7270,7302,7276,7179,7172,7027,7211,7184,7213,7186,7215,7190,7180,7291,7258,7466,7012,7468,7216,7209,7182,7292,7264,7301,7275,7303,7277,7249,7310,7175,7120,7177,7140"
+516,Ther Mercury,ajuarez@thoughtworks.com,,,,"7177,7187,7179,7209,7250,7292,7321,7301,7467,7303,7469,7305,7030,7175,7185,7214,7276,7216,7290,7306,7119,7011,7139,7017,7171,7026,7173,7183,7212,7270,7302,7468,7304,7470,7027,7174,7184,7176,7186,7178,7190,7180,7210,7258,7300,7466,7012,7140,7025,7172,7182,7211,7264,7213,7275,7215,7277,7249,7291,7310,7120"
+517,Blue Mountains Gazette,ajuarez@thoughtworks.com,Damien,Madigan,,"2580,2845,2786,2780,2774,2849,2795,2784,2778,2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777"
+518,Hawkesbury Gazette,ajuarez@thoughtworks.com,Matt,Lawrence,,"2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777,2580,2845,2786,2780,2774,2849,2795,2784,2778"
+519,Northern Star,ajuarez@thoughtworks.com,,,,"2471,2475,2453,2474,2469,2460,2466,2480,2465,2370,2473,2477,2472,2476,2478,2464,2470,2463"
+520,Daily Examiner,ajuarez@thoughtworks.com,David,Moase,,"2475,2453,2474,2370,2473,2466,2480,2465,2478,2477,2472,2476,2471,2464,2470,2463,2469,2460"
+521,Redcliffe and Bayside Herald,ajuarez@thoughtworks.com,,,,"4032,4020,4017,4019,4035,4509,4036,4503,4018,4022,4021,4053,4034"
+522,Auburn Review,ajuarez@thoughtworks.com,,,,"2128,2160,2142,2046,2161,2145,2140,2127,2150,2141,2117,2137,2116,2144,2138,2143,2047,2162,2135,2115"
+523,Ciao Magazine,ajuarez@thoughtworks.com,,,,"2047,2162,2135,2115,2143,2160,2142,2046,2161,2128,2145,2140,2127,2150,2141,2137,2116,2144,2138,2117"
+524,Burwood Scene,ajuarez@thoughtworks.com,,,,"2162,2135,2115,2143,2047,2142,2046,2161,2128,2160,2140,2127,2150,2141,2145,2116,2144,2138,2117,2137"
+525,Central Coast Express Advocate,ajuarez@thoughtworks.com,Mark ,Nolan,,"2251,2256,2257,2260,2775,2083,2250"
+526,Peninsula News,ajuarez@thoughtworks.com,,,,"2260,2775,2083,2250,2251,2256,2257"
+527,NT news,ajuarez@thoughtworks.com,,,,829828832830801000000000
+528,Adelaide Now Messenger,ajuarez@thoughtworks.com,,,,"5063,5150,5086,5064,5081,5089,5076,5070,5090,5068,5074,5067,5088,5075,5087,5065,5073,5066,5072"
+529,Community News,ajuarez@thoughtworks.com,,,,"6105,6102,6101,6107,6104,6100,6106,6103,6152,6151"
+530,Awesome News,rdoherty@thoughtworks.com,,,,"0822"

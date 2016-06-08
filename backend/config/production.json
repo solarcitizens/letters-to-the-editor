@@ -4,5 +4,11 @@
   },
   "email": {
     "sendEmails": true
+  },
+  "forceSsl": true,
+  "admin": {
+    "export": {
+      "toEmail": "info@solarcitizens.org.au"
+    }
   }
 }

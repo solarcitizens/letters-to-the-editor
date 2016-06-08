@@ -6,19 +6,17 @@ module.exports = (sequelize, DataTypes) => {
     var Letter = sequelize.define('letter', {
         id: { type: DataTypes.UUID, defaultValue: uuid.v4(), primaryKey: true },
         email: { type: DataTypes.STRING, allowNull: false },
-        firstName: DataTypes.STRING,
-        lastName: DataTypes.STRING,
-        phone: DataTypes.STRING,
-        street: DataTypes.STRING,
-        city: DataTypes.STRING,
-        state: DataTypes.STRING,
-        postCode: DataTypes.STRING,
-        optedIn: DataTypes.BOOLEAN,
-        publications: DataTypes.ARRAY(DataTypes.STRING),
+        firstName: {type: DataTypes.STRING, allowNull:false},
+        lastName: {type: DataTypes.STRING, allowNull:false},
+        phone: {type: DataTypes.STRING, allowNull:false},
+        street: {type: DataTypes.STRING, allowNull:false},
+        city: {type: DataTypes.STRING, allowNull:false},
+        state: {type: DataTypes.STRING, allowNull:false},
+        postCode: {type: DataTypes.STRING, allowNull:false},
+        optedIn: {type: DataTypes.BOOLEAN, allowNull:false},
+        publications: {type: DataTypes.JSON, allowNull:false},
         body: { type: DataTypes.TEXT, allowNull: false },
         subject: { type: DataTypes.STRING, allowNull: false }
-    }, {
-        paranoid: true
     });
     return Letter;
 };

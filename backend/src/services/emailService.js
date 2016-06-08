@@ -30,6 +30,9 @@ let sendEmail = (params) => {
   if (params.replyTo) {
     mailOptions['h:Reply-To'] = params.replyTo;
   }
+  if (params.attachments) {
+    mailOptions.attachments = params.attachments;
+  }
 
   transport.sendMail(mailOptions, (error, info) => {
     if (error) {
@@ -45,14 +48,13 @@ let sendEmail = (params) => {
 
 function senderEmail(firstName, lastName) {
   let fullName = `${firstName} ${lastName}`;
-  let senderEmail = `${firstName.toLowerCase()}.${lastName.toLowerCase()}`;
+  let senderEmail = `${firstName.toLowerCase().trim()}.${lastName.toLowerCase().trim()}`;
+  senderEmail = senderEmail.replace(/[^a-zA-Z\d\.]/g, '');
 
   return `${fullName} <${senderEmail}@${config.get('email.domain')}>`;
 }
 
 function sendToEditor(letterInfo, editor) {
-  editor = editor ? editor : {email: 'rdoherty@thoughtworks.com'};
-
   let emailParams = {
     subject: letterInfo.subject,
     body: letterInfo.body,
@@ -64,6 +66,42 @@ function sendToEditor(letterInfo, editor) {
   return sendEmail(emailParams);
 }
 
+function thankYouText(letter) {
+  return `${config.get('email.thankYou.note')}${letter}`;
+}
+
+function sendThankYouEmail(user, letter) {
+
+  let fromEmail = `${config.get('email.thankYou.fromName')} <${config.get('email.thankYou.fromEmail')}>`;
+  let replyTo = `${config.get('email.thankYou.replyTo')}`
+
+  let emailParams = {
+    subject: 'Thank You',
+    body: thankYouText(letter),
+    to: user.email,
+    from: fromEmail,
+    replyTo:replyTo
+  };
+
+  return sendEmail(emailParams);
+}
+
+function sendUserDataExportEmail(exportDataFilePath) {
+  let email = {
+    subject: 'Letters to the Editor user data export',
+    body: 'User data export attached.',
+    to: config.get('admin.export.toEmail'),
+    from: `export@${config.get('email.domain')}`,
+    attachments: [
+      { path: exportDataFilePath, encoding: 'utf-8' }
+    ]
+  };
+
+  return sendEmail(email);
+}
+
 module.exports = {
-  sendToEditor: sendToEditor
+  sendToEditor,
+  sendThankYouEmail,
+  sendUserDataExportEmail
 };

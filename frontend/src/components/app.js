@@ -1,28 +1,60 @@
 import React from 'react';
 import LetterForm from './LetterForm';
+import configService from '../services/configService';
 
-const App = () => (
-  <div className="lettersToTheEditor container">
-    <div className="header">
-      <img alt="Solar Citizens Logo" id="logo" src="../images/solar-citizens-logo.png"/>
-    </div>
-    <div className="row">
-      <div className="campaignTitle">
-        <h1>Letters to the Editor</h1>
-      </div>
-      <div className="campaignDescription">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum ligula ac mauris vehicula, consectetur accumsan dolor vehicula. Duis eget justo vitae diam consequat rutrum sit amet id nulla. Phasellus cursus nulla eu ante sodales, at fermentum dolor bibendum. Morbi vestibulum vehicula ultrices. Maecenas sed tellus in velit porta convallis et et sapien. Nulla dictum vel magna vitae tincidunt.
-      </div>
-      <div className="formContainer">
-        <div className="formHeader">
-          <h3>Take Action</h3>
-          <div className="formTitle">Send Your Letter to Local Media</div>
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.renderWithConfig = this.renderWithConfig.bind(this);
+    this.renderWithoutConfig = this.renderWithoutConfig.bind(this);
+
+    configService.getConfig(props.routeParams.campaignName)
+      .then(config => (this.setState({ config })))
+      .catch(error => (this.setState({ error })));
+  }
+
+  renderWithConfig() {
+    return (
+      <div className="lettersToTheEditor container">
+        <div className="header">
+          <img alt="Solar Citizens Logo" id="logo" src={`../images/${this.state.config.campaign.logo}`}/>
         </div>
-        <div className="arrowDown"/>
-        <LetterForm/>
+        <div className="row">
+          <div className="campaignTitle">
+            <h1>{this.state.config.campaign.title}</h1>
+          </div>
+          <div className="campaignDescription">{this.state.config.campaign.description}</div>
+          <div className="formContainer">
+            <div className="formHeader">
+              <h3>Take Action</h3>
+              <div className="formTitle">Send Your Letter to Local Media</div>
+            </div>
+            <div className="arrowDown"/>
+            <LetterForm
+              config={this.state.config}
+            />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-);
+    );
+  }
+
+  renderWithoutConfig() {
+    const loadOrError = this.state.error
+      ? 'This campaign could not be found.  It may have ended.'
+      : 'Loading...';
+
+    return (<div className="row">{loadOrError}</div>);
+  }
+
+  render() {
+    return (this.state.config) ? this.renderWithConfig() : this.renderWithoutConfig();
+  }
+}
+
+App.propTypes = {
+  routeParams: React.PropTypes.object.isRequired,
+};
 
 export default App;

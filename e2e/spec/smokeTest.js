@@ -1,16 +1,16 @@
-const casper = window.casper;
+import config from './configHelper';
+const casper = window.casper,
+      baseUrl = casper.cli.get('url');
 
 function navigateTo(url) {
-  const baseUrl = casper.cli.get('url');
-  console.log("********************************");
-  console.log(baseUrl + url);
+
 
   return casper.start(baseUrl + url)
     .then(() => casper.waitForSelector('body'));
 }
 
 function loadFormPage() {
-  return navigateTo('/');
+  return navigateTo(`/campaigns/${config.aCurrentCampaign()}`);
 }
 
 const submitButton = 'button[type="submit"]';

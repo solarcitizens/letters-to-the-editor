@@ -1,39 +1,81 @@
 'use strict';
 
 const letterService = require('../services/letterService');
-const findPublicationsInfo = require('../services/publicationService').findByNameAndPostCode;
+const publicationService = require('../services/publicationService');
 const emailService = require('../services/emailService');
 const transformLetter = require('../parsers/letterTransformer').transformLetter;
 const _ = require('underscore');
 const Q = require('q');
 
-function getFirstWhileWeImplementThisForMultipleLetters(publications) {
-  return _.first(publications);
+function addPublicationsInformation(letter) {
+  let publicationsInfo = publicationService.findByNameAndPostCode(letter.postCode, letter.publications);
+  return Object.assign({}, letter, {publications: publicationsInfo});
 }
 
-function getEditorsInformation(letter) {
-  return [letter, findPublicationsInfo(letter.postCode, letter.publications)];
-}
-
-function sendLetterToEditors(letter, editors) {
-
-  let sendToChosenEditors = _.map(editors, (editor) => {
-    return emailService.sendToEditor(letter, editor);
+function sendLetterToEditors(letter) {
+  let emailsToSelectedEditors = _.map(letter.publications, (publication) => {
+    return emailService
+    .sendToEditor(letter, {email: publication.email})
+    .fail((error) => {
+      throw Error(publication.title);
+    });
   });
 
-  return Q.any(sendToChosenEditors);
+  return Q.allSettled(emailsToSelectedEditors);
+}
+
+function allSucceded(promisesResults) {
+  return _.chain(promisesResults)
+    .filter({state: 'rejected'})
+    .isEmpty()
+    .value();
+}
+
+function allFailed(promisesResults) {
+  return _.chain(promisesResults)
+    .filter({state: 'fulfilled'})
+    .isEmpty()
+    .value();
+}
+
+function failedPublications(promisesResults) {
+  return _.chain(promisesResults)
+    .filter({state: 'rejected'})
+    .pluck('reason')
+    .pluck('message')
+    .value();
+}
+
+function respondToUser(res) {
+  return function(sendEmailResults) {
+    if (allSucceded(sendEmailResults)) {
+      return res.sendStatus(201);
+    }
+
+    if (allFailed(sendEmailResults)) {
+      throw Error('None of the emails were sent');
+    }
+
+    return res.status(206).send(failedPublications(sendEmailResults));
+  }
+}
+
+function sendThankYouEmail(letter) {
+  return function() {
+    return emailService.sendThankYouEmail({email: letter.email}, letter.body);
+  }
 }
 
 function send(req, res) {
-  let newLetter = transformLetter(req.body);
+  let letter = transformLetter(req.body);
 
-  return letterService.createLetter(newLetter)
-    .then(getEditorsInformation)
-    .spread(sendLetterToEditors)
-    .then(() => {
-      return res.sendStatus(201);
-    })
-    .catch(() => {
+  return Q(letter)
+    .then(addPublicationsInformation)
+    .tap(letterService.createLetter)
+    .then(sendLetterToEditors)
+    .then(respondToUser(res))
+    .then(sendThankYouEmail(letter))
+    .catch((error) => {
       return res.status(400).send("letter creation failed");
     });
 }

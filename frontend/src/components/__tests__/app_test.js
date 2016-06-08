@@ -5,7 +5,7 @@ import LetterForm from '../LetterForm';
 
 describe('App', () => {
   it('includes LetterForm', () => {
-    const app = shallow(<App/>);
+    const app = shallow(<App routeParams={} />);
 
     expect(app.find(LetterForm).length).toEqual(1);
   });
