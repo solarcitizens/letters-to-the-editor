@@ -16,7 +16,6 @@ class LetterForm extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
     this.handleFailedCaptcha = this.handleFailedCaptcha.bind(this);
-    configService.getConfig().then(config => (this.config = config));
 
     this.state = {
       fieldValues: this.initialFieldValues,
