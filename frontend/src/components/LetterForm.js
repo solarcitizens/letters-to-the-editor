@@ -1,6 +1,7 @@
 import React from 'react';
 import PersonalDetailsFields from './PersonalDetailsFields';
 import ComposeLetterFields from './ComposeLetterFields';
+import HoneypotField from './HoneypotField';
 import SelectPublicationsFields from './SelectPublicationsFields';
 import Errors from './Errors';
 import {FormValidationErrors as ErrorStrings } from '../config/strings.js';
@@ -11,17 +12,15 @@ class LetterForm extends React.Component {
   constructor(props) {
     super(props);
     this.config = props.config;
-    this.initialFieldValues = { optedIn: true };
+    this.initialFieldValues = { optedIn: true, isBot: false };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
-    this.handleFilledHoneypot = this.handleFilledHoneypot.bind(this);
 
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
       errors: [],
-      filledHoneypot: false,
       invalidFields: [],
       scrollToError: false,
       submitted: false,
@@ -76,10 +75,6 @@ class LetterForm extends React.Component {
     }
   }
 
-  handleFilledHoneypot() {
-    this.setState({filledHoneypot: true});
-  }
-
   handleValidationErrors(validationErrors, scrollToError) {
     const invalidFields = validationErrors;
     const errors = [];
@@ -126,14 +121,13 @@ class LetterForm extends React.Component {
             </ul>
           </aside>
         </fieldset>
+        <HoneypotField
+          onChange={this.handleChange} />
         <Errors
           errors={this.state.errors}
           invalidFields={this.state.invalidFields}
           scrollToError={this.state.scrollToError}
         />
-        <div className="no-bots-allowed">
-          <label><input type="checkbox" onChange={this.handleFilledHoneypot}/>I am a bot.</label>
-        </div>
         <button className="sendMyLetter" type="submit" disabled={this.state.submitted}>
         {this.state.submitted ? "Sending..." : "Send my Letter"}</button>
       </form>
