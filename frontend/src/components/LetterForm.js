@@ -15,13 +15,13 @@ class LetterForm extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePublicationSelection = this.handlePublicationSelection.bind(this);
-    this.handleFailedCaptcha = this.handleFailedCaptcha.bind(this);
+    this.handleFilledHoneypot = this.handleFilledHoneypot.bind(this);
 
     this.state = {
       fieldValues: this.initialFieldValues,
       selectedPublications: [],
       errors: [],
-      failedCaptcha: false,
+      filledHoneypot: false,
       invalidFields: [],
       scrollToError: false,
       submitted: false,
@@ -76,8 +76,8 @@ class LetterForm extends React.Component {
     }
   }
 
-  handleFailedCaptcha() {
-    this.setState({failedCaptcha: true});
+  handleFilledHoneypot() {
+    this.setState({filledHoneypot: true});
   }
 
   handleValidationErrors(validationErrors, scrollToError) {
@@ -132,7 +132,7 @@ class LetterForm extends React.Component {
           scrollToError={this.state.scrollToError}
         />
         <div className="no-bots-allowed">
-          <label><input type="checkbox" onChange={this.handleFailedCaptcha}/>I am a bot.</label>
+          <label><input type="checkbox" onChange={this.handleFilledHoneypot}/>I am a bot.</label>
         </div>
         <button className="sendMyLetter" type="submit" disabled={this.state.submitted}>
         {this.state.submitted ? "Sending..." : "Send my Letter"}</button>
