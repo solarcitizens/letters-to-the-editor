@@ -13,7 +13,8 @@ let makeLetter = () => {
     'optedIn': true,
     'publications': ['New York Times', 'New York Post'],
     'subject': 'Bake America great again',
-    'body': 'No comments here.'
+    'body': 'No comments here.',
+    'isBot': false
   }
 };
 

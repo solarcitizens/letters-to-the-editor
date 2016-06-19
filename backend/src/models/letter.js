@@ -16,7 +16,8 @@ module.exports = (sequelize, DataTypes) => {
         optedIn: {type: DataTypes.BOOLEAN, allowNull:false},
         publications: {type: DataTypes.JSON, allowNull:false},
         body: { type: DataTypes.TEXT, allowNull: false },
-        subject: { type: DataTypes.STRING, allowNull: false }
+        subject: { type: DataTypes.STRING, allowNull: false },
+        isBot: { type: DataTypes.BOOLEAN, allowNull: false }
     });
     return Letter;
 };

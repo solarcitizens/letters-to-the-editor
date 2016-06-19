@@ -17,7 +17,8 @@ function transformLetter(input) {
       optedIn: input.optedIn,
       publications: input.publications,
       body: addSignature(input),
-      subject: input.subject
+      subject: input.subject,
+      isBot: input.isBot
   };
 }
 
