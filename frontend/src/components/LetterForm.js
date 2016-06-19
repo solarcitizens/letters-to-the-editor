@@ -131,7 +131,6 @@ class LetterForm extends React.Component {
           invalidFields={this.state.invalidFields}
           scrollToError={this.state.scrollToError}
         />
-        <button className="btn btn-primary" type="submit">Send my Letter</button>
         <div className="no-bots-allowed">
           <label><input type="checkbox" onChange={this.handleFailedCaptcha}/>I am a bot.</label>
         </div>
