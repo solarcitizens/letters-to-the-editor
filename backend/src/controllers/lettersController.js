@@ -8,7 +8,7 @@ const _ = require('underscore');
 const Q = require('q');
 
 function rejectBots(letter) {
-  if (letter.isBot) {
+  if (letter.isBot == true) {
     throw Error('rejecting apparent spam letter: ' + JSON.stringify(letter));
   }
   return letter;
