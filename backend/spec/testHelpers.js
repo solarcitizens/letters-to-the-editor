@@ -10,11 +10,11 @@ let makeLetter = () => {
     'city': 'New York',
     'state': 'NY',
     'postCode': '10022',
-    'optedIn': true,
+    'optedIn': 'true',
     'publications': ['New York Times', 'New York Post'],
     'subject': 'Bake America great again',
     'body': 'No comments here.',
-    'isBot': false
+    'isBot': 'false'
   }
 };
 
