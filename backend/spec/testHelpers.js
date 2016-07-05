@@ -18,6 +18,10 @@ let makeLetter = () => {
   }
 };
 
+let makeBotLetter = () => {
+  return Object.assign({}, makeLetter(), {'isBot': true})
+};
+
 let makeInvalidLetter = () => {
   return {
     'firstName': 'Donald',
@@ -33,5 +37,6 @@ let makeInvalidLetter = () => {
 
 module.exports = {
   makeLetter: makeLetter,
+  makeBotLetter: makeBotLetter,
   makeInvalidLetter: makeInvalidLetter
 };

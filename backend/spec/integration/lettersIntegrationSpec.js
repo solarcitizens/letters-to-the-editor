@@ -41,4 +41,13 @@ describe('Letters', () => {
       .send(testHelpers.makeInvalidLetter())
       .expect(400);
   });
+
+  it('should return 400 if the hidden field is checked (i.e. by a bot)', () => {
+    return agent
+      .post('/letters')
+      .set('Content-Type', 'application/json')
+      .set('Accept', 'application/json')
+      .send(testHelpers.makeBotLetter())
+      .expect(400);
+  });
 });

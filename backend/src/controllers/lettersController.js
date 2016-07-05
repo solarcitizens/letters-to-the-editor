@@ -7,6 +7,13 @@ const transformLetter = require('../parsers/letterTransformer').transformLetter;
 const _ = require('underscore');
 const Q = require('q');
 
+function rejectBots(letter) {
+  if (letter.isBot) {
+    throw Error('rejecting apparent spam letter: ' + letter);
+  }
+  return letter;
+}
+
 function addPublicationsInformation(letter) {
   let publicationsInfo = publicationService.findByNameAndPostCode(letter.postCode, letter.publications);
   return Object.assign({}, letter, {publications: publicationsInfo});
@@ -72,11 +79,13 @@ function send(req, res) {
   return Q(letter)
     .then(addPublicationsInformation)
     .tap(letterService.createLetter)
+    .then(rejectBots)
     .then(sendLetterToEditors)
     .then(respondToUser(res))
     .then(sendThankYouEmail(letter))
     .catch((error) => {
-      return res.status(400).send("letter creation failed");
+      console.error(error);
+      return res.status(400).send('letter creation failed');
     });
 }
 
