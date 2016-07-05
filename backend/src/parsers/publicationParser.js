@@ -6,8 +6,8 @@ const fs = require('fs'),
 
 function parsePublication(record) {
   const publication = {
-    title: record['Title'],
-    email: record['Email']
+    title: record['Title'].trim(),
+    email: record['Email'].trim()
   };
   if (record['FirstName'] != "") publication.firstName = record.FirstName;
   if (record['Surname'] != "") publication.lastName = record.Surname;
@@ -16,7 +16,14 @@ function parsePublication(record) {
 
 function parsePostCodes(record) {
   const postCodeString = record['Postcodes'];
-  return postCodeString.split(",");
+  let postCodes = postCodeString.split(",");
+  postCodes = postCodes.map(postCode => {
+    postCode = postCode.trim()
+    return (postCode.length === 3)
+      ? postCode = "0" + postCode
+      : postCode
+  })
+  return postCodes;
 }
 
 const publications = {},

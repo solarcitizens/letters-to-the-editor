@@ -16,7 +16,11 @@ describe('publication parser', () => {
       '2564': [{
                  'title': 'New York Post',
                  'email': 'manager.cessadvertiser@ruralpress.com',
-               }]
+               }],
+      '0829': [{
+                'title': 'NT news',
+                'email': 'news@ntnews.com.au',
+              }]
     };
 
     chai.expect(publicationParser.publications).to.deep.equal(expectedPublications);
