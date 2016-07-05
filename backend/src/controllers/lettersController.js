@@ -9,7 +9,7 @@ const Q = require('q');
 
 function rejectBots(letter) {
   if (letter.isBot) {
-    throw Error('rejecting apparent spam letter: ' + letter);
+    throw Error('rejecting apparent spam letter: ' + JSON.stringify(letter));
   }
   return letter;
 }
