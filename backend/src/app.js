@@ -9,7 +9,8 @@ const express = require('express'),
       sassMiddleware = require('node-sass-middleware'),
       helmet = require('helmet'),
       scheduler = require('./export/scheduler'),
-      config = require('config');
+      config = require('config'),
+      RateLimit = require('express-rate-limit');
 
 const app = express();
 
@@ -42,6 +43,17 @@ app.set('view engine', 'html');
 app.use(helmet());
 
 app.use(express.static(path.join(__dirname, '../public')));
+
+app.enable('trust proxy');
+
+var letterLimiter = new RateLimit({
+  windowMs: 24*60*60*1000, // 24 hours
+  max: 100,
+  delayMs: 0 // disabled
+});
+
+// only apply to requests that begin with /letters (i.e. the letter POST endpoint)
+app.use('/letters', letterLimiter);
 
 scheduler.init();
 

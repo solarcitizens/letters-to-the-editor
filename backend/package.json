@@ -23,6 +23,7 @@
     "csv-stringify": "^1.0.4",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "express-rate-limit": "^2.3.1",
     "express-sanitized": "^0.5.1",
     "helmet": "^2.1.0",
     "node-neat": "^1.7.2",
