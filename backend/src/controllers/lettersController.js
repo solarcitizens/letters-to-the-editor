@@ -77,9 +77,9 @@ function send(req, res) {
   let letter = transformLetter(req.body);
 
   return Q(letter)
+    .then(rejectBots)
     .then(addPublicationsInformation)
     .tap(letterService.createLetter)
-    .then(rejectBots)
     .then(sendLetterToEditors)
     .then(respondToUser(res))
     .then(sendThankYouEmail(letter))
