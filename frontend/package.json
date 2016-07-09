@@ -4,8 +4,9 @@
   "description": "Letters To The Editor",
   "main": "index.js",
   "scripts": {
+    "analyzer": "webpack --production --json | webpack-bundle-size-analyzer",
     "ci": "npm run lint && npm run test-single",
-    "build": "webpack",
+    "build": "webpack --production",
     "lint": "eslint src || exit 0",
     "lintfix": "eslint src --fix",
     "start": "webpack --progress --colors --watch",
@@ -30,6 +31,7 @@
     "karma-webpack": "^1.7.0",
     "phantomjs-prebuilt": "^2.1.5",
     "react-addons-test-utils": "^15.0.2",
+    "webpack-bundle-size-analyzer": "^2.0.1",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
