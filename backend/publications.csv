@@ -1,527 +1,607 @@
-NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes
-1,Central Coast Express Advocate,advertising@expressadvocate.com.au,Geoff,Hawthorne,West Gosford,2250
-2,Peninsula News,mail@peninsulanews.asn.au,Mark,Snell,Woy Woy,2250
-3,Daily Liberal,mail.liberal@ruralpress.com,Lynton,Grace,Dubbo,2830
-4,The Western Advocate/Western times,mail.westernadvocate@ruralpress.com,,,Bathurst,2795
-5,Central Western Daily,mail.cwd@ruralpress.com,Tracey,Prisk,Orange,2800
-6,The Canowindra News,mail.cowraguardian@ruralpress.com,,,Cowra,2794
-7,Cowra Guardian,mail.cowraguardian@ruralpress.com,,,Cowra,2794
-8,Forbes Advocate,mail.forbesadvocate@ruralpress.com,Barry,Shine,Forbes,2871
-10,Grenfell Record,mail.grenfellrecord@ruralpress.com,,,Grenfell,2810
-11,Lithgow Mercury,mail.lithgowmercury@ruralpress.com,Don,Kipp,Lithgow,2790
-12,Mudgee Guardian & The Weekly,editor.mguardian@ruralpress.com,Robyn,Murray,Mudgee,2850
-13,Parkes Champion Post,mail.championpost@ruralpress.com,Luke,Merriman,Parkes,2870
-14,Blayney Chronicle,mail.blayney@ruralpress.com,Lynne,Hand,Blayney,2799
-15,Molong Express,molongex@bigpond.net.au,Rozzi,Smith,Molong,2866
-16,Oberon Review,maureen.lawson@fairfaxmedia.com.au,Maureen,Lawson,Oberon,2787
-17,Midstate Observer,mail.cwd@ruralpress.com,Tony,Rhead,Orange,2800
-18,Barrier Daily Truth,editorial@bdtruth.com.au,David,Pearce,Broken Hill,2880
-19,The Lachlander,lachlander@bigpond.com,Graham,Scott,Condobolin,2877
-20,Narromine News & Trangie Advocate,mail.narrominenews@ruralpress.com,Stephanie,Barlow,Narromine,2821
-21,West Wyalong Advocate,wwadvoc@bigpond.net.au,,,West Wyalong,2671
-22,Pastoral Times,pt@deni.net.au,Garry,Baker,Deniliquin,2710
-23,Cobar Weekly,editor@cobarweekly.com.au,Sharon,Harland,Cobar,2835
-24,Cobar Age,mail.cobarage@ruralpress.com,,,Cobar,2835
-25,Coonamble Times,editor@coonambletimes.com.au,Michael,Graham,Coonamble,2829
-26,Warren Advocate,mail.warrenadvocate@ruralpress.com,Julie,Lincoln,Warren,2824
-27,Warren Weekly,waweekly@bigpond.net.au,Sue,Harvey,Warren,2824
-28,The Condobolin Argus,news@condobolinargus.com.au,Karen,Tooth,Condobolin,2877
-29,Lower Hunter Star/Maitland Mercury,mail.mercury@ruralpress.com,,,Maitland,2320
-30,The Herald,news@theherald.com.au,Jason,Gordon,Newcastle,2300
-31,Hunter Valley News/Muswellbrook Chronicle,editor.muschronicle@ruralpress.com,Amy,Slessor,Muswellbrook,2333
-32,Scone Advocate,editor.sconeadvocate@ruralpress.com,Tanya,Marschke,Scone,2337
-33,The Advertiser,manager.cessadvertiser@ruralpress.com,,,Cessnock,"2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752"
-34,Dungog Chronicle,mail.dungogchronicle@ruralpress.com,,,Dungog,2420
-35,Newcastle Star,editor.thestar@ruralpress.com,Kim-Cherie,Davidson,Newcastle,2300
-36,Port Stephens Examiner,news@pse.fairfax.com.au,,,Raymond Terrace,2324
-37,Quirindi Advocate,editorial@qdiadvocate.com.au,Jocelyn,Brackenbury,Quirindi,2343
-38,Singleton Argus,vicki.caelli@fairfaxmedia.com.au,Vicki,Caelli,Singleton,2330
-39,Illawarra Mercury,cos@illawarramercury.com.au,Chris,Dyson,Wollongong,2500
-40,Highlands Post/Southern Highlands News,mail.highlandspost@ruralpress.com,,,Bowral,2576
-41,Kiama Independent,news@kiamaindependent.com.au,,,Kiama,2529
-42,Shoalhaven & Nowra News/South Coast Register,mail.scregister@ruralpress.com,John,Hanscombe,Nowra,2541
-43,Lake Times,ltnews@laketimes.com.au,Kerrielyn,Clark,Kiama,2533
-44,Wollongong Advertiser,lbennett@wollongongadvertiser.com.au,,,Shellharbour,2529
-45,The Coffs Coast Advocate,advocate@coffscoastadvocate.com.au,,,Coffs Harbour,2450
-46,The Manning-Great Lakes Extra/Manning River T,editor.mrtimes@ruralpress.com,Toni,Bell,Taree,"2428,2429,2430"
-47,The Daily Examiner,peter.chapman@dailyexaminer.com.au,,,Grafton,2460
-48,Don Dorrigo Gazette,dgogazette@westnet.com.au,Michael,English,Dorrigo,2453
-49,Great Lakes Advocate,editor.gladvocate@ruralpress.com,,,Forster,2428
-50,Gloucester Advocate,mail.gloucesteradvocate@ruralpress.com,Therese,Ryan,Gloucester,2422
-51,Macleay Argus,mail.macleayargus@ruralpress.com,,,Kempsey,2440
-52,Midcoast Observer,editor.macleayargus@ruralpress.com,,,West Kempsey,2440
-53,Port Macquarie Express/Port Macquarie News,editor.portnews@ruralpress.com,,,Port Macquarie,"2446,2444,2443,2445"
-54,Coffs Coast Independent,sales.coffsindependent@ruralpress.com,Neil,Wood,Coffs Harbour,2450
-55,Macleay Valley Happynings,editor.macleayargus@ruralpress.com,,,Kempsey,2440
-56,Hastings Gazette,wauchopegazette@ruralpress.com,K,Butler,Wauchope,2446
-57,Wingham Chronicle,mail.wchronicle@ruralpress.com,James,Law,Wingham,2429
-58,Coastal Views,newsroom@dailyexaminer.com.au,David,Moase,Grafton,2460
-59,Clarence Valley Review,mail@cvreview.com.au,John,Warden,Yamba,2464
-60,Barraba Gazette,oliver_woodley@hotmail.com,,,,2347
-61,Glen Innes Examiner,mail.glenexaminer@ruralpress.com,Tim,Hughes,Glen Innes,2370
-62,Northern Daily Leader/Coutry Leader/Tamworth ,mail.ndl@ruralpress.com,Simon,Chamberlain,Tamworth,2340
-63,Tenterfield Star,mail.tentstar@ruralpress.com,Lisa,Finnerty,Tenterfield,2372
-64,Walcha News,walcha.news@ruralpress.com,Vanessa,Arundale,Walcha,2354
-65,The Armidale Express/Express Extra,editor.armexpress@ruralpress.com,Christian,Knight,Armidale,2350
-66,The Armidale Independent,newsdesk@armidaleindependent.com.au,Jo,Harrison,Armidale,2350
-67,Coonabarabran Times,cbntimes@tpg.com.au,,,Coonabarabran,2357
-68,Namoi Valley Independent,bmorgan@nvi.com.au,,,Gunnedah,2380
-69,North West Magazine,nwmagedit@nvi.com.au,Keith,Millerd,Gunnedah,2380
-70,Inverell Times,editor.invtimes@ruralpress.com,,,Inverell,2360
-71,Moree Champion,cady.andersen@fairfaxmedia.com.au,Pramil,Masih,Moree,2400
-72,The Wee Waa News,wwnews@nwcourier.com.au,Jessica,Atkinson,Narrabri,2390
-73,The Courier,advertising@nwcourier.com.au,Ian,Dunnet,Narrabri,2390
-74,The Norwester,editorial@nwcourier.com.au,Annie,Alexander,Narrabri,2390
-75,The Bingara Advocate,editorial@bingaraadvocate.com.au,Nancy,Capel,Bingara,2404
-76,Guyra Argus,guyra.argus@ruralpress.com,,,Guyra,2365
-77,Manilla Express,manxpres@bigpond.net.au,,,Manilla,2346
-78,The Spectator,spectator07@bigpond.com,,,Walgett,2832
-79,Warialda Standard,editor@warialdastandard.com.au,Rachel,Sherman,Warialda,2402
-80,The Northern Star,news@northernstar.com.au,Steve,Spinks,Goonellabah,2480
-81,The Northern Rivers Echo,advertising@echonews.com,Rudi,Maxwell,Lismore,2480
-82,Daily News,editorial@tweednews.com.au,Mikarla,Marsden,South Tweed Heads,2486
-83,Tweed Border Mail,editor@tweednews.com.au,Zoe,Hancock,South Tweed Heads,2486
-84,Richmond River Express Examiner,rrexp@northernstar.com.au,,,Casino,2470
-85,The Byron Shire Echo,editor@echo.net.au,Michael,McDonald,Mullumbimby,2482
-86,Ballina Shire Advocate,starballedit@northernstar.com.au,,,Ballina,2478
-87,Bellingen Shire Courier Sun,editor.couriersun@ruralpress.com,,,Bellingen,2454
-88,Byron Shire News,admin@byronnews.com.au,Julie,Bergin,Byron Bay,2481
-89,Nambucca Guardian News,editor.guardiannews@ruralpress.com,Michael,O'Neil,Nambucca Heads,2448
-90,The Cootamundra Herald,manager.cootaherald@ruralpress.com,,,Cootamundra,2590
-91,The Area News,classifieds@areanews.com.au,,,Griffith,2680
-92,Harden-Murrumburrah Express,mail.hmexpress@ruralpress.com,,,Harden,2587
-93,The Narrandera Argus,liz@narranderaargus.com.au,,,Narrandera,2700
-94,The Daily Advertiser,news@dailyadvertiser.com.au,,,Wagga Wagga,"2560,2567,2571,2752,2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574"
-95,Koondrook & Barham Bridge,barhamnews@datafast.net.au,Peter,Herbert,Barham,2732
-96,Gundagai Independent,sultim@gundagai.net,,,Gundagai,2722
-97,Temora Independent,editorial@temoraindependent.com.au,,,Temora,2666
-98,Corowa Free Press,news@corowafreepress.com.au,Alannah,Lewis,Corowa,2646
-99,Southern Riverina News,srn@mcmedia.com.au,,,Finley,2713
-100,The Irrigator,editor@irrigator.com.au,Felicity,Nolen,Leeton,2705
-101,Gilgandra Weekly,mail.gilgandraweekly@ruralpress.com,,,Gilgandra,2827
-102,Eastern Riverina Chronicle,mail.erchronholbrook@ruralpress.com,,,Holbrook,2644
-103,The Lake News,lakenews@temoraindependent.com.au,,,Temora,2666
-104,Southern Weekly Magazine,editorial.southernweekly@ruralpress.com,,,Wagga Wagga,2650
-105,Southern Cross,jsx@dailyadvertiser.com.au,,,Wagga Wagga,2650
-106,The Leader,editor@rivleader.com.au,Scott,Sanbrook,Wagga Wagga,2650
-107,Boorowa News,mail.boorowanews@ruralpress.com,Sharon,Meere,Boorowa,2586
-108,Cooma-Monaro Express,editor.cmexpress@ruralpress.com,Colleen,O'Sullivan,Cooma,2630
-109,The Magnet,mail.magnet@ruralpress.com,,,Eden,2551
-110,Summit Sun,editor.cmexpress@ruralpress.com,Colleen,O'Sullivan,Jindabyne,2627
-111,Bega District News,admin.beganews@ruralpress.com,Steve,Strevens,Bega,2550
-112,Goulburn Post,editorial.goulburnpost@ruralpress.com,Gerard,Walsh,Goulburn,2580
-113,The Bay Post/Moruya Examiner,editor.baypost@ruralpress.com,Barbara,Pike,Batemans Bay,2536
-114,The Queanbeyan Age,classifieds@queanbeyanage.com.au,Erika,Seymour,Queanbeyan,2620
-115,Tumbarumba Times/Tumut and Adelong Times,news@tatimes.com.au,Luke,Watson,Tumut,2720
-116,Milton-Ulladulla Times,mail.mutimes@ruralpress.com,,,Ulladulla,2539
-117,Yass Tribune,editorial.yasstribune@ruralpress.com,Robyn,Sykes,Yass,2582
-118,Bombala Times,mail.bombalatimes@ruralpress.com,,,Bombala,2632
-119,Braidwood Times,braidwood@ruralpress.com,,,Braidwood,2622
-120,Merimbula News Weekly,mail.newsweekly@ruralpress.com,,,Merimbula,2548
-121,Narooma News,mail.naroomanews@ruralpress.com,,,Narooma,2546
-122,Hawkesbury Gazette,mail.hawkgazette@ruralpress.com,,,Richmond,"2155,2762,2753,2765,2754,2775,2756"
-123,Hawkesbury Courier,sales.hawkgazette@ruralpress.com,,,Richmond,2753
-124,Blue Mountains Gazette,editorial.bmgazette@ruralpress.com,Michael,Ticehurst,Springwood,"2773,2778,2783,2774,2779,2784,2776,2780,2785,2777,2782,2786"
-125,Camden Haven Courier,mail.camcourier@ruralpress.com,,,Laurieton,2443
-126,The Western Weekender,penrithproduction@mediaview.com.au,Troy,Dodds,Jamisontown,2750
-127,Hills News,hillsnews@fairfax.com.au,Heloise,Reece,Castle Hill,2154
-128,Fairfield City Champion,mlawrence@fairfaxmedia.com.au,,,Fairfield,2165
-129,Bankstown-Canterbury Torch,torch@torchpublishing.com.au,,,Condell Park,2200
-130,Blacktown Advocate,advertising@blacktownadvocate.com.au,Simon,Kent,Blacktown,2148
-131,The Canterbury-Bankstown Express,advertising@theexpress.com.au,Joanne,Vella,Liverpool,2170
-132,Blacktown City Sun,oliver_woodley@hotmail.com,,,,2148
-133,Fairfield Advance,advertising@fairfieldadvance.com.au,,,Liverpool,2170
-134,Inner West Courier - Inner West Edition,innerwestcourierads@couriernews.com.au,,,Five Dock,"2040,2044,2048,2131,2135,2140,2037,2041,2045,2049,2132,2136,2193,2038,2042,2046,2050,2133,2137,2203,2039,2043,2047,2130,2134,2138,2204"
-135,Hills Shire Times,advertising@hillsshiretimes.com.au,Therese,Murray,Castle Hill,2154
-136,Hornsby & Upper North Shore Advocate,advertising@hornsbyadvocate.com.au,,,Hornsby,2250
-137,The Inner West Courier (Gloss Edition),innerwestcouriernews@couriernews.com.au,,,Five Dock,"2134,2138,2204,2039,2043,2047,2130,2135,2140,2040,2044,2048,2131,2136,2193,2037,2041,2045,2049,2132,2133,2137,2203,2038,2042,2046,2050"
-138,Liverpool City Champion,EKontos@mail.fairfax.com.au,,,Liverpool,2170
-139,The Weekly Times,contactus@weeklytimes.com.au,Ulrike,Eichmeyer,Ryde,2112
-140,The Liverpool Leader,advertising@liverpoolleader.com.au,Melissa,Mitchell,Liverpool,2170
-141,The Manly Daily,advertising@manlydaily.com.au,,,Manly,2095
-142,The Mosman Daily,advertising@mosmandaily.com.au,,,North Sydney,2060
-143,Mt Druitt-St Marys Standard,editor@mtdruittstandard.com.au,Andrew,Kacimaiwai,Mt Druitt,2770
-144,North Shore Times,advertising@northshoretimes.com.au,,,North Sydney,2060
-145,Northern District Times,advertising@northerndistricttimes.com.au,,,Epping,2121
-146,Parramatta Advertiser,advertising@parramattaadvertiser.com.au,Rick,Allen,Parramatta,2150
-147,Penrith Press,advertising@penrithpress.com.au,,,Penrith,2750
-148,Review Pictorial,review@torchpublishing.com.au,,,Auburn,2144
-149,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,Rockdale,"2196,2210,2219,2223,2227,2231,2508,2205,2216,2220,2224,2228,2232,2207,2217,2221,2225,2229,2233,2209,2218,2222,2226,2230,2234"
-150,Southern Courier,southerncouriernews@couriernews.com.au,,,Alexandria,2015
-151,Wentworth Courier,news@couriernews.com.au,,,Alexandria,2015
-152,Campbelltown-Macarthur Advertiser,jmcgill@mail.fairfax.com.au,,,Campbelltown,"2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752,2167,2564,2568,2572"
-153,The Macarthur Chronicle,editor@macarthurchronicle.com.au,Mandy,Perrin,Campbelltown,"2171,2564,2570,2574,2558,2565,2571,2559,2566,2572,2167,2560,2567,2573"
-154,2120 & Beyond Monthly Chronicle,news@monthlychronicle.com,Bill,Aitken,Thornleigh,2120
-155,The Balmain & Rozelle Village Voice,editor@villagevoice.com.au,,,Five Dock,2046
-156,Cooks River Valley Times,torch@torchpublishing.com.au,,,Earlwood,2206
-157,"Drummoyne, Five Dock & Concord Village Voice",editor@villagevoice.com.au,Ben,Douglas,Alexandria,2015
-158,"Leichhardt, Glebe & Annandale Village Voice",editor@villagevoice.com.au,,,Petersham,2049
-159,Eastern Suburbs Spectator,spectate@ihug.com.au,,,Bondi Junction,2022
-160,Camden Advertiser,rsenescall@fairfax.com.au,,,Camden,2570
-161,Tweed Sun,tweed@gcb.newsltd.com.au,Shane,Watson,Tweed Heads South,2486
-162,Parramatta Sun,thesun@mail.fairfax.com.au,,,Castle Hill,2154
-163,St Marys Mt Druitt Star,r_smith@fairfaxmedia.com.au,Roslyn,Smith,Blacktown,2148
-164,Times,spectate@ihug.com.au,,,Bondi Junction,2022
-165,Leader,spectate@ihug.com.au,,,Bondi Junction,2022
-166,Wollondilly Advertiser,jmcgill@fairfax.com.au,,,Picton,2571
-167,Rouse Hill Times,advertising@rousehilltimes.com.au,David,Catt,Castle Hill,2154
-168,Penrith City Star,r_smith@fairfaxmedia.com.au,Gemma,Seymour,Penrith,2750
-169,The Glebe,advertising@theglebe.com.au,,,Ultimo,2077
-170,Village Voice,editor@innerwestcourier.com.au,,,Alexandria,2015
-171,North Shore Times,editor@northshoretimes.com.au,Nicole,Bauche,North Sydney,2060
-172,The Port Macquarie Independent,newsdesk@portmacquarieindependent.com.au,,,,"2443,2444,2445,2440,2446"
-173,City Hub,question@alternativemediagroup.com,,,,"2000,2010,2050,2007,2011,2008,2037,2009,2042"
-174,South Sydney Herald,editor@ssh.com.au,,,,"2015,2037,2008,2016,2042,2010,2017,2043,2011,2021"
-175,Central,editor@centralmag.com.au,,,,"2007,2011,2021,2050,2008,2015,2037,2009,2016,2042,2000,2010,2017,2043"
-176,Ballarat Courier,inquiries@thecourier.com.au,Chloe,Biggin,Ballarat,"3352,3350,3357,3363"
-177,Ballarat News,ballarat.news@thecourier.com.au,,,Ballarat,"3352,3350,3357,3363"
-178,Ararat Advertiser,ararateditorial@ruralpress.com,,,Ararat,3377
-179,The Advocate,theadvocate@ruralpress.com.au,Aaron,Van Kessel,,"3363,3370,3461,3458,3460"
-180,Maryborough District Advertiser,maryaddy@bigpond.net.au,Michael,Rossi,Maryborough,"3475,3370,3467,3551,3352,3465,3371"
-181,Pyrenees Advocate,editor@theadvocate.net.au,Craig,Wilson,,"3352,3477,3469,3478,3468,3373,3351,3371,3467,3384,3361"
-182,The McIvor Times,editor@mcivortimes.com.au,Ben,Cameron,Heathcote,"3559,3444,3523,3551,3550,3522,3558,3521"
-183,The Sea Lake & Wycheproof Times - Ensign,times@bigpond.net.au,Bernie,Clohesy,Sea Lake,",3533,3531,3485"
-184,Robinvale Sentinel,sentinel@robinvaleprinters.com.au,,,Robinvale,"2736,3549,2737,3546,,3599"
-185,Bendigo Advertiser,cos@bendigoadvertiser.com.au,Nicole,Ferrie,Bendigo,"3450,3518,3523,3444,3550,3561"
-186,Bendigo Weekly,news@bendigoweekly.com.au,Anthony,Radford,Bendigo,"3523,3559,3550,3570,3518,3450,3442,3551,3571,3561"
-187,Campaspe Valley News,office@campaspenews.com.au,Monique,Preston,Rochester,"3572,3559,3557,3558,3561,3563"
-188,Riverine Herald,yournews@riverineherald.com.au,Annette,Gregson,Echuca,"3639,3562,3575,3620,3564,3568,3566,3621,2731,3563,3567,3622,2710,3561,3579,3619"
-189,Kyabram Free Press/Tatura Guardian,press@kyabram.net.au,Michael,Maskell,Kyabram,3620
-190,The Free Press,fpeditorial@newspaperhouse.com.au,Lara,Bailey,Kilmore,3764
-191,The North Central Review,manager@newspaperhouse.com.au,Robin,Northover,Kilmore,3764
-192,Macedon Ranges/Sunbury Telegraph,fcnvic_telegraph@fairfax.com.au,,,Gisborne,3437
-193,Macedon Ranges Guardian,editor@elliottmidnews.com.au,Angela,Crawford,Kyneton,3444
-194,Midland Express,editor@elliottmidnews.com.au,Angela,Crawford,Kyneton,3444
-195,Castlemaine Mail,dcox@elliottmidnews.com.au,Jeff,Jones,Castlemaine,3450
-196,Tarrangower Times,viv@tarrangowertimes.com.au,Vivien,Markham,Maldon,3463
-197,Geelong Independent,starnewsgroup@starnewsgroup.com.au,,,Geelong,3215
-198,Geelong Advertiser,journo@geelongadvertiser.com.au,Greg,Dundas,Geelong,3220
-199,Geelong News,newsroom@geelongnews.com.au,Grant,Payne,Geelong,3220
-200,The Geelong Times,reception@thegeelongtimes.com.au,Ian,Kenins,Newtown,3220
-201,Queenscliffe Herald,quherald@bigpond.net.au,Carmel,Murphy,Queenscliff,3226
-202,The Echo,office@geelonginfo.com,Grant,Payne,Geelong,3220
-203,Mountain Views Mail,edit.mvmail@yvnews.com.au,Kath,Gannaway,Healesville,3777
-204,Seymour Nagambie Advertiser,seyadv@knox.hotkey.net.au,,,Emerald,3782
-205,The Ranges Trader Mail,rtmail@yvnews.com.au,Tania,Martin,Monbulk,3793
-206,Upper Yarra Mail,mvmail@yvnews.com.au,Kath,Gannaway,Yarra Junction,3797
-207,Warragul & Drouin Gazette,editorial@warragulgazette.com.au,Carolyn,Turner,Warragul,3820
-208,The Baw Baw Shire & West Gippsland Trader,administration@warragulgazette.com.au,Carolyn,Turner,Warragul,3820
-209,Moe & Narracan News,news@moenews.net.au,Fiona,Broom,Moe,3825
-210,Latrobe Valley Express,news@lvexpress.com.au,Kristin,Favaloro,Morwell,3840
-211,The Traralgon Journal,news@traralgonjournal.com.au,,,Traralgon,3844
-212,Gippsland Times & Maffra Spectator,news@gippslandtimes.com.au,,,Sale,3850
-213,Bairnsdale Advertiser,egnews@eastvicmedia.com.au,Luke,Robinson,Bairnsdale,3875
-214,East Gippsland News,egnews@eastvicmedia.com.au,Luke,Robinson,Bairnsdale,3875
-215,Snowy River Mail,srm@eastvicmedia.com.au,,,Orbost,3888
-216,Lakes Post,lakespost@eastvicmedia.com.au,Stephanie,Nicholls,Lakes Entrance,3909
-217,Phillip Island & San Remo Advertiser,advertiser@waterfront.net.au,Anne,Oswin,Cowes,3922
-218,The Great Southern Star,editorial@thestar.com.au,,,Leongatha,3953
-219,South Gippsland Sentinel-Times,ads@sgst.com.au,Nathan,Johnston,Leongatha,3953
-220,The Mirror,mirror@tpg.com.au,Robert,Best,Foster,3960
-221,Yarram Standard - News,news@standardnews.com.au,,,Yarram,3971
-222,West Wimmera Advocate,advocate@netconnect.com.au,Franco,Vanzini,Edenhope,3318
-223,Stawell Times - News,stawelltimes@thecourier.com.au,,,Stawell,3380
-224,Dimboola Banner,wkherald@netconnect.com.au,Audrey,Hurst,Warracknabeal,3393
-225,Warracknabeal Herald,wkherald@netconnect.com.au,David,Ward,Warracknabeal,3393
-226,Hopetoun Courier & Mallee Pioneer,hcourier@iinet.net.au,Kathleen,Poulton,Hopetoun,3396
-227,Wimmera Mail-Times,newsdesk@mailtimes.com.au,Peter,Hammond,Horsham,3400
-228,The Weekly Advertiser,weeklyadvertiser@aceradio.com.au,,,Horsham,3400
-229,Wimmera Messengers: The Voice of Hindmarsh,advertising@wimmeramessengers.com.au,,,Nhill,3418
-230,Wimmera Messengers: The Voice of Wimmera,news@wimmeramessengers.com.au,Gary,Sherwell,Nhill,3418
-231,The Rainbow-Jeparit Argus,editor@theargus.com.au,,,Rainbow,3424
-232,North Central News,ncn@iinet.net.au,Ella,Ebery,St Arnaud,3478
-233,Buloke Times,buloket@iinet.net.au,Shane,O'Shea,Donald,3480
-234,North West Express,times@bigpond.net.au,Bernie,Clohesy,Ouyen,3490
-235,Mildura Midweek,newsdesk@milduraweekly.com.au,Keiran,Iles,Mildura,3500
-236,Sunraysia Daily,pro@sunraysiadaily.com.au,Kieran,Iles,Mildura,3500
-237,Cohuna Farmers' Weekly,editorial@northernnewspapers.com.au,,,Cohuna,3568
-238,The Loddon Times,loddon@northernnewspapers.com.au,Ken,Jenkins,Kerang,3579
-239,The Northern Times,editorial@northernnewspapers.com.au,Ken,Jenkins,Kerang,3579
-240,Swan Hill Guardian,admin@theguardian.com.au,Rob,Duffield,Swan Hill,3585
-241,Shepparton Adviser,editorial@sheppartonadviser.com.au,Tony,Mac,Shepparton,3630
-242,Shepparton News,editor@sheppnews.com.au,Richard,Bryce,Shepparton,3630
-243,Numurkah Leader,Editorial@leader.net.au,Tony,Morris,Numurkah,3636
-244,Cobram Courier,courier@cobram.net.au,,,Cobram,3644
-245,The Seymour Telegraph,telegraph@mcmedia.com.au,Michelle,Bradley,Seymour,3660
-246,Euroa Gazette,editor@euroa-gazette.com.au,,,Euroa,3666
-247,Benalla Ensign,ensign@benalla.net.au,Angela,Townsend,Benalla,3672
-248,Ovens & Murray Advertiser,sales.chronicle@nenews.com.au,Zoe,Rudder,Wangaratta,3677
-249,The Chronicle,edit.chronicle@nenews.com.au,Jeff,Zeuschner,Wangaratta,3677
-250,The Border Mail,newsroom@bordermail.com.au,,,Wodonga,3690
-251,The Post,bmm@bordermail.com.au,,,Wodonga,3690
-252,Corryong Courier,mail@corryongcourier.com.au,Mark,Collins,Corryong,3707
-253,Alexandra & Eildon Standard,alexstd@virtual.net.au,,,Alexandra,3714
-254,Yea Chronicle,alexstd@virtual.net.au,,,Yea,3717
-255,Mansfield Courier,edit.mcourier@nenews.com.au,Pam,Zierk-Mahoney,Mansfield,3722
-256,Yarrawonga Chronicle,editorial@yarrawongachronicle.com.au,,,Yarrawonga,3730
-257,Tatura Guardian,guardian@mcmedia.net.au,,,Tatura,3616
-258,Bright Observer,adsalp@nenews.com.au,Ebony,D'Arcy,Myrtleford,3737
-259,Myrtleford Times,edit.alptimes@nenews.com.au,Ebony,D'Arcy,Myrtleford,3737
-260,Surf Coast Times,editor@surfcoasttimes.com.au,Nathan,Hale,Torquay,3228
-261,Colac Herald,news@colacherald.com,Bruce,Lawson,Colac,3250
-262,Camperdown Chronicle,news@wdnews.com.au,,,Camperdown,3260
-263,Cobden Times,ads@wdnews.com.au,,,Camperdown,3260
-264,Western Plains Advertiser,news@wdnews.com.au,,,Camperdown,3260
-265,Terang Express,news@wdnews.com.au,,,Camperdown,3260
-266,The Warrnambool Standard,wseditor@standard.fairfax.com.au,Shane,Fowles,Warrnambool,3280
-267,The Moyne Gazette,gazette@standard.fairfax.com.au,,,Port Fairy,3284
-268,Hamilton Spectator,specadmin@spec.com.au,,,Hamilton,3300
-269,The Portland Observer & Guardian,obsnews@spec.com.au,,,Portland,3305
-270,Casterton News,castnews@spec.com.au,Marion,Cowland,Casterton,3311
-271,Cranbourne News,starnewsgroup@starnewsgroup.com.au,Garry,Howe,Pakenham,3810
-272,Berwick/Pakenham Cardinia Leader,berwick@leadernewspapers.com.au,,,Berwick,3806
-273,Brimbank Leader,brimbank@leadernewspapers.com.au,,,Tullamarine,3043
-274,Caulfield Glen Eira/Port Phillip Leader,theleader@leadernewspapers.com.au,,,Glen Iris,3146
-275,Community News - Moonee Valley,mooneeads@fairfax.com.au,,,Airport West,3042
-276,Cranbourne Journal,journal@fairfax.com.au,,,Dandenong,3175
-277,Cranbourne Leader,cranbourne@leadernewspapers.com.au,,,Berwick,3806
-278,The Journal,journal@fairfax.com.au,,,Dandenong,3175
-279,Diamond Valley Leader,diamondvalley@leadernewspapers.com.au,,,Briar Hill,3088
-280,Manningham Leader,manningham@leadernewspapers.com.au,,,Blackburn,3130
-281,The Emerald Hill Weekly,newsroom@fairfax.com.au,,,East Melbourne,3002
-282,"The Chelsea, Mordialloc, Mentone Independent",fcnvic_chelseaedit@fairfax.com.au,,,Hastings,3915
-283,Peninsula Journal Weekender,journal@fairfax.com.au,,,Dandenong,3175
-284,Frankston & Hastings Independent,fcnvic_mailedit@fairfax.com.au,,,Hastings,3915
-285,Frankston Standard/Hastings Leader,frankston@leadernewspapers.com.au,Natalie,Kealey,Mornington,"3200,3912,3195,3201,3913,3198,3910,3918,3199,3911,3919"
-286,Heidelberg Leader,heidelberg@leadernewspapers.com.au,,,Briar Hill,3088
-287,Hume Leader,hume@leadernewspapers.com.au,,,Tullamarine,3043
-288,Knox Leader,knox@leadernewspapers.com.au,,,Boronia,"3155,3156,3152,3178,3153,3179"
-289,Knox Journal,journal@fairfax.com.au,,,Bayswater,3153
-290,Lilydale & Yarra Valley Leader,lilydale@leadernewspapers.com.au,,,Lilydale,"3139,3775,3116,3140,3777,3137,3765,3796,3138,3770,3799"
-291,The Mail/Williamstown Advertiser/Altona-Laver,fcnvic_mail@fairfax.com.au,,,Airport West,3042
-292,Stonnington Leader,stonnington@leadernewspapers.com.au,,,Glen Iris,3146
-293,Maroondah Journal/Yarra Ranges Journal,journal@fairfax.com.au,,,Bayswater,3153
-294,Melbourne Leader,melbourne@leadernewspapers.com.au,,,Glen Iris,3146
-295,The Melbourne Times,newsroom@fairfax.com.au,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
-296,The Melbourne Weekly Magazine,newsroom@fairfax.com.au,,,East Melbourne,"3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121"
-297,Melton/Moorabool Express Telegraph,fcnvic_expresstelegraph@fairfax.com.au,,,Melton,3337
-298,Monash Journal,journal@fairfax.com.au,,,Bayswater,3153
-299,Moonee Valley Leader,mooneevalley@leadernewspapers.com.au,,,Tullamarine,3043
-300,Moorabbin Kingston/Moorabbin Glen Eira Leader,moorabbin@leadernewspapers.com.au,,,Cheltenham,3192
-301,Mordialloc Chelsea Leader,mordialloc.chelsea@leadernewspapers.com.au,,,Cheltenham,3192
-302,Moreland Leader,moreland@leadernewspapers.com.au,Simon,Craig,Northcote,3070
-303,Mornington Peninsula Leader,mornington@leadernewspapers.com.au,,,Mornington,3931
-304,Northcote Leader,northcote@leadernewspapers.com.au,,,Northcote,"3071,3078,3070"
-305,Dandenong/Springvale Dandenong Leader,dandenong@leadernewspapers.com.au,,,Cheltenham,3192
-306,Pakenham-Berwick Gazette,starnewsgroup@starnewsgroup.com.au,Garry,Howe,Pakenham,3810
-307,Preston Leader,preston@leadernewspapers.com.au,,,Northcote,"3072,3073,3083"
-308,Progress Leader,progress@leadernewspapers.com.au,,,Glen Iris,3146
-309,Sunbury/Macedon Ranges Leader,sunbury@leadernewspapers.com.au,,,Sunbury,3429
-310,Maroondah Leader,maroondah@leadernewspapers.com.au,,,Boronia,"3134,3135,3137"
-311,Bayside Leader,bayside@leadernewspapers.com.au,,,Glen Iris,3146
-312,Free Press Leader,fpeditorial@reviewnews.com.au,,,Boronia,3155
-313,Waverley/Oakleigh Monash Leader,waverley@leadernewspapers.com.au,,,Glen Iris,3146
-314,Werribee/Point Cook Banner,fcnvic_banner@fairfax.com.au,,,Werribee,3030
-315,The Wyndham Leader,wyndham@leadernewspapers.com.au,,,Werribee,3030
-316,Western Leader,times@timespublications.com.au,,,Newport,3015
-317,Whitehorse Leader,whitehorse@leadernewspapers.com.au,,,Blackburn,"3129,3133,3130,3151,3127,3131,3215,3128,3132"
-318,Whittlesea Leader,whittlesea@leadernewspapers.com.au,,,Briar Hill,3088
-319,Mornington & Southern Peninsula Mail,fcnvic_mailedit@fairfax.com.au,,,Hastings,3915
-320,Maribyrnong Leader,maribyrnong@leadernewspapers.com.au,,,Newport,3015
-321,Berwick News,starnewsgroup@starnewsgroup.com.au,Garry,Howe,Pakenham,3810
-322,Hobsons Bay Leader,hobsonsbay@leadernewspapers.com.au,,,Newport,3015
-323,"Star Keilor, Taylors Lakes, Sydenham",star@starnewsgroup.com.au,,,Tullamarine,3043
-324,Ferntree Gully - Belgrave Mail,starnewsgroup@starnewsgroup.com.au,Tania,Martin,Monbulk,3793
-325,Northern Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
-326,The City Weekly Melbourne,newsroom@fairfax.com.au,,,East Melbourne,3002
-327,Melbourne Weekly Bayside,newsroom@fairfax.com.au,,,East Melbourne,3002
-328,Melbourne Observer,editor@melbourneobserver.com.au,,,Eltham,3095
-329,"Star St Albans, Deer Park, Caroline Springs",starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
-330,"Star Werribee, Hoppers Crossing",star@starnewsgroup.com.au,,,Tullamarine,3043
-331,"Star Williamstown, Altona, Laverton",star@starnewsgroup.com.au,,,Tullamarine,3043
-332,"Star Footscray, Yarraville, Braybrook",starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
-333,"Star Sunshine, Ardeer, Albion",star@starnewsgroup.com.au,,,Tullamarine,3043
-334,Western Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
-335,North West Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043
-336,Melton/Moorabool Leader,melton@leadernewspapers.com.au,,,Melton,3337
-337,Pakenham News,starnewsgroup@starnewsgroup.com.au,Gary,Howe,Pakenham,3810
-338,Heidelberg & Diamond Valley Weekly,newsroom@fairfax.com.au,,,Briar Hill,3088
-339,Berwick and District Journal/Pakenham Journal,journal@fairfaxmedia.com.au,,,Dandenong,3175
-340,Northern Weekly,newsroom@fairfax.com.au,,,Briar Hill,3088
-341,Melbourne Weekly Eastern,newsroom@fairfax.com.au,,,Briar Hill,3088
-342,Hume Weekly,fcnvic_humeweekly@fairfax.com.au,,,Airport West,3042
-343,Moonee Valley Community News,fcnvic_communitynews@fairfax.com.au,,,Airport West,3042
-344,Whittlesea Review,manager@newspaperhouse.com.au,Robin,Northover,Kilmore,3764
-345,Star Hume - Our City,starnorth@starnewsgroup.com.au,,,Tullamarine,3043
-346,"Star Whittlesea, Mernda, Doreen",starnorth@starnewsgroup.com.au,,,Tullamarine,3043
-347,"Star Wallan, Kilmore, Broadford",starnorth@starnewsgroup.com.au,,,Tullamarine,3043
-348,Maroondah Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3153,3134,3135,3136"
-349,Knox Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3155,3180,3152,3156,3153,3178,3154,3179"
-350,Casey Weekly Berwick,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3807,3804,3805,3806"
-351,Yarra Ranges Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3140,3116,3153,3137,3796,3138"
-352,Frankston Weekly,peninsulanews@yourweekly.com.au,,,,"3199,3930,3201,3910,3198,3912"
-353,Kalgoorlie Miner,news@kalminer.com.au,John,Horner,Kalgoorlie,6430
-354,Esperance Express,editor.espexpress@ruralpress.com,Paul,Goldie,Esperance,6450
-355,Central Midlands Coastal Advocate,sales.advocate@ruralpress.com,,,Moora,6510
-356,The Geraldton Guardian,reception@geraldtonnewspapers.com.au,Sue,Cheira,Geraldton,6530
-357,Midwest Times,midwest@midwest.com.au,,,Geraldton,6530
-358,Mandurah Mail,editor.mandurahmail@ruralpress.com,,,Mandurah,6210
-359,Mandurah Coastal Times,mctsales@communitynews.com.au,,,Mandurah,"6174,6207,6211,6175,6208,6213,6180,6209,6214,6173,6181,6210,6215"
-360,Harvey Reporter,editor@harveyreporter.com.au,,,Harvey,6220
-361,Donnybrook-Bridgetown Mail,editor.colliemail@ruralpress.com,Raelene,Heston,Collie,6225
-362,Collie Mail,editor.colliemail@ruralpress.com,Raelene,Heston,Collie,6225
-363,Bunbury Mail,sales.bunburymail@ruralpress.com,,,Bunbury,6230
-364,South-Western Times,editor@swtimes.com.au,,,Bunbury,6230
-365,Bunbury Herald,editor@swtimes.com.au,Jamie,Tatham,Bunbury,6230
-366,Manjimup-Bridgetown Times,editor@mbtimes.com.au,Dannae,Synot,Manjimup,6258
-367,Busselton Dunsborough Times,editor@bdtimes.com.au,Hayley,Jensz,Busselton,6280
-368,Busselton-Dunsborough Mail,mail.bdmail@ruralpress.com,,,Busselton,6280
-369,Augusta Margaret River Mail,editor@amrtimes.com.au,Hayley,Jensz,Margaret River,6285
-370,Northern Guardian,news@northernguardian.com.au,,,Carnarvon,6701
-371,North West Telegraph,news@northwesttelegraph.com.au,,,Port Headland,6721
-372,Broome Advertiser,news@broomead.com.au,Chris,Hingston,Chinatown,6725
-373,Kimberley Echo,admin@kimberleyecho.com,Nathan,Dyer,Kununurra,6743
-374,Narrogin Observer,news@narroginobserver.com.au,Andrew,Hobbs,Narrogin,6312
-375,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315
-376,Great Southern Herald,news@greatsouthernherald.com.au,,,Katanning,6317
-377,Albany Advertiser,ads@albanyadvertiser.com,Ben,Spencer,Albany,6330
-378,Albany & Great Southern Weekender,manager@albanyweekender.com.au,Wayne,Harrington,Albany,6330
-379,Avon Valley Advocate,reporter.avonadvocate@ruralpress.com,,,Northam,6401
-380,Merredin Wheatbelt Mercury,editorial.mercury@ruralpress.com,,,Merredin,6415
-381,The Sunday Times,editorial@sundaytimes.newsltd.com.au,John,Flint,Perth,6000
-382,The West Australian,westinfo@wanews.com.au,Margaret,Marshall,Osborne Park,6017
-383,The Canning Times Community,canningtimes@communitynews.com.au,Rachel,Watts,Myaree,"6102,6148,6106,6155,6107,6154,6147"
-384,The Claremont-Nedlands Post,mailbox@postnewspapers.com.au,Bret,Christian,Shenton Park,6008
-385,Comment News Community,commentnews@communitynews.com.au,Lucien,Wilkinson,Kelmscott,"6108,6112,6109,6147,6110,6155,6107,6111"
-386,Eastern Reporter,esr@communitynews.com.au,Karen,Valenti,Osborne Park,6017
-387,Cambridge Post,mailbox@postnewspapers.com.au,,,Shenton Park,6008
-388,Fremantle Cockburn Gazette,fremantlegazette@communitynews.com.au,David,Johns,Myaree,6154
-389,Fremantle Herald,advertising@fremantleherald.com,Natalie,Hug,Fremantle,6160
-390,Guardian Express Community,guardianexpress@communitynews.com.au,,,Northbridge,6003
-391,Hills Gazette,hillsgazette@communitynews.com.au,,,Midland,6056
-392,The Melville Times Community,melvilletimes@communitynews.com.au,David,Johns,Myaree,6154
-393,Echo News,production@echo-news.com,,,Midland,6056
-394,Midland - Kalamunda Reporter,MidlandKalamundaReporter@communitynews.com.au,Nathan,Watson,Midland,6936
-395,Mosman Park-Cottesloe Post,advertising@postnewspapers.com.au,Bret,Christian,Shenton Park,6008
-396,Western Suburbs Weekly,news@wsweekly.com.au,Denise,Cahill,Northbridge,6003
-397,Sound Telegraph,advertsales@soundtelegraph.com.au,Monique,Mulligan,Rockingham,6168
-398,Southern Gazette Community,sgsales@communitynews.com.au,Rachel,Watts,Myaree,"6100,6104,6101,6105,6102,6151,6154,6103,6152"
-399,Stirling Times Community,stirlingtimes@communitynews.com.au,Karen,Valenti,Osborne Park,6017
-400,Subiaco Post,advertising@postnewspapers.com.au,Bret,Christian,Shenton Park,6008
-401,Joondalup/Wanneroo Times Community Newspaper,wannerootimes@communitynews.com.au,,,Joondalup,6027
-402,Weekend Courier,weekendcourier@communitynews.com.au,,,Rockingham,6168
-403,The Perth Voice,advertising@fremantleherald.com,Natalie,Hug,Fremantle,6160
-404,The Islander,theislander@ruralpress.com,Shauna,Black,Kingscote,5223
-405,Southern Argus,sargus@adam.com.au,,,Strathalbyn,5255
-406,Murray Valley Standard,editor.mvstandard@ruralpress.com,,,Murray Bridge,5253
-407,Border Chronicle,reporter@borderchronicle.com.au,Lauren,Barker,Bordertown,5268
-408,The Naracoorte Herald,editor@naracoorteherald.com.au,Sue,Waite,Naracoorte,5271
-409,The South-East Coastal Leader,coastal.leader@naracoorteherald.com.au,Jenni,Ling,Kingston SE,5275
-410,The South Eastern Times,ads@setimes.com.au,,,Millicent,5280
-411,The Border Watch,tim@tbw.com.au,,,Mount Gambier,5290
-412,The Penola Pennant,tim@tbw.com.au,,,Mount Gambier,5290
-413,The River News,enquiries@rivernews.com.au,,,Waikerie,5330
-414,The Loxton News,ads@loxton-news.com.au,Paul,Mitchell,Loxton,5333
-415,The Border Times,editor@murraypioneer.com.au,Paul,Mitchell,Renmark,5341
-416,The Murray Pioneer,mpioneer@riverland.net.au,Paul,Mitchell,Renmark,5341
-417,The Barossa & Light Herald,barossaherald@ruralpress.com,,,Tanunda,5352
-418,The Northern Argus,northernargus@ruralpress.com,,,Clare,5453
-419,The Plains Producer,sales@plainsproducer.com.au,Andrew,Manuel,Balaklava,5461
-420,Flinders News,flindersnews@ruralpress.com,,,Port Pirie,5540
-421,The Recorder,recorder@ruralpress.com,,,Port Pirie,5540
-422,Yorke Peninsula Country Times,ypct@ypct.com.au,Amie,Brokenshire,Kadina,5554
-423,Whyalla News,admin.whyallanews@ruralpress.com,,,Whyalla,5600
-424,Port Lincoln Times,editor.lincolntimes@ruralpress.com,,,Port Lincoln,5606
-425,West Coast Sentinel,westcoastsentinel@ruralpress.com,Eugene,Boisvert,Ceduna,5690
-426,The Transcontinental,sales.trans@ruralpress.com,,,Port Augusta,5700
-427,The Monitor - Your Community Newspaper,news@themonitor.com.au,,,Roxby Downs,5725
-428,Eyre Peninsula Tribune,eptribune@ruralpress.com,Seonie,Lyon,Cleve,5640
-429,City Messenger,tiser@adv.newsltd.com.au,Kara,Phillips,Norwood,5067
-430,Eastern Courier Messenger,eastern@mng.newsltd.com.au,Shannon,Caton,Norwood,5067
-431,The Guardian Messenger,messenger@mng.newsltd.com.au,,,Morphettville,5043
-432,Leader Messenger,tiser@adv.newsltd.com.au,Chris,Day,Salisbury,5108
-433,News Review Messenger,tiser@adv.newsltd.com.au,Andrew,Spence,Salisbury,5108
-434,East Torrens Messenger,alyssajane.tucker@news.com.au,Rachel,Moore,Norwood,5067
-435,Portside Messenger,deightonm@mng.newsltd.com.au,David,Klar,Adelaide,5015
-436,Southern Times Messenger,southern@mng.newsltd.com.au,Emma,Graham,Morphett Vale,5162
-437,City North Messenger,tiser@adv.newsltd.com.au,Chris,Day,Adelaide,5015
-438,The Weekly Times Messenger,tiser@adv.newsltd.com.au,David,Klar,Kidman Park,5025
-439,Adelaide Hills Weekender,edit@saint.net.au,,,Crafers,5152
-440,The Independent Weekly,admin@independentweekly.com.au,Hendrik,Gout,Adelaide,5000
-441,Adelaide Church Guardian,communications@adelaide.anglican.com.au,Steve,Daughtry,North Adelaide,5006
-442,The Bunyip,editorial@bunyippress.com.au,Emma,Moreland,Gawler,5118
-443,On the Coast,victortimes@ruralpress.com,Claire,Thwaites,Victor Harbor,5211
-444,The Times,victortimes@ruralpress.com,Claire,Thwaites,Victor Harbor,5211
-445,Northern Territory News/Sunday Territorian,online@ntn.newsltd.com.au,Matt,Cunningham,Darwin,0800
-446,Tennant & District Times,media@tdtimes.com.au,Jasmin,Afianos,Tennant Creek,0861
-447,Arafura Times,atimes@bigpond.com,,,Nhulunbuy,0880
-448,Centralian Advocate,advocate@ntn.newsltd.com.au,,,Alice Springs,0870
-449,Katherine Times,mail.kathtimes@ruralpress.com,Tegan,Forder,Katherine,0850
-450,Darwin Sun/Litchfield Sun/Palmerston Sun,mailsun@thesuns.com.au,,,Palmerston,0831
-451,Alice Springs News,erwin@alicespringsnews.com.au,Erwin,Chlanda,Alice Springs,0870
-452,The Advocate/Coast to Coast News,news@theadvocate.com.au,Danny,Clark,Burnie,7320
-453,Mercury/Sunday Tasmanian,mercury.news@dbl.newsltd.com.au,,,Hobart,7000
-454,The Examiner/Launceston Times/Meander valley ,editor@examiner.com.au,Edwina,Yates,Launceston,7250
-455,The Huon Valley News,hvn@bigpond.com,Maureen,Oates,Franklin,7113
-456,The Gazette,gazette@dbl.newsltd.com.au,Blair,Richards,New Norfolk,7140
-457,Central Coast Courier,cccjread@tassie.net.au,,,Orford,7190
-458,North Eastern Advertiser,editor@northeasternadvertiser.com,Peter,Fish,Scottsdale,7260
-459,Circular Head Chronicle,chc@printdomain.com.au,,,Smithton,7330
-460,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315
-461,NT Times,ntnmail@ntnews.com.au,,,,0800
-462,Sydney Morning Herald,newsdesk@smh.com.au,,,,2000
-463,Daily Telegraph,news@dailytelegraph.com.au,,,,2000
-464,Newcastle Herald,news@theherald.com.au,,,,2000
-465,Canberra Times xx,letters.editor@canberratimes.com.au,,,,2000
-466,The Age,newsdesk@theage.com.au,,,,3000
-467,Herald Sun,news@heraldsun.com.au,,,,3000
-468,Courier Mail,crutcherm@qnp.newsltd.com.au,,,,4000
-469,Brisbane Times,scoop@brisbanetimes.com.au,,,,4000
-470,Adelaide Now,tiser@adv.newsltd.com.au,,,,5000
-471,The Mercury,mercuryedletter@dbl.newsltd.com.au,,,,7000
-472,The Examiner,editor@examiner.com.au,,,,7000
-475,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,,"2211,2223,2196,2213,2210,2222,2220,2212,2209,2200,2214"
-476,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,,"2218,2208,2207,2220,2217,2223,2205,2219,2216,2222,2221"
-477,"The Examiner: Northern Tasmania News, sport a",stennant@examiner.com.au,Simon,Tennant,,"7248,7277,7255,7249,7290,7264,7267,7261,7212,7268,7262,7259,7253,7265,7260,7254,7257,7250,7263,7258,7252,3960"
-478,Brisbane Times,scoop@brisbanetimes.com.au,,,,"4173,4113,4152,4179,4121,4153,4157,4174,4156,4170,4178,4122,4154,4123,4155,4172,4025"
-479,Circular Head Chronicle,chc@printdomain.com.au,,,,"7307,7256,7310,7331,7322,7316,7275,7315,7305,7321,7325,7320,7330"
-480,The Advocate,news@theadvocate.com.au,,,,"7316,7307,7256,7321,7331,7322,7275,7315,7305,7310,7325,7320,7330"
-481,Brisbane Times,scoop@brisbanetimes.com.au,,,,"4053,4010,4000,4030,4060,4066,4061,4005,4051,4006,4064,4059,4065"
-482,The Bulletin,mirror@capnews.com.au,,,,"4738,4702,4704,4706,4805,4739,4741,4743,4707,4820,4740,4742,4744,4710,4714,4723,4728,4745,4711,4721,4724,4699,4746,4753,4756,4804,4700,4751,4754,4757,4737,4701,4703,4705"
-483,Whitsunday Times,editor@whitsundaytimes.com.au,,,,"4744,4710,4714,4723,4728,4700,4751,4754,4742,4699,4746,4753,4756,4804,4738,4702,4724,4757,4737,4701,4703,4705,4707,4820,4740,4706,4805,4739,4741,4743,4745,4711,4721,4704"
-484,Central Queensland News,news@cqnews.com.au,,,,"4753,4756,4804,4820,4740,4742,4744,4699,4739,4741,4743,4745,4700,4702,4704,4706,4746,4701,4703,4705,4707,4751,4721,4724,4737,4710,4714,4723,4728,4738,4711,4754,4757,4805"
-485,Surf Coast Times,web@surfcoasttimes.com.au,,,,"3328,3221,3260,3233,3334,3250,3329,3222,3266,3235,3342,3228,3239,3223,3321,3236,3351,3230,3240,3224,3322,3251,3330,3241,3225,3324,3216,3254,3331,3242,3226,3237,3352,3231,3332,3243,3227,3238,3360,3232,3333,3249"
-486,Colac Herald,news@colacherald.com,,,,"3235,3342,3251,3330,3241,3225,3324,3216,3254,3331,3224,3322,3237,3352,3231,3332,3243,3227,3238,3360,3232,3242,3226,3328,3221,3260,3233,3334,3250,3329,3222,3266,3333,3249,3228,3239,3223,3321,3236,3351,3230,3240"
-487,Maroon Leader,maroondah@leadernewspapers.com.au,,,,"3134,3133,3136,3135,3153,3151,3132,3131,3130"
-488,Manningham Leader,manningham@leadernewspapers.com.au,,,,"3153,3151,3136,3131,3130,3133,3132,3135,3134"
-489,The Weekly Review,editorial@theweeklyreview.com.au,Eileen,Berry,,"3132,3131,3135,3134,3133,3151,3136,3130,3153"
-490,Moreton Quest News,editorial@pineriverspress.com.au,,,,"4502,4037,4306,4521,4311,4346,4503,4342,4500,4520,4054,4312,4053,4055,4313,4501,4035"
-491,Central Coast News Local,editor@expressadvocate.com.au,,,,"2262,2263,2250,2258,2259,2260,2261"
-492,South East Leader,frankston@leadernewspapers.com.au,,,,"3911,3930,3931,3977,3198,3200,3199,3201,3910"
-493,Mornington Peninsula News,keith@mpnews.com.au,Keith,Platt,,"3199,3198,3201,3200,3911,3910,3977,3931,3930"
-494,The Monara Post,editor@monaropost.com.au,,,,"2623,2536,2640,2620,2622,2624,2537,2642,2621,2653,2625,2545,2649,2652,2720,2626,2546,2650,2551,2722,2627,2548,2550,2580,2729,2628,2549,2632,2611,2730,2629,2631,2633,2619,3707,2630"
-495,Bay Post Moruya,kerrie.oconnor@fairfaxmedia.com.au,Kerrie,O'Connor,,"2611,2730,2629,2631,2633,2619,3707,2630,2632,2640,2620,2622,2624,2537,2642,2621,2623,2536,2545,2649,2652,2720,2626,2546,2650,2653,2625,2627,2548,2550,2580,2729,2628,2549,2551,2722"
-496,Bega District News,ben.smyth@fairfaxmedia.com.au,Ben,Smyth,,"2548,2550,2580,2729,2628,2549,2551,2722,2627,2629,2631,2633,2619,3707,2630,2632,2611,2730,2622,2624,2537,2642,2621,2623,2536,2640,2620,2652,2720,2626,2546,2650,2653,2625,2545,2649"
-497,Gladstone Observer,newsroom@gladstoneobserver.com.au,,,,"4695,4746,4727,4605,4420,4678,4650,4717,4697,4719,4709,4721,4731,4610,4454,4725,4472,4418,4676,4627,4715,4724,4735,4726,4821,4728,4606,4427,4680,4670,4612,4673,4625,4712,4722,4732,4611,4470,4415,4478,4419,4677,4630,4716,4718,4702,4720,4730,4608,4428,4694,4671,4613,4674,4626,4713,4723,4733"
-498,Central Telegraph,newsroom@centraltelegraph.com.au,,,,"4627,4678,4715,4724,4735,4726,4821,4728,4713,4723,4733,4472,4418,4605,4712,4722,4732,4470,4415,4478,4419,4606,4731,4454,4612,4673,4625,4676,4730,4428,4611,4671,4613,4674,4626,4677,4427,4610,4670,4695,4718,4702,4720,4608,4650,4694,4717,4697,4719,4709,4721,4630,4680,4716,4725,4746,4727,4420"
-499,News Mail,chiefofstaff@news-mail.com.au,Liz,Carson,,"4725,4746,4727,4427,4610,4670,4695,4735,4726,4821,4728,4428,4611,4671,4613,4478,4419,4606,4630,4680,4716,4472,4418,4605,4420,4608,4650,4694,4717,4697,4674,4626,4677,4713,4723,4732,4673,4625,4676,4627,4678,4715,4724,4733,4719,4709,4721,4730,4454,4612,4718,4702,4720,4712,4722,4731,4470,4415"
-500,Albert and Logan News online,editorial@albertlogannews.com.au,,,,"4133,4287,4131,4285,4280,4211,4275,4208,4130,4207,4129,4205,4128,4272,4125,4271,4124,4270"
-501,South Coast Register,editor.scregister@fairfaxmedia.com.au,John,Hanscombe,,"2534,2540,2537,2622,2533,2539,2536,2577,2541,2538,2535"
-502,Kiama Independent,kerrielyn.clark@fairfaxmedia.com.au,Kerrielyn,Clark,,"2540,2537,2622,2533,2539,2536,2577,2541,2538,2535,2534"
-503,Kangaroo Valley Voice,TheVoice@kangaroovalley.nsw.au,,,,"2537,2622,2533,2539,2536,2577,2541,2538,2535,2534,2540"
-504,Fremantle Herald,news@fremantleherald.com,Andrew,Smith,,"6057,6056,6108,6070,6058,6055,6107,6076,6110,6109"
-505,Community News,mkr@communitynews.com.au,,,,"6107,6076,6057,6109,6108,6056,6055,6070,6058,6110"
-506,Townsville Bulletin,edsec@townsvillebulletin.com.au ,,,,"4816,4813,4819,4818,4815,4812,4811,4817,4814,4850,4810"
-507,Guardian Messenger,emma.grahame@news.com.au,Emma,Grahame,,"5039,5031,5021,5025,5020,5024,5019,5038,5009,5950,5007,5045,5023,5044,5037,5043,5033,5040,5032,5022"
-508,Messenger,chris.day@news.com.au,Chris,Day,,"5037,5007,5045,5023,5032,5044,5022,5043,5033,5040,5020,5039,5031,5021,5025,5950,5024,5019,5038,5009"
-509,Cranbourne News,editor@starnewsgroup.com.au,,,,"3782,3159,3809,3978,3160,3767,3156,3807,3789,3155,3158,3808,3810,3154,3805,3787,3153,3804,3806,3788,3791,3785,3765,3781,3783,3786,3139"
-510,Berwick Leader,berwick@leadernewspapers.com.au,Dimity,Barber,,"3767,3782,3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160"
-511,Lilydale & Yarra Valley Leader,lilydale@leadernewspapers.com.au,Elaine,Phelan,,"3159,3809,3978,3158,3808,3810,3156,3807,3153,3155,3806,3139,3154,3805,3787,3789,3804,3786,3788,3791,3785,3765,3781,3783,3160,3767,3782"
-512,Penrith City Gazette,hreece@fairfaxmedia.com.au,Heloise,Reece,,"2750,2749,2753,2751,2745,2555,2760,2748,2747"
-513,Caboolture News,cabnewsed@scnews.com.au,,,,"4503,4511,4505,4504,4507,4506,4510,4509,4508"
-514,Bribie Weekly,cabnewsed@scnews.com.au,,,,"4509,4508,4507,4511,4510,4504,4503,4506,4505"
-515,The Examiner,stennant@examiner.com.au,Simon,Tennant,,"7304,7290,7250,7321,7011,7467,7017,7469,7305,7173,7030,7212,7185,7214,7187,7025,7470,7306,7174,7119,7176,7139,7178,7171,7026,7210,7183,7300,7270,7302,7276,7179,7172,7027,7211,7184,7213,7186,7215,7190,7180,7291,7258,7466,7012,7468,7216,7209,7182,7292,7264,7301,7275,7303,7277,7249,7310,7175,7120,7177,7140"
-516,Ther Mercury,mercuryedletter@themercury.com.au,,,,"7177,7187,7179,7209,7250,7292,7321,7301,7467,7303,7469,7305,7030,7175,7185,7214,7276,7216,7290,7306,7119,7011,7139,7017,7171,7026,7173,7183,7212,7270,7302,7468,7304,7470,7027,7174,7184,7176,7186,7178,7190,7180,7210,7258,7300,7466,7012,7140,7025,7172,7182,7211,7264,7213,7275,7215,7277,7249,7291,7310,7120"
-517,Blue Mountains Gazette,damien.madigan@fairfaxmedia.com.au,Damien,Madigan,,"2580,2845,2786,2780,2774,2849,2795,2784,2778,2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777"
-518,Hawkesbury Gazette,mlawrence@fairfaxmedia.com.au,Matt,Lawrence,,"2758,2846,2787,2782,2776,2850,2799,2785,2779,2773,2847,2790,2783,2777,2580,2845,2786,2780,2774,2849,2795,2784,2778"
-519,Northern Star,opinions@northernstar.com.au,,,,"2471,2475,2453,2474,2469,2460,2466,2480,2465,2370,2473,2477,2472,2476,2478,2464,2470,2463"
-520,Daily Examiner,newsroom@dailyexaminer.com.au,David,Moase,,"2475,2453,2474,2370,2473,2466,2480,2465,2478,2477,2472,2476,2471,2464,2470,2463,2469,2460"
-521,Redcliffe and Bayside Herald,editorial@redcliffeherald.com.au ,,,,"4032,4020,4017,4019,4035,4509,4036,4503,4018,4022,4021,4053,4034"
-522,Auburn Review,review@torchpublishing.com.au,,,,"2128,2160,2142,2046,2161,2145,2140,2127,2150,2141,2117,2137,2116,2144,2138,2143,2047,2162,2135,2115"
-523,Ciao Magazine,info@ciaomagazine.com.au,,,,"2047,2162,2135,2115,2143,2160,2142,2046,2161,2128,2145,2140,2127,2150,2141,2137,2116,2144,2138,2117"
-524,Burwood Scene,editor@burwoodscene.com.au,,,,"2162,2135,2115,2143,2047,2142,2046,2161,2128,2160,2140,2127,2150,2141,2145,2116,2144,2138,2117,2137"
-525,Central Coast Express Advocate,editor@expressadvocate.com.au ,Mark ,Nolan,,"2251,2256,2257,2260,2775,2083,2250"
-526,Peninsula News,editor@peninsulanews.asn.au,,,,"2260,2775,2083,2250,2251,2256,2257"
-527,NT news,news@ntnews.com.au ,,,,"0829,0828,0832,0830,0800,0810,0812,0820"
-528,Adelaide Now Messenger,tiser@adv.newsltd.com.au,,,,"5063,5150,5086,5064,5081,5089,5076,5070,5090,5068,5074,5067,5088,5075,5087,5065,5073,5066,5072"
-529,Community News,SouthernGazette@communitynews.com.au,,,,"6105,6102,6101,6107,6104,6100,6106,6103,6152,6151"
+NewsId,Title,Email,FirstName,Surname,Suburb,Postcodes,,
+1,Central Coast Express Advocate,editor@expressadvocate.com.au,Mark Nolan,Hawthorne,"Avoca Beach, Bateau Bay, Bensville, Berkeley Vale, Blackwall, Blue Bay, Blue Haven Bay, Budgewoi, Budgewoi Peninsula, Buff Point, Bushells Rridge Beach, Central Mangrove, Chain Valley Bay, Charmhaven, Chittaway Bay, Chittaway Point, Copacabana, Daleys Point, Davistown, Dooralong, Doyalson, Doyalson North, East Gosford, Empire Bay, Erina, Erina Heights , Ettalong Beach, Forresters Beach, Glenning Valley, Gorokan, Gosford, Green Point, Gwandalan, Halekulani, Hamlyn Terrace, Hardys Bay, Holgate, Horsfield Bay, Kanwal, Kariong, Killarney Vale , Killcare Heights, Kincumber, Kincumber South, Koolewong, Kulnura, Lake Haven, Lake Munmorah, Lisarow, Long Jetty, Macmasters Beach, Mangrove Mountain, Mannering Park, Mardi, Matcham, Moonee, Mount White, Narara, Niagara Park, Norah Head, Noraville, North Avoca, North Gosford, Ourimbah, Patonga, Pearl Beach, Peats Ridge, Phegans Bay, Point Clare, Point Frederick, San Remo, Saratoga, Shelly Beach, Somersby, Spencer, Springfield, St Huberts Island, Summerland Point, Tacoma, Tacoma South, Tascott, Terrigal, The Entrance, The Entrance North, Toowoon Bay, Toukley, Tuggerah, Tuggerawong, Tumbi Umbi, Umina Beach, Wadalba, Wagstaffe, Wallarah, Wamberal, Warnervale, Watanobbi, West Gosford, Woongarrah, Woy Woy, Woy Woy Bay, Wyee, Wyee Point, Wyoming, Wyong, Wyong Creek, Wyongah, Yarramalong, Yattalunga (Central Coast)","2250,2256, 2577, 2251, 2261, 2262, 2257, 2263, 2260, 2263, 2251, 2259, 2258",,
+2,Peninsula News,editor@peninsulanews.asn.au,Mark,Snell,"Gosford, Woy Woy, Umina, Hawkesbury","2250, 2256, 2257",no answer,
+3,Daily Liberal,brian.oflaherty@fairfaxmedia.com.au,Brian,O'Flaherty,"Dubbo, Narromine, Wellington, Gilgandra, Coonamble, Bourke, Cobar, Walgett","2830, 2800, 2821, 2820, 2827, 2829, 2840, 2835, 2832",,
+4,The Western Advocate/Western times,murray.nicholls@fairfaxmedia.com.au,Murrar,Nicholls,"Bathurst, Blayney, Rock Forest, Vittoria, Kelso, Brewongle, Perthville, Bathhampton, Oâ€™Connell, Newbridge, Oberon, Laffing Waters, Eglington, Llanarth, Kelso, Mitchell, Raglan, Evans Plain","2795, 2790, 2799, 2787",,
+5,Central Western Daily,tracey.prisk@fairfaxmedia.com.au,Tracey,Prisk,"Orange, Molong, Blayney, Millthorpe, Canowindra","2800, 2866, 2799, 2798, 2804",,
+6,The Canowindra News,andrew.fisher@fairfaxmedia.com.au,Andrew ,Fisher,"Canowindra, Cargo, Cudal, Toogong, Murga, Eugowra, Gooloogong, Walli","2794, 2804, 2800, 2864, 2806, 2805",,
+7,Cowra Guardian,andrew.fisher@fairfaxmedia.com.au,Andrew ,Fisher,"Cowra, Canowindra, Wyangala Dam, Woodstock, Koorawatha","2794, 2804, 2810, 2808, 2793, 2807",,
+8,Forbes Advocate,renee.powell@fairfaxmedia.com.au,Renee,Powell,"Forbes, Parkes, Eugowra","2871, 2870, 2806",,
+9,Hillston - Ivanhoe Spectator,,Pat,O'Sullivan,Hillston,2675,Taken over by Southern Weekly,
+10,Grenfell Record,ngaire.soley@fairfaxmedia.com.au,Ngaire,Soley,"Grenfell, Cowra, Young, Forbes, Greenethorpe, Caragabal, Quandialla","2810, 2794, 2594, 2871, 2870, 2806, 2810, 2710",,
+11,Lithgow Mercury,laura.pillans@fairfaxmedia.com.au,Laura,Pillans,"Lithgow, Bathurst, Katoomba, Wallerawang, Portland, Cullen Bullen, Kandos, Hartley, Meadow Flat, Blackheath, Medlow Bath, Mt Victoria","2790, 2795, 2780, 2845, 2847, 2790, 2848, 2785",,
+12,Mudgee Guardian & The Weekly,robyn.murray@fairfaxmedia.com.au,Robyn,Murray,"Mudgee, Gulgong, Rylestone, Kandos, Illford, Capertee, Dunedoo, Wollar","2850, 2852, 2849, 2848, 2844, 2846, 2850",,
+13,Parkes Champion Post,christine.speelman@fairfaxmedia.com.au,Christine,Speelman,"Parkes, Trundle, Tullamore, Tottenham, Peak Hill, Bogan Gate, Condobolin ","2870, 2875, 2874, 2873, 2869, 2876, 2877",,
+14,Blayney Chronicle,mark.logan@fairfaxmedia.com.au,Mark,Logan,"Blayney, Newbridge, Bathurst, Kelso, Carcoar, Lyndhurst, Mandurama, Millthorpe, Orange, Byng, Rock Forest, Spring Hill, Bathhampton, Panuara, Rockley Mount, Newbridge, Fosters Valley, Barry, Hobbys Yards, Gallymont","2799, 2795, 2791, 2350, 2792, 2798, 2800, 2797, ",* No editor - Journalist contact added,
+15,Molong Express,molongex@bigpond.net.au,Paul,Mullins,"Molong, Cumnock, Manildra, Yeoval, Cudal, Orange","2866, 2867, 2865, 2864, 2800",,
+16,Oberon Review,maureen.lawson@fairfaxmedia.com.au,Maureen,Lawson,"Oberon, Bathurst","2787, 2795",,
+17,Midstate Observer,mail.cwd@ruralpress.com,Tony,Rhead,"Orange, Molong, Millthorpe","2800, 2798, 2866",no info,
+18,Barrier Daily Truth,editorial@bdtruth.com.au,Michael,Murphy,"Broken Hill, Wilcannia, Menindee, White Cliffs, Tibooburra, Silverton, Cockburn","2880, 2879, 2830, 2836, 2880, ",,
+19,The Lachlander,lachlander@bigpond.com,,,"Albert, Bogan Gate, Burcher, Bobadah, Cobar, Condobolin, Derriwong, Euabalong, Fifield, Ivanhoe, Lake Cargelligo, Mount Hope, Milby, Nymagee, Ootha, Tottenham, Trundle, Tullamore, Tullibigeal, Tilpa and Ungarie","2877, 2836, 2879, 2880, 2873, 2876, 2873, 2876, 2671, 2877, 2835, 2875, 2878, 2672, 2831, 2873, 2874, 2669, 2840",No Editor name available,
+20,Narromine News & Trangie Advocate,grace.ryan@fairfaxmedia.com.au,Grace,Ryan,"Narromine, Trangie","2821, 2823",No Editor - Used single journalist as contact,
+21,West Wyalong Advocate,wwadvoc@bigpond.net.au,Heatherbelle,Vearing,"West Wyalong, Lake Cargelligo, Ungarie, Tallimba, Rankin Springs, Wyalong","2671, 2669, 2672, 2287,",,
+22,Pastoral Times,pt@deni.net.au,Sam,Nallrodens,"Deniliquin, Mathoura, Finley, Tocumwal, Wakool, Bunnaloo","2710, 2732, 3639, 2731,2713, 2733, 2732, 3564, 2716, 1714",,
+23,Cobar Weekly,editor@cobarweekly.com.au,Sharon,Harland,Cobar,2835,,
+24,Cobar Age,mail.cobarage@ruralpress.com,,,Cobar,2835,,
+25,Coonamble Times,editor@coonambletimes.com.au,Rick,Warren,"Coonamble, Barradine, Dubbo, Gulagenbone","2829, 2396, 2830, 2828, 2831",,
+26,Warren Advocate,editor@gilgandranewspapers.com.au,Lucy,Peart,Warren,2824,,
+27,Warren Weekly,waweekly@bigpond.net.au,,,Warren,2824,No editor name,
+28,The Condobolin Argus,news@condobolinargus.com.au,Melissa,Blewitt,"Condobolin, Albert, Bogan Gate, Burcher, Cobar, Derriwong, Euabalong, Fifield, Forbes, Ivanhoe, Lake cargelligo, Mount Hope, Nymangee, Ootha, parkes, Tottenham, Trundle, Tullamore, Tullibigeal, Tilpa, Ungarie, West Wyalong","2877, 2875, 2878, 2890, 2835, 2671, 2873, 2672, 2671, 2876, 2877, 2831, 2810, 2873, 2669, 2874, 2840",,
+29,Lower Hunter Star/Maitland Mercury,eve.nesmith@fairfaxmedia.com.au,Eve ,Nesmitrh,"Maitland, Raymond Terrace, Kurri Kurri, Beresfield, Gresford, Rutherford, Paterson, Lochinvar, Greta, Greenhills, Branxton, Morpeth,","2320, 2321, 2327, 2323, 2324, 2322, 2311, 2421, 2334, 2440, 2335, 2321",,
+30,The Herald,online.media@theherald.com.au,Heath,Harrison,"Newcastle, Taree, Wyong, Gosford, Port Stephens, Raymond Terrace, Tuncurry-Forster, Maitland, Cessnock, The Entrance, Kurri Kurri, Salamander Bay, Nelson Bay","2300, 2430, 2259, 2250, 2324, 2428, 2320, 2325, 2261, 2327, 2317, 2315, 2287, 2289, 2291,2292, 2293, 2294, 2295, 2296, 2297, 2298, 2299, 2300, 2302, 2303, 2304, 2305, 2307, 2308",,
+31,Singleton Argus,rod.thompson@fairfaxmedia.com.au,Rod,Thompson,"Muswellbrook, Singleton, Scone, Greta, Branxton","2333, 2321, 2327, 2323, 2330, 2337, 2334, 2335",,
+32,Scone Advocate,rod.thompson@fairfaxmedia.com.au,Rod,Thompson,"Scone, Aberdeen, Murrurundi, Merriwa","2337, 2336, 2338, 2329",,
+33,The Cessnock Advertiser,enesmith@fairfaxmedia.com.au,Eve ,Nesmith,"Cessnock,  Kurri, Weston, Branxton, Pokolbin","2325, 2320, 2326, 2335",,
+34,Dungog Chronicle,enesmith@fairfaxmedia.com.au,Eve ,Nesmith,"Dungog, Stroud, Clarence Town, Seaham, Booral, Paterson, Vacy, Gresford","2420, 2321, 2324, 2425, 2421, 2311",,
+35,Newcastle Star,anna.wolf@fairfaxmedia.com.au,Anna,Wolf,"Newcastle, Broadmeadow, Lake Macquarie","2300, 2287, 2289, 2291,2292, 2293, 2294, 2295, 2296, 2297, 2298, 2299, 2300, 2302, 2303, 2304, 2305, 2307, 2308, 2292, ",,
+36,Port Stephens Examiner,anna.wolf@fairfaxmedia.com.au,Anna,Wolf,"Raymond Terrace, Port Stephens, Nelson Bay, Salamander Bay, Shoal Bay","2324, 2315, 2316, 2317, 2318, 2319, 2322, 2324, 2315, ",,
+37,Quirindi Advocate,editorial@qppmedia.com.au,,,"Quirindi, Gunnedah, Scone, Tamworth, Willow Tree","2343, 2340, 2380, 2337, 2333, 2343",No editor's name,
+38,Singleton Argus,rod.thompson@fairfaxmedia.com.au,Rod,Thompson,Singleton,2330,Duplicate,
+39,Illawarra Mercury,cos@illawarramercury.com.au,Julian,O'Brien,"Wollongong, Heathcote, Nowra, Helensburgh","2500, 2508, 2515, 2516, 2517, 2518, 2519, 2522, 2525, 2526, 2527, 2528, 2529, 2534, 2535, 2536, 2538, 2539, 2540, 2541",,
+40,Southern Highlands News,Jackie.meyers@fairfaxmedia.com.au,Jackie,Meyers,"Bowral, Moss Vale, Mittagong, Berrima, Robertson, Bargo, Lake Avon, Bundanoon, Wingello, Exeter, Sutton Forest, Penrose, Bong Bong, Burrawang","2576, 2575, 2577, 2578, 2574, 2579, 2530",,
+41,Kiama Independent,news@kiamaindependent.com.au,,,Kiama,2529,permanently closed,
+42,South Coast Register,editor.scregister@fairfaxmedia.com.au,John,Hanscombe,"Nowra, Milton, Berry, Gerringong, Shoalhaven Heads, Bomaderry, Kangaroo Valley, Culburra, Greenwell Pt, Wollamia, Huskisson, Vincentia, Erowal Bay, Sanctuary Pt, Basin View, St Georges Basin, Sussex Inlet","2541, 2535, 2577, 2540, 2538, 2534, 2541",,
+43,The Advertisor Lake Times,cos@illawarramercury.com.au,Julian,O'Brien,"Kiama, Albion Park, Albion Park Rail, Barrack Heights, Barrack Point, Berkeley, Blackbutt, Brownsville, Dapto, Dunmore, Flinders, Haywards Bay, Horsley, Kanahooka, Lake Heights, Mt Warrigal, Oak Flats, Port Kembla, Primbee, Shell Cove, Shellharbour, Shellharbour City, Unanderra, Warilla, Warrawong, Windang","2533, 2527, 2528, 2506, 2529, 2530, 2502, 2505, 2526, ",,
+44,Wollongong Advertiser,lbennett@wollongongadvertiser.com.au,,,Shellharbour,2529,,
+45,The Coffs Coast Advocate,advocate@coffscoastadvocate.com.au,Matthew,Deans,"Coffs Harbour, Sawtell, Bellingen, Coramba, Corindi Beach, Dorrigo, Emerald Beach, Glenreagh, Korora, Moonee Beach, Nambucca Heads, Nana Glen, North Beach, Red Rock, Toormina, Ulong, Urunga, Valla, Woolgoolga","2450, 2452, 2456, 2453, 2448, 2455",,
+46,Manning River Times,toni.bell@fairfaxmedia.com.au,Toni,Bell,"Taree, Wingham, Old Bar, Manning Valley, Tinonee, Nabiac, Diamond Beach, Harrington","2428,2429,2430, 2312",,
+47,The Daily Examiner,david.moase@apn.com.au,David,Moase ,"Grafton, Angourie Point, Brushgrove, Chatsworth, Clarence Valley, Clarenza, Coaldale, Coutts Crossing, Cowper, Harwood, Iluka, Junction Hill, Lawrence, Maclean, Minnie Water, Pillar Valley, Red Rock, Sandon, Sawtell, South Arm, South Grafton, Southgate, Tucabia, Tullymorgan, Tyndale, Waterview Heights, Whiporie, Woody Head, Woolgoolga, Wooli, Yamba","2460, 2428, 2429, 2430, 2464, 2463, 2469, 2466, 2456, 2450, 2462, 2465, 2466, 2469, 2452, 2462",,
+48,Don Dorrigo Gazette,dgogazette@westnet.com.au,Michael,English,Dorrigo,2453,,
+49,Great Lakes Advocate,editor.gladvocate@ruralpress.com,,,"Tuncurry, Forster, Pacific Palms, Nabiac","2428, 2312",No editors name,
+50,Gloucester Advocate,anne.keen@fairfaxmedia.com.au,Anne,Keen,"Gloucester, Taree, Stroud, Forster","2422, 2430, 2425, 2428",,
+51,Macleay Argus,christian.knight@fairfaxmedia.com.au,Christian,Knight,"Kempsey, South West Rocks, Bellbrook, Willawarren, Kundabung, Frederickton, Smithtown, Gladstone, Hat head, Crescent Head","2440, 2431, 2441",,
+52,Midcoast Observer,christian.knight@fairfaxmedia.com.au,Christian,Knight,"West Kempsey, Kempsey, Macksville, Nambucca Heads, Bellingen, South West Rocks, Cresent Heads, Stuarts Point","2440, 2441, 2448, 2431, 2454, 2455, 2441",,
+53,Port Macquarie Express/Port Macquarie News,tracey.fairhurst@fairfaxmedia.com.au,Tracey,Fairhurst,"Port Macquarie, Beechwood, Black Creek, Camden Head, Herons Creek, Hibbard, Kew, Lake Cathie, Pembrooke, Telegraph Point, The Hatch, Wauchope","2446,2444,2443,2445, 2439, 2441",,
+54,Coffs Coast Advocate,editorial@coffscoastadvocate.com.au,Natt,Deans,"Coffs Harbour, Sawtell, Toormina, ",2450,Duplicate ,
+55,Macleay Valley Happynings,christian.knight@fairfaxmedia.com.au,Christian,Knight,Kempsey,"2440, 2431",,
+56,Wauchope Gazette,letitia.fitzpatrick@fairfaxmedia.com.au,Letitia,Fitzpatrick,Wauchope,2446,,
+57,Wingham Chronicle,sam.brownrigg@fairfaxmedia.com.au,Sam,Brownrigg,Wingham,2429,,
+58,Coastal Views,david.moase@apn.com.au,David,Moase,"Grafton, Yamba, Maclean, Brooms Heads, Brushgrove, Chatsworth, Cowper, Harwood, Iluka, Lawrence, Maclean, Palmers Island, Sandon, Tullymorgan, Tyndale, Wooli, Yamba","2460, 2464, 2463, 2462",,
+59,Clarence Valley Independent,news@cvreview.com.au,John,Warden,"Yamba, Illuka, Wooli",2464,,
+60,Barraba Gazette,oliver_woodley@hotmail.com,,,,2347,,
+61,Glen Innes Examiner,laurie.bullock@fairfaxmedia.com.au,Laurie,Bullock,"Glen Innes, Tamworth, Armidale, Inverell, Moree, Tenterfield, Deepwater, Emmaville","2370, 2430. 2350, 2360, 2400, 2372, 2371",,
+62,Northern Daily Leader,ann.newling@fairfaxmedia.com.au,Ann,Newling,"Tamworth, Armidale, Glenn Innes, Inverell, Moree, Tenterfield, Quirindi, Walcha, Parry Shire, Manilla, Bingara, Barraba, Narrabri","2370, 2430. 2350, 2360, 2400, 2373, 2237, 2234, 2354, 2346, 2404, 2347, 2390",,
+63,Tenterfield Star,laurie.bullock@fairfaxmedia.com.au,Laurie,Bullock,"Tenterfield, Deepwater, Upper Stanthorpe, Casino, Bonshaw","2372, 2371, 2470, 2361",,
+64,Walcha News,walcha.news@fairfaxmedia.com.au,Stephanie,Van Eyk,"Walcha, Bendemeer, Woolbrook ","2354, 2340",,
+65,The Armidale Express/Express Extra,lydia.roberts@fairfaxmedia.com.au,Lydia,Roberts,"Armidale, Uralla, Guyra, Walcha, Inverell, Glen Innes, Tingha, Bundarra, Ben Lomond, Kingstown, Kentucky, Bendemer, Tamworth","2350, 2358, 2365, 2354, 2360, 2370, 2369, 2359, 2305, 2355, 2340 ",,
+66,The Armidale Independent,newsdesk@armidaleindependent.com.au,Jo,Harrison,Armidale,2350,no info,
+67,Coonabarabran Times,cbntimes@tpg.com.au,Lynne,Estens,"Coonabarabran, Barradine, Binnaway, Dunnedoo, Coolah, Mendooran","2357, 2396, 2395, 2844, 2843, 2842",,
+68,Namoi Valley Independent,marie.low@fairfaxmedia.com.au,Marie,Low,"Gunnedah, Tammworth","2380, 2340",,
+69,North West Magazine,nwmagedit@nvi.com.au,Keith,Millerd,Gunnedah Region,"2380, 2834, 2400, 2833, 2832, 2829, 2357, 2402, 2404, 2388, 2390, 2347, 2346",,
+70,Inverell Times,michelle.jedlicka@fairfaxmedia.com.au,Michelle,Jedlicka,"Inverell, Ashford, Delungra, Bingra, Bunderal, Tingra, Warialda","2360, 2361, 2403, 2404, 2402",,
+71,Moree Champion,michelle.jedlicka@fairfaxmedia.com.au,Michelle,Jedlicka,"Moree, Mungindi, Croppa Creek, Pally, Collarenebri","2400, 2406, 2411, 2833",,
+72,The Wee Waa News,wwnews@nwcourier.com.au,Jessica,Atkinson,Narrabri,2390,no info,
+73,The Courier,editor@nwcourier.com.au,Chalpat,Sonti,"Narrabri Shire, Wee Waa, Dunbar, Boggabri, Bellata, Westward","2390, 2388, 2397",,
+74,The Norwester,editor@nwcourier.com.au,Chalpay,Sonti,Narrabri,2390,,
+75,The Bingara Advocate,editorial@bingaraadvocate.com.au,Nancy,Capel,Bingara,"2404, 2403, 2402, 2347",,
+76,Guyra Argus,janelle.stewart@fairfaxmedia.com.au,Janelle,Stewart,"Guyra, Armidale, Glen Innis","2365, 2350, 2370",,
+77,Manilla Express,manxpres@bigpond.net.au,Jane,Martin,Manilla,2346,no info,
+78,Walgett District News,melanie@walgettdistrictnews.com,Melanie,,Walgett Region,"2832, 2833, 2386, 2831, 2832, 2387, 2486",,
+79,Warialda Standard,editor@warialdastandard.com.au,Laura,Carroll,"Warialda, Inverell","2402, 2360",,
+80,Northern Star ,steve.bowden@apn.com.au,Steve,Bowden,"Goonellabah, Byron Bay, Tenterfield, Lismore, Alstonville, Ballina, Bangalow, Billinudgel, Brunswick Heads, Byron Bay, Casino, Evans Head, Goonellabah, Iluka, Kyogle, Maclean, Mullumbimby, Newrybar, Ocean Shores, Yamba","2480, 2481, 2372, 2463, 2482, 2479, 2420, 2477, 2478, 2479, 2483, 2481, 2470, 2473, 2480, 2466, 2474, 2464",,
+81,The Northern Rivers Echo,editor@echonews.com,Sophie,Moeller,"Lismore, Alstonville, Wollongbar, Ballina, Casino, Nimbin, Dunoon, Modanville, Bexhill, Clunes, Bangalow, Coraki, Kyogle, Woodburn, Evans Head, Lennox Head","2480, 2477, 2478, 2470, 2479, 2471 2474, 2472, 2473",,
+82,Daily News,nikki.todd@tweeddailynews.com.au,Nikki,Todd,Tweed Shire,"2486, 2483, 2489, 2490, 2488, 2487, 2486, ",,
+83,Tweed Border Mail,nikki.todd@tweeddailynews.com.au,Nikki,Todd,"South Tweed Heads, Banora Point, Bilambil Heights, Bilinga, Coolangatta, Currumbin, Currumbin Waters, Kirra, South Tweed, Terranora, Tugun, Tweed Heads, Tweed Heights, West Tweed","2486, 4225, 4223, 2486, 4224, 2483",,
+84,Richmond River Express Examiner,laurie.bullock@fairfaxmedia.com.au,Laurie,Bullock,"Casino, Tenterfield, Stanthorpe, Deepwater","2470, 2372, 4380, 2371",,
+85,The Byron Shire Echo,editor@echo.net.au,Michael,McDonald,Byron Shire,"2482, 2479, 2483, 2482, 2486, 2481, 2480",,
+86,Ballina Shire Advocate,starballedit@northernstar.com.au,Graham,Broadhead,"Ballina, Bangalow, Cresent Heads, Byron Bay, Ocean Shores, Brunswick Heads, Lismore, Murwillumbah","2478, 2480, 3440, 2479, 2483",,
+87,Bellingen Shire Courier Sun,alice.burnet@fairfaxmedia.com.au,Alice,Burnet,"Bellingen, Dorrigo, Urunga, Kempsey, Repton, Raleigh, Coffs Harbour, Nambucca Heads","2454, 2453, 2455, 2440, 2450, 2448",,
+88,Byron Shire News,editor@byronnews.com.au,Christian,Morrow ,"Byron Bay, Lismore, Ballina, Byron Bay, Casino, Andersons Hill,Bangalow, Billinudgel, Brunswick Heads, Byron Bay,Coopers Shoot, Coorabell, Durrumbul, Eureka Ewingsdale, Federal, Goonengerry, Main Arm,Mullumbimby, Myocum, New Brighton, Newrybar,Ocean Shores, Possum Creek, St Helena, Sth Golden Beach, Suffolk Park, The Pocket, Tyagarah","2481, 2480, 2478, 2481, 2470, 2483, 2479, 2482, 2484",will call back,
+89,Nambucca Guardian News,christian.knight@fairfaxmedia.com.au,Christian,Knight,"Nambucca Heads, Macksville, Bowraville, Scotts Head, Urunga, Bellingen","2448, 2447, 2449, 2455, 2454",no info,
+90,The Cootamundra Herald,bbarker@fairfaxmedia.com.au,Belinda,Barker,"Cootamundra, Junee, Harden, Young, Murrumburrah, Boorowa","2590, 2663, 2587, 2594, 2587, 2586",,
+91,The Area News,editor@areanews.com.au,Monique,Patterson,"Griffith, West Wyalong, Lake Cargelligo, Gerilderie, Narranderra, Yoogali, Bilbul, Yenda, Binya, Beelbangera, Lake Wyangan, Nericon, Tharbogang, Tabbita, Hillston, Merriwagga, Goolgowi, Darling Point, Hanwood, Coleambally, Narrandera, Whitton, Barellan.","2680, 2671, 2672, 2700, 2681, 2665, 2652, 2675, 2707, 2705",,
+92,Harden-Murrumburrah Express,bbarker@fairfaxmedia.com.au,Belinda,Barker,"Harden, Murrumburrah",2587,,
+93,The Narrandera Argus,liz@narranderaargus.com.au,Eliza,Lawrence,"Narrandera, Leeton, Yanco, Griffith, Coolamon, Ganmain, Matong and Grong Grong","2700, 2705, 2703, 2680, 2701, 2702, 2652",,
+94,The Daily Advertiser,djohns@fairfaxmedia.com.au,Daniel,Johns ,"Wagga Wagga, Hay, West Wyalong, Young, Gundagai, Holbrook, Deniliquin","2560,2567,2571,2752,2167,2564,2568,2572,2558,2565,2569,2573,2559,2566,2570,2574, 2711, 2671, 2722, 2644, 2710",,
+95,Koondrook & Barham Bridge,admin@barhamnews.net.au,Kendall,McDonald,"Barham, Deniliquan, Moulamein, Wakool, Kyalite, Tooleybuc, Burraboi, Caldwell, Kerang, Cohuna, Swan Hill, Leitchville, Gunbower, Echuca","2732, 3579, 3578, 3580, 2733, 2710, 2715, 2736, 3568, 3585, 3567, 3566, 3564, 3586",,
+96,Gundagai Independent,sultim@gundagai.net,,,Gundagai,2722,no info,
+97,Temora Independent,editorial@temoraindependent.com.au,,,"Temora, Area Park, Arleschan, Ganmain, Marrar, Stockingingal, Barellan, Quandialla","2666, 2702, 2652, 2725,  2665, 2721",No editor name,
+98,Corowa Free Press,news@corowafreepress.com.au,Alannah,Greenwood,"Corowa, Rutherglen, Mulwala, Oaklands, Howlong, Berrigan, Urana, Wahgunyah, Chiltern, Springhurst","2646, 3685, 3686, 3683, 2643, 2712, 2645, 3687, 3682",,
+99,Southern Riverina News,sam.hall@denipt.com.au,Sam,Hall,"Finley, Berrigan, Tocumwal, Jerilderie","2713, 2712. 2714, 2716",,
+100,The Murrumbidgee Irrigator,mpatterson@fairfaxmedia.com.au,Monique,Patterson,"Leeton, Yanco, Murrami and Whitton","2705, 2703",,
+101,Gilgandra Weekly,editor.gilgandranewspapers.com.au,,,"Gilgandra, Gulargambone, Tooraweenah, Mendoran, Eumungerie","2827, 2828, 2817, 2842, 2822",No editor name available,
+102,Eastern Riverina Chronicle,mail.erchronholbrook@ruralpress.com,,,Holbrook,2644,closed down,
+103,The Lake News,lakenews@temoraindependent.com.au,,,"Temora, Lake Cargelligo, Tullibigeal, Ungarie, Euabalong","2666, 2672, 2669, 2667",No editor name available,
+104,Southern Weekly Magazine,n.reynolds@fairfaxmedia.com.au,Nikki,Reynolds,"Wagga Wagga, Boorwa, Canowindra, Cootamundra, Cowra, Condoblin, Crookwell, Deniliquin, Finley, Jerilderie, Forbes, Grenfell, Gundagai, Hay, Ivanhoe, Lochardt, Holbrook, Junee, West Wyalong, Yass, Young, Narrandera, Parkes, Temora, Tumburumba, Tumut, Batlow","2650, 2804, 2590, 2877, 2583, 2710, 2713, 2716, 2871, 2810, 2722, 2711, 2878, 2656, 2644, 2663, 2594, 2700, 2600, 2666, 2720, 2730",,
+105,Southern Cross,jsx@dailyadvertiser.com.au,,,Wagga Wagga,2650,TV station,
+106,The Riverina Leader,djohns@fairfaxmedia.com.au,Daniel,Johns,"Wagga Wagga, Uranquinty, San Isidore, Forest Hill, Kapooka and Gumly Gumly ,Junee, Coolamon, Ganmain, Lockhart, Tarcutta, Temora, The Rock, Ladysmith, Henty, Adelong, Tumbarumba, Illabo, West Wyalong, Marrar and Collingullie.","2650, 2652, 2651, 2661, 2652, 2663, 2701, 2702, 2656, 2666, 2655, 2658, 2729, 2653, 2590, 2671",,
+107,Boorowa News,kelsey.sutor@fairfaxmedia.com.au,Kelsey,Sutor,"Boorowa,  Frogmore, Binalong, Laverstock, Gunnary, Narallen, Rugby, Rye Park, Kangiara","2586, 2586, 2584, 2582, 2583",,
+108,Comma Monaro Express,editor.cmexpress@ruralpress.com,Colleen,O'Sullivan,"Cooma, Jindabyne, Berridale","2630, 2627, 2628",,
+109,The Magnet,ben.smyth@fairfaxmedia.com.au,Ben,Smyth,"Eden, Pambula, Wolumla, Mallacoota","2551, 2550, 3892",,
+110,Snowy Times,helen.esson@fairfaxmedia.com.au,Helen,Esson,Jindabyne,2627,,
+111,Bega District News,ben.smythe@fairfaxmedia.com.au,Ben,Smyth,"Bega, Cobargo, Bermagui, Tathra, Wolumla, Narooma, Central Tilba, Quaama, Bemboka, Candelo, Merimbula","2550, 2546, 2548",,
+112,Goulburn Post,ainslie.sheridan@fairfaxmedia.com.au,Ainslie,Sheridan,"Goulburn, Crookwell, Gunning, Maurulan, Colleton, Yass, Braidwood, Moss Vale, Bungandore, Bowrell, Mittagong","2580, 2583, 2579, 2581, 2582",,
+113,The Bay Post/Moruya Examiner,kerrie.oconnor@fairfaxmedia.com.au,Kerry,O'Connor,"Batemans Bay, Nelligen, Batehaven, Mossy Point, Moruya Heads, Tuross, Broulee, Durras North, Malua Bay, Congo, Tuross Head, Bodalla, Potato Point","2536, 2537, 2630, 2545",,
+114,The Queanbeyan Age,kimberley.lelievre@fairfaxmedia.com.au,Kimberley,Lelievre,"Queanbeyan, Bungendore, Sutton, Jerrabomberra, Bungendore","2620, 2621, 2619",,
+115,Tumbarumba Times/Tumut and Adelong Times,news@tatimes.com.au,Luke,Watson,"Tumut, Tarcutta, Holbrook, Rosewood, Adelong","2720, 2729, 2722, 2730",,
+116,Milton-Ulladulla Times,john.hanscombe@fairfaxmedia.com.au,John,Hanscombe,"Ulladulla, Sussex Inlet, Huskisson, Vincentia, Sanctuary Point, St Georges Basin, Milton, Mollymook, Burrill Lake, Dolphin Point","2539, 2538, 2540",,
+117,Yass Tribune,jesssica.cole@fairfaxmedia.com.au,Jessica,Cole,"Yass, Canberra, Gunning, Bookham, Bowning, Dalton, Boorowa, Hall","2582, 2600, 2581, 286, 2618, 2601",,
+118,Bombala Times,jeanne.medlicott@fairfaxmedia.com.au,Jeanne,Medlicott,"Bombala, Delegate, Mount Cooper, Bibbenluke, Ando, Cathcart, Wyndham, Burargate","2632, 2633, 2631, 2550",,
+119,Braidwood Times,alex.rea@fairfaxmedia.com.au,Alex,Rea,"Braidwood, Araluen, Majors Creek, Mongarlowe, and Nerriga","2622, 2621, 2620",,
+120,Merimbula News Weekly,ben.smythe@fairfaxmedia.com.au,Ben,Smythe,"Merimbula, Eden, Bega, Pambula, Tura","2548, 2551, 2550, 2549",,
+121,Narooma News,stan.gorton@fairfaxmedia.com.au,Stan,Gorton,"Narooma, Dalmeny, Tuross, Bodalla, Tilba, Bermagui and Cobargo","2546, 2539, 2545, 2550",,
+122,Hawkesbury Gazette,mlawrence@fairfaxmedia.com.au,Matthew,Lawrence,"Richmond, Windsor, McGraths Hill, Wilberforce, Riverstone","2,155,276,227,532,760,000,000,000,000",,
+123,Hawkesbury Courier,mlawrence@fairfaxmedia.com.au,Matthew,Lawrence,Richmond,"2,155,276,227,532,760,000,000,000,000",,
+124,Blue Mountains Gazette,damien.madigan@fairfaxmedia.com.au,Damien,Madigan,"Springwood, Mt Victoria, Lapstone, Wentworth Falls, Woodford, Winmalee, Warrimoo, Medlow Bath, Mount Tomah, Mount Wilson, Mount Irvine, Blackheath, Lawson, Blaxland, Glenbrook. Blue Mountains","2773,2778,2783,2774,2779,2784,2776,2780,2785,2777,2782,2786, 2733, 2782, 2758, 2778, 2780",,
+125,Camden Haven Courier,kate.dwyer@fairfaxmedia.com.au,Kate,Dwyer,"Laurieton, Bonnyhills, Kendall, Moorlands, Camden Haven, North Haven, Dunbogan, Batar Creek, Lorne, Hannam Vale, Johns River, Harrington, Lake Cathie, Kew, Crowdy Head","2443, 2445, 2439, 2443, 2427",,
+126,The Western Weekender,troy.dodds@westernweekender.com.au,Troy,Dodds,"Jamisontown, Penrith, Penrith Local Government Area and Hawkesbury Local Government: Badgery's Creek, Berkshire Park, Cambridge Gardens, Cambridge Park, Castlereagh, Claremont Meadows, Colyton, Cranebrook, Dunheved, Emu Heights, Emu Plains, Erskine Park, Glenmore Park, Jamisontown, Kemps Creek, Kingswood, Kingswood Park, Leonay, Llandilo, Londonderry, Luddenham, Mt Pleasant, Mt Vernon, Mulgoa, North St Marys, Orchard Hills, Oxley Park, Penrith Regentville, St Clair, St Marys, South Penrith, Wallacia, Werrington, Werrington County, Werrington Downs, Windsor
+AGNES BANKS, BERAMBING, BILPIN, BLAXLANDS RIDGE, BLIGH PARK, BOWEN MOUNTAIN, CATTAI, CENTRAL COLO, CENTRAL MACDONALD, CLARENDON, COLO, COLO HEIGHTS, CORNWALLIS, CUMBERLAND REACH, EAST KURRAJONG, EBENEZER, FERNANCES, FREEMANS REACH, GLOSSODIA, GROSE VALE, GROSE WOLD, HIGHER MACDONALD, HOBARTVILLE, KURMOND, KURRAJONG, KURRAJONG HEIGHTS, KURRAJONG HILLS, LEETS VALE, LOWER MACDONALD, LOWER PORTLAND, MARAYLYA, MCGRATHS HILL, MELLONG, MOGO CREEK, MOUNTAIN LAGOON, MULGRAVE, NORTH RICHMOND, OAKVILLE, PERRYS CROSSING, PITT TOWN, PITT TOWN BOTTOMS, PUTTY, RICHMOND, RICHMOND LOWLANDS, SACKVILLE, SCHEYVILLE, SOUTH WINDSOR, ST ALBANS, TEN MILE HOLLOW, TENNYSON, THE DEVILS WILDERNESS, THE SLOPES, UPPER COLO, UPPER MACDONALD, VINEYARD, WEBBS CREEK, WHEENY CREEK, WILBERFORCE, WINDSOR, WINDSOR DOWNS, WISEMANS FERRY, WOMERAH, WRIGHTS CREEK, YARRAMUNDI.","2750, 2555, 2765, 2747, 2749, 2760, 2759, 2745, 2570, 2178, 2550, 2747, 2753, 2519, 2760, 2756, 2758, 2775, 2757, 2754, 2330, 2250",,
+127,Hills News,keiasha.naidoo@fairfaxmedia.com.au,Keiasha,Naidoo,"Castle Hill, Baulkham Hills, Bella Vista, Carlingford, Cherrybrook, Dural, Epping, Glenhaven, Glenwood, Kellyville, Kenthurst, North Rocks, Northmead, Oatlands, Round Corner, West Pennant Hills, Winston Hills","2154, 2153, 2118, 2126. 2121, 2158, 2156, 2768, 2155, 2151, 2152, 2117, 2125",,
+128,Fairfield City Champion,cboulous@fairfaxmedia.com.au,Chris,Boulous,"Fairfield, Abbotsbury, Bonnyrigg, Bonnyrigg Heights, Bossley Park, Cabramatta, Cabramatta West, Canley Heights, Canley Vale, Carramar, Cecil Park, Edensor Park, Fairfield, Fairfield East, Fairfield Heights, Fairfield West, Greenfield Park, Lansvale, Mount Pritchard, Old Guildford, Prairiewood, Smithfield, St Johns Park, Villawood, Wakeley, Wetherill Park, Yennora","2165, 2176, 2177, 2166, 2163, 2178, 2165, 2170, 2161, 2164",,
+129,Bankstown-Canterbury Torch,mark@torchpublishing.com.au,Mark,Kirkland,"Alfords Point, Bankstown, Bangor, Bass Hill, Belfield, Belmore, Beverly Hills, Birrong, Campsie, Chester Hill, Chullora, Condell Park, East Hills, Georges Hall, Greenacre, Kingsgrove, Lakemba, Milperra, Menai, Mount Lewis, Narwee, Padstow, Panania, Picnic Point, Punchbowl, Revesby, Revesby Heights, Riverwood, Roselands, Sefton, Villawood, Wiley Park, Yagoona,","2200, 2234, 2197, 2191, 2192, 2209, 2143, 2194, 2162, 2190, 2193, 2213, 2198, 2190, 2208, 2195, 2214, 2234, 2190, 2211, 2213, 2176, 2212, 2116, 2210, 2196, 2162, 2163, 2195, 2199",,
+130,Blacktown Advocate,editor@blacktownadvocate.com.au,Joanne ,Vella,"Acacia gardens, Arndell Park, Blacktown, Dean Park, Doonside, Eastern Creek, Glenwood, Huntingwood, Kings Langley, Kings Park, Lalor Park, Marayong, Prospect, Seven Hills, Woodcroft, Quakers Hill","2148, 2763, 2761, 2767, 2768, 2147, 2148, 2146",,
+131,The Canterbury-Bankstown Express,editor@theexpress.com.au,Antony ,Field,"Bankstown, Bankstown Aerodrome, Bankstown North,Bardwell Park, Bass Hill, Belfield, Belmore, Belmore South, Beverly Hills, Bexley North, Birrong, Campsie, Canterbury, Chester Hill, Chullora, Clemton Park, Condell Park, Earlwood, East Hills, Georges Hall, Greenacre, Hurlstone Park, Kingsgrove, Lakemba, Lansdowne, Milperra, Mount Lewis, Narwee, Old Guildford, Padstow, Padstow Heights, Panania, Picnic Point, Potts Hill, Punchbowl, Regents Park, Revesby, Revesby Heights, Riverwood, Roselands, Sefton, Undercliffe, Villawood, Wiley Park, Yagoona (Sydney)","2170, 2200, 2197, 2191, 2192, 2143, 2194, 2162, 2206, 2213, 2198, 2190, 2208, 2195, 2214, 2209, 2211, 2213, 2296, 2212, 2210, 2199",,
+132,Blacktown City Sun,keiasha.naidoo@fairfaxmedia.com.au,Keiasha,Naidoo,"Acacia Gardens, Arndell Park, Blacktown, Doonside, Glenwood, Kings Langley, Kings Park, Lalor Park, Marayong, Marsden Park, Mt Druitt, Plumpton, Prospect, Quakers Hill, Riverstone, Scholfields, Seven Hills, Stanhope Gardens, Toongabbie, Woodcroft","2148, 2763, 2761, 2767, 2768, 2147, 2146, 2765, 2770, 2148, 2762, 2335, 2767",,
+133,Fairfield Advance,editor@fairfieldadvance.com.au,Pam ,Walker,"Abbotsbury, Bonnyrigg, Bonnyrigg Heights, Bossley Park, Cabramatta, Cabramatta West, Canley Heights, Canley Vale, Carramar, Edensor Park, Fairfield, Fairfield East, Fairfield Heights, Fairfield West, Greenfield Park, Horsley Park, Lansvale, Mount Pritchard, Prairiewood, Smithfield, St Johns Park, Wakeley, Wetherill Park, Yennora","2165, 2176, 2177, 2166, 2163, 2178, 2165, 2170, 2161, 2164",,
+134,Inner West Courier - Inner West Edition,catherine.zuill@innerwestcourier.com.au,Catherine,Zuill,"Ashbury, Ashfield, Birkenhead Point, Breakfast Point, Burwood, Burwood Heights, Cabarita, Canada Bay, Chiswick, Concord, Concord West, Croydon, Croydon Park, Dobroyd Point, Drummoyne, Enfield, Enfield South, Five Dock, Haberfield, Homebush, Homebush Bay, Homebush West, Liberty Grove, Lidcombe, Lidcombe North, Mortlake, Newington, North Strathfield, Rhodes, Rodd Point, Rookwood, Russell Lea, Strathfield, Strathfield South, Strathfield West, Summer Hill, Wareemba","2040,2044,2048,2131,2135,2140,2037,2041,2045,2049,2132,2136,2193,2038,2042,2046,2050,2133,2137,2203,2039,2043,2047,2130,2134,2138,2204, 2046, 3038, 2193, 2041, 2138",,
+135,Hills Shire Times,editor@hillsshiretimes.com.au,Â David ,Catt,"Annangrove, Arcadia, Baulkham Hills, Baulkham Hills West, Bella Vista, Carlingford, Castle Hill, Cherrybrook, Dural, Galston, Glenhaven, Glenorie, Kenthurst, Maraylya, Middle Dural, North Rocks, Northmead, Round Corner, West Pennant Hills, Winston Hills","2153, 2118, 2154, 2126, 2158, 2159, 2156, 2157, 2155, 2151, 2152, 2120, 2158, 2125",,
+136,Hornsby & Upper North Shore Advocate,editor@hornsbyadvocate.com.au,Monique ,Cowper,"Asquith, Berowra, Berowra Heights, Brooklyn, Cherrybrook, Cowan, Dangar Island, East Wahroonga, Fox Valley, Hornsby, Hornsby Heights, Mount Colah, Mount Kuring Gai, Normanhurst, North Turramurra, North Wahroonga, Pennant Hills, South Turramurra, Turramurra, Thornleigh, Wahroonga, Waitara, Warrawee, Westleigh","2250, 2077. 2081, 2082, 2083, 2154, 2126, 2159, 2079, 2080, 2076, 2074, 2120, 2125",,
+137,The Inner West Courier (Gloss Edition),catherine.zuill@innerwestcourier.com.au,Catherine,Zuill,"Ashbury, Ashfield, Birkenhead Point, Breakfast Point, Burwood, Burwood Heights, Cabarita, Canada Bay, Chiswick, Concord, Concord West, Croydon, Croydon Park, Dobroyd Point, Drummoyne, Enfield, Enfield South, Five Dock, Haberfield, Homebush, Homebush Bay, Homebush West, Liberty Grove, Lidcombe, Lidcombe North, Mortlake, Newington, North Strathfield, Rhodes, Rodd Point, Rookwood, Russell Lea, Strathfield, Strathfield South, Strathfield West, Summer Hill, Wareemba","213,421,382,204,203,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+138,Liverpool City Champion,cboulous@fairfaxmedia.com.au,Chris,Boulous,"Ashcroft, Bonnyrigg, Bonnyrigg Heights, Busby, Cartwright, Casula, Cecil Hills, Chipping Norton, Glenfield, Green Valley, Hammondville, Heckenberg, Holsworthy, Horningsea Park, Hoxton Park, Liverpool, Lurnea, Macquarie Fields, Miller, Moorebank, Mt Pritchard, Pleasure Point, Prestons, Sadlier, Sandy Point, Voyager Point, Warwick Farm, Wattle Grove, West Hoxton","2170, 2168, 2177, 2168, 2170, 2171, 2167, 2173, 2170, 2564, 2170, 2172",,
+139,The Weekly Times,contactus@weeklytimes.com.au,John,Booth,"Hunters Hill, Woolwich, Ryde, Gladesville, Marsfield, Chatswood West, Eastwood, Macquarie, Denistone, Concord, Lane Cove West, Epping, Carlingford East, Drummoyne,","2112, 2110, 2113, 2111, 2122, 2057, 2067, 2114, 2137, 2066, 2121, 2118, 2047",,
+140,The Liverpool Leader,editor@liverpoolleader.com.au,Melissa,Mitchell,"Anzac Village, Ashcroft, Austral, Bonnyrigg, Bonnyrigg Heights, Busby, Cartwright, Casula, Cecil Hills, Cecil Park, Chatham Village, Chipping Norton, Edmondson Park, Green valley, Hammondville, Heckenberg, Hinchinbrook, Horningsea Park, Hoxton Park, Liverpool, Liverpool South, Lurnea, Middleton Grange, Miller, Moorebank, Mount Pritchard, Pleasure Point, Prestons, Rossmore, Sadleir, Voyager Point, Warwick Farm, Wattle Grove, West Hoxton","2170, 2168, 2177, 2168, 2170, 2171, 2167, 2173, 2170, 2564, 2170, 2172, 2565",,
+141,The Manly Daily,editor@manlydaily.com.au,Nick ,Calacouras,"Allambie Heights, Avalon, Balgowlah, Balgowlah Heights, Bayview, Beacon Hill, Belrose, Bilgola, Brookvale, Careel Bay, Church Point, Clareville, Clontarf, Collaroy, Collaroy Plateau, Cromer, Cromer Heights, Curl Curl, Davidson, Dee Why, Duffys Forest, Elanora Heights, Fairlight, Forestville, Frenchs Forest, Harbord, Ingleside, Killarney Heights, Manly, Manly Vale, Mona Vale, Narraweena, Newport, Newport Beach, North Balgowlah, North Curl Curl, North Manly, North Narrabeen, North Seaforth, Oxford Falls, Palm Beach, Queenscliff, Seaforth, Terrey Hills, Warriewood, Whale Beach, Wheeler Heights, Wingala","2095, 2100, 2107, 2093, 2104, 2085, 2107, 2105, 2097, 2099, 2084, 2101, 2094, 2086, 2096, 2087, 2095, 2093, 2103, 2099, 2106, 2108, 2092, 2102",,
+142,The Mosman Daily,editor@mosmandaily.com.au,Brett ,Thomas,"Balmoral, Beauty Point, Cammeray, Clifton Gardens, Cremorne, Cremorne Junction, Cremorne Point, Crows Nest, Georges Heights, Kirribilli, Lavender Bay, Mcmahons Point, Milsons Point, Mosman, Neutral Bay, North Sydney, Spit Junction, The Spit, Waverton, Wollstonecraft(","2060, 2546, 2062, 2090, 2065, 2061, 2060, 2088, 2089, 2065",,
+143,Mt Druitt-St Marys Standard,editor@mtdruittstandard.com.au,Vera ,Bertola,"Bidwill, Blackett, Colyton, Dean Park, Dharruk, Dunheved, Emerton, Erskine park, Glendenning, Hassall Grove, Hebersham, Lethbridge Park, Minchinbury, Mount Druitt North St Marys, Oakhurst, Oxley Park, Plumpton, Rooty Hill, Shalvey, St Clair, St Marys, Tregear, Whalan, Willmot","2770, 2760, 2759, 2761, 2766, 2330",,
+144,North Shore Times,editor@northshoretimes.com.au,Billy ,Cantwell,North Sydney,"2060, 2064, 2068, 2154, 2067, 2065, 2071, 2074, 2070, 2072, 2066, 2060, 2063, 2150, 2013, 2069, 2075, 2076",,
+145,Northern District Times,editor@northerndistricttimes.com.au,Colin ,Kerr,"Beecroft, Boronia Park, Chatswood West, Cheltenham, Denistone, Denistone East, Denistone West, Dundas Valley, East Ryde, Eastwood, Epping, Gladesville, Henley, Hunters Hill, Huntleys Cove, Huntleys Point, Macquarie Park, Marsfield, Meadowbank, North Epping, North Ryde, Putney, Ryde, Tennyson Point, West Ryde, Woolwich","2121, 2119, 2118, 2067, 2119, 2114, 2112, 2122, 2121, 2115, 2111, 2110, 2113",,
+146,Parramatta Advertiser,editor@parramattaadvertiser.com.au,Â Simone ,Roberts,"Auburn, Clyde, Dundas, Dundas Valley, Ermington, Girraween, Granville, Greystanes, Guildford, Guildford West, Harris Park, Holroyd, Mays Hill, Merrylands, Merrylands West, North Parramatta, Oatlands, Old Toongabbie, Parramatta, Pemulwuy, Pendle Hill, Pendle Hill South, Rosehill, Rydalmere, South Granville, South Wentworthville, Telopea, Toongabbie, Wentworthville, Woodpark, North Rocks, Northmead, Winston Hills, Westmead","2150, 2144, 2153, 2118, 2142, 2117, 2115, 2145, 2161, 2160, 2151, 2152, 2146, 2116, 2162, 2153, 2164, 2123, 2124",,
+147,Penrith Press,editor@penrithpress.com.au,Â Lisa ,Power,"Blaxland, Cambridge Gardens, Cambridge Park, Castlereagh, Claremont Meadows, Cranebrook, Emu Heights, Emu Plains, Faulconbridge, Glenbrook, Glenmore Park, Jamisontown, Kingswood, Kingswood Park, Lapstone, Lemongrove, Leonay, Mt Riverview, Mulgoa, Orchard Hills, Penrith, Regentville, Silverdale, South Penrith, Springwood, Valley Heights, Wallacia, Warragamba, Warrimoo, Werrington, Werrington County, Werrington Downs","2750, 2774, 2747, 2749, 2750, 2776, 2773, 2745, 2340, 2753, 2519, 2748, 2752, 2777, 2744",,
+148,Review Pictorial,mark@torchpublishing.com.au,Mark,Kirkland,"Auburn, Lidcombe, Berala, Regents Park, Guildford, Merrylands East, Silverwater, Granville, Granville South, Clyde, Newington","2144, 2141, 2143, 2161, 2160, 2128, 2142, 2127",,
+149,St George & Sutherland Shire Leader,amartinez@fairfaxmedia.com.au,Albert,Martinez,"Helensburgh, Waterfall, Heathcote, Engadine, Audley, Bundeena, Caringbah, Cronulla, Woolooware, Gymea, Kirrawee, Loftus, Lucas Heights, Woronora, Sutherland, Menai, Miranda, Sylvania, Como, Kurnell, Lugarno, Mortdale, Hurstville, Oatley, Dolls Point, Kogarah, Rockdale, Bexley North, Beverly Hills","2,196,221,022,192,220,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+150,Southern Courier,news@southerncourier.com.au,Raylene ,Bliss,Alexandria,"2015, 2019, 2036, 2031, 2034, 2032, 2018, 2033, 2035, 2020, 2021",,
+151,Wentworth Courier,editorial@wentworthcourier.com.au,Steve ,Howard,Alexandria,"2015, 2023, 2026, 2022, 2024, 2021, 2027, 2010, 2028, 2030, 2011, 2016, 2029, 2000, 2025",,
+152,Campbelltown-Macarthur Advertiser,rdickens@fairfaxmedia.com.au,Roma,Dickens,"Airds, Ambervale, Blair Athol, Blairmount, Bow Bowing, Bradbury, Campbelltown, Claymore, Eaglevale, Eschol Park, Glen Alpine, Glenfield, Ingleburn, Macquarie Links, Kearns, Kentlyn, Minto Heights, Leumeah, Macquarie Fields, Minto, Raby, Rosemeadow, Ruse, St Andrews, St Helens Park, Wedderburn, Woodbine","2558,2565,2569,2573,2559,2566,2570,2574,2560,2567,2571,2752,2167,2564,2568,2572, 2560, 2556, 27, 2335, 2179, 2564",,
+153,The Macarthur Chronicle,editor@macarthurchronicle.com.au,Mandy,Perrin,"(Airds, Ambarvale, Appin, Bargo, Bickley Vale, Blair Athol, Blairmount, Bow Bowing, Bradbury, Camden, Camden Park, Camden South, Campbelltown, Catherine Field, Cawdor, Claymore, Cobbitty, Currans Hill, Denham Court, Douglas Park, Eagle Vale, Elderslie, Ellis Lane, Englorie Park, Eschol Park, Gilead, Glen Alpine, Glenfield, Glenmore, Grasmere, Harrington, Park, Ingleburn, Kearns, Kentlyn, Kirkham, Leppington, Leumeah, Long point, Macquarie Fields, Macquarie Links, Maldon, Menangle, Menangle Park, Minto, Minto Heights, Mount Annan, Mount Hunter, Mowbray Park, Narellan, Narellan Vale, Oran Park, Pheasants Nest, Picton, Raby, Razorback, Rosemeadow, Rossmore, Ruse, Smeaton Grange, Spring Farm, St Andrews, St Helens Park, Tahmoor, The Oaks, Thirlmere, Varroville, Wedderburn, Wilton, Woodbine","21,712,564,257,025,700,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+154,2120 & Beyond Monthly Chronicle,jenny.barlass@monthlychronicle.com.au,Jenny,Barlass,Thornleigh,"2060 2061 2062 2063 2064 2065 2066 2067 2068 2069 2088 2089 2090 2109 2110 2111 2112 2113 2114 2122, 2069 2070 2071 2072 2073 2074 2075 2076 2077 2079 2080 2081 2082 2083 2117 2118 2119 2120 2121 2122 2125 2126 2151 2152 2153 2154 2155 2156 2157 2158 2159 2756 2765 2775",,
+155,The Balmain & Rozelle Village Voice,editor@villagevoice.com.au,,,"Annandale, Balmain, Concord, Drummoyne, Five Dock, Glebe, Leichhardt, Rozelle",2046,,
+156,Cooks River Valley Times,mark@torchpublishing.com.au,Mark,Kirkland,"Earlwood, Undercliffe, Hurlstone Park, Canterbury, Campsie, Ashbury, Croydon Park, Marrickville South, Clempton Park, Dulwich Hill","2206, 4380, 2193, 2194, 2133, 2204, 2203",,
+157,"Drummoyne, Five Dock & Concord Village Voice",catherine.zuill@innerwestcourier.com.au,Catherine,Zuill,"Alexandria, Balmain, Drummoyne, Fivedock, Glebe, Rozelle","2015, 2046, 2041, 2047, 2037, 2039",,
+158,"Leichhardt, Glebe & Annandale Village Voice",catherine.zuill@innerwestcourier.com.au,Catherine,Zuill,"Petersham, Alexandria, Balmain, Drummoyne, Fivedock, Glebe, Rozelle","2049, 2046, 2041, 2047, 2037, 2039",,
+159,Eastern Suburbs Spectator,editor@thespectator.com.au,,,Eastern Suburbs,2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036,No Editor name,
+160,Camden Advertiser,rdickens@fairfax.com.au,Roma,Dickens,"Camden, Camden South, Cobbitty, Currans Hill, Elderslie, Ellis Lane, Harrington Park, Mt Annan, Narellan, Narellan Vale, Smeaton Grange","2570, 2567, 2557",,
+161,Tweed Sun,gcsun@goldcoast.com.au,Vanessa,Jones,Tweed Heads South,"2486, 2483, 2489, 2490, 2488, 2487, 2486, ",,
+162,Parramatta Sun,keiasha.naidoo@fairfaxmedia.com.au,Keiasha,Naidoo,"Baulkham Hills, Carlingford, Dundas Valley, Epping, Girraween, Granville, Greystanes, Guildford, Guildford West, Harris Park, Mays Hills, Merrylands, Merrylands West, Northmead, North Parramatta, Oatlands, Old Toongabbie, Parramatta, Pendle Hill, Rosehill, Sefton, Smithfield, South Granville, Sth Wentworthville, Telopea, Toongabbie, Westmead, Winston Hills, Woodpark, Yennora","2115 2116 2117 2118 2121 2122 2127 2128 2140 2141 2142 2143 2144 2145 2146 2148 2150 2151 2152 2153 2160 2161 2162 2164, 2178 2745 2747 2748 2749 2750 2753 2754 2755 2756 2757 2758 2759 2760 2765 2773 2774 2775 2776 2777 2778 2779 2780 2782 2783 2784 2785 2786",,
+163,St Marys Mt Druitt Star,keiasha.naidoo@fairfaxmedia.com.au,Keiasha,Naidoo,"Erskine Park, St Clair, Colyton, Minchinbury, Rooty Hill, Mt Druitt, St Marys, Whalan, Werrington, Tregear, Cambridge Park, Ropes Creek, Lethbridge Park, Glendenning, Shalvey, Hassell Grove, Bidwill","2770, 2760, 2759, 2761, 2766, 2330",,
+164,Times,spectate@ihug.com.au,,,Bondi Junction,2022,,
+165,St George & Sutherland Shire Leader,amartinez@fairfax.com.au,Albert,Martinez,"Bondi Junction, Sutherland, St George",2022,Duplicate,
+166,Wollondilly Advertiser,rdickens@fairfax.com.au,Roma,Dickens,"Appin, Bargo, Douglas Park, Picton, Menangle, Oakdale, Silverdale, Tahmoor, The Oaks, Thirlmere, Warragamba","2571, 2560, 2574, 2563, 2570, 2593, 2572",,
+167,Rouse Hill Times,editor@rousehilltimes.com.au,John ,Bilic,"Beaumont Hills, Box Hill, Colebee, Kellyville, Kellyville Ridge, Marsden Park, McGrath Hill, Mulgrave, Parklea, Riverstone, Rouse Hill, Schofields, Shanes Park, Stanhope Gardens, Vineyard","2154, 2155, 2765, 2761, 2756, 2768, 2747",,
+168,Penrith City Star,r_smith@fairfaxmedia.com.au,Gemma,Seymour,Penrith,2750,no info,
+169,The Glebe,advertising@theglebe.com.au,,,Ultimo,2077,no info,
+170,Village Voice,editor@innerwestcourier.com.au,,,Alexandria,2015,no info,
+171,North Shore Times,keinshawmnaidene@fairfaxmedia.com.au,Keinshan,Naidene,North Sydney,2060,Duplicate,
+172,The Port Macquarie Independent,newsdesk@ylinews.com.au,Sandy,Mackenzie,Port Macquarie,"24,432,444,244,524,400,000",,
+173,City Hub,news@altmedia.net.au,Georgia,Fullerton,Sydney City,"2000,2010,2050,2007,2011,2008,2037,2009,2042, 2001, 2004, 2006, ",,
+174,South Sydney Herald,editor@ssh.com.au,Andrew ,Collis,old south sydney council area,"2,015,203,720,082,010,000,000,000,000,000,000,000,000",,
+175,The Sydney Central Magazine,editor@centralmag.com.au,Melissa,Mitchell,"Darlinghurst, Kings Cross, Surry Hills and Newtown , Glebe, Rushcutters Bay inc, Pyrmont, Ultimo, Forest Lodge, Newtown, Camperdown, Darlington, Chippendale, Haymarket, Surry Hills, Darlinghurst, Kings Cross and Potts Point","2007,2011,2021,2050,2008,2015,2037,2009,2016,2042,2000,2010,2017,2043, 2006",,
+176,Ballarat Courier,eugene.duffy@fairfaxmedia.com.au,Eugene,Duffy,"Ballarat, Buninyong, Creswick, Miners Rest, Lake Wendouree, Black Hill, Brown Hill, Mt Pleasant, Canadian, Mt Clear, Magpie, Mt Helen","3352,3350,3357,3363, 3356",,
+177,Ballarat News,eugene.duffy@fairfaxmedia.com.au,Eugene,Duffy,Ballarat,"3,352,335,033,573,360",,
+178,Ararat Advertiser,luke.horton@fairfaxmedia.com.au,Luke,Horton,Ararat,3377,,
+179,The Advocate,news@theadvocate.com.au,Mark,Baker,"Burnie, Devenport, Deloraine, Marawah, King Island, Wynyard","7320, 7310, 7304, 7325, 7256, 7315, 7316, 7320, 7321, 7322",,
+180,Maryborough District Advertiser,editor@maryaddy.com.au,Grant,Condain,"Maryborough, Tarnagulla, Bealiba, Avoca, Lexton, Talbot, Clunes","3,475,337,034,673,550,000,000,000,000",,
+181,Pyrenees Advocate,editor@theadvocate.net.au,John,Higgens,"Beaufort, Avoca, Waubra, Moonambel, Lexton, Snake Valley, Landsborough, Raglan, Redbank, Amphitheatre, Evansford, Redbank, Skipton (part), Elmhurst (part).(Pyrenees Shire)","33,523,477,346,934,700,000,000,000,000,000,000,000,000,000",,
+182,The McIvor Times,editor@mcivortimes.com.au,Andrew,Mole,"Heathcote, Bendigo, Elmore, Colbinabbin, Tooleen, Tooborac, Pyalong, Redesdale","35,593,444,352,335,500,000,000,000,000,000",will call back,
+183,The Sea Lake & Wycheproof Times - Ensign,times@bigpond.net.au,Bernie,Clohesy,"Bimbourne, Nyarrin, Ninda, Sea Lake, Myall, Boigbeat, Banyan, Berriwillock, Willangie","353,335,313,485",,
+184,Robinvale Sentinel,mleslie@robinvaleprinters.com.au,Marion,Leslie,"Robinvale, Boundary Bend, Euston, Tooleybuc, Manangatang","27,363,549,273,735,400,000",,
+185,Bendigo Advertiser,addynews@fairfaxmedia.com.au ,Ross,Tyson,"Bendigo, Castlemaine, Heathcote, Kyneton, Rochester, Wedderburn","3450,3518,3523,3444,3550,3561, 3516",,
+186,Bendigo Weekly,nicole.ferrie@fairfaxmedia.com.au,Nicole,Ferrie,"Bendigo, Castlemaine, Dingee, Heathcote, Raywood, Woodend, Rochester, Colbinabbin, Wedderburn, Maiden Gully, Spring Gully, Castlemaine, Ascot","3523,3559,3550,3570,3518,3450,3442,3551,3571,3561, 3516",,
+187,Campaspe Valley News,andrew.mole@riverineherald.com.au,Andrew,Mole,"Rochester, Nanneella, Timmering, Corop, Colbinabbin, Goornong, Elmore, Lockington, Bamawm, Tennyson","357,235,593,557,355,000,000,000",,
+188,Riverine Herald,andrew.mole@riverineherald.com.au,Andrew,Mole,"Echuca, Moama, Mathoura, Bunnaloo, Barmah, Cohuna, Deniliquin, Lockington, Rochester, Torrumbary, Gunbower, Leitchville, Kerang, Pyramid Hill, Tongala, Koyuga, Kyabram, Picola","3639,3562,3575,3620,3564,3568,3566,3621,2731,3563,3567,3622,2710,3561,3579,3619, 3565",,
+189,Kyabram Free Press/Tatura Guardian,michael.maskell@kyfreepress.com.au,Michael,Maskell,"Kyabram, Tatura, Tongala, Stanhope, Girgarre, Rushworth, Merrigum, Undera, Lancaster, Colbinabbin, Rochester, Echuca","3620, 3616, 3621, 3623, 3624, 3612, 3618, 3629, 3620, 3559, 3561, 3564",,
+190,The Free Press,news@corowafreepress.com.au,Rachel,Willett,Kilmore,3764,,
+191,The North Central Review,"
+ncreditorial@newspaperhouse.com.au",Ian,Blythe,Mitchell Shire Area,"3764, 3756, 3458, 3664, 3753, 3758, 3762, 3444, 3522, 3523, 3660, 3663, 3435, 3662, 3521, 3659, 3666",,
+192,Macedon Ranges/Sunbury Telegraph,fcnvic_telegraph@fairfax.com.au,,,Gisborne,3437,out of circulation,
+193,Macedon Ranges Leader,peter.taylor@news.com.au,Peter,Taylor,Macedon Ranges,"3444, 3450, 3428, 3437, 3427, 3435, 3440, 3431, 3434, 3429, 3442",,
+194,Midland Express,editor@elliottmidnews.com.au,Angela,Crawford,"Kyneton, Woodend, Castlemaine, Gisborne, Maldon, Mount Macedon, Newstead","3444, 3442, 3450, 3437, 3463, 3441, 3462, 3461, ",,
+195,Castlemaine Mail,editcm@elliottmidnews.com.au,Jeff,Jones,"Castlemaine, Maldon, Newstead, Metcalfe, Ravenswood South, Harcourt North, Sutton Grange, Faraday, Golden Point","3450, 3451, 3456, 3462, 3463, 3448, 3453, 3465, ",,
+196,Tarrangower Times,viv@tarrangowertimes.com.au,Vivien,Markham,"Maldon, Barringhup, Newstead, Castlemaine, Walmer, Muckleford","3463, 3462, 3450, 3451",,
+197,Geelong Independent,editorial@geelongindependent.com.au,Tony,Galpin,"Geelong,  Bellarine Peninsula, Torquay, Jan Juc, Winchelsea","3215, 3223, 3220, 3228, 3241, 3217",,
+198,Geelong Advertiser ,liam.houlihan@news.com.au,Liam,Houlihan,Geelong,"3220, 3212, 3213, 3214, 3215, 3216, 3218, 3219, 3220, 3222, 3223, 3224, 3226, 3227, 3217",,
+199,Geelong News,newsroom@geelongnews.com.au,Grant,Payne,"Anakie, Avalon, Barwon Heads, Batesford, Bell Park, Bell Post Hill, Bellarine, Belmont, Breakwater, Breamlea, Ceres, Clifton Springs, Connewarre, Corio, Curlewis, Drumcondra, Drysdale, East Geelong, Fyansford, Geelong, Geelong West, Grovedale, Hamlyn Heights, Herne Hill, Highton, Indented Head, Lara, Leopold, Little River, Lovely Banks, Manifold Heights, Mannerim, Marcus Hill, Marshall, Moolap, Mount Duneed, Newcomb, Newtown, Norlane, North Geelong, North Shore, Ocean Grove, Point Lonsdale, Portarlington, Rippleside, South Geelong, St Albans Park, St Leonards, Thomson, Wallington, Wandana Heights, Waurn Ponds, Whittington","3220, 3212, 3213, 3214, 3215, 3216, 3218, 3219, 3220, 3222, 3223, 3224, 3226, 3227",Merged with Geeling Advertisor,
+200,The Geelong Times,reception@thegeelongtimes.com.au,Ian,Kenins,Newtown,3220,,
+201,Queenscliffe Herald,quherald@bigpond.net.au,Carmel,Murphy,Queenscliff,3226,,
+202,The Echo,grant.payne@news.com.au,Grant,Payne,Geelong,"3220, 3231, 3230, 3233, 3227, 3222, 3226, 3223, 3228, 3232, 3219, 3226, 3225, 3241",,
+203,Mountain Views Mail,edit.mvmail@yvnews.com.au,Kath,Gannaway,"Healesville, Yarra Glen, Yering, Tarrawarra, Badger Creek","3777, 3775, 3770, 3714, 3711, 3116, 3136, 3717, 3137, 3763, 3140, 3779, 3765, 3757, 3138, 3714, 3113, 3775",,
+204,Seymour Nagambie Advertiser,seyadv@knox.hotkey.net.au,,,Emerald,3782,,
+205,The Ranges Trader Mail,rtmail@yvnews.com.au,,,"Lilydale, Montrose, Kalorama, Kilsyth, Mount Dandenong, Cockatoo, Emerald, Avonsleigh, Gembrook, Ferny Creek, Tremont, Sassafras, Olinda, Kallista, The Patch, Monbulk, Silvan, Mount Evelyn, Beaconsfield Upper","3793, 3140, 3766, 3137, 3767, 3781, 3782, 3783, 3786, 378, 3788, 3791, 3792, 3795, 3796, 3807",No Editor Name,
+206,Upper Yarra Mail,mvmail@yvnews.com.au,,,Yarra Junction,3797,No editor Name,
+207,Warragul & Drouin Gazette,editorial@warragulgazette.com.au,Carolyn,Turner,Warragul,"3820, 3833, 3831, 3818, 3816, 3822, 3821, 3823, 3824, 3815, 3810",,
+208,The Baw Baw Shire & West Gippsland Trader,administration@warragulgazette.com.au,Carolyn,Turner,Warragul,3820,closed down,
+209,Moe & Narracan News,smallia@lvexpress.com.au,Shawn,Mallia,Moe,"3825, 3844, 3823",,
+210,Latrobe Valley Express,smallia@lvexpress.com.au,Shawn,Mallia,"Morwell, Carroyng, Calligull, Cowuuaoo, Glengarry, Coriandall, Rosedale, Erica, Toongabbie, Tyers, Newborough, Naracoon, Yandi, Rawson, Trafalger East, Walhalla, Yallourn Heights, Yallourn North, Yarragon, Boolarra, Churchill, Driffield, Hazlewood, Jeeralang","3840, 3844, 3842, 3825, 3854, 3847, 3856, 3844, 3824, 3823, 3870, 3842, 3840 ",,
+211,The Traralgon Journal,news@traralgonjournal.com.au,,,Traralgon,3844,closed down,
+212,Gippsland Times & Maffra Spectator,news@gippslandtimes.com.au,Peter,Hill,Sale,"3850, 3862, 3860, 3858",,
+213,Bairnsdale Advertiser,lrobinson@eastvicmedia.com.au,Luke,Robinson,"Bairnsdale, plus east gippsland to NSW border, Stratford, Omeo, Benambra","3875, 3862, 3898 3900",,
+214,East Gippsland News,lrobinson@eastvicmedia.com.au,Luke,Robinson,Bairnsdale,"3875, 3841",,
+215,Snowy River Mail,lrobinson@eastvicmedia.com.au,Luke,Robinson,Orbost,3888,,
+216,Lakes Post,lrobinson@eastvicmedia.com.au,Luke,Robinson,Lakes Entrance,3909,,
+217,Phillip Island & San Remo Advertiser,advertiser@pisra.com.au,Anne,Oswin,Cowes,"3922, 3925, 3923, 3924",,
+218,The Great Southern Star,news@thestar.com.au,Tony,Giles,"Leongatha, Meenlyan, Venus Bay, Inverloch, Baromi","3953, 3956, 3996, 3871",,
+219,South Gippsland Sentinel-Times,news@sgst.com.au,Nathan,Johnston,"Leongatha, South Gippsland, Korumburra, Wonthaggi, Poowong, Bass, Coronet Bay, Grantville, Foster, Inverloch, Meeniyan","3953, 3971, 3841, 2950, 3995, 3988, 3991, 3984, 3960, 3996, 3956",,
+220,The Mirror,mirror@tpg.com.au,Robert,Best,"Foster, Toora, Fish Creek, Welshpool","3960, 3962, 3966",,
+221,Yarram Standard - News,news@standardnews.com.au,Tony,Giles,"Yarram, South Gippsland, Alberton, Gormondale, Port Albert, Toora, Woodside, Foster","3971, 3593, 3971, 3962, 3874, 3960, 3318, ",,
+222,West Wimmera Advocate,editor@wwadvocate.com.au,Toni,Domaschenz,"Edenhope, Apsley, Goroke, Harrow, Kaniva, Casterton, Narracoorte","3318, 3319, 3412, 3317, 3419, 3311, 5271",,
+223,Stawell Times - News,luke.horton@fairfaxmedia.com.au,Luke,Horton,"Stawell, Halls Gap, Great Western, Dadswells Bridge, Rupanyup, Marnoo, Navarre, Landsborough, St Arnaud","3380, 3381, 3374, 3385, 3388, 3387, 3477, 3384, 3478",,
+224,Dimboola Banner,news@dimboolabanner.com.au,David,Ward,"Warracknabeal, Dimboola, Jeparit, Gerang Gerung, Kiata, Antwer, Tarranyurk","3393, 3400, 3424, 3414, 3423, 3418",,
+225,Warracknabeal Herald,wkherald@netconnect.com.au,David,Ward,"Warracknabeal, Brim, Beulah, Hopetoun, Minyip, Murtoa, Rupanyup, Watchem, Birchip, Jeparit, Rainbow, Yaapeet","3393, 3391, 3395, 3396, 3392, 3390, 3388, 3482, 3483, 3423, 3424",,
+226,Hopetoun Courier ,editor@hopetouncourier.com.au,Christopher,Huttig,"Hopetoun, Woomelang, Lascelles, Tempy, Speed, Patchewollock, Beulah, Rosebery","3396, 3485, 3487, 3489, 3488, 3491, 3395",,
+227,Wimmera Mail-Times,luke.horton@fairfaxmedia.com.au,Luke,Horton,"Horsham, Stawell, Ararat, Shires of Wimmera, Natimuk, Dimboola, Lowan, Kowree, Kaniva, Ararat, Warracknabeal, Dunmunkle, Stawell, Kara Kara","3400, 3380, 3377, 3319, 3318, 3312, 3409, 3412, 3401, 3317, 3419, 3418, 3420, 3413, 3415, 3414, 5268",,
+228,The Weekly Advertiser,weeklyadvertiser@team.aceradio.com.au,Dean,Lawson,"Horsham, Stawell, Ararat, Dimboola, Warracknabeal, Nhill, Balmoral, Dadswells Bridge, Goroke, Halls Gap, Harrow, Marnoo, Minyip, Murtoa, Natimuk, Rupanyup","3400, 3402, 3377, 3414, 3393, 3418, 3407, 3385, 3412, 3381, 3317, 3387, 3392, 3390, 3409, 3388",,
+229,Wimmera Messengers: The Voice of Hindmarsh,advertising@wimmeramessengers.com.au,,,Nhill,3418,,
+230,Wimmera Messengers: The Voice of Wimmera,news@wimmeramessengers.com.au,Gary,Sherwell,Nhill,3418,,
+231,The Rainbow-Jeparit Argus,editor@theargus.com.au,David,Ward,"Rainbow, Jeparit, Willenabrina, Angip","3424, 3423, 3393",,
+232,North Central News,ncn@iinet.net.au,,,"St. Arnaud, Charlton Wedderburn, Donald, Rupanyup, Bealiba, Marnoo, Navarre, Dunolly, Wycheproof, Birchip, Korong Vale, Boort, Stuart Mill, Redbank, Avoca and Moonambe","3478, 3525, 3518, 3480, 3388, 3475, 3387, 3384, 3472, 3527, 3520, 3537, 3477, 3467",No Editor name,
+233,Buloke Times,buloket@iinet.net.au,Robin,Letts,"Donald, Birchip, Eaglehawk, Minyip, Nullawil, Wycheproof","3480, 3483, 3556, 3392, 3529, 3527",,
+234,North West Express,times@bigpond.net.au,Bernie,Clohesy,"Ouyen, Mildura ","3490, 3500",,
+235,Mildura Weekly,newsdesk@milduraweekly.com.au,,,"Mildura, Red Cliffs, Irymple, Merbein and Wentworth","3500, 3496, 3498, 305, 3875",No Editor name,
+236,Sunraysia Daily,dalexander@sunrasiadaily.com.au,David,Alexander,"Mildura, Sunrasia, Merbein, Irymple, Red Cliffs, Robinvale, Ouyen, Buronga, Gol Gol, Euston, Dareton, Wentworth","3500, 3505, 3498, 3496, 3549, 2738, 2739, 3490, 2737, 2717, 2648",,
+237,Gannawarra Times,kjenkins@gannawarratimes.com.au,Ken ,Jenkins,"Cohuna, Wakool, Gannawarra, Swan Hill, Kerang, Gunbower, Leitchville, Barham, Koondrook","3500, 3568, 3505, 3498, 3496, 3549, 2738, 2739, 3490, 2737, 2717, 2648, 2710, 3566, 3567, 2732, 3580",,
+238,The Loddon Times,kjenkins@gannawarratimes.com.au,Ken,Jenkins,"Kerang, Boort, Gannawarra, Buloke, Central Goldfields, Campaspe, Bendigo","3579, 3537, 3568, 3480, 3482, 3483, 3525 3527, 3529, 3530, 3531, 3533",,
+239,The Northern Times,kjenkins@gannawarratimes.com.au,Ken,Jenkins,Kerang,3579,,
+240,Swan Hill Guardian,edit@theguardian.com.au,Angus,Dearlove,"Swan Hill, Mildura, Robinvale, Balranald, Manangatang, Nyah Nyah West, Moulamein, Lake Boga, Ultima, Kerang, Barham, Cohuna","3585, 3500, 3549, 2715, 3546, 3594, 2733, 3584, 3544, 2732, 3568, 3591",,
+241,Shepparton Adviser,editorial@sheppartonadviser.com.au,David,Lee,"Shepparton, Mooroopna, Kyabram, Numurkah, Tatura","3630, 3636, 3620, 3629, 3633, 3646, 3634, 3616, 3631, 3638, 3610, 3635, 3654, 3631, 3612, 3619, 3614, 3634, 3644,3672, 3608, 3616",,
+242,Shepparton News,di.thomas@sheppnews.com.au,Di ,Thomas,Shepparton,3630,,
+243,Numurkah Leader,printads@leader.net.au,Beverley,Hutchins,"Numurkah, Nathalia, Katunga, Naring, Wunghnu, Drumanure,  Strathmerton, Wunghnu, Invergordon, Waaia, Picola and Barmah","3636, 3638, 3640, 3641, 3635, 3637, 3639",,
+244,Cobram Courier,editor@cobramcourier.com.au,Jenna,Bishop,"Cobram, Barooga, Katamatite, Strathmerton","3644, 3649, 3641",,
+245,The Seymour Telegraph,editor@seymourtelegraph.com.au,Alison,O'Connor,Seymour,3660,,
+246,Euroa Gazette,editor@euroa-gazette.com.au,Tara,Whitsed,"Euroa, Merton, Yarck, Seymour, Shepparton, Wangaretta","3666, 3715, 3719, 3660, 3630, 3676",,
+247,Benalla Ensign,editor@benallaensign.com.au,Libby,Price,"Benalla, Violet Town, Swanpool, Mansfield, Glenrowan, Wangaratta.","3672, 3673, 3675, 3669, 3673, 3722, 3724, 3676, 3677",,
+248,Ovens & Murray Advertiser,"jkronborg@nemedia,com.au",Jamie,Kronborg,Wangaratta,3677,,
+249,The Chronicle,edit.chronicle@nemedia.com.au,Jeff,Zeuschner,"Wangaratta, Myrtleford, Glenrowan, Beechworth, Bright, Benalla, Milawa, Whitfield, Chiltern","3677, 3736, 3737, 3675, 3747, 3741, 3671, 3672, 3678, 3733, 3683",,
+250,The Border Mail,newsroom@bordermail.com.au,Niall,Boyle,"Wodonga, Mansfield, Euroa, Shepparton, Mulwala, Wagga Wagga, Tumburamba, Corrying, Albury, Wangaratta, Yarrawonga, Corowa, Howlong, Bright, Beechworth, Rutherglen, Tallangatta, Culcairn, Deniliquin, Yackandandah, Myrtleford, Chiltern, Jindera, Mount Beauty, Glenrowan, Berrigan, Finley, Mulwala, Henty, Echuca, Moama, Benalla","3690, 3666, 3715, 3719, 3660, 3630, 3676, 2640, 3678, 3730, 2646, 2643, 3741, 3747, 3685, 3700, 2660, 2710, 3749, 3736, 3737, 3683, 2642, 3699, 3675, 2712, 2713, 2647, 2658, 3564, 2731, 3671",,
+251,The Post,bmm@bordermail.com.au,,,Wodonga,3690,defunct,
+252,Corryong Courier,editorial@corryongcourier.com.au,Liam,Collins,"Corryong, Walwa, Khancoban, Cudgewa","3707, 3709, 2642, 3705,",,
+253,Alexandra and Eildon Standard,editorial@alexandranewspapers.com.au,Anne,Richey,"Alexandra, Eildon, Merton, Yarck, Buxton, Narbethong, Marysville, Taggerty, Thornton","3714, 3713, 3715, 3719, 2571, 3778, 3779,3714, 3712, 3399",,
+254,Yea Chronicle,editorial@alexandranewspapers.com.au,Anne,Richey,"Yea, Seymour, Glenburn, Hazeldene, Strath Creek","3717, 3660, 3717, 3658, 3658",,
+255,Mansfield Courier,edit.mcourier@nenews.com.au,Pam,Zierk-Mahoney,"Mansfield, Ancona, Baranduda, Barjarg, Barwite, Benalla, Boho South, Bonnie Doon, Delatite, Dookie, Echuca, Eildon, Greta, Howqua, Jamieson, Lima, Maindample, Marysville, Merrrjig, Merton, Mitta Mitta, Molesworth, Mt Buller, Samaria, Sawmill Settlement, Strathbogie, Swanpool, Tolmie, Violet Town, Warrenbayne, Wonnangatta, Woods Point, Yarck,","3722, 3715, 3691, 3722, 3672, 3669, 3720, 3646, 3564, 3713, 3675,3643, 3779, 3715, 3701, 3718, 3723, 3673, 3666, 3673, 3670, 3737, 3719,  3665",,
+256,Yarrawonga Chronicle,editor@yarrawongachronicle.com.au,Racheal,Willett,Yarrawonga,3730,,
+257,Tatura Guardian,robert.nicol@taturaguardian.com.au,Bob,Nicol ,Tatura,3616,,
+258,Bright Observer,adsalp@nenews.com.au,Ebony,D'Arcy,Myrtleford,3737,Discontinued,
+259,Myrtleford Times,edit.timesobserver@nemedia.com.au,Brad,Worrall,Myrtleford,3737,,
+260,Surf Coast Times,hamish@surfcoasttimes.com.au,Hamish ,Brooks ,"Torquay, Jan Juc, Anglesea, Aireys Inlet, Breamlea, Bellbrae, Dean Marsh, Freshwater Creek. Lorne, Moriac, Mt Duneed, Winchelsea","332,832,213,260,323,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+261,Colac Herald,editor@colacherald.com,David,McKenzie,"Colac, Apollo Bay, Beeac, Birregurra, Camperdown, Cobden, Colac East, Gellibrand, Innerleigh, Kennet River, Peterborough, Port Campbell, Rokewood, Simpson, Timboon, Cororooke, Cressy, Deans Marsh, Elliminyt, Forrest, Geelong, Geelong West, Lavers Hill, Lismore, Lorne, Moriac, Torquay, Warrnambool, Winchelsea, Wye River","3250, 3233, 3251, 3242, 3260, 3250, 3239, 3321, 3234, 3270, 3269, 3330, 3266, 3268, 3254, 3322, 3235, 3250, 3236, 3220, 3218, 3238, 3324, 3232, 3240, 3228, 3280, 3241, 3234, 3273",,
+262,Camperdown Chronicle,camperdownchronicle@wdnews.com.au,,,"Camperdown, Lismore, Derrinallum","3260, 3324, 3325",No editor name,
+263,Cobden Times,ctctimes@wdnews.com.au,,,"Cobden, Timboon, Simpson, Port Campbell, Peterborough ","3266, 3268, 3269, 3270",No editor name,
+264,Western Plains Advertiser,news@wdnews.com.au,,,"Camperdown, Lismore, Derrinallum, Skipton, Cressy","3260, 3324, 3325, 3361, 3322",No editor name,
+265,Terang Express,terangexpress@wdnews.com.au,,,"Terang, Mortlake, Noorat ","3264, 3265, 3272",No editor name,
+266,The Warrnambool Standard,grbest@fairfaxmedia.com.au,Greg,Best,"Warrnambool, Timboon, Simpson, Cobden, Colac, Camperdown, Terang, Mortlake, Caramut, Lake Bolac, Skipton, Lavers Hill, Port Fairy, Hawkesdale, Koroit, Yambuk, Tyrendarra, Macarthur, Heywood, Hamilton, Penshurst, Chatsworth, Streatham, Lismore, Port Campbell, Portland ","3280, 3268, 3266, 3250, 3260, 3264, 3272, 3274, 3351, 3361, 3238, 3284, 3287, 3282, 3285, 3268, 3304, 3300, 3289, 3379, 331, 3324, 3269, 3305",,
+267,The Moyne Gazette,grbest@fairfaxmedia.com.au,Greg,Best,"Port Fairy, Koroit, Mortlake, Macarthur, Mailors Flat, Woolsthorpe, Peterborough, Caramut, Ellerslie, Framlingham, Purnim, Garvoc, Hawkesdale, Kirskstall, Panmure, Wangoom","3284, 3282, 3272, 3286, 3275, 3276, 3270, 3274, 3265, 3278, 3265, 3287, 3238, 3265, 3279",,
+268,Hamilton Spectator,editor@spec.com.au,Pat ,Koopman,"Hamilton, Ararat, Balmoral, Branxholme, Caramut, Casterton, Cavendish, Coleraine, Dartmoor, Digby, Dunkeld, Edenhope, Glenthompson, Harrow, Hawkesdale, Heywood, Horsham, Koroit, Lake Bolac, Macarthur, Merino, Millicent, Mortlake, Mt Gambier, Narrawong, Penshurst, Port Fairy, Portland, Skipton, Streatham, Tarrington, Warrnambool, Willaura, Woolsthorpe, Yambuk,  ","3300, 3377, 3407, 3302, 3274, 3311, 3314, 3315, 3304, 3309, 3294, 3318, 3293, 3317, 3287, 3304, 3400, 3282, 3351, 3286, 3310, 5280, 3272, 5290, 3285, 3289, 3284, 3305, 3361, 3351, 3301, 3280, 3379, 3276, 3285 ",,
+269,The Portland Observer & Guardian,marlene.punton@observer.net.au,Marlene,Punton,"Portland, Heywood, Narrawong, Tyrendarra, Hamilton, Dartmoor, Mt. Gambier, Warrnambool, Condah, Casterton, Winnap, Branxholme, Pt. Fairy, Digby, Yambuk, Coleraine, Merino and Macarthur.","3305, 3304, 3285, 3300, 3304, 5290, 3280, 3303, 3311,  3302, 3284, 3309,  3315, 3310, 3286",,
+270,Casterton News,editor@castnews.com.au,Ian Lewis,Cowland,"Casterton, Branxholme, Coleraine, Dartmoor, Digby, Edenhope, Hamilton, Harrow, Heywood, Merino Millicent, Mt Gambier, Port Fairy, Portland, Warrnambool","3311, 3302, 3315,  3304, 3309, 3318, 3300, 3317, 3304,  3310, 5280, 5290, 3305, 3284,  3280 ",,
+271,Cranbourne News,dimity.barker@newspapers.com.au,Dimity,Barber,"Cranbourne, Hampton Park, Clyde, Blind Bight, Cannons Creek, Devon Meadows, Hampton park, Junction Vilage, Narre Warren Berwick, Lynbrook","378,231,593,809,397,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+272,Berwick/Pakenham Cardinia Leader,dimity.barker@newspapers.com.au,Dimity,Barber,"Pakenham, Cardinia, Berwick, Beaconsfield, Doveton, Endeavour Hills, Eumemmerring, Fountain Gate, Hallam, Narre Warren, Narre Warren North, Narre Warren South, Hampton Park, Officer","376,737,823,159,380,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+273,Brimbank Leader,brimbank@leadernewspapers.com.au,Piage,Ricci,"Ardeer, Braybrook,  Deer Park, Delahey, Hillside, Kealba, Keilor, Keilor Downs, Derrimut, Keilor Lodge, Keilor Park, Kings Park, St Albans, Sunshine, Sydenham, Taylors Lakes","3022, 3019, 3023, 3037, 3021, 3036, 3038, 3030, 3042, 3020",*Call for editor email,
+274,Caulfield Glen Eira/Port Phillip Leader,theleader@leadernewspapers.com.au,Fiona,Sexton,"Caulfield, Balaclava, Elwood, Albert Park, Carnegie, Caulfield East, Caulfield North, Elsternwick, Gardenvale, Glen Huntly, Middle Park, Port Melbourne, Ripponlea, Melbourne South, St Kilda, St Kilda East, St Kilda Road, St Kilda West ","3162, 3138, 3184, 3206, 3163, 3145, 3161, 3185, 3163, 3206, 3207, 3205, 3182, 3183, 3004",*Call for editor email,
+275,Moonee Valley Leader ,mooneevalley@leadernewspapers.com.au,Liam,McAleer,"Airport West, Moonee Ponds, Aberfeldie, Ascot Vale, Avondale Heights, Essendon, Essendon North, Flemington, Keilor East, Niddrie, Strathmore, Strathmore Heights, Travancore","3042, 3039, 3040, 3032, 3034, 3031, 3033, 3039, 3041, ",*Call for editor email,
+276,Cranbourne Journal,journal@fairfax.com.au,,,Dandenong,3175,Discontinued,
+277,Cranbourne Leader,cranbourne@leadernewspapers.com.au,Dimity,Barber,"Cranbourne, Cranbourne East, Cranbourne South, Cranbourne West, Cranbourne North, Deavon Meadows, Hampton Park, Junction Village, Lynbrook, Lyndhurst, Pearcedale","3977, 3976, 3912",,
+278,Dandenong Journal,journal@starnewsgroup.com.au,Narelle,Coulter,"Dandenong, Springvale, Noble Park, Doveton, Endeavour Hills, Hallam, Keysborough","3175, 3171, 3174, 3177, 3802, 3803, 3173",*Call for editor email,
+279,Diamond Valley Leader,diamondvalley@leadernewspapers.com.au,Sandro,Olivo,"Briar Hill, Bundoora, Kangaroo Ground, Hurstbridge, Bundoora, Diamond Creek, Doreem, Eltham, Greensborough, Hurstbridge, Kangaroo Ground, Lower Plenty, Montmorency, Plent, Research, St  Helena, Watsonia, Wattle Glen, Arthurs Creek, Kinglake, Panton Hill, Smiths Gully, St Andrews, Yan Yean, Yarrambat","3088, 3083, 3097,3099, 3089, 3754, 3095, 3088, 3093, 3094, 3090, 3045, 3087, 3096, 3763, 375, 3761",*Call for editor email,
+280,Manningham Leader,manningham@leadernewspapers.com.au,Cathy,Withiel,"Manningham, Bulleen, Doncaster, Donvale, Park Orchards, Ringwood North, Templestowe, Warrandyte, Warranwood, Wonga Park","5086, 3105, 3108, 3111, 3114, 3134, 3106, 3113, 3134, 3115, 3153, 3151, 3136, 3131, 3130, 3132, 3135",*Call for editor email,
+281,The Emerald Hill Weekly,newsroom@fairfax.com.au,,,East Melbourne,3002,Discontinued,
+282,"The Chelsea, Mordialloc, Mentone News",neil@baysidenews.com.au,Neil,Walker ,"Aspendale, Chelsea Heights, Aspendale Gardens, Edithvale, Bonbeach, Mentone, Braeside, Mordialloc, Carrum, Parkdale, Chelsea, Patterson Lakes","3915, 3196, 3194, 3197 ",,
+283,Peninsula Journal Weekender,journal@fairfax.com.au,,,Dandenong,3175,Discontinued,
+284,Frankston & Hastings Independent,fcnvic_mailedit@fairfax.com.au,,,Hastings,3915,Discontinued,
+285,Frankston Standard/Hastings Leader,frankston@leadernewspapers.com.au,Natalie,Kealey,"Baxter, Bittern, Carrum Downs, Crib Point, Frankston, Hastings, Karingal, Langwarrin, Pines Forest, Seaford, Somerville, Stony Point, Tyabb, Mornington","32,003,912,319,532,000,000,000,000,000,000,000,000,000,000",*Call for editor email,
+286,Heidelberg Leader,heidelberg@leadernewspapers.com.au,Cathy,Withiel,"Eaglemont, Heidelberg, Ivanhoe, Macleod, Rosanna, View Bank, Yallambie","308,430,793,085",*Call for editor email,
+287,Hume Leader,hume@leadernewspapers.com.au,Peter,Taylor,"(Broadmeadows, Campbellfield, Coolaroo, Craigieburn, Fawkner, Glenroy, Gladstone Park, Greenvale, Hadfield, Meadow Heights, Oak Park, Roxburgh Park, Tullamarine, Westmeadows, Yuroke","3047, 3061, 3064, 3060, 3046, 3043, 3059, 3048, 3043, 3049, 3063",*Call for editor email,
+288,Knox Leader,knox@leadernewspapers.com.au,Zoe,Powell,"Bayswater, Boronia, Ferntree Gully, Knoxfield, Lysterfield, Rowville, Scoresby, The Basin, Wantirna","3155,3156,3152,3178,3153,3179, 3180, 3154",*Call for editor email,
+289,Knox Journal,journal@fairfax.com.au,,,Bayswater,3153,,
+290,Lilydale & Yarra Valley Leader,lilydale@leadernewspapers.com.au,Elaine,Phelan,"Chirnside Park, Coldstream, Healesville, Kalorama, Kilsyth, Launching Place, Lilydale, Millgrove, Monbulk, Montrose, Mooroolbark, Mount Dandenong, Mount Evelyn, Narbethong, Olinda, Powelltown, Seville, Silvan, Tarrawarra, Wandin, Warburton, Wesburn, Woori Yallock, Yarra Glen, Yarra Junction, Yellingbo, Yering","315,938,093,978,315,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",*Call for editor email,
+291,The Mail/Williamstown Advertiser/Altona-Laver,fcnvic_mail@fairfax.com.au,,,Airport West,3042,Discontinued,
+292,Stonnington Leader,stonnington@leadernewspapers.com.au,Andre,Awadalla,"Stonnington, Armadale, Chadstone, Glen Iris, Kooyong, Malvern, Prahran, South Yarra, Toorak, Windsor","3148, 3146, 3143, 3144, 3181, 3141, 3142 ",,
+293,Maroondah Journal/Yarra Ranges Journal,journal@fairfax.com.au,,,Bayswater,3153,Discontinued,
+294,Melbourne Leader,melbourne@leadernewspapers.com.au,,,Glen Iris,3146,Discontinued,
+295,The Melbourne Times,newsroom@fairfax.com.au,,,East Melbourne,"30,023,052,305,630,600,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Couldn't find any information whatsover?,
+296,The Melbourne Weekly Magazine,jhutchinson@theweeklyreview.com.au,Jane,Hutchinson,"Melbourne City, Carlton, Carlton North, Docklands, East Melbourne, Flemington, Kensington, North meblourne, Parkville, Southbank, South Wharf, South Yarra, Albert Park, Middle Park, Balaclava, East St. KIlda, Elwood, Port Melbourne, Ripponlea, South Melbourne, St Kilda, Windsor, Melbourne East, Geelong, Ivanhoe & Valley, Mooney Valley, Melbourne South East, Kew, Kew East, Balwyn, Balwyn North, Hawthorn, Hawthorn East, Camberwell, Canterbury, Glen Iris, Ashburton","3002,3052,3056,3067,3072,3003,3053,3057,3068,3073,3031,3054,3065,3070,3078,3051,3055,3066,3071,3121, 3000, 3206, 3183, 3184, 3207, 3185, 3205, 3182, 3181, 3220, 3079, 3039, 3008, 3051, 3006, 3141, 3101, 3102, 3103, 3104, 3122, 3123, 3124, 3126, 3146, 3147",,
+297,Melton/Moorabool Star Weekly,slinnell@starweekly.com.au,Stephen,Linnell,"Bacchus Marsh, Long Forest, Ballan, Melton, Balliang, Melton South, Balliang East, Myrniong, Blackwood, Parwan, Diggers Rest, Rockbank, Gordon, Rowsley, Greendale, Toolern Vale, Korobeit","3337, 3340, 3342, 3345, 3341, 3458, 3427, 3335, 3338, 3337",,
+298,Monash Journal,journal@fairfax.com.au,,,Bayswater,3153,Inexistent,
+299,Moonee Valley Leader,mooneevalley@leadernewspapers.com.au,,,,3043,Repeat of 276,
+300,Moorabbin Kingston/Moorabbin Glen Eira Leader,moorabbin@leadernewspapers.com.au,Donna,Carton,"Moorabbin, Kingston, Caulfield North, Caulfield South, Carengie, Bentleigh, Bentleigh East, Eslsternwick ","3189, 3364, 3161, 3162, 3163, 3165, 3185, 3204",*Call for editor's email,
+301,Mordialloc Chelsea Leader,mordialloc.chelsea@leadernewspapers.com.au,Donna,Carton,"Aspendale, Bonbeach, Braeside, Carrum, Chelsea, Chelsea Heights, Edithvale, Mentone, Mordialloc, Parkdale, Patterson Lakes","3195, 3196, 3197, 3194",*Call for editor's email,
+302,Moreland Leader,moreland@leadernewspapers.com.au,Liam,McAleer,"Coburg, Coomans Hill, Fawkner, Merlynston, Moomba Park, Moreland, Newlands, Pascoe Vale, Westbreen, Brunswick, Moreland","3058, 3060, 3044, 3056",*Call for editor's email,
+303,Mornington Peninsula Leader,mornington@leadernewspapers.com.au,Natalie,Kealey,"Balnarring, Blairgowrie, Dromana, Flinders, Main Ridge, McCrae, Merricks, Mornington, Mount Eliza, Mount Martha, Portsea, Red Hill, Rosebud, Rye, Safety Beach, Shoreham, Sorrento, Tootgarook","3931, 3926, 3942, 3936, 3929, 3928, 3938, 3916, 3930, 3934, 3944, 3937, 3939, 3941, 3936, 3916, 3943",*Call for editor's email,
+304,Northcote Leader,northcote@leadernewspapers.com.au,Mark,Smith,"Alphington, Fairfield, Merri, Northcote, Thornbury, Westgarth","307,130,783,070",*Call for editor's email,
+305,Greater Dandenong Leader ,dandenong@leadernewspapers.com.au,Dimity,Barber,"Dandenong, Dandenong North, Dandenong South, Keysborough, Noble Park, Noble Park North, Springvale and Springvale South","3175, 3164, 3173, 3174, 3171, 3172",*Call for editor's email,
+306,Pakenham-Berwick Gazette,editor@starnewsgroup.com.au,Garry,Howe,"Pakenham, Doveton, Cockatoo, Emerald, Avonsleigh, Clematis, Gembrook, Narre Warren North, Narre Warren, Berwick, Harkaway, Beaconsfield Upper, Beaconsfield, Officer, Pakenham, Nar Nar Goon, Tynong, Garfield, Cora Lynn, Bunyip, Longwarry, Drouin, Warragul, Neerim, Pearcedale, Cowers, San Remo, Hampton Park, Cranbourne, Cannons Creek, Devon Meadows, Clyde, Tooradin, Blind Bight, Warneet, koo Wee Rup, Bayles, Lang Lang, Coronet Bay, Corinella, Grantville, Bass, Wonthaggi","3810, 3806, 3809, 3177, 3781, 3782, 3753, 3804, 3805, 3806, 3907, 3808, 3812, 3813, 3814, 2815, 3816, 3818, 3820, 3831, 3912, 3925, 3976, 3977, 3978, 3980, 3981, 3984, 3995",,
+307,Preston Leader,preston@leadernewspapers.com.au,Mark,Smith,"Keon Park, Kingsbury, Mount Cooper, Preston, Regent, Reservoir","307,230,733,083",*Call for editor's email,
+308,Progress Leader,progress@leadernewspapers.com.au,Andre,Awadalla,"Ashburton, Balwyn, Balwyn North, Camberwell, Cantervury, Deepdene, Glen Iris, Hawthorn, Hawthorn East, Kew, Kew East, Surrey Hills","3146, 3147, 3103, 3104, 3124, 3126, 3103, 3127, 3123, 3101, 3102, 3127",*Call for editor's email,
+309,Sunbury/Macedon Ranges Leader,peter.taylor@news.com.au,Peter,Taylor,Sunbury,3429,Repeat of 194,
+310,Maroondah Leader,maroondah@leadernewspapers.com.au,Elaine,Phelan,"Bayswater North, Croydon, Croydon Hills, Croydon North, Croydon South, Heathmont, Kilsyth South, Ringwood, Ringwood North, Ringwood East, Warranwood and Wonga Park","313,431,333,136,313,000,000,000,000,000,000,000",,
+311,Bayside Leader,bayside@leadernewspapers.com.au,Fiona,Sexton,"Beaumaris, Black Rock, Brighton, Brighton East, Brighton Beach, Cheltenham, Hampton, Hampton East, Highett and Sandringham","3193, 3186, 3187, 3192, 3188, 3190, 3199",,
+312,Free Press Leader,fpeditorial@reviewnews.com.au,,,Boronia,3155,Discontinued,
+313,Monash Leader,monash@leadernewspapers.com.au,Blair,Corless,"Bangholme, Chadstone, Clayton, Clarinda, Dandenong, Dingley, Huntingdale, Keysborough, Lyndhurst, Monash, Noble Park, Oakleigh, Springvale","3146, 3175, 3148, 3168, 3169, 3172, 3166, 3173, 2975, 3800, 3174, 3166, 3171",,
+314,Werribee/Point Cook Banner,fcnvic_banner@fairfax.com.au,,,Werribee,3030,Discontinued,
+315,The Wyndham Leader,wyndham@leadernewspapers.com.au,,,Wyndham,3030,Discontinued,
+316,Western Leader,times@timespublications.com.au,,,Newport,3015,,
+317,Whitehorse Leader,whitehorse@leadernewspapers.com.au,Blair,Corless,"Blackburn, Balwyn North, Blackburn North, Blackburn South, Box Hill, Box Hill North, Box Hill South, Burwood, Burwood East, Forest Hill, Mitcham, Mont Albert, Mont Albert North, Nunawading, Surrey Hills, Vermont, Vermont South ","3129,3133,3130,3151,3127,3131,3215,3128,3132, 3125, ",*Call for editor's email,
+318,Whittlesea Leader,whittlesea@leadernewspapers.com.au,Sandro,Olivo,"Beveridge, Blossom Park, Bundoora, Donnybrook, Epping, Lalor, Mernda, Mill Park, South Morang, Upper Plenty, Thomastown, Wallan, Whittlesea, Wollert","3753, 3083, 3064, 3076, 307, 3754, 3082, 3752, 3756, 3074, 3750, 3757",*Call for editor's email,
+319,Mornington & Southern Peninsula Mail,fcnvic_mailedit@fairfax.com.au,,,Hastings,3915,Discontinued,
+320,Maribyrnong Leader,maribyrnong@leadernewspapers.com.au,Mark,Smith,"Braybrook, Footscray, Kingsville, Maidstone, Maribyrnong, Seddon, Tottenham, West Footscray, Yarraville","3019, 3011, 3012, 3032, 3013",*Call for editor's email,
+321,Berwick News,starnewsgroup@starnewsgroup.com.au,Garry,Howe,"Berwick, Doveton, Cockatoo, Emerald, Avonsleigh, Clematis, Gembrook, Endeavour Hills, Hallam, Narre Warren North, Narre Warren, Fountain Gate, Harkaway, Beaconsfield, Beaconsfield Upper, Officer, Hampton park, Cardinia","3806, 3177, 3781, 3782, 3783, 3802, 3803, 3804, 3805, 3806, 3807, 3808, 3809, 3976, 3978",,
+322,Hobsons Bay Leader,hobsonsbay@leadernewspapers.com.au,,,Newport,3015,Discontinued,
+323,"Star Keilor, Taylors Lakes, Sydenham",star@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+324,Ferntree Gully - Belgrave Mail,editor@mailnewsgroup.com.au,Peter,Douglas,"Ferntree Gully, The Basin, Boronia, Upwey, Selby, Belgrave, Tecoma, Knoxfield, Monbulk","3793, 3156, 3154, 3158, 3159, 3160, 3180",,
+325,Northern Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043,,
+326,Melbourne City Newspaper,info@mc-news.com.au,Paul,McLane,Melbourne,"3000, 3001, 3002, 3003, 3004, 3005, 3006",*Call for editor's email,
+327,Melbourne Weekly Bayside,newsroom@fairfax.com.au,,,East Melbourne,3002,Included in 296,
+328,Melbourne Observer,editor@melbourneobserver.com.au,Fleur,Long,"Melbourne Metropolitan, Mornington, Geelong, Bellarine, Surf Coast","3000-3207, 3220, 3223",,
+329,"Star St Albans, Deer Park, Caroline Springs",starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+330,"Star Werribee, Hoppers Crossing",star@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+331,"Star Williamstown, Altona, Laverton",star@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+332,"Star Footscray, Yarraville, Braybrook",starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+333,"Star Sunshine, Ardeer, Albion",star@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+334,Western Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+335,North West Star Real Estate,starnewsgroup@starnewsgroup.com.au,,,Tullamarine,3043,Discontinued,
+336,Melton/Moorabool Leader,melton@leadernewspapers.com.au,,,Melton,3337,Discontinued,
+337,Pakenham News,starnewsgroup@starnewsgroup.com.au,Gary,Howe,"Pakenham, Officer","3810, 3809",,
+338,Heidelberg & Diamond Valley Weekly,newsroom@fairfax.com.au,,,Briar Hill,3088,,
+339,Berwick and District Journal/Pakenham Journal,journal@fairfaxmedia.com.au,,,Dandenong,3175,,
+340,Northern Weekly,newsroom@fairfax.com.au,,,Briar Hill,3088,,
+341,Melbourne Weekly Eastern,newsroom@fairfax.com.au,,,Briar Hill,3088,,
+342,Hume Weekly,fcnvic_humeweekly@fairfax.com.au,,,Airport West,3042,,
+343,Moonee Valley Community News,fcnvic_communitynews@fairfax.com.au,,,Airport West,3042,,
+344,Whittlesea Review,editor@newspaperhouse.com.au,Robin,Northover,"Beveridge, Blossom Park, Bundoora, Donnybrook, Epping, Lalor, Mernda, Mill Park, South Morang, Upper Plenty, Thomastown, Wallan, Whittlesea, Wollert","3753, 3083, 3064, 3076, 307, 3754, 3082, 3752, 3756, 3074, 3750, 3757",,
+345,Star Hume - Our City,starnorth@starnewsgroup.com.au,,,Tullamarine,3043,,
+346,"Star Whittlesea, Mernda, Doreen",starnorth@starnewsgroup.com.au,,,Tullamarine,3043,,
+347,"Star Wallan, Kilmore, Broadford",starnorth@starnewsgroup.com.au,,,Tullamarine,3043,,
+348,Maroondah Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3,153,313,431,353,130",,
+349,Knox Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"31,553,180,315,231,500,000,000,000,000,000",,
+350,Casey Weekly Berwick,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"3,807,380,438,053,800",,
+351,Yarra Ranges Weekly,greg.videon@fairfaxmedia.com.au,Greg,Videon,,"314,031,163,153,313,000,000,000",,
+352,Frankston Weekly,peninsulanews@yourweekly.com.au,,,,"319,939,303,201,391,000,000,000",,
+353,Kalgoorlie Miner,news@kalminer.com.au,Elaine,Cooney,"Kalgoorlie, Boulder, Leonora, Laverton, Kambalda, Leinster, Menzies, Coolgardie, Norseman and Esperance","6430, 6432, 6438, 6440, 6442, 6237, 6436, 6429, 6443, 6450",,
+354,Esperance Express,lois.saunders@fairfaxmedia.com.au,Lois,Saunders,"Esperance, Ravensthorpe, Hopetown, Salmon Gums, Norseman","6450, 6346, 6445, 6443",,
+355,Central Midlands Coastal Advocate,editor.advocate@ruralpress.com,,,Moora,6510,,
+356,The Geraldton Guardian,editor@geraldtonnewspapers.com.au,Michael,Phillips,"Geraldton, Walkaway, Greenough, Leeman, Port Denison, Eneabba, Dongara, Northampton, Mullewa, Useless Loop, Yalgoo, Kalbarri, Tenindewa, Shark Bay, Tardun, Coral Bay, Perenjori, Coorow, Morowa, Mount Magnet, Meekatharra, Carnamah, Cue, Three Springs, Moonyoonooka, Chapman Valley, Mingenew, Jurien and Leeman","6530, 628, 6532, 6514, 6525, 6518, 6525, 6401, 6630, 6537, 6635, 6536, 6632, 6537, 6628, 6701, 6620, 6515, 6638, 6642, 6517, 6640, 6519, 6532, 6522, 6516, 6514",,
+357,Midwest Times,"
+news@northernguardian.com.au",Aidan,Boyham,"Geraldton, Walkaway, Greenough, Port Denison, Eneabba, Dongara, Northampton, Mullewa, Useless Loop, Yalgoo, Kalbarri, Tenindewa, Shark Bay, Tardun, Coral Bay, Perenjori, Coorow, Morowa, Mount Magnet, Meekatharra, Carnamah, Cue, Three Springs, Moonyoonooka, Chapman Valley, Mingenew, Jurien and Leeman.","6530, 628, 6532, 6514, 6525, 6518, 6525, 6401, 6630, 6537, 6635, 6536, 6632, 6537, 6628, 6701, 6620, 6515, 6638, 6642, 6517, 6640, 6519, 6532, 6522, 6516, 6514, 6403",,
+358,Mandurah Mail,kate.hedley@fairfaxmedia.com.au,Kate,Hedley,"Mandurah, Pinjarra, Golden Bay, Singleton, Madora, San Remo, Falcon, Dawesville, Dwellingup, North Dandalup, Keysbrook","6210, 6208, 6175, 6213, 6207",,
+359,Mandurah Coastal Times,mctsales@communitynews.com.au,Vanessa,Schmitt,"Mandurah, Melros, Madora Bay, Yunderup, Singleton, Ravenswood, Pinjarra, San Remo, Dwellingup, Falcon, North Dandalup, Florida","6,174,620,762,116,170,000,000,000,000,000,000,000,000,000,000,000,000",,
+360,Harvey Reporter,editor@harveyreporter.com.au,,,"Harvey, Binningup, Waroona, Benger, Australind, Myalup, Wokalup, Preston Beach, Yarloop, Coolup","6220, 6233, 6215, 6223, 6221, 6215, 6218, 6214",*Need editor's name,
+361,Donnybrook-Bridgetown Mail,matt.lau@fairfaxmedia.com.au,Matthew,Lau,"Donnybrook, Bridgetown, Boyup Brook, Balingup, Greenbushes","6239, 6255, 6244, 6253, 6254, 6240, 6243, 6256",,
+362,Collie Mail,thomas.munday@fairfaxmedia.com.au,Thomas,Munday,"Collie, Darkan, Worsely, Muja, Duranillan, Moodiarrup)","6225, 6392, 6393",,
+363,Bunbury Mail,editor.bunburymail@fairfaxmedia.com.au,,,"Bunbury, Australind, Eato, Capel, Brunswick Junction","6230, 6233, 6271, 6224, 6226, 6227, 6228, 6229",*Need editor's name,
+364,South-Western Times,editor@swtimes.com.au,,,"Bunbury, Australind, Waroona, Yarloop, Harvey, Brunswick Junction, Collie, Dardanup, Boyanup, Capel, Donnybrook, Ludlow, Kirup","6230, 6233, 6215, 6218, 6220, 6224, 6225, 6236, 6237, 6271, 6239, 6280, 6251, 6226, 6227, 6228, 6229",*Need editor's name,
+365,Bunbury Herald,editor@bunburyherald.com.au,,,"Bunbury, Australind, Eaton, Clifton Park, Gelorup, Stratham, Capel, Boyanup, Dalyellup and Binningup","6230, 6233, 6237, 6232, 6237, 6271, 6226, 6227, 6228, 6229",*Need editor's name,
+366,Manjimup-Bridgetown Times,editor@mbtimes.com.au,,,"Manjimup, Bridgetown, Greenbushes, Boyup Brook, Pemberton, Kirup, Northcliffe, Donnelly River, Balingup, Quinninup, Mullalyup, Walpole","6258, 6255, 6254, 6244, 6260, 6251, 6262, 6253, 6252, 6398",*Need editor's name,
+367,Busselton Dunsborough Times,editor@bdtimes.com.au,,,"Busselton, Dunsborough, Yallingup","6280, 6281, 6282",*Need editor's name,
+368,Busselton-Dunsborough Mail,lily.yeang@fairfaxmedia.com.au,Lily,Yeang,"Busselton, Dunsboroug, Yappingup, Quindalup, Vasse, Nannup, Capel, Carbunup, Wonnerup","6280, 6281, 6275, 6271",,
+369,Augusta Margaret River Mail,nicky.lefebvre@fairfaxmedia.com.au,Nicky,Lefebvre,"Margaret River, Augusta, Gracetown, Cowaramup, Witchcliffe, Karridale","6285, 6290, 6284, 6286, 6288",,
+370,Northern Guardian,news@northernguardian.com.au,,,"Carnarvon, Gascoyne Junction, Denham, Useless Loop, Coral Bay, Exmouth","6701, 6705, 6537, 6707",*Need editor's name,
+371,North West Telegraph,news@northwesttelegraph.com.au,Laura,Newell,"Karratha, Port Hedland, Paraburdoo, Dampier, Newman, Wickham, Roebourne, Tom Price, Broome, Carnarvon, Derby, South Hedland, Meekatharra, Kununarra (Pilbara), Marble Bar, Newman, Nullagine","6714, 6721, 6754, 6713, 6753, 6720, 6718, 6751, 6725, 6701, 6728, 6722, 6642, 6743, 6760, 6758",,
+372,Broome Advertiser,news@broomead.com.au,,,"Broome, Derby, Fitzroy Crossing, Beagle Bay, La Grange Mission, Karratha, Kununurra.","6725, 6728, 6765, 6714, 6743",*Need editor's name,
+373,Kimberley Echo,news@kimberleyecho.com,,,"Kununurra, Wyndham, Halls Creek, Fitzroy Crossing, Argyle Diamond Mine, Derby, Broome, Port Hedland, Katherine, Darwin","6743, 6740, 6770, 6765, 6743, 6728, 6725, 6721, 080, 0800",*Need editor's name,
+374,Narrogin Observer,news@narroginobserver.com.au,,,"Albany, Arthur River, Bannister, Boddington, Brookton, Bullaring, Bunbury, Corrigin, Cuballing, Darkan, Dudinin, Dumbleyung, Highbury, Hyden, Katanning, Kondinin, Kukerin, Kulin, Lake Grace, Newdegate, Pingaring, Pingelly, Popanyinning, Tincurrin, Wagin, Wandering, Wickepin, Williams and Yealering","6312, 6330, 6315, 6390, 6306, 6373, 6230, 6231, 6375, 6311, 6392, 6363, 6350, 6313, 6359, 6317, 6367, 6352, 6365, 6353, 6355, 637, 6308, 6309, 6361, 6315, 6370, 6391, 6372, 6357, 6358, 6368, 6369, ",*Need editor's name,
+375,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315,Discontinued,
+376,Great Southern Herald,news@greatsouthernherald.com.au,,,"Wagin,Tambellup, Gnowangerup, Kojonup, Woodanilling, Muradup, Broomehill, Ongerup, Pingrup, Bremer Bay, Cranbrook, Albany, Nyabing, Mt Barker and Dumbleyong","6315, 6320, 6335, 6395, 6316, 6394, 6318, 6336, 6343, 6338, 6321, 6330, 6341, 6324, 6350, 6351, 6356, ",*Need editor's name,
+377,Albany Advertiser,subsdesk@albanyadvertiser.com,,,"Albany, Mt Barker, Denmark, Redmond, Cranbrook, Tenterden, Borden, Bremer Bay, Frankland, Elleker, Youngs Siding, Porongurup, Jerramungup, Kendenup, Narrikup, Walpole","6330, 6324, 6333, 6327, 6321, 6322, 6338, 6396, 6324, 6337, 6323, 6326, 6398",,
+378,Albany & Great Southern Weekender,manager@gsweekender.com.au,Wayne,Harrington,"Albany, Cranbrook, Jerramungup, Ongerup, Denmark, Mount Barker, Katanning, Walpole, Kojonup, Bremer Bay","6330, 6324, 6333, 6337, 6336, 6324, 6317, 6398, 6395, 6338",,
+379,Avon Valley Advocate,timothy.williams@fairfaxmedia.com.au,Timothy,Williams,"Northam, Toodyay, York, Beverley, Meckering, Cunderin, Quairading, Coondle, Wundowie, Konnongorring, Goomalling, Tammin, Kellerberrin","6401, 6566, 6302, 6304, 6405, 6407, 6383, 6566, 6560, 6603, 6460, 6409, 6410, 6384, 6385, 6386, 6411, 6412, 6413, 6415, ",*No editor - put single journalist as contact,
+380,Merredin Wheatbelt Mercury,editorial.mercury@ruralpress.com,,,Merredin,6415,,
+381,The Sunday Times (Perth Now),news@perthnow.com.au,Rod ,Savage,"Alexander Heights, Alfred Cove, Applecross, Ardross, Armadale, Ascot, Ashfield, Attadale, Atwell, Balcatta, Balga, Ballajura, Bassendean, Bateman, Bayswater, Beaconsfield, Beckenham, Bedford, Bedfordale, Beechboro, Beechina, Beeliar, Beldon, Bellevue, Belmont, Bentley, Bertram,Bibra Lake, Bickley, Bicton, Booragoon, Boya, Brentwood, Brigadoon, Brookdale, Bull Creek, Bullsbrook, Burswood, Butler, Byford, Calista,Canning Vale, Cannington, Cardup, Carine, Carlisle, Carmel, Carramar, Casaurina, Caversham, Champion Lakes, Churchlands
+City Beach, Claremont, Clarkson, Cloverdale, Como, Connolly, Coogee, Coolbellup
+Coolbinia, Cooloongup, Cottesloe, Craigie, Crawley, Currambine, Daglish, Dalkeith
+Darch, Darling Downs, Darlington, Dianella, Doubleview, Duncraig, East Cannington, East Fremantle, East Perth, East Victoria Park, Eden Hill, Edgewater
+Ellenbrook, Embleton, Ferndale, Floreat, Forrestdale, Forrestfield, Fremantle, Girrawheen, Glen Forrest, Glendalough, Gooseberry Hill, Gosnells, Greenmount
+Greenwood, Guildford, Gwelup, Hamersley, Hamilton Hill, Hazelmere, Heathridge
+Helena Valley, Henley Brook, High Wycombe, Highgate, Hillarys, Hillman, Hilton
+Hocking, Hovea, Huntingdale, Iluka, Inglewood, Innaloo, Jandakot, Jolimont
+Joondalup, Joondanna, Kalamunda, Kallaroo, Karawara, Kardinya, Karrinyup
+Kelmscott, Kensington, Kenwick, Kewdale, Kiara, Kingsley, Kinross, Koondoola
+Koongamia, Landsdale, Langford, Lathlain, Leda, Leederville, Leeming, Lesmurdie
+Lockridge, Lynwood, Maddington, Madeley, Mahogany Creek, Maida Vale, Manning, Marangaroo, Mariginup, Marmion, Martin, Maylands, Medina, Melville
+Menora, Merriwa, Middle Swan, Midland, Midvale, Millendon, Mindarie
+Mirrabooka, Morley, Mosman Park, Mount Claremont, Mount Hawthorn
+Mount Lawley, Mount Nasura, Mount Pleasant, Mt Helena, Mt Richon, Mullaloo
+Mundaring, Mundijong, Munster, Murdoch, Myaree, Nedlands, Neerabup,
+Nollamara, Noranda, North Beach, North Fremantle, North Lake, North Perth
+Northbridge, Oakford, Ocean Reef, Oldsbury, Orelia, Osborne Park, Padbury
+Palmyra, Parkwood, Parmelia, Pearsall, Peppermint Grove, Perth, Pickering Brook
+Piesse Brook, Port Kennedy, Queens Park, Quinns Rocks, Redcliffe, Ridgewood
+Riverton, Rivervale, Rockingham, Roleystone, Rossmoyne, Safety Bay, Salter Point
+Samson, Scarborough, Secret Harbour, Seville Grove, Shelley, Shenton Park
+Shoalwater, Sinagra, Singleton, Sorrento, South Fremantle, South Guildford
+South Lake, South Perth, Southern River, Spearwood, St James, Stirling
+Straffon, Subiaco, Success, Swan View, Swanbourne, Tapping, The Vines
+Thornlie, Trigg, Tuart Hill, Two Rocks, Upper Swan, Victoria Park, Viveash
+Waikiki, Walliston, Wandi, Wanneroo, Warnbro, Warwick, Waterford
+Watermans Bay, Wattle Grove, Wattleup, Wellard, Wembley, Wembley Downs
+West Leederville, West Perth, West Swan, Westfield, Westminster, Wexcombe
+White Gum Valley, Willagee, Willetton, Wilson, Winthrop, Woodbridge, Woodlands, Woodvale, Yanchep, Yangebup, Yokine","6000, 6001, 6003, 6007, 6008, 6009, 6010, 6011, 6012, 6014, 6015, 6016, 6017, 6018, 6019, 6020, 6021, 6022, 6023, 6024, 6025, 6026, 6027, 6028, 6029, 6030, 6031, 6032, 6033, 6034, 6035, 6036, 6037, 6038, 6041, 6042, 6043, 6044, 6050, 6051, 6052, 6053, 6054, 6055, 6056, 6057, 608, 6059, 6060, 6061, 6062, 6063, 6064, 6065, 6066, 6067, 6068, 6069, 6070, 6071, 6072, 6073, 6074, 6076, 6081, 6082, 6083, 6084, 6090, 6100, 6101, 6102, 6103, 6104, 6105, 6106, 6107, 6108, 6109, 6110, 6111, 6112, 6121, 6122, 6123, 6124, 6125, 6126, 6147, 6148, 6149, 6150, 6151, 6152, 6153, 6154, 6155, 6156, 6157, 6158, 6159, 6160, 6161, 6162, 6163, 6164, 6165, 6167, 6168, 6169, 6170, 6171, 6172, 6173, 6174, 6175, 6176 ",,
+382,The West Australian,letters@wanews.com.au,Brett,McCarthy,"Alexander Heights, Alfred Cove, Applecross, Ardross, Armadale, Ascot, Ashfield, Attadale, Atwell, Balcatta, Balga, Ballajura, Bassendean, Bateman, Bayswater, Beaconsfield, Beckenham, Bedford, Bedfordale, Beechboro, Beechina, Beeliar, Beldon, Bellevue, Belmont, Bentley, Bertram,Bibra Lake, Bickley, Bicton, Booragoon, Boya, Brentwood, Brigadoon, Brookdale, Bull Creek, Bullsbrook, Burswood, Butler, Byford, Calista,Canning Vale, Cannington, Cardup, Carine, Carlisle, Carmel, Carramar, Casaurina, Caversham, Champion Lakes, Churchlands
+City Beach, Claremont, Clarkson, Cloverdale, Como, Connolly, Coogee, Coolbellup
+Coolbinia, Cooloongup, Cottesloe, Craigie, Crawley, Currambine, Daglish, Dalkeith
+Darch, Darling Downs, Darlington, Dianella, Doubleview, Duncraig, East Cannington, East Fremantle, East Perth, East Victoria Park, Eden Hill, Edgewater
+Ellenbrook, Embleton, Ferndale, Floreat, Forrestdale, Forrestfield, Fremantle, Girrawheen, Glen Forrest, Glendalough, Gooseberry Hill, Gosnells, Greenmount
+Greenwood, Guildford, Gwelup, Hamersley, Hamilton Hill, Hazelmere, Heathridge
+Helena Valley, Henley Brook, High Wycombe, Highgate, Hillarys, Hillman, Hilton
+Hocking, Hovea, Huntingdale, Iluka, Inglewood, Innaloo, Jandakot, Jolimont
+Joondalup, Joondanna, Kalamunda, Kallaroo, Karawara, Kardinya, Karrinyup
+Kelmscott, Kensington, Kenwick, Kewdale, Kiara, Kingsley, Kinross, Koondoola
+Koongamia, Landsdale, Langford, Lathlain, Leda, Leederville, Leeming, Lesmurdie
+Lockridge, Lynwood, Maddington, Madeley, Mahogany Creek, Maida Vale, Manning, Marangaroo, Mariginup, Marmion, Martin, Maylands, Medina, Melville
+Menora, Merriwa, Middle Swan, Midland, Midvale, Millendon, Mindarie
+Mirrabooka, Morley, Mosman Park, Mount Claremont, Mount Hawthorn
+Mount Lawley, Mount Nasura, Mount Pleasant, Mt Helena, Mt Richon, Mullaloo
+Mundaring, Mundijong, Munster, Murdoch, Myaree, Nedlands, Neerabup,
+Nollamara, Noranda, North Beach, North Fremantle, North Lake, North Perth
+Northbridge, Oakford, Ocean Reef, Oldsbury, Orelia, Osborne Park, Padbury
+Palmyra, Parkwood, Parmelia, Pearsall, Peppermint Grove, Perth, Pickering Brook
+Piesse Brook, Port Kennedy, Queens Park, Quinns Rocks, Redcliffe, Ridgewood
+Riverton, Rivervale, Rockingham, Roleystone, Rossmoyne, Safety Bay, Salter Point
+Samson, Scarborough, Secret Harbour, Seville Grove, Shelley, Shenton Park
+Shoalwater, Sinagra, Singleton, Sorrento, South Fremantle, South Guildford
+South Lake, South Perth, Southern River, Spearwood, St James, Stirling
+Straffon, Subiaco, Success, Swan View, Swanbourne, Tapping, The Vines
+Thornlie, Trigg, Tuart Hill, Two Rocks, Upper Swan, Victoria Park, Viveash
+Waikiki, Walliston, Wandi, Wanneroo, Warnbro, Warwick, Waterford
+Watermans Bay, Wattle Grove, Wattleup, Wellard, Wembley, Wembley Downs
+West Leederville, West Perth, West Swan, Westfield, Westminster, Wexcombe
+White Gum Valley, Willagee, Willetton, Wilson, Winthrop, Woodbridge, Woodlands, Woodvale, Yanchep, Yangebup, Yokine","6000, 6001, 6003, 6007, 6008, 6009, 6010, 6011, 6012, 6014, 6015, 6016, 6017, 6018, 6019, 6020, 6021, 6022, 6023, 6024, 6025, 6026, 6027, 6028, 6029, 6030, 6031, 6032, 6033, 6034, 6035, 6036, 6037, 6038, 6041, 6042, 6043, 6044, 6050, 6051, 6052, 6053, 6054, 6055, 6056, 6057, 608, 6059, 6060, 6061, 6062, 6063, 6064, 6065, 6066, 6067, 6068, 6069, 6070, 6071, 6072, 6073, 6074, 6076, 6081, 6082, 6083, 6084, 6090, 6100, 6101, 6102, 6103, 6104, 6105, 6106, 6107, 6108, 6109, 6110, 6111, 6112, 6121, 6122, 6123, 6124, 6125, 6126, 6147, 6148, 6149, 6150, 6151, 6152, 6153, 6154, 6155, 6156, 6157, 6158, 6159, 6160, 6161, 6162, 6163, 6164, 6165, 6167, 6168, 6169, 6170, 6171, 6172, 6173, 6174, 6175, 6176, 6328, 6397, 6418, 6419, 6420, 6421, 6422, 6423, 6424, 6425, 6426, 6427, 6428, 6431, 6433, 6434, 6437, 6446, 6447, 6448, 6452, 6461, 6462, 6463, 6465, 6466, 6467, 6468, 6470, 6472, 6473, 6475, 6476, 6477, 6479, 6480, 6484, 6485, 6487, 6488, 6489, 6490, 6501, 6502, 6503, 6504, 6505, 6506, 6507, 6509, 6510, 6511, 6512, 6513, 6520 6521, 6528, 6531, 6528, 6531, 6535, 6567, 6568, 6569, 6571, 6572, 6574, 6575, 6606, 6608, 6609, 6612, 6613, 6614, 6616, 6623, 6625, 6627, 6631, 6639, 6646, 6709, 6710, 6711, 6712, 6713, 6716, 6718, 6722, 6726, 6731, 6733, 6761, 6762, 6798, 6799",,
+383,The Canning Times Community,canningtimes@communitynews.com.au,Rick,Lee,"Bentley, Canning Vale, Cannington, Ferndale, Lynwood, Parkwood, Queens Park, Riverton, Rossmoyne, Shelley, Welshpool, Willetton, Wilson (Perth)","6,102,614,861,066,150,000,000,000,000",,
+384,The Claremont-Nedlands Post,editor@postnewspapers.com.au,Bret,Christian,"Shenton Park, Claremont, Nedlands","6008, 6009, 6010",,
+385,Comment News Community,commentnews@communitynews.com.au,Rick,Lee,"Armadale, Beckenham, Bedfordale, Brookdale, Byford, Canning Vale, Forrestdale, Gosnells, Huntingdale, Kelmscott, Kenwick, Langford, Maddington, Mount Nasura, Roleystone, Thornlie, Westfield, Wungong (Perth)","61,086,112,610,961,400,000,000,000,000,000",,
+386,Eastern Reporter,denise.cahill@communitynews.com.au,Denise,Cahill,"Ashfield, Balga, Ballajura, Bassendean, Bayswater, Bedford, Beechboro, Dianella, Eden Hill, Embleton, Kiara, Lockridge, Malaga, Mirrabooka, Morley, Nollamara, Noranda, Westminster, Yokine North (Perth)","6054, 6061, 6066, 6054, 6053, 6052, 6063, 6059, 6054, 6062, 6090, 6061, 6060",,
+387,Cambridge Post,editor@postnewspapers.com.au,Bret,Christian,"Shenton Park, Cambridge","6008, 6742",,
+388,Fremantle Cockburn Gazette,cockburngazette@communitynews.com.au,Rick,Lee,"Atwell, Beaconsfield, Beeliar, Bibra Lake, Coogee, Coolbellup, Fremantle, Hamilton Hill, Hilton, Jandakot, Munster, North Lake, O'Connor, Samson, South Lake, Spearwood, Success, Wattleup, White Gum Valley, Yangebup (Perth)","6154, 6164, 6162, 6163, 6166, 6160",,
+389,Fremantle Herald,news@fremantleherald.com,Steve,Grant,"Fremantle, Beaconsfield, East Fremantle, Hilton, Leighton, North Fremantle, O'Connor, Samson, South Beach, South Fremantle, White Gum Valley","6,057,605,661,086,070,000,000,000,000,000,000,000,000",*No Editor - put Chief of Staff as contact,
+390,Guardian Express Community,denise.cahill@communitynews.com.au,Denise,Cahill,"Coolbinia, Inglewood, Leederville, Maylands, Menora, Mount Hawthorn, Mount Lawley, Highgate, Northbridge, Yokine South (Perth)","6003, 6050, 6052, 6007, 6051, 6016, 6003, 6060",,
+391,Hills Gazette,denise.cahill@communitynews.com.au,Denise,Cahill,"Bakers Hill, Bellevue, Boya, Chidlow, Clackline, Darlington, El Caballo, Forrestfield, Gidgegannup, Glen Forrest, Gooseberry Hill, Greenmount, Guildford, Hazelmere, Helena Valley, High Wycombe, Kalamunda, Koongamia, Lesmurdie, Mahogany Creek, Maida Vale, Middle Swan, Midland, Midvale, Mount Helena, Mundaring, Northam, Parkerville, Pickering Brook, Sawyer's Valley, Stonehouse, Stoneville, Stratton, Swan View, The Lakes, Toodyay, Viveash, Walliston, Wooroloo, Wundowie, York (Perth)","6056, 6562, 6556, 6564, 6070, 6058, 6083, 6071, 6076, 6055, 6057, 6072, 6082, 6073, 6401, 6081, 6074, 6566, 6558, 656, 6302",,
+392,The Melville Times Community,melvilletimes@communitynews.com.au,Rick ,Lee,"Alfred Cove, Applecross, Ardross, Attadale, Bateman, Bicton, Booragoon, Brentwood, Bull Creek, Kardinya, Leeming, Melville, Mount Pleasant, Murdoch, Myaree, Palmyra, Willagee, Winthrop (Perth)","6154, 6153, 6156, 6150, 6157, 6149, 6163",,
+393,Echo News,editorial@echo-news.com,,,"Midland, Aveley, Baskerville, Bellevue, Bullsbrook, Ellenbrook, Guildford, Henley Brook, Herne Hill, Middle Swan, Midland, Midvale, Millendon, South Guildford, Stratton, Swan View, The Vines, Upper Swan, West Swan","6056, 6069, 6084, 6055",No Editor name,
+394,Midland - Kalamunda Reporter,mkr@communitynews.com.au,Justin,Bianchini,"Bellevue, Bickley, Bullsbrook, Ellenbrook, Forrestfield, Gooseberry Hill, Guildford, Hazelmere, Helena Valley, Henley Brook, Herne Hill, High Wycombe, Jane Brook, Kalamunda, Koongamia, Lesmurdie, Maida Vale, Middle Swan, Midland, Midvale, South Guildford, Stratton, Swan View, Upper Swan, Viveash, Walliston, Wattle Grove (Perth)","6936, 6056, 6076, 6084, 6069, 6058, 6055, 6057, 6069, 6107, 6109, 6108, 6070, 6110",,
+395,Mosman Park-Cottesloe Post,editor@postnewspapers.com.au,Bret,Christian,"Mosman Park, Cottesloe","6012, 6011",,
+396,Western Suburbs Weekly,denise.cahill@communitynews.com.au,Denise,Cahill,"City Beach, Claremont, Cottesloe, Crawley, Daglish, Dalkeith, Floreat, Jolimont, Mosman Park, Mt Claremont, Nedlands, North Fremantle, Peppermint Grove, Shenton Park, Subiaco, Swanbourne, Wembley, West Leederville (Perth)","6003, 6015, 6010, 6011, 6009, 6008, 6014, 6012, 6159",,
+397,Sound Telegraph,editor@soundtelegraph.com.au,,,"Rockingham, Kwinana, Spearwood, Safety Bay, Yangebup, Waikiki, Wattleup, Cooloongup, Kwinana, Warnbro, Orelia, Port Kennedy, Calista, Golden Bay, Parmelia, Singleton, Jarrahdale, Mundijong, Serpentine. Rockingham, Safety Bay, Warnbro, Secret Harbour, Hillman, Cooloongup, Baldivis, Karnup, Kwinana, Orelia, Bertram, Casuarina, Wellard, Leda and Naval Base","6168, 6167, 6163, 6169, 6164, 6166, 6966, 6109, 6172, 6174, 6167, 6175, 6124, 5123, 6125, 6169. 6173, 6168, 6171, 6176, 6966, 6170, 6165",*Need editor's name,
+398,Southern Gazette Community,southerngazette@communitynews.com.au,Rick,Lee,"Ascot, Belmont, Burswood, Carlisle, Cloverdale, Como, Karawara, Kensington, Kewdale, Lathlain, Manning, Redcliffe, Rivervale, Salter Point, St James, Victoria Park, Waterford (Perth)","610,061,046,101,610,000,000,000,000,000,000,000",,
+399,Stirling Times Community,denise.cahill@communitynews.com.au,Denise,Cahill,"Balcatta, Carine, Churchlands, Doubleview, Glendalough, Gwelup, Hamersley, Innaloo, Joondanna, Karrinyup, North Beach, Osborne Park, Scarborough, Stirling, Trigg, Tuart Hill, Waterman, Wembley Downs, Woodlands (Perth)","6017, 6021, 6020, 6018, 6016, 6022, 6060, 6017, 6019, 6029, 6060, 6014",,
+400,Subiaco Post,editor@postnewspapers.com.au,Bret,Christian,Subiaco ,6008,,
+401,Joondalup/Wanneroo Times Community Newspaper,wannerootimes@communitynews.com.au,Justin,Bianchini,"Alexander Heights, Banksia Grove, Beldon, Carramar, Connolly, Craigie, Currambine, Darch, Duncraig, Edgewater, Girrawheen, Greenwood, Heathridge, Hillarys, Hocking, Iluka, Joondalup, Kallaroo, Kingsley, Koondoola, Landsdale, Madeley, Marangaroo, Marmion, Mariginiup, Mullaloo, Ocean Reef, Padbury, Pearsall, Sinagra, Sorrento, Tapping, Wangara, Wanneroo, Warwick, Woodvale (Perth)","6027, 6064, 6031, 6027, 6031, 6025, 6028, 6065, 6023, 6024, 6026, 6020, 6078, 6020",,
+402,Weekend Courier,weekendcourier@communitynews.com.au,Vanessa,Schmitt,"Baldivis, Bertram, Calista, Casuarina, Cooloongup, Golden Bay, Hillman, Karnup, Amarillo, Kwinana, Leda, Medina, Naval Base, Orelia, Parmelia, Port Kennedy, Rockingham, Safety Bay, Secret Harbour, Shoalwater, Singleton, Waikiki, Wandi, Warnbro, Wellard (Perth)","6168, 6171, 6167, 6168, 6174, 6176, 6170, 6165, 6172, 6169, 6173, 6175",,
+403,The Perth Voice,news@fremantleherald.com,Steve,Grant,"Coolbinia, Dianella, East Perth, Highgate, Inglewood, Leederville, Maylands, Menora, Mt Hawthorn, Mt Lawley
+Northbridge, North Perth, Perth, West Perth, Yokine","6160, 6050, 6059, 6004, 6003, 6052, 6007, 6051, 6016, 6006, 6000, 6001, 6005, 6060",*No editor listing - chief of staff contact,
+404,The Islander,news.theislander@fairfaxmedia.com.au,,,"Vivonne Bay, Menzie, Nepean Bay, Brownlow Ki, Island Beach, Kingscote, Parndana, Penneshaw, American River","5223, 5374, 5222, 5220, 5221",*Need editor's name,
+405,Southern Argus,sargus@adam.com.au,,,"Strathalbyn, Macclesfield, Kangarilla, McLaren Vale, Willunga, Meadows, Mount Compass, Goolwa, Langhorne Creek, Milang","5255, 5153, 5157, 5171, 5172, 5201, 5210, 5214, 5255, 5256",*Need editor's name,
+406,Murray Valley Standard,dylan.hogarth@fairfaxmedia.com.au,Dylan,Hogarth,"Murray Bridge, Mannum, Tailem Bend, Karoonda","5253, 5238, 5259, 5307, 5260, 5261, 5264, 5265, 5266, 5301, ",,
+407,Border Chronicle,lee.curnow@fairfaxmedia.com.au,Lee,Curnow,"Bordertown, Keith, Mundulla, Willalooka, Padthaway","5268, 5267, 5270, 5271, 6269, 5301, 5302, 5303",,
+408,The Naracoorte Herald,lee.curnow@fairfaxmedia.com.au,Lee,Curnow,"Naracoorte, Lucindale, Penola, Coonawarra, Padthaway","5271, 5272, 5277, 5263, 5262,",,
+409,The South-East Coastal Leader,lee.curnow@fairfaxmedia.com.au,Lee,Curnow,"Kingston SE, Robe, Coorong, Lucindale","5275, 5276, 5272, 5273",,
+410,The South Eastern Times,editor@setimes.com.au,Jason,Wallace,"Millicent, Robe, Beachport, Tantanoola, Kalangadoo, Southend","5280, 5276, 5278",,
+411,The Border Watch,editor@tbw.com.au,Jason,Wallace,"Mount Gambier, Pt MacDonnell, Millicent, Penola, Nangwarry, Casterton, Nelson, Dartmoor, Beachport, Bordertown, Kingston, Robe, Naracoorte, Kalangadoo, Mt Burr, Southend, Glencoe, Tarpeens, Tantanoola","5290, 5291, 5280, 5277, 3292, 3311, 3304, 5280, 5268, 5275, 5276, 5271, 5278, 5279, 5291",,
+412,The Penola Pennant,editor@tbw.com.au,Jason ,Wallace,Penola,5277,,
+413,The River News,office@rivernews.com.au,Craig,Treloar,Waikerie,5330,,
+414,The Loxton News,editor@loxton-news.com.au,Emma,Walter,"Kingston on Murray, Loveday, Loxton, Lyrup, Monash, Moorook, Morgan, Overland Corner, Barmera, Berri, Renmark, Waikerie, Alawoona, Mindarie, Karoonda, Wanbi and Wunkar","5333, 5334, 5345, 5333, 5343, 5342, 5332, 5320, 5330, 5345, 5343, 5341, 5311, 5309, 5307, 5310, 5302, 5303, 5304, 5306, 5331, 5344, 5346, ",,
+415,The Border Times,editor@murraypioneer.com.au,Paul,Mitchell,Renmark,5341,,
+416,The Murray Pioneer,editor@murraypioneer.com.au,Paul,Mitchell,"Berri, Barmera, Renmark","5341, 5343, 5345",,
+417,The Barossa & Light Herald,carla.wiese-smith@fairfaxmedia.com.au,Carla,Wiese-Smith,"Tanunda, Angaston, Nuriootpa, Kapunda, Eudunda, Williamstown, Lyndoch, Mt Pleasant, Gawler","5352, 5353, 5355, 5373, 5374, 5351, 5235, 5118, 5350, 5354, 5356, 5357, 5360, 5372, ",,
+418,The Northern Argus,carla.wiese-smith@fairfaxmedia.com.au,Carla,Wiese-Smith,"Clare, Jamestown, Burra, Crystal Brook, Gladstone, Riverton, Saddleworth, Laura, Snowtown, Wirrabara, Peterborough, Melrose, Wilmington, Tarlee, Kapunda, Auburn","5453, 5491, 5417, 5523, 5473, 5412, 5413, 5480, 5520, 5481, 5422, 5483, 5485, 5411, 5373, 5451, 5470, 5471, 5472, 5482, 5490, 5493, 5521, 5555, ",,
+419,The Plains Producer,editor@plainsproducer.com.au,Les,Pearson,"Auburn, Balaklava, Blyth, Bute, Brinkworth, Clare, Dublin, Gawler, Hamley Bridge, Kapunda, Lower Light, Mallala, Manoora, Owen, Port Wakefield, Rhynie, Riverton, Roseworthy, Saddleworth, Snowtown, Stockport, Tarlee, Two Wells, Virginia, Watervale","5461, 5451, 5464, 5464, 5453, 5501, 5118, 5401, 5373, 5501, 5502, 5414, 5460, 5550, 5412, 5371, 5413, 5520, 5410, 5411, 5501, 5120, 5452, 5454, 5455, 5462",,
+420,Flinders News,carla.wiese-smith@fairfaxmedia.com.au,Carla,Wiese-Smith,"Port Augusta, Port Pirie, Clare Valley, Gilbert Valley, Crystal Brook, Jamestown, Peterborough, Kadina, Gladstone, Laura, Wirrabara, Melrose, Orroroo, Port Broughton, Moonta, Wallaroo, Wilmington, Quorn, Hawker","5540, 701, 5700, 5340, 5453, 5523, 5491, 5422, 5534, 5473, 5480, 5481, 5483, 5431, 5522, 5558, 5556, 5485, 5434, 5433",,
+421,The Recorder,dylan.smith@fairfaxmedia.com.au,Dylan,Smith,"Port Pirie, Crystal Brook, Port Germein","5540, 5523, 5495",,
+422,Yorke Peninsula Country Times,editorial@ypct.com.au,Amie,Brokenshire,"Kadina, Wallaroo, Moonta, Maitland, Ardrossan, Minlaton, Yorketown, Port Broughton, also Bute, Paskeville, Arthurton, Pine Point, Port Victoria, Price, South Kilkerran, Coobowie, Curramulka, Edithburgh, Hardwicke Bay, Brentwood, Point Turton, Stansbury, Warooka, Corny Point, Marion Bay, The Pines, Balaklava, Port Wakefield, Snowtown and Lochiel","5554, 5556, 5558 5573, 5571, 5575, 5522, 5560, 5552, 5572, 5571, 5570, 5583, 5580, 5581, 5582, 5577, 5461, 5550, 5520, 5510",,
+423,Whyalla News,dylan.smith@fairfaxmedia.com.au,Dylan,Smith,"Whyalla, Kimba, Cowell, Iron Knob","5600, 5641, 5602, 5611, 5601, 5608, 5609, 5710, ",,
+424,Port Lincoln Times,kaitlyn.fasso-opie@fairfaxmedia.com.au,Kaitlyn,Fasso - Opie,"Port Lincoln ,Cummins, Tumby Bay, Coffin Bay, Lock, Port Neill, Elliston","5606, 5607, 5631, 5605, 607, 5633, 5604, 5670, 5630, 5632, 5642, ",,
+425,West Coast Sentinel,kaitlyn.fasso-opie@fairfaxmedia.com.au,Kaitlyn,Fasso - Opie,"Ceduna, Streaky Bay, Kimba, Poochera, Wudinna, Elliston, Penong, Port Kenny","5690, 5680, 5641, 5655, 5652, 5670, 5671, 5660, ",,
+426,The Transcontinental,dylan.smith@fairfaxmedia.com.au,Dylan,Smith,"Port Augusta, Quorn, Leigh Creek, Wilmington, Hawker, Orroroo","5700, 5701, 5433, 5731, 5485, 5434, 5431",,
+427,The Monitor - Your Community Newspaper,editor@themonitor.com.au,Ryneisha,Bollard,"Roxby Downs, Andamooka, Woomera, Prominent Hill, oodnadatta, Coober Pedy, innamincka","5725, 5722, 5720, 5734, 5723, 5731",,
+428,Eyre Peninsula Tribune,kaitlyn.fasso-opie@fairfaxmedia.com.au,Kaitlyn,Fasso - Opie,"Cleve, Cowell, Kimba, Arno Bay, Lock","5640, 5602, 5641, 5603, 5633",,
+429,City Messenger,elisa.black@news.com.au,Elisa,Black,"Medindie, North Adelaide, Adelaide, College Park","5067, 5081, 5006, 5001, 5000, 5069",,
+430,Eastern Courier Messenger,shannon.caton@news.com.au,Shannon,Caton,"Kensington, Unley, Clarence Park, Panorama, Beaumont (Adelaide)","5067, 5068, 5061, 5034, 5041, 5066, 5035, 5069, 5065, 5063, 5064, 5061, 5070, 5062, 5072",,
+431,The Guardian Messenger,michelle.etheridge@news.com.au,Michelle,Etheridge,"Mitchell Park, Parkholme, Plympton, Morphetville, Glenelg, Marion, Hallett Cove, Edwardstown","50,395,031,502,150,200,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+432,Leader Messenger,duane.schultz@news.com.au,Duane,Schultz,"Golden Grove, Modbury, Holden Hill, Tea Tree Gully","5108, 5125, 5092, 5088, 5091",,
+433,Northern Messenger,terry.pattinson@news.com.au,Terry,Pattinson,"Salisbury, Andrews Farm, Angle Vale, Blakeview, Brahma Lodge, Craigmore, Davoren, Elizabeth, Ingle Farm, Mawson Lakes, Munno park, Para Hilla, Para Vista, Paralowie, Pooraka, Walkley Heights","5108, 5114, 5117, 5109, 5113, 5112, 5098, 5095, 5115, 5096, 5098, 5093, 5108, 5095",,
+434,East Torrens Messenger,shannon.caton@news.com.au,Shannon,Caton,"Paradise, St Peters, Magill, Athelstone (Adelaide)","5067, 5075, 5069, 5072, 5076, 5074, 5070, 5073, 5068",,
+435,Portside Messenger,michelle.etheridge@news.com.au,Michelle,Etheridge,"Port Adelaide, Enfield, Charles Sturt, North Haven, Semaphore, West Lakes, Rosewater, Wingfield (Adelaide))","5015, 5085, 5018, 5019, 5021, 5013, 5014, 5016, 5017, 5022",,
+436,Southern Times Messenger,rachel.moore@news.com.au,Rachel,More,"Morphett Vale, Reynella, Christies Beach, Port Noarlunga South, Hackham (Adelaide)","5162, 5161, 5165, 5167, 5163, 5159, 5173, 5159, 5164, 5170, 5171, 5168, 5166, 5169, 5174, 5172, 5160",,
+437,City North Messenger,duane.schultz@news.com.au,Duane,Schultz,"North Adelaide, Broadview, Clearview, Collinswood, Enfield, Fitzroy, Gepps Cross, Gilles plains, Holden Hill, Klemzig, North Adelaide","5015, 5083, 5085, 5081, 5085, 5082, 5094, 5086, 5088, 5087, 5006",,
+438,The Weekly Times Messenger,shaun.hollis@news.com.au,Shaun,Hollis,"Grange, West Beach, Woodville, Mile End, Brompton (Adelaide)","5025, 5022, 5024, 5011, 5031, 5007, 5009, 5010, 5012, 5084, 5032, 5033, 5008, 5023, 5025, 5024",,
+439,Adelaide Hills Weekender,edit@saint.net.au,,,"Birdwood, Gumeracha, Mt Torrens, Charleston, Lobethal, Lenswood, Ashton, Summertown, Uraidla, Woodside, Oakbank, Crafers, Stirling, Bridgewater, Balhannah, Aldgate, Mylor, Mt Barker, Echunga, Meadows, Macclesfield, Strathalbyn (Adelaide Hills)","5152, 5234, 5233, 5244, 5241, 5240, 5137, 5141, 5142, 5244, 5243, 5152, 5155, 5242, 5254, 5153, 5251, 5153, 201, 5255",*Need editor's name,
+440,The Independent Weekly (InDaily),editorial@solsticemedia.com.au,David,Washington,Adelaide,"5067, 5081, 5006, 5001, 5000, 5069, 5067, 5068, 5061, 5034, 5041, 5066, 5035, 5069, 5065, 5063, 5064, 5061, 5070, 5062, 5072, 5043, 5037, 5038, 5043, 5045, 5158, 5039
+5108, 5125, 5092, 5088, 5091, 5108, 5114, 5117, 5109, 5113, 5112, 5098, 5095, 5115, 5096, 5098, 5093, 5108, 5095, 5067, 5075, 5069, 5072, 5076, 5074, 5070, 5073, 5068
+5015, 5085, 5018, 5019, 5021, 5013, 5014, 5016, 5017, 5022, 5162, 5161, 5165, 5167, 5163, 5159, 5173, 5159, 5164, 5170, 5171, 5168, 5166, 5169, 5174, 5172, 
+5015, 5083, 5085, 5081, 5085, 5082, 5094, 5086, 5088, 5087, 5006,5025, 5022, 5024, 5011, 5031, 5007, 5009, 5010, 5012, 5084, 5032, 5033, 5008, 5023, 5025, 5024
+5152, 5234, 5233, 5244, 5241, 5240, 5137, 5141, 5142, 5244, 5243, 5152, 5155, 5242, 5254, 5153, 5251, 5153, 201, 5255",,
+441,Adelaide Church Guardian,communications@adelaide.anglican.com.au,Steve,Daughtry,North Adelaide,5006,,
+442,The Bunyip,editor@bunyippress.com.au,Rob,McLean,Gawler,5118,,
+443,On the Coast,dylan.hogarth@fairfaxmedia.com.au,Dylan,Hogarth,,5211,Merged with The Times ,
+444,The Times,dylan.hogarth@fairfaxmedia.com.au,Dylan,Hogarth,"Victor Harbor, Port Elliott, Goolwa, Yankalilla, Mount Compass, Normanville, Cape Jervis, Aldinga","5211, 5212, 5214, 5203, 5210, 5204, 5173, 5202, 5213, ",,
+445,Northern Territory News/Sunday Territorian,matt.williams@news.com.au ,Matthew,Williams,Darwin,"0800, 0801, 0804, 0810, 0811, 0812, 0813, 0814, 0815, 0820, 0821, 0822, 0828, 0829, 0830, 0831, 0832, 0835, 0836, 0837, 0838, 0839, 0840, 0841, 0845, 0846, 0847, 0850, 0851, 0852, 0853, 0854, 0860, 0861, 0862, 0870, 0871, 0872, 0880, 0881, 0885, 0886, 0906, 0907, 0908, 0909, 4825 ",,
+446,Tennant & District Times,media@tdtimes.com.au,Jasmin,Afianos,Tennant Creek,"0861, 0860, 0862",,
+447,Arafura Times,editor@arafuratimes.com.au,Annie,Hesse,"Nhulunbuy, Yirrkala, Grove ","0880, 0881, 0810",,
+448,Centralian Advocate,ceneditorial@aliceadvocate.com.au,Gary,Wasserman,"Alice Springs, Yulara, Tennant Creek","0870, 0871, 0872, 0870, 0860, 0861, 0862",,
+449,Katherine Times,editor.kathtimes@fairfaxmedia.com.au,Chris,McLennan,"Katherine, Darwin, Tennant Creek, Alice Springs","0850, 0861, 0860, 0862, 0800, 0801, 0804, 0810, 0811, 0812, 0813, 0814, 0815, 0820, 0821, 0822, 0828, 0829, 0830, 0831, 0832, 0835, 0850, 0851, 0852, 0870, 0871, 0872",,
+450,Darwin Sun/Litchfield Sun/Palmerston Sun,mailsun@thesuns.com.au,Leanne,Hudson,"Darwin, Palmerston","0831, 0800, 0801, 0804, 0810, 0811, 0812, 0813, 0814, 0815, 0820, 0821, 0822, 0828, 0829, 0830, 0831, 0832, 0835 ",,
+451,Alice Springs News,erwin@alicespringsnews.com.au,Erwin,Chlanda,Alice Springs,"0870, 0871, 0872",,
+452,The Advocate,courtney.greisbach@fairfaxmedia.com.au,Courtney,Greisbach,"Burnie, Deloraine, Marrawah, Currie, Wynyard","7320, 7304, 7330, 7256, 7325, 7316,7307,7256,7321,7331,7322,7275,7315,7305,7310, 7915, 7916, 7917, 7918, 7919, 7920",,
+453,The Mercury,mercuryedletter@themercury.com.au,Matthew,Deighton,Hobart,"7000, 7001, 7002, 7004, 7005, 7006, 7007, 7008, 7009, 7010, 7011, 7012, 7015, 7016, 7017, 7018, 7019, ",,
+454,The Examiner/Launceston Times/Meander valley ,simon.tennant@fairfaxmedia.com.au,Simon,Tennent,Launceston,"7250, 7901, 7902, 7903, 7904, 7905, 7906, 7907, 7908, 7909, 7910, 7911, 7912, 7913, 7914, , 7921, 7922, 7923",,
+455,The Huon Valley News,editorial@huonnews.com.au,Zo,Patanski,"Grove, Ranelagh, Huonville, Cygnet, Franklin, Port Huon, Geeveston, Dover, and South Port.","7113, 7109, 7112, 7113, 7116, 7117, ",,
+456,The Gazette,dallas.aldridge@news.com.au,Dallas,Aldridge,New Norfolk,7140,,
+457,Central Coast Courier,cccjread@tassie.net.au,,,Orford,7190,,
+458,North Eastern Advertiser,editor@northeasternadvertiser.com,Neil,Grose,Scottsdale,"7260, 7261, 7263, 7264, 7265, 7267, 7268, 7270, 7275, 7276, 7290, 7291, 7292, 7300 ",,
+459,Circular Head Chronicle,news@chchronicle.com.au,Ashleigh,Force,Smithton,"7,307,725,673,107,330,000,000,000,000,000,000,000,000,000,000,000,000",,
+460,Wagin Argus & Arthur Dumbleyung Lake Grace Ex,waginargus@ruralpress.com,Veana,Scott,Wagin,6315,no phone or email,
+461,NT Times,ntnmail@ntnews.com.au,,,,800,Duplicate of NT News,
+462,Sydney Morning Herald,newsdesk@smh.com.au,Judith,Whelan,Sydney ,"2000 2006 2007 2008 2009 2010 2011 2015 2016 2017 2018 2019 2020 2021 2032 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2048 2049 2050 2203 2204, 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036, 2172 2205 2207 2208 2209 2210 2216 2217 2218 2219 2220 2221 2222 2223 2224 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234, 2133 2143 2161 2162 2163 2190 2191 2192 2193 2194 2195 2196 2197 2198 2199 2200 2206 2208 2209 2210 2211 2212 2213 2214, 2161 2163 2164 2165 2166 2168 2170 2171 2172 2173 2174 2175 2176 2177 2178 2179 2555 2556 2557 2565 2745, 2167 2174 2179 2557 2558 2559 2560 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 2573 2574 2745 2752 2787, 2045 2046 2047 2130 2131 2132 2133 2134 2135 2136 2137 2138 2140 2190 2191 2193, 2115 2116 2117 2118 2121 2122 2127 2128 2140 2141 2142 2143 2144 2145 2146 2148 2150 2151 2152 2153 2160 2161 2162 2164, 2178 2745 2747 2748 2749 2750 2753 2754 2755 2756 2757 2758 2759 2760 2765 2773 2774 2775 2776 2777 2778 2779 2780 2782 2783 2784 2785 2786, 2146 2147 2148 2155 2760 2761 2762 2763 2765 2766 2767 2768 2770, 2060 2061 2062 2063 2064 2065 2066 2067 2068 2069 2088 2089 2090 2109 2110 2111 2112 2113 2114 2122, 2069 2070 2071 2072 2073 2074 2075 2076 2077 2079 2080 2081 2082 2083 2117 2118 2119 2120 2121 2122 2125 2126 2151 2152 2153 2154 2155 2156 2157 2158 2159 2756 2765 2775, 2084 2085 2086 2087 2092 2093 2094 2095 2096 2097 2099 2100 2101 2102 2103 2104 2105 2106 2107 2108, 2055, 2059, 2091, 2139, 2351,",,
+463,Daily Telegraph,news@dailytelegraph.com.au,Chris ,Dore,NSW ,"2000 2006 2007 2008 2009 2010 2011 2015 2016 2017 2018 2019 2020 2021 2032 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2048 2049 2050 2203 2204, 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036, 2172 2205 2207 2208 2209 2210 2216 2217 2218 2219 2220 2221 2222 2223 2224 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234, 2133 2143 2161 2162 2163 2190 2191 2192 2193 2194 2195 2196 2197 2198 2199 2200 2206 2208 2209 2210 2211 2212 2213 2214, 2161 2163 2164 2165 2166 2168 2170 2171 2172 2173 2174 2175 2176 2177 2178 2179 2555 2556 2557 2565 2745, 2167 2174 2179 2557 2558 2559 2560 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 2573 2574 2745 2752 2787, 2045 2046 2047 2130 2131 2132 2133 2134 2135 2136 2137 2138 2140 2190 2191 2193, 2115 2116 2117 2118 2121 2122 2127 2128 2140 2141 2142 2143 2144 2145 2146 2148 2150 2151 2152 2153 2160 2161 2162 2164, 2178 2745 2747 2748 2749 2750 2753 2754 2755 2756 2757 2758 2759 2760 2765 2773 2774 2775 2776 2777 2778 2779 2780 2782 2783 2784 2785 2786, 2146 2147 2148 2155 2760 2761 2762 2763 2765 2766 2767 2768 2770, 2060 2061 2062 2063 2064 2065 2066 2067 2068 2069 2088 2089 2090 2109 2110 2111 2112 2113 2114 2122, 2069 2070 2071 2072 2073 2074 2075 2076 2077 2079 2080 2081 2082 2083 2117 2118 2119 2120 2121 2122 2125 2126 2151 2152 2153 2154 2155 2156 2157 2158 2159 2756 2765 2775, 2084 2085 2086 2087 2092 2093 2094 2095 2096 2097 2099 2100 2101 2102 2103 2104 2105 2106 2107 2108, 2083 2250 2251 2256 2257 2258 2259 2260 2261 2262 2263 2775, 2787, 2259, 2259 2264 2265 2267 2278 2280 2281 2282 2283 2284 2285 2286 2287 2289 2290 2291 2292 2293 2294 2295 2296 2297 2298 2299 2300 2302 2303 2304 2305 2306 2307 2315 2316 2317 2318 2319 2320 2321 2322 2323 2324 2325 2326 2327 2330 2334 2335, 2500 2502 2505 2506 2508 2515 2516 2517 2518 2519 2525 2526 2527 2528 2529 2530 2533 2534, 2540 2541, 2535 2536 2538 2539 2540 2575 2576 2577 2578 2579, 2579, 2536, 2311 2312 2321 2324 2328 2329 2330 2331 2333 2335 2336 2337 2338 2415 2420 2421 2422 2423 2425 2428 2430, 2483 2484 2485 2486 2487 2488 2489, 2329, 2480, 2469 2470 2471 2472 2473 2474 2476 2477 2478 2479 2480 2481 2482 2483 2484 2486 2490, 2469, 2476, 2440 2450 2452, 2444, 2441 2447 2448 2449 2450 2453 2454 2455 2456 2460 2462 2463 2464 2465 2466 2469, 2469, 2424 2426 2427 2429 2430 2431 2439 2440 2441 2443 2444 2445 2446 2898, 2340 2345 2352 2353, 2339 2340 2341 2342 2343 2344 2345 2346 2347 2352 2353 2354 2355 2359 2360 2361 2379 2380 2381 2382 2401 2402 2403 2404 2408 2410 2411, 2350 2354 2358 2359 2360 2365 2369 2370 2371 2372 2469 2475 2476, 2356 2382 2388 2390 2397 2399 2400 2405 2406 2409, 2343 2379, 2388, 2343 2379, 2329, 2329 2343 2357 2379 2395 2396 2820 2821 2823 2827 2828 2830 2842 2843 2844 2850 2852 2866 2869, 2830, 2386 2387 2388 2824 2825 2827 2828 2829 2831 2832 2833 2834 2877, 2672 2831 2832 2835 2839 2840 2877, 2850 2866, 2672 2869 2877, 2877, 2835 2840, 2787, 2850 2866 2869, 2795, 2672 2877, 2580 2583 2787 2790 2791 2792 2795 2797 2798 2799 2800 2804 2805 2806 2845 2846 2847 2848 2849 2850 2864 2865 2866 2867 2868, 2665 2668 2669 2671 2672 2721 2793 2794 2804 2805 2806 2808 2809 2810 2869 2870 2871 2873 2874 2875 2876 2877, 2580 2583 2794 2795, 2800, 2669 2877, 2665, 2795, 2536 2579, 2580 2583 2795, 2794, 2619 2620 2621 2623, 2579 2580 2581 2582 2583 2584 2585 2586 2587 2594 2618 2620 2622 2726 2794 2795 2803 2807, 2536 2537 2545 2546 2548 2549 2550 2551, 2620 2621 2624 2625 2626 2627 2628 2629 2630 2631 2632 2633, 2594 2629, 2877, 2665 2669 2877, 2594, 2650 2651 2652, 2588 2590 2594 2611 2629 2642 2645 2650 2652 2655 2656 2658 2663 2665 2666 2700 2701 2702 2720 2722 2725 2727 2729 2730, 2652 2669 2675 2680 2681 2703 2705 2706 2707 2711 2877, 2642, 2642 2645 2652 2658 2700, 2700, 2711, 2642 2645 2652 2658 2700, 2652, 2640 2641 2642 2644, 2642 2643 2644 2645 2646 2647 2652 2653 2658 2659 2660 2700, 2647 2700 2710 2712 2713 2714 2716 2731 2732 2733 2735 2736, 2648 2711 2715 2717 2734 2737 2738 2739, 2835 2840, 2835 2836 2840 2878 2879 2880, 2351, 2398, 2520, 2899",,
+464,Newcastle Herald,news@theherald.com.au,Heath,Harrison,Newcastle & Hunter Region,"2259 2264 2265 2267 2278 2280 2281 2282 2283 2284 2285 2286 2287 2289 2290 2291 2292 2293 2294 2295 2296 2297 2298 2299 2300 2302 2303 2304 2305 2306 2307 2315 2316 2317 2318 2319 2320 2321 2322 2323 2324 2325 2326 2327 2330 2334 2335, 2083 2250 2251 2256 2257 2258 2259 2260 2261 2262 2263 2775, 2311 2312 2321 2324 2328 2329 2330 2331 2333 2335 2336 2337 2338 2415 2420 2421 2422 2423 2425 2428 2430, 2329",,
+465,Canberra Times xx,letters.editor@canberratimes.com.au,Grant,Newton,Canberra,"2600, 2601, 2602, 2603, 2604, 2605, 2606, 2607, 2608, 2609, 2610, 2611, 2612, 2614, 2615, 2616, 2617, 2900, 2901, 2902, 2904, 2905, 2906, 2911, 2912, 2913, 2914",,
+466,The Age,newsdesk@theage.com.au,Mark,Forbes,Melbourne ,"3000, 3001, 3002, 3003, 3004, 3005, 3006, 3008, 3010, 3011, 3012, 3013, 3015, 3016, 3018, 3019, 3020, 3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 3034, 3036, 3037, 3038, 3039, 3040, 3041, 3042, 3043, 3044, 3045, 3046, 3047, 3048, 3049, 3050, 3051, 3052, 3053, 3054, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3064, 3065, 3066, 3067, 3068, 3070, 3071, 3072, 3073, 3074, 3075, 3076, 3078, 3079, 3081, 3082, 3083, 3084, 3085, 3087, 3088, 3089, 3090, 3091, 3093, 3094, 3095, 3096, 3097, 3099, 3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110, 3111, 3112, 3113, 3114, 3115, 3116, 3121, 3122, 3123, 3124, 3125, 3126, 3127, 3128, 3129, 3130, 3131, 3132, 3133, 3134, 3135, 3136, 3137, 3138, 3139, 3140, 3141, 3142, 3143, 3144, 3145, 3146, 3147, 3148, 3149, 3150, 3151, 3152, 3153, 3154, 3155, 3156, 3158, 3160, 3161, 3162, 3163, 3164, 3165, 3166, 3167, 3168, 3169, 3170, 3171, 3172, 3173, 3174, 3175, 3176, 3177, 3178, 3179, 3180, 3181, 3182, 3183, 3184, 3185, 3186, 3187, 3188, 3189, 3190, 3191, 3192, 3193, 3194, 3195, 3196, 3197, 3198, 3199, 3200, 3201, 3202, 3204, 320, 3206, 3207, 3926, 3927, 3928, 3929, 3930, 3931, 3933, 3934, 3936, 3937, 3938, 3939, 3940, 3941, 3942, 3943, 3944, 3945, 3975, 3976, 3977, 8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010",,
+467,Herald Sun,news@heraldsun.com.au,Damon,Johnston,Victoria ,"3000, 3001, 3002, 3003, 3004, 3005, 3006, 3008, 3010, 3011, 3012, 3013, 3015, 3016, 3018, 3019, 3020, 3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 3034, 3036, 3037, 3038, 3039, 3040, 3041, 3042, 3043, 3044, 3045, 3046, 3047, 3048, 3049, 3050, 3051, 3052, 3053, 3054, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3064, 3065, 3066, 3067, 3068, 3070, 3071, 3072, 3073, 3074, 3075, 3076, 3078, 3079, 3081, 3082, 3083, 3084, 3085, 3087, 3088, 3089, 3090, 3091, 3093, 3094, 3095, 3096, 3097, 3099, 3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110, 3111, 3112, 3113, 3114, 3115, 3116, 3121, 3122, 3123, 3124, 3125, 3126, 3127, 3128, 3129, 3130, 3131, 3132, 3133, 3134, 3135, 3136, 3137, 3138, 3139, 3140, 3141, 3142, 3143, 3144, 3145, 3146, 3147, 3148, 3149, 3150, 3151, 3152, 3153, 3154, 3155, 3156, 3158, 3160, 3161, 3162, 3163, 3164, 3165, 3166, 3167, 3168, 3169, 3170, 3171, 3172, 3173, 3174, 3175, 3176, 3177, 3178, 3179, 3180, 3181, 3182, 3183, 3184, 3185, 3186, 3187, 3188, 3189, 3190, 3191, 3192, 3193, 3194, 3195, 3196, 3197, 3198, 3199, 3200, 3201, 3202, 3204, 320, 3206, 3207, 3926, 3927, 3928, 3929, 3930, 3931, 3933, 3934, 3936, 3937, 3938, 3939, 3940, 3941, 3942, 3943, 3944, 3945, 3975, 3976, 3977, 8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010, 3211,3212, 3213, 3214, 3215, 3216, 3218, 3219, 3220, 3222, 3223, 3224, 3226, 3227, 3228, 3229, 3230, 3231, 3232, 3233, 3234, 3235, 3236, 3237, 3238, 3240, 3241, 3242, 3243, 3249, 320, 3251, 3254, 3260, 3264, 3265, 3266, 3267, 6268, 3269, 3270, 3271, 3272, 3275, 3276, 3277, 3278, 3279, 3280, 3281, 3283, 3284, 3285, 3286, 3287, 3292, 3293, 3294, 3300, 3301, 3302, 3303, 3304, 3305, 3309, 3310, 3311, 3312, 3314, 3315, 3317, 3318, 3319, 3321, 3322, 3323, 3324, 3325, 3328, 3329, 3330, 3331, 3332, 3333, 3334, 3335, 3337, 3338, 3340, 3341, 3342, 3345, 3350, 3351, 3352, 3353, 3354, 3355, 3357, 3360, 3361, 3363, 3364, 3370, 3371, 3373, 3375, 3377, 3378, 3379, 3380, 3381, 3384, 3385, 3388, 3390, 3391, 3392, 3393, 3395, 3396, 3400, 3401, 3402, 3407, 3409, 3412, 3413, 3414, 3415, 3418, 3419, 3420, 3423, 3424, 3427, 3428, 3429, 3430, 3431, 3432, 3434, 3435, 3437, 3438, 3440, 3441, 3442, 3444, 3446, 3447, 3448, 3450, 3451, 3453, 3458, 3460, 3261, 3262, 3463, 3464, 3465, 3468, 3469, 3472, 3475, 3478, 3480, 3482, 3483, 3485, 3487, 3488, 3489, 3490, 3491, 3494, 3496, 3498, 3500, 3501, 3502, 3505, 3506, 3507, 3509, 3512, 3515, 3517, 3518, 3520, 3521, 3522, 3523, 3525, 3527, 3529, 3530, 3531, 3533, 3540, 3542, 3544, 3546, 3549, 3550, 3551, 3552, 3554, 3555, 3556, 3557, 3558, 3559, 3561, 3562, 3563, 364, 3535, 3566, 3567, 3568, 3570, 3572, 3573, 3575, 3576, 3579, 3580, 3581, 3583, 3584, 3585, 3588, 3589, 3590, 3594, 3595, 3596, 3597, 3599, 3607, 3608, 3610, 3612, 3614, 3616, 3617, 3618, 3619, 3620, 3621, 3622, 3623, 3624, 3629, 3630, 3631, 3632, 3633, 3634, 3635, 3637, 3638, 3640, 3641, 3643, 3644, 3646, 3647, 3649, 3658, 3659, 3660, 3661, 3662, 3663, 3664, 3666, 3669, 3670, 3671, 3672, 3673, 3674, 3675, 3676, 3677, 3678, 3682, 3685, 3687, 3688, 3689, 3690, 3691, 3694, 3695,3697, 3698, 3699, 3700, 3701, 3704, 3707, 3708, 3709, 3711, 3712, 3713, 3714, 3715, 3717, 3718, 3720, 3722, 3723, 3724, 3725, 3726, 3727, 3728, 3730, 3732, 3733, 3735, 3736, 3737, 3738, 3739, 3740, 3741, 3746, 3747, 3749, 3750, 3751, 3752, 3753, 3755, 3756, 3757, 3758, 3759, 3760, 3761, 3762, 3763, 3764, 3765, 3766, 3767, 3770, 3775, 3777, 3778, 3779, 3781, 3782, 3783, 3786, 3789, 3787, 3788, 3791, 3792, 3793, 3795, 3796, 3797, 3799, 3800, 3802, 3803, 3804, 3805, 3806, 3807, 3808, 3809, 3810, 3812, 3813, 3814, 3815, 3816, 3818, 3820, 3821, 3822, 3823, 3824, 3825, 3831, 3832, 3833, 3835, 3840, 3841, 3842, 3844, 3847, 3850, 3851, 3852, 3853, 3854, 3856, 3857, 3958, 3859, 3860, 3862, 3864, 3865, 3869, 3870, 3871, 3873, 3874, 3875, 3878, 3880, 3882, 3885, 3886, 3887, 3888, 3889, 3890, 3891, 3892, 3893, 3895, 3896, 3898, 3900, 3902, 3903, 3904, 3909, 3946, 3950, 3951, 3953, 3954, 3956, 3957, 3958, 3959, 3960, 3962, 3964, 3965, 3966, 3967, 3971, 3975, 3976, 3978, 3979, 3980, 3981, 3984, 3987, 3988, 3990, 3991, 3992, 3995, 3996,",,
+468,Courier Mail,cos@thecouriermail.com.au,Lachlan,Heywood,Queensland,"4000, 4001, 4002, 4003, 4004, 4005, 4006, 4007, 4008, 4009, 4010, 4011, 4012, 4013, 4014, 4017, 4018, 4019, 4020, 4021, 4022, 4025, 4029, 4030, 4031, 4032, 4034, 4035, 4036, 4037, 4051, 4053, 4054, 4055, 4059, 4060, 4061, 4064, 4065, 4066, 4067, 4068, 4069, 4070, 4073, 4074, 4075, 4076, 4077, 4078, 4101, 4102, 4103, 4104, 4105, 4106, 4107, 4108, 4109, 4110, 4111, 4112, 4113, 4114, 4115, 4116, 4117, 4118, 4119, 4120, 4121, 4122, 4123, 4124, 4125, 4127, 4128, 4130, 4131, 4132, 4133, 4151, 4152, 4153, 4154, 4155, 4156, 4157, 4158, 4159, 4160, 4161, 4163, 4164, 4165, 4169, 4170, 4171, 4172, 4173, 4174, 4178, 4179, 4183, 4184, 4205, 4207, 4208, 4209, 4210, 4211, 4212, 4213, 4214, 4215, 4216, 4217, 4218, 4220, 4221, 4223, 4224, 4225, 4226, 4227, 4228, 4229, 4230, 4270, 4271, 4272, 4275, 4280, 4285, 4287, 4300, 4301, 4303, 4304, 4305, 4306, 4307, 4308, 4309, 4310, 4311, 4312, 4313, 4340, 4341, 4342, 4343, 4344, 4346, 4347, 4350, 4352, 4353, 4354, 4355, 4356, 4357, 4358, 4359, 4360, 4361, 4362, 4363, 4364, 4365, 4370, 4371, 4372, 4374, 4375, 4376, 4377, 4378, 4380, 4381, 4382, 4383, 4384, 4385, 4387, 4388, 4390, 4400, 4401, 4402, 4403, 4404, 4405, 4406, 4407, 4408, 4410, 4411, 4412, 4413, 4415, 4416, 4417, 4418, 4419, 4420, 4421, 4422, 4423, 4424, 4425, 4426, 4427, 4428, 4454, 4455, 4461, 4462, 4465, 4467, 4468, 4470, 4471, 4472, 4474, 4475, 4477, 4478, 4479, 4480, 4481, 4482, 4486, 4487, 4488, 4489, 4490, 4491, 4492, 4493, 4494, 4496, 4497, 4498, 4500, 4501, 4502, 4503, 4504, 4505, 4506, 4507, 4508, 4509, 4510, 4511, 4512, 4514, 4515, 4516, 4517, 4518, 4519, 4520, 4521, 2550, 4551, 4552, 4553, 4554, 4555, 4556, 4557, 4558, 4559, 4560, 4561, 4562, 4563, 4564, 4565, 4566, 4567, 4568, 4569, 4570, 4571, 4572, 4573, 4574, 4575, 4580, 4581, 4600, 4601, 4605, 4606, 4608, 4610, 4611, 4612, 4613, 4614, 4615, 4620, 4621, 4625, 4626, 4627, 4630, 4650, 4655, 4659, 4660, 4662, 4670, 4671, 4673, 4674, 4676, 4677, 4678, 4680, 4694, 4695, 4697, 4699, 4700, 4701, 4702, 4703, 4704, 4705, 4706, 4707, 4709, 4710, 4711, 4713, 4714, 4715, 4716, 4717, 4718, 4719, 4720, 4721, 4722, 4723, 4724, 4725, 4726, 4727, 4728, 2730, 4731, 4732, 4733, 4735, 4736, 4737, 4738, 4739, 4740, 4741, 4742, 4743, 4733, 4745, 4746, 4750, 4751, 3753, 4754, 4756, 4757, 4798, 4799, 4800, 4801, 4802, 4803, 4804, 4805, 4806, 4807, 4808, 48009, 4810, 4811, 4812, 4813, 4814, 4815, 4816, 4817, 4818, 4819, 4820, 4821, 4822, 4823, 4824, 4825, 4828, 4829, 4830, 4849, 4850, 4852, 4854, 4855, 4856, 4857, 4858, 4859, 4860, 4861, 4865, 4868, 4869, 4870, 4871, 4872, 4873, 4874, 4875, 4876, 4877, 4878, 4879, 4880, 4881, 4882, 4883, 4884, 4885, 4886, 4887, 4888, 4890, 4891, 4895, 9000, 9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010, 9013, 9015, 9016, 9017, 9018, 9019, 9020, 9021, 9022, 9023, 9464, 9726, 9728, 9729",,
+469,Brisbane Times,scoop@brisbanetimes.com.au,Simon,Holt,Brisbane,"4000, 4001, 4002, 4003, 4004, 4005, 4006, 4007, 4008, 4009, 4010, 4012, 4013, 4014, 4017, 4018, 4020, 4021, 4022, 4025, 4029, 4030, 4031, 4032, 4034,  4035, 4036, 4037, 4051, 4053, 4054,  4055, 4059, 4060, 4061, 4064, 4065, 4066, 4067, 4068, 4069, 4070, 4073, 4074, 4075, 4076, 4077, 4078, 4101, 4102, 4103, 4104,4105, 4106, 4107, 4108,4109
+4110, 4111, 4112, 4113, 4114, 4115, 4116, 4120,4121, 4122, 4151, 4152,4153, 4154, 4155,4156, 4169, 4170,4171, 4172,4173, 4174, 4178, 4179
+",,
+470,Adelaide Now,tiser@adv.newsltd.com.au,Sam,Weir,Adelaide,"5000, 5001, 5005, 5006, 5007, 5008, 5009, 5010, 5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020, 5021, 5022, 5023, 5024, 5025, 5031, 5032, 5033, 5034, 5035, 5037, 5038, 5039, 5040, 5041, 5042, 5043, 5044, 5045, 5046, 5047, 5048, 5049, 5050, 5051, 5052, 5061, 5062, 5063, 5064, 5065, 5066, 5067, 5068, 5069, 5070, 5071, 5072, 5073, 5074, 5075, 5076, 5081, 5082, 5083, 5084, 5085, 5086, 5087, 5088, 5089, 5090, 5091, 5092, 5093, 5094, 5095, 5096, 5097, 5098, 5106, 5107, 5108, 5109, 5110, 5111, 5113, 5114, 5115, 5116, 5117, 5118, 5120, 5121, 52125, 5126, 5127, 5131, 5132, 5133, 5134, 5136, 5137, 5138, 5139, 5140, 5141, 5142, 5144, 5150, 5151, 5152, 5153, 5154, 5155, 5156,5231, 5232, 5233, 5234, 5240,5241, 5242, 5243, 5244",,
+471,The Mercury,mercuryedletter@dbl.newsltd.com.au,Matt,Deighton,Launceston/ North Tasmania,"7177,7187,7179,7209,7250,7292,7321,7301,7467,7303,7469,7305,7030,7175,7185,7214,7276,7216,7290,7306,7119,7011,7139,7017,7171,7026,7173,7183,7212,7270,7302,7468,7304,7470,7027,7174,7184,7176,7186,7178,7190,7180,7210,7258,7300,7466,7012,7140,7025,7172,7182,7211,7264,7213,7275,7215,7277,7249,7291,7310,7120",,
+472,The Examiner,stennant@fairfaxmedia.com.au,Simon,Tennant,Northern Tasmania,"7304,7290,7250,7321,7011,7467,7017,7469,7305,7173,7030,7212,7185,7214,7187,7025,7470,7306,7174,7119,7176,7139,7178,7171,7026,7210,7183,7300,7270,7302,7276,7179,7172,7027,7211,7184,7213,7186,7215,7190,7180,7291,7258,7466,7012,7468,7216,7209,7182,7292,7264,7301,7275,7303,7277,7249,7310,7175,7120,7177,7140",,
+473,Test paper,russellnwyatt@yahoo.com,Russell,Wyatt,Randwick,NULL,,
+474,Test Paper Two,russellnwyatt@yahoo.com,Russell,Wyatt,Randwick,NULL,,
+475,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,,"2211,2223,2196,2213,2210,2222,2220,2212,2209,2200,",Duplicate,
+476,St George & Sutherland Shire Leader,christiner@fairfaxmedia.com.au,Christine,Ryan,,"22,182,208,220,722,200,000,000,000,000,000,000,000,000,000",Duplicate,
+477,"The Examiner: Northern Tasmania News, sport a",stennant@examiner.com.au,Simon,Tennant,,"7,248,727,772,557,240,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Duplicate,
+478,Brisbane Times,scoop@brisbanetimes.com.au,,,,"41,734,113,415,241,700,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+479,Circular Head Chronicle,chc@printdomain.com.au,,,,"7,307,725,673,107,330,000,000,000,000,000,000,000,000,000,000,000,000",,
+480,The Advocate,courtney.greisbach@fairfaxmedia.com.au,Courtney,Greisbach,,"7,316,730,772,567,320,000,000,000,000,000,000,000,000,000,000,000,000",,
+481,Brisbane Times,scoop@brisbanetimes.com.au,,,,"4,053,401,040,004,030,000,000,000,000,000,000,000,000,000,000,000,000",,
+482,The Morning Bulletin (Rockhampton) ,tmbully@capnews.com.au,Frazer,Pearce,"Rockhampton, Alton Downs, Bajool, Baralaba, Biloela, Blackall, Blackwater, Bouldercombe, Callide Valley, Capella, Clermont, Duaringa, Dysart, Emerald, Goovigen, Gracemere, Longreach, Marlborough, Middlemount, Miriam Vale, Moranbah, Moura, Mt Larcom, Mt Morgan, Parkhurst, Rockhampton Area, Springsure, Tannum Sands, Taroom, The Caves, Theodore, Tieri, Wowan, Yeppoon","4,738,470,247,044,700,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+483,Whitsunday Times,sharon.smallwood@whitsundaytimes.com.au,Sharon,Smallwood ,"Airlie Beach, Bloomsbury, Bowen, Cannonvale, Conway Beach, Daydream Island, Dingo Beach, Hamilton Island, Hayman Island, Hideaway Bay, Jubilee Pocket, Laguna Quays, Long Island, Mount Julian, Proserpine, Shute Harbour","4744,4710,4714,4723,4728,4700,4751,4754,4742,4699,4746,4753,4756,4804,4738,4702,4724,4757,4737,4701,4703,4705,4707,4820,4740,4706,4805,4739,4741,4743,4745,4711,4721,4704, 4802, 4799, 4805, 4802, 4800, 4903, 4801, ",,
+484,Central Queensland News,news@cqnews.com.au,,,"Alpha, Anakie, Barcaldine, Blackwater, Bluff, Capella, Clermont, Comet, Dingo, Dysart, Emerald, Middlemount, Moranbah, Rubyvale, Sapphire, Springsure, Tieri, Willows","4,753,475,648,044,820,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",No Editor Name,
+485,Surf Coast Times,web@surfcoasttimes.com.au,,,,"332,832,213,260,323,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Merged,
+486,Colac Herald,news@colacherald.com,,,,"323,533,423,251,333,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Merged,
+487,Maroon Leader,maroondah@leadernewspapers.com.au,,,,"313,431,333,136,313,000,000,000,000,000,000,000",Merged,
+488,Manningham Leader,manningham@leadernewspapers.com.au,,,,"315,331,513,136,313,000,000,000,000,000,000,000",,
+489,The Weekly Review,bobosborne@domain.com.au,Bob ,Osborne,Geelong,"313,231,313,135,313,000,000,000,000,000,000,000",,
+490,Moreton Quest News,editorial@qst.newsltd.com.au,,,,"45,024,037,430,645,200,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+491,Central Coast News Local,editor@expressadvocate.com.auÂ ,Mark ,NolanÂ ,"Avoca Beach, Bateau Bay, Bensville, Berkeley Vale, Blackwall, Blue Bay, Blue Haven Bay, Budgewoi, Budgewoi Peninsula, Buff Point, Bushells Rridge Beach, Central Mangrove, Chain Valley Bay, Charmhaven, Chittaway Bay, Chittaway Point, Copacabana, Daleys Point, Davistown, Dooralong, Doyalson, Doyalson North, East Gosford, Empire Bay, Erina, Erina Heights , Ettalong Beach, Forresters Beach, Glenning Valley, Gorokan, Gosford, Green Point, Gwandalan, Halekulani, Hamlyn Terrace, Hardys Bay, Holgate, Horsfield Bay, Kanwal, Kariong, Killarney Vale , Killcare Heights, Kincumber, Kincumber South, Koolewong, Kulnura, Lake Haven, Lake Munmorah, Lisarow, Long Jetty, Macmasters Beach, Mangrove Mountain, Mannering Park, Mardi, Matcham, Moonee, Mount White, Narara, Niagara Park, Norah Head, Noraville, North Avoca, North Gosford, Ourimbah, Patonga, Pearl Beach, Peats Ridge, Phegans Bay, Point Clare, Point Frederick, San Remo, Saratoga, Shelly Beach, Somersby, Spencer, Springfield, St Huberts Island, Summerland Point, Tacoma, Tacoma South, Tascott, Terrigal, The Entrance, The Entrance North, Toowoon Bay, Toukley, Tuggerah, Tuggerawong, Tumbi Umbi, Umina Beach, Wadalba, Wagstaffe, Wallarah, Wamberal, Warnervale, Watanobbi, West Gosford, Woongarrah, Woy Woy, Woy Woy Bay, Wyee, Wyee Point, Wyoming, Wyong, Wyong Creek, Wyongah, Yarramalong, Yattalunga (Central Coast)","2262,2263,2250,2258,2259,2260,2261, 2251, 2252, 2253, 2254, 2255, 2256, 2257, 2258, 2259, 2260, 2261, 2262, 2263, 2264, 2265, 2266, 2267, 2268, 2269, 2270, 2271, 2272, 2273, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281, 2282, 2283, 2284, 2285, 2286, 2287, 2289, 2290, 2291, 2292, 2293, 2294, 2295, 2296, 2297, 2299, 2300, 2301, 2302, 2304, 2303, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 2313, 2314, 2315, 2316, 2317, 2318, 2319, 2320, 2321, 2322, 2323, 2324, 2325, 2326, 2327, 2328, 2329, 2330, 2331, 2332, 2333, 2334,2335,2336,2337,2338,2339, 2415, 2416, 2417, 2418, 2419, 2420, 2421, 2422, 2423, 2424, 2525",,
+492,South East Leader,dimity.barker@newspapers.com.au,Dimity,Barber,,"391,139,303,931,397,000,000,000,000,000,000,000",,
+493,Mornington Peninsula News,team@mpnews.com.au,Keith,Platt,,"319,931,983,201,320,000,000,000,000,000,000,000",,
+494,The Monara Post,editor@monaropost.com.au,Gail,Eastaway,"Bombala, Cooma, Snowy Mountains","262,325,362,640,262,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+495,"Bay Post Moruya, The Eurobodlla Independent",kerrie.oconnor@fairfaxmedia.com.au,Kerrie,O'Connor,"Batemans Bay, Nelligen, Batehaven, Mossy Point, Moruya Heads, Tuross, Broulee, Durras North, Malua Bay, Congo, Tuross Head, Bodalla, Potato Point.","261,127,302,629,263,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+496,Bega District News,ben.smyth@fairfaxmedia.com.au,Ben,Smyth,"Bombala, Eden, Merimbula","254,825,502,580,272,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+497,Gladstone Observer,newsroom@gladstoneobserver.com.au,Rowan,Hunnan,"Gladstone, Calliope, Tannun Sands","4695,4746,4727,4605,4420,4678,4650,4717,4697,4719,4709,4721,4731,4610,4454,4725,4472,4418,4676,4627,4715,4724,4735,4726,4821,4728,4606,4427,4680,4670,4612,4673,4625,4712,4722,4732,4611,4470,4415,4478,4419,4677,4630,4716,4718,4702,4720,4730,4608,4428,4694,4671,4613,4674,4626,4713,4723,4733",,
+498,Central Telegraph,Cameron.Mccrohon@centraltelegraph.com.au,Cameron,McCrohon,"Biloela, Banana, Baralaba, Biloela, Dululu, Jambin, Monto, Moura, Taroom, Thangool, Theodore, Wowan","4627,4678,4715,4724,4735,4726,4821,4728,4713,4723,4733,4472,4418,4605,4712,4722,4732,4470,4415,4478,4419,4606,4731,4454,4612,4673,4625,4676,4730,4428,4611,4671,4613,4674,4626,4677,4427,4610,4670,4695,4718,4702,4720,4608,4650,4694,4717,4697,4719,4709,4721,4630,4680,4716,4725,4746,4727,4420",,
+499,News Mail,crystal.jones@news-mail.com.au,Crystal,Jones,"Bundaberg, Bargara, Elliot Heads, Moore Park, Burnett Heads, Bundaberg Port, Miriam Vale, Mundubbera, Childers, 1770, Alloway, Anges Waters, Avondale, Biggenden, Bingera, Bullyard, Eidsvold, Elliott Heads, Gayndah (plus Hinterland), Gin Gin, Gooburrum/Moore Park, Miriam Vale, Monto, Moore Park, Mt Perry, Mundubbera, Rosedale, South Kolan, Wallaville, Yandaran","4725,4746,4727,4427,4610,4670,4695,4735,4726,4821,4728,4428,4611,4671,4613,4478,4419,4606,4630,4680,4716,4472,4418,4605,4420,4608,4650,4694,4717,4697,4674,4626,4677,4713,4723,4732,4673,4625,4676,4627,4678,4715,4724,4733,4719,4709,4721,4730,4454,4612,4718,4702,4720,4712,4722,4731,4470,4415",,
+500,Albert and Logan News online,editorial@albertlogannews.com.au,,,"Springwood, Meadowbrook, Alberton, Logan Village, Ormeau, Tamborine, Coomera","413,342,874,131,428,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",No Editor Name,
+501,South Coast Register,editor.scregister@fairfaxmedia.com.au,John,Hanscombe,"Nowra, Ulladulla, Bowral, Moss Vale, Batemans Bay, Milton","25,342,540,253,726,200,000,000,000,000,000,000,000,000,000",,
+502,Kiama Independent,brendan.crabb@fairfaxmedia.com.au,Brendan,Crabb,"Kiama, Jamberoo","25,402,537,262,225,300,000,000,000,000,000,000,000,000,000",*no editor - main reporter contact listed,will call back
+503,Kangaroo Valley Voice,TheVoice@kangaroovalley.nsw.au,Delyse,Wright,Kangaroo Valley,"25,372,622,253,325,300,000,000,000,000,000,000,000,000,000",,will call back
+504,Fremantle Herald,news@fremantleherald.com,Andrew,Smith,,"6,057,605,661,086,070,000,000,000,000,000,000,000,000",Merged,
+505,Community News,mkr@communitynews.com.au,,,,"6,107,607,660,576,100,000,000,000,000,000,000,000,000",Merged,
+506,Townsville Bulletin,edsec@townsvillebulletin.com.au ,Ben ,English,Townsville,"48,164,813,481,948,100,000,000,000,000,000,000,000,000,000",,
+507,Guardian Messenger,emma.grahame@news.com.au,Emma,Grahame,,"50,395,031,502,150,200,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Merged,
+508,Messenger,chris.day@news.com.au,Chris,Day,,"50,375,007,504,550,200,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Duplicate,
+509,Cranbourne News,editor@starnewsgroup.com.au,,,,"378,231,593,809,397,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Merged,
+510,Berwick Leader,berwick@leadernewspapers.com.au,Dimity,Barber,"Beaconsfield, Beaconsfield Upper, Berwick, Doveton, Endeavour Hills, Fountain Gate, Hallam, Hampton Park, Narre Warren, Officer, Pakenham","376,737,823,159,380,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Merged,
+511,Lilydale & Yarra Valley Leader,lilydale@leadernewspapers.com.au,Elaine,Phelan,,"315,938,093,978,315,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Merged,
+512,Penrith City Gazette,damien.madigan@fairfaxmedia.com.au,Damien,Madigan,"Blaxland, Cambridge Gardens, Cambridge Park, Claremont Meadows, Colyton, Cranebrook, Emu Heights, Emu Plains, Erskine Park, Glenbrook, Glenmore Park, Jamistown, Kingswood, Kingswood Park, Lapstone, Lemongrove, Leonay, Mt Pleasant, Orchard Hills, Oxley Park, Penrith, Regentville, St Clair, St Marys, Warrimoo, Werrington, Werrington County, Werrington Downs","2750,2749,2753,2751,2745,2555,2760,2748,2747, 2774",,
+513,Caboolture News,vicki.wood@scnews.com.au,Vicki,Wood,Caboolture Region,"450,345,114,505,450,000,000,000,000,000,000,000",,
+514,Bribie Weekly,vicki.wood@scnews.com.au,Vicki,Wood,"Bribie Island, Ningi, Pebble Beach","450,945,084,507,451,000,000,000,000,000,000,000",,
+515,The Examiner,stennant@examiner.com.au,Simon,Tennant,,"7304,7290,7250,7321,7011,7467,7017,7469,7305,7173,7030,7212,7185,7214,7187,7025,7470,7306,7174,7119,7176,7139,7178,7171,7026,7210,7183,7300,7270,7302,7276,7179,7172,7027,7211,7184,7213,7186,7215,7190,7180,7291,7258,7466,7012,7468,7216,7209,7182,7292,7264,7301,7275,7303,7277,7249,7310,7175,7120,7177,7140",Merged,
+516,Ther Mercury,mercuryedletter@themercury.com.au,,,,"7177,7187,7179,7209,7250,7292,7321,7301,7467,7303,7469,7305,7030,7175,7185,7214,7276,7216,7290,7306,7119,7011,7139,7017,7171,7026,7173,7183,7212,7270,7302,7468,7304,7470,7027,7174,7184,7176,7186,7178,7190,7180,7210,7258,7300,7466,7012,7140,7025,7172,7182,7211,7264,7213,7275,7215,7277,7249,7291,7310,7120",Merged,
+517,Blue Mountains Gazette,damien.madigan@fairfaxmedia.com.au,Damien,Madigan,"Katoomba, Springwood, Blue Mountains, Wentworth Falls, Woodford, Winmalee, Warrimoo, Lapstone, Medlow Bath, Mount Victoria, Mount Tomah, Mount Wilson, Mount Irvine, Blackheath, Lawson, Blaxland, Glenbrook..","25,802,845,278,627,800,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+518,Hawkesbury Gazette,mlawrence@fairfaxmedia.com.au,Matt,Lawrence,"Richmond, Windsor, McGraths Hill, Wilberforce, Riverstone (Sydney)","27,582,846,278,727,800,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+519,Northern Star,david.kirkpatrick@northernstar.com.au,David ,Lawrence,Lismore,"247,124,752,453,247,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+520,Daily Examiner,letters@dailyexaminer.com.au,David,Moase,"Grafton, Angourie Point, Brushgrove, Chatsworth, Clarence Valley, Clarenza, Coaldale, Coutts Crossing, Cowper, Harwood, Iluka, Junction Hill, Lawrence, Maclean, Minnie Water, Pillar Valley, Red Rock, Sandon, Sawtell, South Arm, South Grafton, Southgate, Tucabia, Tullymorgan, Tyndale, Waterview Heights, Whiporie, Woody Head, Woolgoolga, Wooli, Yamba","247,524,532,474,237,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+521,Redcliffe and Bayside Herald,editorial@redcliffeherald.com.au ,,,"Deception Bay, Kippa Ring, Redcliffe, Clontarf","4,032,402,040,174,010,000,000,000,000,000,000,000,000,000,000,000,000",No editor name,
+522,Auburn Review,editor@torchpublishing.com.au,Mark ,Kirkland,,"21,282,160,214,220,400,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+523,Ciao Magazine,info@ciaomagazine.com.au,Phoebe,Moloney,"Leichhardt, Annandale, Rozelle, Balmain, Newtown, Enmore, Haberfield, Drummoyne and Five Dock, Balmain, Rozelle, Lilyfield, Leichhardt, Annandale, Petersham, Stanmore, Newtown, Enmore Summer Hill, Drummoyne, Russell Lea, Wareemba, Abbotsford, Five Dock, Concord, Burwood and Glebe","20,472,162,213,521,100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+524,Burwood Scene,editor@burwoodscene.com.au,Belinda,Noonan,"(Burwood, Strathfield, City of Canada Bay, Ashfield and bordering Canterbury municipal areas (Sydney","21,622,135,211,521,400,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",,
+525,Central Coast Express Advocate,editor@expressadvocate.com.au ,Mark ,Nolan,Gosford and Wyong,"2,251,225,622,572,260,000,000,000,000",,
+526,Peninsula News,editor@peninsulanews.asn.au,Steven,Heywood,Woy Woy,"2,260,277,520,832,250,000,000,000,000",,
+527,NT news,news@ntnews.com.au ,,,,"8,290,828,083,208,300,000,000,000,000,000",Merged,
+528,Adelaide Now Messenger,tiser@adv.newsltd.com.au,,,,"5,063,515,050,865,060,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",Duplicate/Merged,
+529,Community News,SouthernGazette@communitynews.com.au,,,,"6,105,610,261,016,100,000,000,000,000,000,000,000,000",Duplicate/Merged,
+530,Test,test@essentialmedia.com.au,Oliver,Woodley,Glebe,NULL,,
+531,Eastern Shore Sun,editorial@easternshoresun.com.au,Stefania,Cefola,"Geilston Bay, Lindisfarne, Rose Bay, Risdon Vale, Grasstree Hill, Honeywood, Old Beach, Otago, Risdon, Tea Tree, Bellerive, Howrah, Montagu Bay, Mornington, Rosny, Rosny Park, Tranmere, Warrane, Clarendon Vale, Oakdowns, Rokeby, Clifton Beach, Sandford, Lauderdale, South Arm, Opossum Bay, Cremorne, Dulcot, Richmond, Acton Park, Cambridge, Mount Rumney, Roches Beach, Seven Mile Beach, Midway Point, Sorell","7015, 7016, 7017, 7018, 7019, 7020, 7021, 7022, 7023, 7024, 7025, 7170, 7171, 7172, 7026, 7027, 7030, 7055",,
+532,Glenorchy Gazette,editorial@glenorchygazette.com.au,Stefania,Cefola,"Moonah, Derwent Park, Lutana, West Moonah, Dowsings Point, Glenorchy, Goodwood, Montrose, Rosetta, Austins Ferry, Berridale, Chigwell, Claremont, Windermere, Collinsvale, Glenlusk, Springdale, Granton","7009, 7010, 7011, 7252, 7012, 7030",,
+533,Hobart Observor,editorial@hobartobserver.com.au,Stefania,Cefola,"Glebe, Hobart, Mount Stuart, North Hobart, Queens Domain, West Hobart, Hobart, North Hobart, Battery Point, South Hobart, Dynnyrne, Lower Sandy Bay, Sandy Bay, Sandy Bay, Mount Nelson, Tolmans Hill, Lenah Valley, New Town","7000, 7001, 7002, 7003, 7004, 7005, 7006, 7007, 7008, 7140, 7800, 7802, 7803, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7813, 7814, 7823, 7824, 7827, 7828, 7829, 7845, 7850",,
+534,Huon News,editorial@huonnews.com,Robert,Yeates ,"Huonville, Franklin, Geeveston, Dover, Cygnet, Lucaston, Lollara, Glen Huon, Grove, Ranelagh, Huonville, Port Huon, and South Port","7109, 7113, 7116, 7117, 7112, 7119, 7120, ",,
+535,The Advertiser ,advedit@theadvertiser.com.au,Sam,Weir,SA ,"5308, 5321, 5322, 5381, 5400, 5415, 5416, 5418, 5419, 5420, 5432, 5440, 5454, 5455, 5454, 5576, 5650, 5651, 5653, 5654, 5661, 5730, 5576, ",,
+536,Kingborough Chronicle ,editorial@kchronicle.com.au,Emma,Bone,South Tasmania,"7050, 7051, 7052, 7053, 7054, 7150, 7151, 7155, 7162, 7133, ",,
+537,The Pinnacle,fipinnacle@yahoo.com,Fay,Gordes,French Island,3921,,
+538,The Courier Adelaide Hills,norm@courier.net.au,Norm,Marston,"Aldgate, Ashton, Balhannah, Belair, Birdwood, Blackwood, Bridgewater, Crafers, Cudlee Creek, Callington, Echunga, Forrest Range, Gumeracha, Hahndorf, Heathfield, Inglewood, Kanmantoo, Kersbrook, Lenswood, Littlehampton, Lobethal, Macclesfield, Meadows, Mt Barker, Mt Pleasant, Mt Torrens, Mylor, Nairne, Oakbank, Stirling, Summertown, Upper Sturt, Uraidla, Strathalbyn, Verdun, Williamstown, Woodside","5154, 5137, 5242, 5052, 5234, 5051, 5155, 5152, 5232, 5254, 5153, 5139, 5233, 5245, 5133, 5252, 5231, 5240, 5250, 5241, 5201, 5251, 5235, 5244, 5243, 5152, 5141, 516, 5156, 5142, 5255, 5245, 5351, 5244",,
