@@ -22,5 +22,11 @@
     "description": "It's powerful when people take action together, to let your community know about solar in your area, write to your local newspapers to let them know about the Solar Scorecard. /n Please enter your letter to the editor below:",
     "confirmationPageUrl": "http://solarcitizens.org.au/thankyou-for-solar-scorecard",
     "logo": "solar-citizens-logo.png"
+    },
+  "alexs-cool-campaign": {
+    "title": "This is a test wow how great",
+    "description": "It's really good to test things to make sure they are working properly",
+    "confirmationPageUrl": "http://solarcitizens.org.au/alex-test",
+    "logo": "solar-citizens-logo.png"
   }
 }
