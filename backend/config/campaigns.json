@@ -23,9 +23,9 @@
     "confirmationPageUrl": "http://solarcitizens.org.au/thankyou-for-solar-scorecard",
     "logo": "solar-citizens-logo.png"
     },
-  "alexs-cool-campaign": {
-    "title": "This is a test wow how great",
-    "description": "It's really good to test things to make sure they are working properly",
+  "sa-test": {
+    "title": "SA Testing of Letter to the Editor Tool",
+    "description": "Use the postcode 9001 to test your letter",
     "confirmationPageUrl": "http://www.solarcitizens.org.au/get_involved",
     "logo": "solar-citizens-logo.png"
   }
