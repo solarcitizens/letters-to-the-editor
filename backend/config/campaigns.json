@@ -25,7 +25,7 @@
     },
   "sa-test": {
     "title": "SA Testing of Letter to the Editor Tool",
-    "description": "Use the postcode 9001 to test your letter",
+    "description": "Use the postcode 9999 to test your letter",
     "confirmationPageUrl": "http://www.solarcitizens.org.au/get_involved",
     "logo": "solar-citizens-logo.png"
   }
