@@ -31,8 +31,7 @@
   },
     "letter-to-the-editor": {
     "title": "Write your letter to the editor",
-    "description": "Over 5 millions Australians are now getting power from the sun, and the number of solar rooftop soar from less than 15,000 to 1.6 million in just seven years. Solar means jobs, investment and cheaper power bills for all consumers but not everyone is on board. Australia’s biggest power companies, and some of our own politicians, have done their best to hold back the rooftop revolution. Sending a letter to your local paper about why a sun-powered futures is so important to you and to Australia is a key way to show support for solar is stronger than ever. Let’s get the right message out there. Fill in your details below, select the publications you’d like to send your letter to and then send your message.
-",
+    "description": "Over 5 millions Australians are now getting power from the sun, and the number of solar rooftop soar from less than 15,000 to 1.6 million in just seven years. Solar means jobs, investment and cheaper power bills for all consumers but not everyone is on board. Australia’s biggest power companies, and some of our own politicians, have done their best to hold back the rooftop revolution. Sending a letter to your local paper about why a sun-powered futures is so important to you and to Australia is a key way to show support for solar is stronger than ever. Let’s get the right message out there.",
     "confirmationPageUrl": "http://www.solarcitizens.org.au/thanks_letter",
     "logo": "solar-citizens-logo.png"
 }
