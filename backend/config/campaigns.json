@@ -23,10 +23,10 @@
     "confirmationPageUrl": "http://solarcitizens.org.au/thankyou-for-solar-scorecard",
     "logo": "solar-citizens-logo.png"
     },
-  "sa-test": {
-    "title": "SA Testing of Letter to the Editor Tool",
-    "description": "Use the postcode 9999 to test your letter",
-    "confirmationPageUrl": "http://www.solarcitizens.org.au/get_involved",
+  "letter": {
+    "title": "Write your letter to the editor",
+    "description": "Over 5 million Australians",
+    "confirmationPageUrl": "http://www.solarcitizens.org.au/thanks_letter",
     "logo": "solar-citizens-logo.png"
   },
     "letter-to-the-editor": {
