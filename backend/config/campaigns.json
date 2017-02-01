@@ -26,7 +26,7 @@
   "letter": {
     "title": "Write your letter to the editor",
     "description": "Over 5 million Australians",
-    "confirmationPageUrl": "http://www.solarcitizens.org.au/thanks_letter",
+    "confirmationPageUrl": "http://www.solarcitizens.org.au",
     "logo": "solar-citizens-logo.png"
   },
     "letter-to-the-editor": {
