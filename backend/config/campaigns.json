@@ -31,7 +31,7 @@
   },
     "letter-to-the-editor": {
     "title": "Write your letter to the editor",
-    "description": "1.6 millions Australian households and counting are now generating their very own power from the sun with rooftop solar.<p> Solar means jobs, investment and cheaper power bills for consumers, but not everyone is on board. Australia’s biggest power companies, come backwards politicians and out-of-touch media moguls are doing their best to hold back the rooftop revolution. <p> Will you help set the record straight? Sending a letter to your local paper is a great way to get the right story out there. Use the form below to send a letter to the editor of local, state and national newspapers.",
+    "description": "1.6 millions Australian households and counting are now generating their very own power from the sun with rooftop solar.<br>Solar means jobs, investment and cheaper power bills for consumers, but not everyone is on board. Australia’s biggest power companies, some backwards politicians and out-of-touch media moguls are doing their best to hold back the rooftop revolution.<br>Will you help set the record straight? Sending a letter to your local paper is a great way to get the right story out there. Use the form below to send a letter to the editor of local, state and national newspapers.",
     "confirmationPageUrl": "http://www.solarcitizens.org.au/thanks_letter",
     "logo": "solar-citizens-logo.png"
 }
