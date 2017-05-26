@@ -4,7 +4,7 @@ import ComposeLetterFields from './ComposeLetterFields';
 import HoneypotField from './HoneypotField';
 import SelectPublicationsFields from './SelectPublicationsFields';
 import Errors from './Errors';
-import {FormValidationErrors as ErrorStrings } from '../config/strings.js';
+import { FormValidationErrors as ErrorStrings } from '../config/strings.js';
 import letterService from '../services/letterService';
 import applicationValidator from '../services/applicationValidator';
 
@@ -63,15 +63,13 @@ class LetterForm extends React.Component {
     };
   }
 
-  handlePublicationSelection(event) {
-    const publicationTitle = event.target.labels[0].innerText;
-
+  handlePublicationSelection(event, publicationTitle) {
     if (event.target.checked) {
       this.state.selectedPublications.push(publicationTitle);
     } else {
-      const isNotUncheckedPublication = title => (title !== publicationTitle);
+      const isDeselectedPublication = title => (title === publicationTitle);
 
-      this.setState(state => ({ selectedPublications: state.selectedPublications.filter(isNotUncheckedPublication) }));
+      this.setState(state => ({ selectedPublications: state.selectedPublications.filter(pub => !isDeselectedPublication(pub)) }));
     }
   }
 
@@ -83,7 +81,7 @@ class LetterForm extends React.Component {
 
     this.setState({
       invalidFields,
-      errors: errors,
+      errors,
       scrollToError,
     });
   }
@@ -122,14 +120,15 @@ class LetterForm extends React.Component {
           </aside>
         </fieldset>
         <HoneypotField
-          onChange={this.handleChange} />
+          onChange={this.handleChange}
+        />
         <Errors
           errors={this.state.errors}
           invalidFields={this.state.invalidFields}
           scrollToError={this.state.scrollToError}
         />
-        <button className="sendMyLetter" type="submit" disabled={this.state.submitted}>
-        {this.state.submitted ? "Sending..." : "Send my Letter"}</button>
+        <button className="sendMyLetter" disabled={this.state.submitted} type="submit">
+        {this.state.submitted ? 'Sending...' : 'Send my Letter'}</button>
       </form>
     );
   }

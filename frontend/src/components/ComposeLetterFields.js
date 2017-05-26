@@ -3,9 +3,7 @@ import Field from './Field';
 import _ from 'underscore';
 
 const ComposeLetterFields = props => {
-  function isValidationError(fieldId) {
-    return _.indexOf(props.invalidFields, fieldId) > -1;
-  }
+  const isValidationError = fieldId => (_.indexOf(props.invalidFields, fieldId) > -1);
 
   return (
     <fieldset>
@@ -25,7 +23,7 @@ const ComposeLetterFields = props => {
       </section>
     </fieldset>
   );
-}
+};
 
 
 ComposeLetterFields.propTypes = {

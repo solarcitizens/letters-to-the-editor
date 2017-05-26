@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 
-export default class Errors extends Component {
+class Errors extends Component {
   constructor(props) {
     super(props);
     this.componentDidUpdate = this.componentDidUpdate.bind(this);
@@ -13,7 +13,7 @@ export default class Errors extends Component {
     }
   }
 
-  render(props) {
+  render() {
     return (
       <div id="errors">
         <ul className={(this.props.errors.length > 0 || this.props.invalidFields.length > 0) ? 'errors' : ''}>
@@ -23,3 +23,11 @@ export default class Errors extends Component {
     );
   }
 }
+
+Errors.propTypes = {
+  errors: PropTypes.array.isRequired,
+  invalidFields: PropTypes.array.isRequired,
+  scrollToError: PropTypes.bool,
+};
+
+export default Errors;

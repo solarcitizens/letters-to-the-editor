@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import InlineError from './InlineError';
 
 const Field = ({ children, hasError, id, onChange, required, placeholder, type = 'text' }) => {
   let input = React.createElement(type === 'textarea' ? 'textarea' : 'input', {
@@ -15,7 +14,7 @@ const Field = ({ children, hasError, id, onChange, required, placeholder, type =
   const optional = required ? <span className="optional"> (optional)</span> : <span className="mandatory"/>;
 
   return (
-    <div className={'form-group row field-entry ' + id}>
+    <div className={`form-group row field-entry ${id}`}>
       {children && (
         <label htmlFor={id}>
           {children}

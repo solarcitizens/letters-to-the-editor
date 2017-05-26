@@ -3,9 +3,7 @@ import Field from './Field';
 import _ from 'underscore';
 
 const PersonalDetailsFields = props => {
-  function isValidationError(fieldId) {
-    return _.indexOf(props.invalidFields, fieldId) > -1;
-  }
+  const isValidationError = fieldId => (_.indexOf(props.invalidFields, fieldId) > -1);
 
   return (
     <fieldset>

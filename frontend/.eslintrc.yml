@@ -99,7 +99,7 @@ rules:
   keyword-spacing: error
   linebreak-style: error
   max-len:
-    - error
+    - warn
     - 120
     - 2
   new-cap:
