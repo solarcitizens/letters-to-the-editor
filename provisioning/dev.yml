@@ -2,7 +2,7 @@
   sudo: yes
   roles:
     - { role: common }
-    - { role: nodesource.node }
+    - { role: geerlingguy.nodejs }
     - { role: postgres, db_names: ["ltte", "ltte_test"] }
     - { role: build }
     - { role: vagrant }
