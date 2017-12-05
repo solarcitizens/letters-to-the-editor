@@ -1,4 +1,10 @@
 {
+    "stop-renewable-attacks" : {
+    "title": "Stop Attacking Renewables",
+    "description": "The Australian and other media outlets keep giving air to articles that attack renewable energy and spread misinformation about the benefits of clean power. Write a Letter to the Editor today to set the record straight and show that there is plenty of community support for renewables before the upcoming state election.",
+    "confirmationPageUrl": "/confirmation",
+    "logo": "solar-citizens-logo.png"
+  },
   "homegrown-power-plan" : {
     "title": "The Homegrown Power Plan",
     "description": "The Homegrown Power Plan, a joint project between GetUp! and Solar Citizens, shows how we can repower the country with 100% renewable power by 2030. How? By rebooting our failing electricity system, removing the roadblocks holding us back, and investing in the renewables boom.",
